@@ -1,9 +1,23 @@
 toc:
+    - title: Semestr 1
+      subfolderitems:
+        - page: Analiza matematyczna 1
+          url: sems/sem1/am1/
+        - page: Logika i struktury formalne
+          url: sems/sem1/lisf/
     - title: Semestr 2
       subfolderitems:
         - page: Analiza matematyczna 2
           url: sems/sem2/am2/
+        - page: Matematyka dyskretna
+          url: sems/sem2/md/
     - title: Semestr 3
       subfolderitems:
         - page: Architektura komputerów i systemy operacyjne
           url: sems/sem3/akiso/
+        - page: Bazy danych
+          url: sems/sem3/bd/
+        - page: Metody probabilistyczne i statystyka
+          url: sems/sem3/mpis/
+        - page: Technologie programowania
+          url: sems/sem3/tp/
