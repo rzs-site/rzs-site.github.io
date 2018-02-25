@@ -1,4 +1,6 @@
 toc:
+    - title: Główna
+      url: ""
     - title: Semestr 1
       subfolderitems:
         - page: Analiza matematyczna 1
@@ -21,3 +23,5 @@ toc:
           url: sems/sem3/mpis/
         - page: Technologie programowania
           url: sems/sem3/tp/
+    - title: Test akordeonu
+      url: test/

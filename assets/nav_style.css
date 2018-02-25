@@ -44,8 +44,9 @@
     cursor: pointer;
 }
 
-.sigle_button:hover, .dropdown_button:hover, .dropdown_button:focus {
+.sigle_button:hover, .dropdown_button:hover {
     background-color: #4f4f4f;
+    transition: 0.4s;
 }
 
 .main_nav {
@@ -70,6 +71,7 @@
 
 .dropdown_content a:hover {
     background-color: #3f4f4f;
+    transition: 0.4s;
 }
 
 .show {

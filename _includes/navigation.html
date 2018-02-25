@@ -29,10 +29,8 @@
 </script>
 
 <nav class="main_nav">
-
-    <a class="sigle_button" href="{{ site.baseurl }}/">Główna</a>
-
     {% for item in site.data.main_list.toc %}
+        {% if item.subfolderitems %}
         <div class="dropdown">
             <button class="dropdown_button" onclick="dropdown(this)">{{ item.title }}</button>
             <div class="dropdown_content">
@@ -41,5 +39,8 @@
                 {% endfor %}
             </div>
         </div>
+        {% else %}
+            <a class="sigle_button" href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
+        {% endif %}
     {% endfor %}
 </nav>
