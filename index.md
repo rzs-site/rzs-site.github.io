@@ -8,7 +8,7 @@ layout: default
 O nas
 ---
 
-Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Poniższy katalog jest zbiorem materiałów z zakresu matematyki oraz informatyki stworzonych przez nasz zespół podczas studiów inżynierskich. Zabawna całka na szczęście: \\(\int_0^\infty \frac{1}{x^2} dx\\)
+Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Niniejszy katalog to zbiór materiałów z zakresu matematyki oraz informatyki stworzonych przez nasz zespół podczas studiów inżynierskich. Zabawna całka na szczęście: \\(\int_0^\infty \frac{1}{x^2} dx\\)
 
 Licencja
 ---
