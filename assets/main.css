@@ -1,0 +1,19 @@
+/*
+* {
+    border: 1px solid black;
+}
+*/
+
+
+#container {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.content {
+    margin-top: 1rem;
+    padding: 0.1rem 1rem;
+    background-color: #dddddd;
+    font-size: 1.1rem;
+}

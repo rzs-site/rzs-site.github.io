@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>RZS</title>
+
+        <link rel="stylesheet" type="text/css" href="/RZS/assets/main.css">
+        <link rel="stylesheet" type="text/css" href="/RZS/assets/header_style.css">
+        <link rel="stylesheet" type="text/css" href="/RZS/assets/nav_style.css">
+
+        {% include math.html %}
+    </head>
+
+    <body>
+        <div id="container">
+            {% include header.html %}
+            {% include navigation.html %}
+
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>
