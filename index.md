@@ -4,10 +4,20 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-Test matmy:
+O nas
 ---
-Bla bla bla \\(\int_0^\infty \frac{1}{x^2} dx\\), a to była całka, a teraz będzie taki fajny ułamek:
+Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Poniższy katalog jest zbiorem materiałów z zakresu matematyki oraz informatyki stworzonych przez nasz zespół podczas studiów inżynierskich. Zabawna całka na szczęście: \\(\int_0^\infty \frac{1}{x^2} dx\\)
 
-\\[\frac{1}{\sin{x}}\\]
+---
+Licencja
+---
+Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji [Creative Commons BY-ND]{creativecommons.org/licenses/by-sa/4.0} (uznanie autorstwa, bez utworów zależnych).
 
-Ciekawe jak szybko się odświeży
+---
+Kontakt
+---
+<script type="text/javascript"><!--
+var user = "admin";
+var domain = "rzs.ovh";
+document.write(user + "@" + domain);
+// --></script>
