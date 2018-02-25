@@ -18,28 +18,28 @@
     background-color: #ccc;
 }
 
+.acc_button.acc_active:after {
+    content: "\2212";
+}
+
 .acc_button {
     border: none;
     width: 100%;
 }
 
+.acc_button:after {
+    content: "\002B";
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 1rem;
+}
+
 .acc_option {
     background: #f1f1f1;
-    color: #444;-
-    cursor: pointer;-
     width: 100%;
-    padding: 1rem;-
     margin: 0;
-    border: none;-
-    text-align: left;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    font-family: Arial;
-    outline: none;
-    font-size: 1rem;
-    transition: 0.4s;
-    display: block;
+    border: none;
 }
 
 .acc_option:hover {
@@ -50,7 +50,8 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    display: none;
+    max-height: 0;
     background-color: white;
     overflow: hidden;
+    transition: max-height 0.3s ease-out;
 }

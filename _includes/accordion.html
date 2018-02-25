@@ -4,7 +4,7 @@
 <div style="visibility:hidden">
 <audio autoplay loop>
     <source src="/akordeon.mp3">
-</audio> 
+</audio>
 </div>
 
 {% for item in site.data.main_list.toc %}
@@ -12,7 +12,7 @@
         <button class="acc_style acc_button">{{ item.title }}</button>
         <div class="acc_panel">
             {% for entry in item.subfolderitems %}
-                <a class="acc_option" href="{{ site.baseurl }}/{{ entry.url }}">{{ entry.page }}</a>
+                <a class="acc_style acc_option" href="{{ site.baseurl }}/{{ entry.url }}">{{ entry.page }}</a>
             {% endfor %}
         </div>
     {% else %}
@@ -26,13 +26,13 @@
     var i;
     for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
+            this.classList.toggle("acc_active");
             var panel = this.nextElementSibling;
 
-            if (panel.style.display == "block") {
-                panel.style.display = "none";
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
             } else {
-                panel.style.display = "block";
+                panel.style.maxHeight = panel.scrollHeight + "px";
             }
         });
     }

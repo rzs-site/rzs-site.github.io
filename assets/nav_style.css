@@ -25,6 +25,14 @@
     display: block;
 }
 
+.dropdown_button:after {
+    content: "\002B";
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 1rem;
+}
+
 .dropdown {
     float: left;
     overflow: hidden;
