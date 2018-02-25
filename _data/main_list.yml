@@ -2,8 +2,8 @@ toc:
     - title: Semestr 2
       subfolderitems:
         - page: Analiza matematyczna 2
-          url: /RZS/sems/sem2/am2/
+          url: sems/sem2/am2/
     - title: Semestr 3
       subfolderitems:
         - page: Architektura komputerów i systemy operacyjne
-          url: /RZS/sems/sem3/akiso/
+          url: sems/sem3/akiso/
