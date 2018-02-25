@@ -21,5 +21,5 @@ Kontakt
 <script type="text/javascript"><!--
 var user = "admin";
 var domain = "rzs.ovh";
-document.write(user + "@" + domain);
+document.write(user + "(at)" + domain);
 // --></script>
