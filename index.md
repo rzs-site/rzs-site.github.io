@@ -6,17 +6,17 @@ layout: default
 ---
 
 O nas
-=====
+---
 
 Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Poniższy katalog jest zbiorem materiałów z zakresu matematyki oraz informatyki stworzonych przez nasz zespół podczas studiów inżynierskich. Zabawna całka na szczęście: \\(\int_0^\infty \frac{1}{x^2} dx\\)
 
 Licencja
-========
+---
 
 Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji [Creative Commons BY-ND]{creativecommons.org/licenses/by-sa/4.0} (uznanie autorstwa, bez utworów zależnych).
 
 Kontakt
-=======
+---
 
 <script type="text/javascript"><!--
 var user = "admin";
