@@ -13,7 +13,7 @@ Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydz
 Licencja
 ---
 
-Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji [Creative Commons BY-ND](www.creativecommons.org/licenses/by-sa/4.0) (uznanie autorstwa, bez utworów zależnych).
+Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji [Creative Commons BY-ND](https://www.creativecommons.org/licenses/by-sa/4.0) (uznanie autorstwa, bez utworów zależnych).
 
 Kontakt
 ---
