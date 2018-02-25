@@ -33,6 +33,10 @@ Jeśli nie ma na liście potrzebnego semstru dodajemy go dodajęc w odpowiednim 
     url: ścieżka_do_pliku/index.md
 ```
 
+## Dodawanie przedmiotu (wielostronowy)
+
+Przedmioty wielostronowe będą dostępne wkrótce. Aktualnie należy w na głownej stronie przedmiotu (plik index.md) dodać spis linków do wszystkich podstron. Sidemenu powinne się wkrótce pojawic.
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
