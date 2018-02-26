@@ -13,16 +13,3 @@ public static void main(String[] args) {
   System.out.println("Hello World");
 }
 ```
-
-Skrót przydatnych linków
----
-
-### Informatyka WPPT, semestr 4
-
-* [Algorytmy i Struktury Danych](http://cs.pwr.edu.pl/golebiewski/)
-* [Technologie Sieciowe](http://cs.pwr.edu.pl/krzywiecki/teaching.html)
-* [Grafika Komputerowa](https://drive.google.com/drive/folders/1Eyjbc0yleaQkyKj6yf2O_NcmuwF7e4IU)
-* [Programowanie w Logice](http://ki.pwr.edu.pl/kobylanski/dydaktyka/page6/page2/index.html)
-* [Nowoczesne Technologie WWW](http://cs.pwr.edu.pl/cichon/2017_18_b/WWW.php)
-* [Wprowadzenie do Teorii Grafów](http://cs.pwr.edu.pl/kuchta/)
-* [Wprowadzenie do Funkcji Zespolonych](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/complex.html)
