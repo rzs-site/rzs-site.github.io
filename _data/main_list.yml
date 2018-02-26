@@ -23,5 +23,9 @@ toc:
           url: sems/sem3/mpis/
         - page: Technologie programowania
           url: sems/sem3/tp/
+    - title: Semestr 4
+      subfolderitems:
+        - page: Wprowadzenie Do Funkcji Zespolonych
+          url: sems/sem4/zespolone/
     - title: Test akordeonu
       url: test/
