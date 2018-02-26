@@ -6,7 +6,6 @@ O nas
 ---
 
 Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej.
-```
 
 Licencja
 ---
