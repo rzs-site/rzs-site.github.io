@@ -16,16 +16,11 @@ public static void main(String[] args) {
 }
 ```
 
-Licencja
+Skrót przydatnych linków (WPPT, informatyka, semestr 4)
 ---
-
-Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji [Creative Commons BY-ND](https://www.creativecommons.org/licenses/by-sa/4.0) (uznanie autorstwa, bez utworów zależnych).
-
-Kontakt
----
-
-<script type="text/javascript"><!--
-var user = "admin";
-var domain = "rzs.ovh";
-document.write(user + "(at)" + domain);
-// --></script>
+[Algorytmy i Struktury Danych (listy ćw, listy lab)](http://cs.pwr.edu.pl/golebiewski/)
+[Technologie Sieciowe (listy lab)](http://cs.pwr.edu.pl/krzywiecki/teaching.html)
+[Grafika Komputerowa i Wizualizacja (listy ćw, listy lab, prezentacje)](https://drive.google.com/drive/folders/1Eyjbc0yleaQkyKj6yf2O_NcmuwF7e4IU)
+[Programowanie w Logice (listy lab, prezentacje)](http://ki.pwr.edu.pl/kobylanski/dydaktyka/page6/page2/index.html)
+[Wprowadzenie do Teorii Grafów (listy ćw)](http://cs.pwr.edu.pl/kuchta/)
+[Wprowadzenie do Funkcji Zespolonych (listy ćw)](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/complex.html)
