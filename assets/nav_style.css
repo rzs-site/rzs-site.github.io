@@ -1,22 +1,20 @@
 .main_nav {
+    display: flex;
     width: 100%;
-    overflow: hidden;
-    font-family: Arial;
-    background-color: #333;
-    font-size: 1rem;
     margin-top: 1rem;
+    background-color: #333;
 }
 
-.main_nav:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.sigle_button {
-    float: left;
-
+.sigle_button, .dropdown .dropdown_button, .dropdown_content a {
     color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.sigle_button, .dropdown .dropdown_button {
+    background-color: #333;
+    color: white;
+
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -28,44 +26,6 @@
     border: none;
     outline: none;
     cursor: pointer;
-
-    display: block;
-}
-
-.dropdown_button:after {
-    content: "\002B";
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 1rem;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropdown_button {
-    background-color: inherit;
-    font-family: inherit;
-    font-size: 1.1rem;
-    font-weight: bold;
-
-    color: white;
-    padding: 0.5rem 1rem;
-    margin: 0;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.sigle_button:hover, .dropdown_button:hover {
-    background-color: #4f4f4f;
-    transition: 0.4s;
-}
-
-.main_nav {
-    overflow: hidden;
 }
 
 .dropdown_content {
@@ -76,11 +36,17 @@
     z-index: 1;
 }
 
+.sigle_button:hover, .dropdown_button:hover {
+    background-color: #4f4f4f;
+    transition: 0.4s;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+}
+
 .dropdown_content a {
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    display: block;
     text-align: left;
 }
 
@@ -89,14 +55,9 @@
     transition: 0.4s;
 }
 
-.show {
-    display: block;
-}
-
-.active {
-    background-color: #009900;
-}
-
-.active:hover {
-    background-color: #007700;
+.dropdown_button:after {
+    content: "\002B";
+    color: #777;
+    font-weight: bold;
+    margin-left: 0.4em;
 }

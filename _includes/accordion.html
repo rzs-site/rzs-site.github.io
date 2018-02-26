@@ -1,4 +1,4 @@
-{% for item in site.data.main_list.toc %}
+{% for item in site.data[page.toc].toc %}
     {% if item.subfolderitems %}
         <button class="acc_style acc_button">{{ item.title }}</button>
         <div class="acc_panel">
