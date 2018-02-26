@@ -9,9 +9,15 @@
             {% include header.html %}
             {% include navigation.html %}
 
-            <div class="content">
-                {% include accordion.html %}
-                {{ content }}
+            <div class="content row">
+                <div class="vertical_menu">
+                    {% include accordion.html %}
+                </div>
+                <div class="content_column">
+                    <div class="content_box">
+                        {{ content }}
+                    </div>
+                </div>
             </div>
         </div>
     </body>

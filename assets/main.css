@@ -7,14 +7,38 @@
 
 #container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1080px;
     margin: auto;
 }
 
 .content {
-    margin-top: 1rem;
+    font-size: 1.1rem;
+    background-color: #dddddd;
+}
+
+.content_box {
     padding: 0.1rem 1rem;
     padding-bottom: 1rem;
     background-color: #dddddd;
-    font-size: 1.1rem;
+}
+
+.vertical_menu {
+    width: 22%;
+    float: left;
+}
+
+.content_column {
+    width: 78%;
+    float: left;
+}
+
+.row {
+    display: table;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }

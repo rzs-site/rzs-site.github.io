@@ -9,7 +9,7 @@
     font-size: 1rem;
     font-family: Arial;
     outline: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     transition: 0.4s;
     display: block;
 }
@@ -37,7 +37,6 @@
 
 .acc_option {
     background: #f1f1f1;
-    width: 100%;
     margin: 0;
     border: none;
 }

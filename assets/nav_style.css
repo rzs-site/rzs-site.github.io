@@ -4,6 +4,13 @@
     font-family: Arial;
     background-color: #333;
     font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.main_nav:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .sigle_button {
