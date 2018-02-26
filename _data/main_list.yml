@@ -23,5 +23,7 @@ toc:
           url: sems/sem3/mpis/
         - page: Technologie programowania
           url: sems/sem3/tp/
+    - title: O nas
+      url: info/
     - title: Test akordeonu
       url: test/
