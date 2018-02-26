@@ -2,7 +2,7 @@
 layout: default
 ---
 
-O nas
+Nasz zespół
 ---
 
 Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej.
