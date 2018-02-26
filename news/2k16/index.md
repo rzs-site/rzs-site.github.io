@@ -5,6 +5,8 @@ toc: main_page
 Akrualności 2k16
 ---
 
+===
+
 ## Algorytmy i Struktury Danych:
 [Strona prowadzącego](http://cs.pwr.edu.pl/golebiewski/)
 
