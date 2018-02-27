@@ -10,6 +10,24 @@
     margin: auto;
 }
 
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    height: 1px;
+    color: #999;
+    background-color: #999;
+    font-size: 0;
+    border: 0;
+    box-shadow: 0 0 0.5px 0.5px rgba(0,0,0,0.06);
+}
+
 .row {
     display: flex;
     flex-direction: column;

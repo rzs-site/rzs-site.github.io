@@ -16,6 +16,7 @@
 
 .acc_active, .acc_style:hover {
     background-color: #ccc;
+    text-decoration: none;
 }
 
 .acc_button.acc_active:after {

@@ -45,6 +45,7 @@
 .sigle_button:hover, .dropdown .dropdown_button:hover {
     background-color: #4f4f4f;
     transition: 0.4s;
+    text-decoration: none;
 }
 
 .show {
