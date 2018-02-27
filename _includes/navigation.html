@@ -1,33 +1,3 @@
-<script>
-    function dropdown(element) {
-        var dropdowns = element.parentNode.parentNode.getElementsByClassName('dropdown_content');
-
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var drop = dropdowns[i];
-            if (element.parentNode == dropdowns[i].parentNode && !drop.classList.contains('show')) {
-                dropdowns[i].classList.add('show');
-            } else if (drop.classList.contains('show')) {
-                dropdowns[i].classList.remove('show');
-            }
-        }
-    }
-
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropdown_button')) {
-            var dropdowns = document.getElementsByClassName('dropdown_content');
-
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var open = dropdowns[i];
-                if (open.classList.contains('show')) {
-                    open.classList.remove('show');
-                }
-            }
-        }
-    }
-</script>
-
 <nav class="main_nav">
     {% for item in site.data.main_list.toc %}
         {% if item.subfolderitems %}
@@ -44,3 +14,44 @@
         {% endif %}
     {% endfor %}
 </nav>
+
+<script>
+    var acc = document.getElementsByClassName('dropdown_button');
+
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            const mq = window.matchMedia("(min-width: 800px)");
+
+            // TODO: this.classList.toggle("acc_active");
+            var panel = this.nextElementSibling;
+            var panels = document.getElementsByClassName('dropdown_content');
+
+            var j;
+            for (j = 0; j < panels.length; j++) {
+                if (panels[j] == panel) {
+                    if (panels[j].style.maxHeight) {
+                        panels[j].style.maxHeight = null;
+                    } else {
+                        panels[j].style.maxHeight = panels[j].scrollHeight + "px";
+                    }
+                } else if (mq.matches) {
+                    panels[j].style.maxHeight = null;
+                }
+            }
+        });
+    }
+
+    window.onclick = function(event) {
+        const mq = window.matchMedia("(min-width: 800px)");
+
+        if (mq.matches && !event.target.matches('.dropdown_button')) {
+            var panels = document.getElementsByClassName('dropdown_content');
+
+            var j;
+            for (j = 0; j < panels.length; j++) {
+                panels[j].style.maxHeight = null;
+            }
+        }
+    }
+</script>

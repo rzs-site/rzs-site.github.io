@@ -12,6 +12,7 @@
 
 .row {
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -33,4 +34,10 @@
 
 .content_column {
     flex-grow: 3;
+}
+
+@media screen and (min-width: 800px) {
+    .row {
+        flex-direction: row;
+    }
 }
