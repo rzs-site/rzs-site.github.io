@@ -24,10 +24,10 @@ toc:
         - page: Technologie programowania
           url: sems/sem3/tp/
     - title: Semestr 4
-      subfolderitems:
-        - page: Wprowadzenie Do Funkcji Zespolonych
-          url: sems/sem4/zespolone/
     - title: Semestr 5
     - title: Semestr 6
     - title: Wybieralne
+      subfolderitems:
+        - page: Wprowadzenie Do Funkcji Zespolonych
+          url: sems/sem4/zespolone/
     - title: Inne    
