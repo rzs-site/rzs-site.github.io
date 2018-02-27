@@ -39,6 +39,7 @@ toc: main_page
 
 ## Wprowadzenie do Funkcji Zespolonych
 [Strona prowadzącego](http://cs.pwr.edu.pl/morayne/dydaktyka.html)
+
 [Strona ćwiczeniowca](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/complex.html)
 
 #### Ćwiczenia
@@ -48,6 +49,7 @@ toc: main_page
 
 ## Wprowadzenie do Teorii Grafów
 [Strona prowadzącego](http://cs.pwr.edu.pl/morayne/dydaktyka.html)
+
 [Strona ćwiczeniowca](http://cs.pwr.edu.pl/kuchta/)
 
 #### Ćwiczenia
