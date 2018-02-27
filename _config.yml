@@ -26,6 +26,11 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+# highlighter: rouge
+
 remote_theme: "alex-zaplik/rzs-main-theme"
 # plugins:
 #  - jekyll-feed
