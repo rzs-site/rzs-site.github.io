@@ -35,11 +35,14 @@
 .dropdown_content {
     margin: 0;
     padding: 0;
-    max-height: 0;
     background-color: #444;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
     box-shadow: inset 0 0 0.2em 0.2em rgba(0,0,0,0.4);
+    transition: max-height 0.3s ease-out;
+}
+
+.dropdownable {
+    max-height: 0;
 }
 
 .sigle_button:hover, .dropdown .dropdown_button:hover {

@@ -1,5 +1,5 @@
 <button class="acc_style acc_button moblie_acc_drop">Menu strony</button>
-<nav>
+<nav class="mobile_acc_drop_content">
     {% for item in site.data[page.toc].toc %}
         {% if item.subfolderitems %}
             <button class="acc_style acc_button">{{ item.title }}</button>
@@ -27,6 +27,10 @@
                 panel.style.maxHeight = null;
             } else {
                 panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+
+            if (this.parentNode.classList.contains('mobile_acc_drop_content')) {
+                this.parentNode.style.maxHeight = "100%";
             }
         });
     }
