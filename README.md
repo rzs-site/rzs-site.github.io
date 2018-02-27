@@ -35,7 +35,13 @@ Jeśli nie ma na liście potrzebnego semstru dodajemy go dodajęc w odpowiednim 
 
 ## Dodawanie przedmiotu (wielostronowy)
 
-Przedmioty wielostronowe będą dostępne wkrótce. Aktualnie należy w na głownej stronie przedmiotu (plik index.md) dodać spis linków do wszystkich podstron. Sidemenu powinne się wkrótce pojawic.
+Opis pojawi się wkrótce...
+
+## TODO:
+
+* Opis powyżej
+* Czcionka menu powinna się zmniejszać przy szerokościach od 800 do 950 pikseli
+* Menu mobline chowa się ale zostaje z tyłu i nadal jest aktywne
 
 ## License
 
