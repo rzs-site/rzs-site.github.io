@@ -1,5 +1,5 @@
 ---
-layout: layout_gen
+layout: gen_layout
 ---
 Generator planu
 ---
