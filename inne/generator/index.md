@@ -6,13 +6,18 @@ Generator planu
 
 <button onclick="myFunction()">Click me</button>
 
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
 <script>
 function myFunction() {
+  // Declare variables 
   var input, filter, table, tr, td, i;
-  input = "(cz) 12:00";
+  input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
   table = document.getElementById("tabelaHTML");
   tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[0];
     if (td) {
@@ -21,11 +26,10 @@ function myFunction() {
       } else {
         tr[i].style.display = "none";
       }
-    }       
+    } 
   }
 }
 </script>
-
 
 <table cellpadding="0" cellspacing="0" border="0" class="display" id="tabelaHTML" ><thead>
 
