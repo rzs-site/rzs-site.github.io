@@ -27,11 +27,11 @@ function myFunction(but,te) {
 
 <tr>
 	<td></td>
-	<td>pn</td>
-	<td>wt</td>
-	<td>sr</td>
-	<td>czw</td>
-	<td>pt</td>
+	<td>Pon</td>
+	<td>Wt</td>
+	<td>Śr</td>
+	<td>Czw</td>
+	<td>Pt</td>
 </tr>
 
 <tr>
