@@ -146,7 +146,7 @@ function myFunction(but,te) {
 </tr>
 </table>
 
-<table class="tg">
+<table class="tg" id="tabelaHTML">
   <tr>
     <th class="tg-yw4l">Kod kursu</th>
     <th class="tg-yw4l">Kod grupy</th>
