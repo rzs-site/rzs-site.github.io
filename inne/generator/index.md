@@ -4,6 +4,11 @@ layout: gen_layout
 Generator planu
 ---
 
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+
 <script>
 function myFunction(but,te) {
   var table, tr, td, i, butt;
