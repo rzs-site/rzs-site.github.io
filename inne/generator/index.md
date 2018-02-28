@@ -5,7 +5,7 @@ Generator planu
 ---
 
 
-	<div id="primary-content"> <table cellpadding="0" cellspacing="0" border="0" class="display" id="tabelaHTML" ><thead>
+<table cellpadding="0" cellspacing="0" border="0" class="display" id="tabelaHTML" ><thead>
 
 		<tr>
 			<th>Kod kursu</th>
