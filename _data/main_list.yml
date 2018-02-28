@@ -8,7 +8,9 @@ toc:
         - page: Logika i Struktury Formalne
           url: sems/sem1/lisf/
         - page: Algebra z Geometrią Analityczną
+          url: error/
         - page: Wstęp do Informatyki i Programowania  
+          url: error/
     - title: Semestr 2
       subfolderitems:
         - page: Analiza Matematyczna 2
@@ -16,9 +18,13 @@ toc:
         - page: Matematyka Dyskretna
           url: sems/sem2/md/
         - page: Fizyka
+          url: error/
         - page: Problemy Prawne Informatyki
+          url: error/
         - page: Algebra Abstrakcyjna i Kodowanie
+          url: error/
         - page: Kurs Programowania
+          url: error/
     - title: Semestr 3
       subfolderitems:
         - page: Architektura Komputerów i Systemy Operacyjne
@@ -32,23 +38,33 @@ toc:
     - title: Semestr 4
       subfolderitems:
         - page: Algorytmy i Struktury Danych
+          url: error/
         - page: Technologie Sieciowe
+          url: error/
     - title: Semestr 5
       subfolderitems:
         - page: Języki Formalne i Teoria Translacji  
+          url: error/
         - page: Obliczenia Naukowe
+          url: error/
     - title: Semestr 6
       subfolderitems:
         - page: Systemy Wbudowane
+          url: error/
     - title: Wybieralne
       subfolderitems:
         - page: Wprowadzenie Do Funkcji Zespolonych
           url: sems/sem4/zespolone/
         - page: Wprowadzenie Do Teorii Grafów
+          url: error/
         - page: Programowanie w Logice
+          url: error/
         - page: Nowoczesne Technologie WWW
+          url: error/
         - page: Teoretyczne Podstawy Informatyki
+          url: error/
         - page: Grafkika Komputerowa i Wizualizacja
+          url: error/
     - title: Inne    
       subfolderitems:
         - page: Szalone testy M.Pietrka, nie otwierać.
