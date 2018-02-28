@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <link rel="import" href="http://example.com/elements.html">
+        {% include default_head.html %}
+    </head>
+
+    <body>
+        <div id="container">
+            {% include header.html %}
+            {% include navigation.html %}
+
+            <div class="row">
+                <div class="content content_box">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
