@@ -6,7 +6,7 @@ Generator planu
 
 
 <script type="text/javascript"><!--
-<iframe src="/">czy dziala</iframe>
+<iframe src="/inne/generator/">czy dziala</iframe>
 // --></script>
 
 b
