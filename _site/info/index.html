@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>RZS</title>
+
+<link rel="stylesheet" type="text/css" href="/assets/main.css">
+<link rel="stylesheet" type="text/css" href="/assets/header_style.css">
+<link rel="stylesheet" type="text/css" href="/assets/nav_style.css">
+<link rel="stylesheet" type="text/css" href="/assets/accordion.css">
+<link rel="stylesheet" type="text/css" href="/assets/gen_style.css">
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114681827-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114681827-1');
+</script>
+
+
+    </head>
+
+    <body>
+        <div id="container">
+            <div class="header">
+    <h1 class="header_text">RZS</h1>
+</div>
+
+            <button class="moblie_nav_drop dropdown_button">Menu główne</button>
+<nav class="dropdownable main_nav">
+
+
+            <a class="sigle_button" href="/">Główna</a>
+
+
+
+            <div class="dropdown">
+                <button class="dropdown_button">Semestr 1</button>
+                <div class="dropdown_content dropdownable">
+
+                        <a href="/sems/sem1/am1/">Analiza Matematyczna 1</a>
+
+                        <a href="/sems/sem1/lisf/">Logika i Struktury Formalne</a>
+
+                        <a href="/error/">Algebra z Geometrią Analityczną</a>
+
+                        <a href="/error/">Wstęp do Informatyki i Programowania</a>
+
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropdown_button">Semestr 2</button>
+                <div class="dropdown_content dropdownable">
+
+                        <a href="/sems/sem2/am2/">Analiza Matematyczna 2</a>
+
+                        <a href="/sems/sem2/md/">Matematyka Dyskretna</a>
+
+                        <a href="/error/">Fizyka</a>
+
+                        <a href="/error/">Problemy Prawne Informatyki</a>
+
+                        <a href="/error/">Algebra Abstrakcyjna i Kodowanie</a>
+
+                        <a href="/error/">Kurs Programowania</a>
+
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropdown_button">Semestr 3</button>
+                <div class="dropdown_content dropdownable">
+
+                        <a href="/sems/sem3/akiso/">Architektura Komputerów i Systemy Operacyjne</a>
+
+                        <a href="/sems/sem3/bd/">Bazy Danych i Systemy Informacyjne</a>
+
+                        <a href="/sems/sem3/mpis/">Metody Probabilistyczne i Statystyka</a>
+
+                        <a href="/sems/sem3/tp/">Technologia Programowania</a>
+
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropdown_button">Semestr 4</button>
+                <div class="dropdown_content dropdownable">
+
+                        <a href="/error/">Algorytmy i Struktury Danych</a>
+
+                        <a href="/error/">Technologie Sieciowe</a>
+
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropdown_button">Semestr 5</button>
+                <div class="dropdown_content dropdownable">
+
+                        <a href="/error/">Języki Formalne i Teoria Translacji</a>
+
+                        <a href="/error/">Obliczenia Naukowe</a>
+
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropdown_button">Semestr 6</button>
+                <div class="dropdown_content dropdownable">
+
+                        <a href="/error/">Systemy Wbudowane</a>
+
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropdown_button">Wybieralne</button>
+                <div class="dropdown_content dropdownable">
+
+                        <a href="/sems/sem4/zespolone/">Wprowadzenie Do Funkcji Zespolonych</a>
+
+                        <a href="/error/">Wprowadzenie Do Teorii Grafów</a>
+
+                        <a href="/error/">Programowanie w Logice</a>
+
+                        <a href="/error/">Nowoczesne Technologie WWW</a>
+
+                        <a href="/error/">Teoretyczne Podstawy Informatyki</a>
+
+                        <a href="/error/">Grafkika Komputerowa i Wizualizacja</a>
+
+                </div>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="dropdown_button">Inne</button>
+                <div class="dropdown_content dropdownable">
+
+                        <a href="/inne/generator/">Szalone testy M.Pietrka, nie otwierać.</a>
+
+                </div>
+            </div>
+
+
+</nav>
+
+<script>
+    var acc = document.getElementsByClassName('dropdown_button');
+
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            const mq = window.matchMedia("(min-width: 800px)");
+
+            // TODO: this.classList.toggle("acc_active");
+            var panel = this.nextElementSibling;
+            var panels = document.getElementsByClassName('dropdownable');
+
+            var j;
+            for (j = 0; j < panels.length; j++) {
+                if (panels[j] == panel) {
+                    if (panels[j].style.maxHeight) {
+                        panels[j].style.maxHeight = null;
+                    } else {
+                        panels[j].style.maxHeight = panels[j].scrollHeight + "px";
+                    }
+                } else if (mq.matches) {
+                    panels[j].style.maxHeight = null;
+                }
+            }
+
+            if (this.parentNode.parentNode.classList.contains('main_nav')) {
+                this.parentNode.parentNode.style.maxHeight = "100%";
+            }
+        });
+    }
+
+    window.onclick = function(event) {
+        const mq = window.matchMedia("(min-width: 800px)");
+
+        if (mq.matches && !event.target.matches('.dropdown_button')) {
+            var panels = document.getElementsByClassName('dropdown_content');
+
+            var j;
+            for (j = 0; j < panels.length; j++) {
+                panels[j].style.maxHeight = null;
+            }
+        }
+    }
+</script>
+
+
+            <div class="content row">
+                <div class="vertical_menu">
+                    <button class="acc_style acc_button moblie_acc_drop">Menu strony</button>
+<nav class="mobile_acc_drop_content">
+
+
+            <a class="acc_style accordion" href="/">Wstęp</a>
+
+
+
+            <button class="acc_style acc_button">Przydatne linki</button>
+            <div class="acc_panel">
+
+                    <a class="acc_style acc_option" href="/news/2k16/">2k16</a>
+
+                    <a class="acc_style acc_option" href="/news/2k17/">2k17</a>
+
+            </div>
+
+
+
+            <button class="acc_style acc_button">Ogłoszenia</button>
+            <div class="acc_panel">
+
+                    <a class="acc_style acc_option" href="/msgs/2k16/">2k16</a>
+
+                    <a class="acc_style acc_option" href="/msgs/2k17/">2k17</a>
+
+            </div>
+
+
+
+            <a class="acc_style accordion" href="/info/">O nas</a>
+
+
+</nav>
+
+<script>
+    var acc = document.getElementsByClassName('acc_button');
+
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("acc_active");
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+
+            if (this.parentNode.classList.contains('mobile_acc_drop_content')) {
+                this.parentNode.style.maxHeight = "100%";
+            }
+        });
+    }
+</script>
+
+            </div>
+            <div class="content_column">
+                <h2 id="nasz-cel">Nasz cel</h2>
+                    <p>Naszym głównym celem jest ułatwienie Tobie nauki wielu wymagających przedmiotów stojących na drodze do
+                        uzyskania Twojego tytułu inżyniera informatyki na Wydziale Podstawowych Problemów Techniki na Politechnice
+                        Wrocławskiej. Materiały tworzone w ramach RZS mogą być używane w celach samokształcenia zarówno przez oficjalnych
+                        członków jak i przez inne osoby. Zasady wykorzystania materiałów znajdują się w sekcji <a href="#licencja">licencja</a></p>
+
+                    <h2 id="jak-mogę-pomóc">Jak mogę pomóc</h2>
+                        <p>W związku z ogromem materiału, który musi być opanowany przez każdego pepeciaka, wszelaka pomoc jest mile widziana.
+                        <br> W szczególności potrzebujemy:</br>
+                        <ul>
+                            <li>weryfikacji obecnie zamieszczonych materiałów,</li>
+                            <li>rozwiązań zadań ćwiczeń,</li>
+                            <li>modelowych rozwiązań list laboratoryjnych</li>
+                            <li>notatek z wykładów w formie plików LaTeX.</li>
+                        </ul>
+                        Prosimy o dostarczanie wszelkich materiałów poprzez drogi wymienione w sekcji <a href="#kontakt">kontakt</a>.
+                        <br>Preferowany format danych to LaTeX lub pdf z opcją "copy text".</br></p>
+
+                    <h2 id="materiały">Materiały</h2>
+                        <p>Materiały dydaktyczne udostępnione w ramach RZS są interpretacją wykładów prowadzonych przez pracowników
+                            naukowych Wydziału Podstawowych Problemów Techniki oraz publikacji naukowych. Z tego powodu udostępnione tutaj
+                            notatki nie powinny być jedynym źródłem wiedzy podczas nauki danego przedmiotu. </p>
+
+                    <h2 id="zespół">Zespół</h2>
+                        <p>Członkami RZS są zdolni oraz chętni do pomocy studenci na Wydziale Podstawowych Problemów Techniki na
+                            Politechnice Wrocławskiej. Aktualnie liczba członków grupy RZS przekracza ponad 35 osób. </p>
+
+                    <h2 id="historia">Historia</h2>
+                        <p>Projekt Razem Zdajmy Studia, oryginalnie Razem Zdajmy Algebrę, został założony w celu
+                            rozwiązania listy przygotowawczej do egzaminu z Algebry Abstrakcyjnej i Teorii Kodowania... (work in progress)(#waitingForPietrek)</p>
+
+                    <h2 id="licencja">Licencja</h2>
+                        <p>Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji <a href="https://www.creativecommons.org/licenses/by-sa/4.0">Creative Commons BY-ND</a> (uznanie autorstwa, bez utworów zależnych).</p>
+
+                    <h2 id="kontakt">Kontakt</h2>
+                        <script type="text/javascript"><!--
+                        var user = "admin";
+                        var domain = "rzs.ovh";
+                        document.write(user + "(at)" + domain);
+                        // --></script>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
