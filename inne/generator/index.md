@@ -4,6 +4,6 @@ layout: default
 Generator planu
 ---
 <script>
-<iframe src="http://akz.pwr.edu.pl"></iframe>
+<iframe src="http://akz.pwr.edu.pl">czy dziala</iframe>
 </script>
-aaa
+a
