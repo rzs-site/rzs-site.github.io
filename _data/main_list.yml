@@ -49,6 +49,6 @@ toc:
         - page: Teoretyczne Podstawy Informatyki
         - page: Grafkika Komputerowa i Wizualizacja
     - title: Inne    
-        subfolderitems:
+      subfolderitems:
         - page: Szalone testy M.Pietrka, nie otwierać.
           url: inne/generator/
