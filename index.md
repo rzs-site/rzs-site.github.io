@@ -13,7 +13,7 @@ Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów [Kat
 Kategorie
 ---
 
-Strona główna zawiera najważniejsze informacje, listę linków oraz aktualności od naszego zespołu. Kursy obowiązkowe są zgrupowane według semestrów planowej realizacji. Osobną kategorię stanowią kursy wybieralne, ponieważ każdy z nich jest realizowany przez poszczególne roczniki w różnych semestrach. Natomiast ostatnia zakładka agreguje kursy ogólnouczelniane oraz informacje praktyczne. Powodzenia!
+Strona główna zawiera najważniejsze informacje, listę linków oraz aktualności od naszego zespołu. Kursy obowiązkowe są zgrupowane według semestrów planowej realizacji. Osobną kategorię stanowią kursy wybieralne, ponieważ każdy z nich jest realizowany przez poszczególne roczniki w różnych semestrach. Natomiast zakładka "Inne" agreguje kursy ogólnouczelniane oraz informacje praktyczne. Powodzenia!
 
 Aktualny status
 ---
