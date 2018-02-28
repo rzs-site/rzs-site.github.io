@@ -23,7 +23,7 @@ function myFunction(but,te) {
 </script>
 
 
-<table id="tabelaHTML">
+<table cellspacing='0' class="light">
 
 <tr>
 	<td></td>
