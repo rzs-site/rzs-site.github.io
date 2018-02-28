@@ -1,22 +1,24 @@
 ---
-layout: acc_layout
-toc: main_page
-use_math: false
-use_highlight: true
----
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
 
-O projekcie
----
+O nas
+=====
 
-Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Niniejszy katalog to zbiór stworzonych przez nas materiałów z zakresu matematyki oraz informatyki. Strona główna zawiera najważniejsze informacje, listę linków oraz aktualności od naszego zespołu. Kursy obowiązkowe są zgrupowane według semestrów planowej realizacji. Osobną kategorię stanowią kursy wybieralne, ponieważ niemalże każdy jest realizowany przez poszczególne roczniki w różnych semestrach. Natomiast ostatnia zakładka agreguje kursy ogólnouczelniane oraz informacje praktyczne. Powodzenia!
+Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Poniższy katalog jest zbiorem materiałów z zakresu matematyki oraz informatyki stworzonych przez nasz zespół podczas studiów inżynierskich. Zabawna całka na szczęście: \\(\int_0^\infty \frac{1}{x^2} dx\\)
 
-Aktualny status
----
+Licencja
+========
 
-Rozpoczęte zostały otwarte testy wersji \\( \beta \\) - oprócz opracowań obecnie trwających kursów, na wersje internetowe są sukcesywnie przetwarzane materiały z poprzednich lat. Wszelkie propozycje dodatkowych funkcjonalności prosimy zgłaszać na adres podany w zakładce "O nas". Z uwagi na całkowitą niezależność od Samorządu oraz ograniczenia techniczne nie jesteśmy w stanie zrealizować wszystkich koncepcji, jednak każdy pomysł szczegółowo rozważymy, a w miarę możliwości spróbujemy zaimplementować.
+Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji [Creative Commons BY-ND]{creativecommons.org/licenses/by-sa/4.0} (uznanie autorstwa, bez utworów zależnych).
 
-```java
-public static void main(String[] args) {
-  System.out.println("Razem Zdajmy Studia!");
-}
-```
+Kontakt
+=======
+
+<script type="text/javascript"><!--
+var user = "admin";
+var domain = "rzs.ovh";
+document.write(user + "@" + domain);
+// --></script>
