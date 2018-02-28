@@ -71,6 +71,7 @@ function myFunction(but,te) {
 }
 </script>
 
+
 <table>
 
 <tr>
@@ -84,67 +85,68 @@ function myFunction(but,te) {
 
 <tr>
 	<td>07:30</td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pn) 07')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(wt) 07')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(sr) 07')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(cz) 07')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pt) 07')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pn) 07')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(wt) 07')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(sr) 07')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(cz) 07')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pt) 07')"></td>
 </tr>
 
 <tr>
 	<td>09:15</td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pn) 09')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(wt) 09')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(sr) 09')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(cz) 09')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pt) 09')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pn) 09')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(wt) 09')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(sr) 09')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(cz) 09')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pt) 09')"></td>
 </tr>
 
 <tr>
 	<td>11:15</td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pn) 11')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(wt) 11')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(sr) 11')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(cz) 11')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pt) 11')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pn) 11')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(wt) 11')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(sr) 11')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(cz) 11')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pt) 11')"></td>
 </tr>
 
 <tr>
 	<td>13:15</td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pn) 13')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(wt) 13')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(sr) 13')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(cz) 13')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pt) 13')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pn) 13')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(wt) 13')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(sr) 13')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(cz) 13')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pt) 13')"></td>
 </tr>
 
 <tr>
 	<td>15:15</td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pn) 15')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(wt) 15')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(sr) 15')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(cz) 15')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pt) 15')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pn) 15')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(wt) 15')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(sr) 15')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(cz) 15')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pt) 15')"></td>
 </tr>
 
 <tr>
 	<td>17:05</td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pn) 17')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(wt) 17')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(sr) 17')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(cz) 17')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pt) 17')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pn) 17')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(wt) 17')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(sr) 17')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(cz) 17')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pt) 17')"></td>
 </tr>
 
 <tr>
 	<td>18:55</td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pn) 18')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(wt) 18')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(sr) 18')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(cz) 18')"></td>
-	<td><input type="checkbox" onclick="myFunction(this,'(pt) 18')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pn) 18')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(wt) 18')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(sr) 18')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(cz) 18')"></td>
+	<td><input type="radio" onclick="myFunction(this,'(pt) 18')"></td>
 </tr>
 </table>
+
 
 <table class="tg" id="tabelaHTML">
   <tr>
