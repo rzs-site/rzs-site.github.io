@@ -3,7 +3,10 @@ layout: default
 ---
 Generator planu
 ---
-<script>
+
+
+<script type="text/javascript"><!--
 <iframe src="http://akz.pwr.edu.pl">czy dziala</iframe>
-</script>
-a
+// --></script>
+
+b
