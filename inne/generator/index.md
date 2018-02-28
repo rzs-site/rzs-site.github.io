@@ -4,32 +4,122 @@ layout: default
 Generator planu
 ---
 
-<button onclick="myFunction()">Click me</button>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
 <script>
-function myFunction() {
-  // Declare variables 
-  var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
+function startFunction() {
+  var table, tr, td, i, butt;
   table = document.getElementById("tabelaHTML");
   tr = table.getElementsByTagName("tr");
 
-  // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[3];
+    td = tr[i].getElementsByTagName("td")[2];
     if (td) {
-      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      if (td.innerHTML.indexOf("Jezyk") <= -1) {
         tr[i].style.display = "none";
-      } else {
-        tr[i].style.display = "";
       }
     } 
   }
 }
 </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    startFunction();
+}, false);
+</script>
+
+<script>
+function myFunction(but,te) {
+  var table, tr, td, i, butt;
+  table = document.getElementById("tabelaHTML");
+  tr = table.getElementsByTagName("tr");
+
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[3];
+    if (td) {
+      if (td.innerHTML.indexOf(te) > -1) {
+        if(but.checked) tr[i].style.display = "none";
+        if(!but.checked) tr[i].style.display = "";
+      }
+    } 
+  }
+}
+</script>
+
+<table>
+
+<tr>
+	<td></td>
+	<td>pn</td>
+	<td>wt</td>
+	<td>sr</td>
+	<td>czw</td>
+	<td>pt</td>
+</tr>
+
+<tr>
+	<td>07</td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pn) 07')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(wt) 07')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(sr) 07')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(cz) 07')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pt) 07')"></input></td>
+</tr>
+
+<tr>
+	<td>09</td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pn) 09')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(wt) 09')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(sr) 09')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(cz) 09')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pt) 09')"></input></td>
+</tr>
+
+<tr>
+	<td>11</td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pn) 11')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(wt) 11')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(sr) 11')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(cz) 11')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pt) 11')"></input></td>
+</tr>
+
+<tr>
+	<td>13</td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pn) 13')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(wt) 13')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(sr) 13')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(cz) 13')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pt) 13')"></input></td>
+</tr>
+
+<tr>
+	<td>15</td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pn) 15')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(wt) 15')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(sr) 15')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(cz) 15')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pt) 15')"></input></td>
+</tr>
+
+<tr>
+	<td>17</td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pn) 17')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(wt) 17')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(sr) 17')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(cz) 17')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pt) 17')"></input></td>
+</tr>
+
+<tr>
+	<td>17</td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pn) 17')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(wt) 17')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(sr) 17')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(cz) 17')"></input></td>
+	<td><input type="checkbox" onclick="myFunction(this,'(pt) 17')"></input></td>
+</tr>
 
 <table cellpadding="0" cellspacing="0" border="0" class="display" id="tabelaHTML" ><thead>
 
