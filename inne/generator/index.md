@@ -23,7 +23,7 @@ function myFunction(but,te) {
 </script>
 
 
-<table>
+<table id="tabelaHTML">
 
 <tr>
 	<td></td>
