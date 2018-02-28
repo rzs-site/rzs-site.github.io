@@ -3,4 +3,8 @@ layout: default
 ---
 Generator planu
 ---
-Tutaj treść w WTF-8
+<script>
+var tableHTML = window.localStorage["sharedTable"];
+var table = document.createElement('table');
+table.innerHTML = tableHTML;
+</script>
