@@ -98,7 +98,7 @@ function myFunction(but,te) {
 </tr>
 </table>
 
-
+<div style="overflow-x:auto;">
 <table id="tabelaHTML">
   <tr>
     <th class="tg-yw4l">Kod grupy</th>
@@ -1649,3 +1649,4 @@ function myFunction(but,te) {
     <td class="tg-yw4l">Mgr Brzózka Aleksander</td>
   </tr>
 </table>
+</div>
