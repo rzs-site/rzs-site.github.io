@@ -99,7 +99,7 @@ function myFunction(but,te) {
 </table>
 
 <div style="overflow-x:auto;">
-<table id="tabelaHTML">
+<table id="tabelaHTML" class="light">
   <tr>
     <th class="tg-yw4l">Kod grupy</th>
     <th class="tg-yw4l">Nazwa</th>
