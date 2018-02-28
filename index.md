@@ -8,7 +8,7 @@ use_highlight: true
 O projekcie
 ---
 
-Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Niniejszy katalog to zbiór stworzonych przez nas materiałów z zakresu matematyki oraz informatyki. Strona główna zawiera najważniejsze informacje, listę linków oraz aktualności od naszego zespołu. Kursy obowiązkowe są zgrupowane według semestrów planowej realizacji. Osobną grupę stanowią kursy wybieralne, ponieważ niemalże każdy jest realizowany przez poszczególne roczniki w różnych semestrach. Natomiast ostatnia zakładka agreguje kursy ogólnouczelniane oraz informacje praktyczne. Powodzenia!
+Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów Wydziału Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Niniejszy katalog to zbiór stworzonych przez nas materiałów z zakresu matematyki oraz informatyki. Strona główna zawiera najważniejsze informacje, listę linków oraz aktualności od naszego zespołu. Kursy obowiązkowe są zgrupowane według semestrów planowej realizacji. Osobną kategorię stanowią kursy wybieralne, ponieważ niemalże każdy jest realizowany przez poszczególne roczniki w różnych semestrach. Natomiast ostatnia zakładka agreguje kursy ogólnouczelniane oraz informacje praktyczne. Powodzenia!
 
 Aktualny status
 ---
