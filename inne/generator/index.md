@@ -32,18 +32,6 @@ function startFunction() {
     } 
   }
 
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td");
-    th = tr[i].getElementsByTagName("th");
-  for (j = 5; j < td.length; j++) {
-        td[j].style.display = "none";
-  }
-  
-  for (k = 5; k < th.length; k++){
-        th[k].style.display = "none";
-        }
-  }
-  
 }
 </script>
 
