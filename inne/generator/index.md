@@ -22,7 +22,16 @@ function startFunction() {
       }
     } 
   }
-  
+
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[8];
+    if (td) {
+      if (td.innerHTML.indexOf("II") > -1) {
+        tr[i].style.display = "none";
+      }
+    } 
+  }
+
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td");
     th = tr[i].getElementsByTagName("th");
