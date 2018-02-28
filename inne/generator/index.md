@@ -4,6 +4,8 @@ layout: default
 Generator planu
 ---
 
+<button onclick="myFunction()">Click me</button>
+
 <script>
 function myFunction() {
   var input, filter, table, tr, td, i;
