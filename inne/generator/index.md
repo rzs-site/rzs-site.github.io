@@ -4,11 +4,6 @@ layout: gen_layout
 Generator planu
 ---
 
-<label class="switch">
-  <input type="checkbox">
-  <span class="slider round"></span>
-</label>
-
 <script>
 function myFunction(but,te) {
   var table, tr, td, i, butt;
@@ -40,68 +35,69 @@ function myFunction(but,te) {
 </tr>
 
 <tr>
-	<td>07:30</td>
-	<td><input type="radio" onclick="myFunction(this,'(pn) 07')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(wt) 07')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(sr) 07')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(cz) 07')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(pt) 07')"></td>
+	<td>07:30<span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 07')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 07')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 07')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(cz) 07')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pt) 07')"><span class="slider round"></span></label></td>
 </tr>
 
 <tr>
-	<td>09:15</td>
-	<td><input type="radio" onclick="myFunction(this,'(pn) 09')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(wt) 09')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(sr) 09')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(cz) 09')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(pt) 09')"></td>
+	<td>09:15<span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 09')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 09')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 09')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(cz) 09')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pt) 09')"><span class="slider round"></span></label></td>
 </tr>
 
 <tr>
-	<td>11:15</td>
-	<td><input type="radio" onclick="myFunction(this,'(pn) 11')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(wt) 11')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(sr) 11')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(cz) 11')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(pt) 11')"></td>
+	<td>11:15<span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 11')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 11')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 11')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(cz) 11')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pt) 11')"><span class="slider round"></span></label></td>
 </tr>
 
 <tr>
-	<td>13:15</td>
-	<td><input type="radio" onclick="myFunction(this,'(pn) 13')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(wt) 13')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(sr) 13')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(cz) 13')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(pt) 13')"></td>
+	<td>13:15<span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 13')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 13')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 13')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(cz) 13')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pt) 13')"><span class="slider round"></span></label></td>
 </tr>
 
 <tr>
-	<td>15:15</td>
-	<td><input type="radio" onclick="myFunction(this,'(pn) 15')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(wt) 15')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(sr) 15')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(cz) 15')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(pt) 15')"></td>
+	<td>15:15<span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 15')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 15')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 15')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(cz) 15')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pt) 15')"><span class="slider round"></span></label></td>
 </tr>
 
 <tr>
-	<td>17:05</td>
-	<td><input type="radio" onclick="myFunction(this,'(pn) 17')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(wt) 17')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(sr) 17')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(cz) 17')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(pt) 17')"></td>
+	<td>17:05<span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 17')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 17')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 17')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(cz) 17')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pt) 17')"><span class="slider round"></span></label></td>
 </tr>
 
 <tr>
-	<td>18:55</td>
-	<td><input type="radio" onclick="myFunction(this,'(pn) 18')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(wt) 18')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(sr) 18')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(cz) 18')"></td>
-	<td><input type="radio" onclick="myFunction(this,'(pt) 18')"></td>
+	<td>18:55<span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 18')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 18')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 18')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(cz) 18')"><span class="slider round"></span></label></td>
+	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pt) 18')"><span class="slider round"></span></label></td>
 </tr>
 </table>
+
 
 <div style="overflow-x:auto;">
 <table id="tabelaHTML" cellspacing='0' class="light">
