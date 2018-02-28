@@ -3,30 +3,31 @@ toc:
       url: ""
     - title: Semestr 1
       subfolderitems:
-        - page: Analiza matematyczna 1
+        - page: Analiza Matematyczna 1
           url: sems/sem1/am1/
-        - page: Logika i struktury formalne
+        - page: Logika i Struktury Formalne
           url: sems/sem1/lisf/
         - page: Algebra z Geometrią Analityczną
         - page: Wstęp do Informatyki i Programowania  
     - title: Semestr 2
       subfolderitems:
-        - page: Analiza matematyczna 2
+        - page: Analiza Matematyczna 2
           url: sems/sem2/am2/
-        - page: Matematyka dyskretna
+        - page: Matematyka Dyskretna
           url: sems/sem2/md/
         - page: Fizyka
         - page: Problemy Prawne Informatyki
         - page: Algebra Abstrakcyjna i Kodowanie
+        - page: Kurs Programowania
     - title: Semestr 3
       subfolderitems:
-        - page: Architektura komputerów i systemy operacyjne
+        - page: Architektura Komputerów i Systemy Operacyjne
           url: sems/sem3/akiso/
-        - page: Bazy danych
+        - page: Bazy Danych i Systemy Informacyjne
           url: sems/sem3/bd/
-        - page: Metody probabilistyczne i statystyka
+        - page: Metody Probabilistyczne i Statystyka
           url: sems/sem3/mpis/
-        - page: Technologie programowania
+        - page: Technologia Programowania
           url: sems/sem3/tp/
     - title: Semestr 4
       subfolderitems:
@@ -44,7 +45,7 @@ toc:
         - page: Wprowadzenie Do Funkcji Zespolonych
           url: sems/sem4/zespolone/
         - page: Wprowadzenie Do Teorii Grafów
-        - page: Programowanie w logice
+        - page: Programowanie w Logice
         - page: Nowoczesne Technologie WWW
         - page: Teoretyczne Podstawy Informatyki
         - page: Grafkika Komputerowa i Wizualizacja
