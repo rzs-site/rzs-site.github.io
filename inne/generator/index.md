@@ -35,7 +35,7 @@ function myFunction(but,te) {
 </tr>
 
 <tr>
-	<td>07:30<span class="slider round"></span></label></td>
+	<td>07:30</td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 07')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 07')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 07')"><span class="slider round"></span></label></td>
@@ -44,7 +44,7 @@ function myFunction(but,te) {
 </tr>
 
 <tr>
-	<td>09:15<span class="slider round"></span></label></td>
+	<td>09:15</td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 09')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 09')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 09')"><span class="slider round"></span></label></td>
@@ -53,7 +53,7 @@ function myFunction(but,te) {
 </tr>
 
 <tr>
-	<td>11:15<span class="slider round"></span></label></td>
+	<td>11:15</td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 11')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 11')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 11')"><span class="slider round"></span></label></td>
@@ -62,7 +62,7 @@ function myFunction(but,te) {
 </tr>
 
 <tr>
-	<td>13:15<span class="slider round"></span></label></td>
+	<td>13:15</td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 13')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 13')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 13')"><span class="slider round"></span></label></td>
@@ -71,7 +71,7 @@ function myFunction(but,te) {
 </tr>
 
 <tr>
-	<td>15:15<span class="slider round"></span></label></td>
+	<td>15:15</td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 15')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 15')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 15')"><span class="slider round"></span></label></td>
@@ -80,7 +80,7 @@ function myFunction(but,te) {
 </tr>
 
 <tr>
-	<td>17:05<span class="slider round"></span></label></td>
+	<td>17:05</td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 17')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 17')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 17')"><span class="slider round"></span></label></td>
@@ -89,7 +89,7 @@ function myFunction(but,te) {
 </tr>
 
 <tr>
-	<td>18:55<span class="slider round"></span></label></td>
+	<td>18:55</td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 18')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 18')"><span class="slider round"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 18')"><span class="slider round"></span></label></td>
