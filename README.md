@@ -63,6 +63,7 @@ Opis pojawi się wkrótce...
 * Matematyka dyskretna (uporządkować zagadnienia dr-a Żeberskiego)
 * Fizyka (podlinkować katedrę fizyki, na nic więcej się nie wysilamy)
 * Problemy Prawne Informatyki (Alek?)
+* Kurs Programowania (bez żartów, uratujmy tych nieszczęśników od AWT - choćby krótka wzmianka o wyższości FXa)
 * Algebra Abstrakcyjna i Kodowanie (jak AzGA - albo notatki Cichonia, albo masa roboty)
 * Architektura komputerów i systemy operacyjne (uzupełnić dwa brakujące rozdziały, następnie przepisać na webdev)
 * Bazy danych (przepisać notatki moje notatki /MP, na ten moment starczy)
