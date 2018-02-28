@@ -33,9 +33,11 @@ toc:
         - page: Algorytmy i Struktury Danych
         - page: Technologie Sieciowe
     - title: Semestr 5
+      subfolderitems:
         - page: Języki Formalne i Teoria Translacji  
         - page: Obliczenia Naukowe
     - title: Semestr 6
+      subfolderitems:
         - page: Systemy Wbudowane
     - title: Wybieralne
       subfolderitems:
@@ -47,5 +49,6 @@ toc:
         - page: Teoretyczne Podstawy Informatyki
         - page: Grafkika Komputerowa i Wizualizacja
     - title: Inne    
+        subfolderitems:
         - page: Szalone testy M.Pietrka, nie otwierać.
           url: inne/generator/
