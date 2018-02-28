@@ -61,13 +61,13 @@ toc: main_page
 [Strona prowadzącego](http://ki.pwr.edu.pl/kobylanski/dydaktyka/page6/page2/index.html)
 
 #### Laboratorium
-* [Lista 0](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista0.pdf)
-* [Lista 1](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista1.pdf)
-* [Lista 2](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista2.pdf)
-* [Lista 3](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista3.pdf)
-* [Lista 4](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista4.pdf)
-* [Lista 5](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista5.pdf)
-* [Lista 6](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista6.pdf)
-* [Lista 7](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista7.pdf)
-* [Lista 8](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista8.pdf)
-* [Lista 9](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista9.pdf)
+* [Lista 0](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista0.pdf) \[Termin: 1 zajęcia\]
+* [Lista 1](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista1.pdf) \[Termin: 2 zajęcia\]
+* [Lista 2](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista2.pdf) \[Termin: 3 zajęcia\]
+* [Lista 3](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista3.pdf) \[Termin: 5 zajęcia\]
+* [Lista 4](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista4.pdf) \[Termin: 7 zajęcia\]
+* [Lista 5](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista5.pdf) \[Termin: 8 zajęcia\]
+* [Lista 6](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista6.pdf) \[Termin: 10 zajęcia\]
+* [Lista 7](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista7.pdf) \[Termin: 12 zajęcia\]
+* [Lista 8](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista8.pdf) \[Termin: 13 zajęcia\]
+* [Lista 9](http://156.17.7.16/public/dydaktyka/kobylanski/laboratoria/inzynierskie/PL/pl_lista9.pdf) \[Termin: 15 zajęcia\]
