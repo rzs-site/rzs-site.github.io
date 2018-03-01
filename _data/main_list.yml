@@ -54,7 +54,7 @@ toc:
     - title: Wybieralne
       subfolderitems:
         - page: Wprowadzenie Do Funkcji Zespolonych
-          url: sems/sem4/zespolone/
+          url: wyb/zespolone/
         - page: Wprowadzenie Do Teorii Grafów
           url: error/
         - page: Programowanie w Logice
@@ -62,7 +62,7 @@ toc:
         - page: Nowoczesne Technologie WWW
           url: error/
         - page: Teoretyczne Podstawy Informatyki
-          url: error/
+          url: wyb/tpi/index.md
         - page: Grafkika Komputerowa i Wizualizacja
           url: error/
     - title: Inne    
