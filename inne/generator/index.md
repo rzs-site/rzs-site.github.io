@@ -1,5 +1,6 @@
 ---
 layout: gen_layout
+gen_style: true
 ---
 Generator planu
 ---
@@ -17,7 +18,7 @@ function myFunction(but,te) {
         if(but.checked) tr[i].style.display = "none";
         if(!but.checked) tr[i].style.display = "";
       }
-    } 
+    }
   }
 }
 </script>

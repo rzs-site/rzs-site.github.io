@@ -1,9 +1,10 @@
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/main.css">
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/header_style.css">
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/nav_style.css">
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/accordion.css">
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/gen_style.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/content.css">
 
 {% if page.use_highlight %}
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/syntax_highlight.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/syntax_highlight.css">
+{% endif %}
+
+{% if page.gen_style %}
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/gen_style.css">
 {% endif %}

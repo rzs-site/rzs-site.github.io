@@ -1,62 +1,19 @@
-<button class="moblie_nav_drop dropdown_button">Menu główne</button>
-<nav class="dropdownable main_nav">
-    {% for item in site.data.main_list.toc %}
+<div class="navigation">
+    <button class="nav-elem nav-button">Menu główne</button>
+    <nav class="nav-panel panel">
+        {% for item in site.data.main_list.toc %}
         {% if item.subfolderitems %}
-            <div class="dropdown">
-                <button class="dropdown_button">{{ item.title }}</button>
-                <div class="dropdown_content dropdownable">
-                    {% for entry in item.subfolderitems %}
-                        <a href="{{ site.baseurl }}/{{ entry.url }}">{{ entry.page }}</a>
-                    {% endfor %}
-                </div>
+        <div class="sub-dropdown">
+            <button class="dropdown-button">{{ item.title }}</button>
+            <div class="dropdown-panel">
+                {% for entry in item.subfolderitems %}
+                <a href="{{ site.baseurl }}/{{ entry.url }}">{{ entry.page }}</a>
+                {% endfor %}
             </div>
+        </div>
         {% else %}
-            <a class="sigle_button" href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
+        <a class="nav-elem" href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
         {% endif %}
-    {% endfor %}
-</nav>
-
-<script>
-    var acc = document.getElementsByClassName('dropdown_button');
-
-    var i;
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            const mq = window.matchMedia("(min-width: 800px)");
-
-            // TODO: this.classList.toggle("acc_active");
-            var panel = this.nextElementSibling;
-            var panels = document.getElementsByClassName('dropdownable');
-
-            var j;
-            for (j = 0; j < panels.length; j++) {
-                if (panels[j] == panel) {
-                    if (panels[j].style.maxHeight) {
-                        panels[j].style.maxHeight = null;
-                    } else {
-                        panels[j].style.maxHeight = panels[j].scrollHeight + "px";
-                    }
-                } else if (mq.matches) {
-                    panels[j].style.maxHeight = null;
-                }
-            }
-
-            if (this.parentNode.parentNode.classList.contains('main_nav')) {
-                this.parentNode.parentNode.style.maxHeight = "100%";
-            }
-        });
-    }
-
-    window.onclick = function(event) {
-        const mq = window.matchMedia("(min-width: 800px)");
-
-        if (mq.matches && !event.target.matches('.dropdown_button')) {
-            var panels = document.getElementsByClassName('dropdown_content');
-
-            var j;
-            for (j = 0; j < panels.length; j++) {
-                panels[j].style.maxHeight = null;
-            }
-        }
-    }
-</script>
+        {% endfor %}
+    </nav>
+</div>

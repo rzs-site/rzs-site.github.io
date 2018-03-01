@@ -1,0 +1,17 @@
+<div class="menu">
+    <button class="nav-elem nav-button">Page menu</button>
+    <nav class="nav-panel panel">
+        {% for item in site.data[page.toc].toc %}
+        {% if item.subfolderitems %}
+        <button class="nav-elem acc-button">{{ item.title }}</button>
+        <div class="acc-panel">
+            {% for entry in item.subfolderitems %}
+            <a href="{{ site.baseurl }}/{{ entry.url }}">{{ entry.page }}</a>
+            {% endfor %}
+        </div>
+        {% else %}
+        <a class="nav-elem" href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a>
+        {% endif %}
+        {% endfor %}
+    </nav>
+</div>
