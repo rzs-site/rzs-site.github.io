@@ -18,7 +18,7 @@ Strona główna zawiera najważniejsze informacje, listę linków oraz aktualno�
 Aktualny status
 ---
 
-Rozpoczęte zostały otwarte testy \\( \beta \\). Oprócz opracowań obecnie realizowanych przedmiotów, na wersje internetowe są sukcesywnie przetwarzane materiały z poprzednich lat. Wszelkie propozycje dodatkowych funkcjonalności prosimy zgłaszać za pośrednictwem adresu kontaktowego. Z uwagi na całkowitą niezależność od Samorządu oraz ograniczenia techniczne nie jesteśmy w stanie zrealizować wszystkich koncepcji, jednak każdy pomysł szczegółowo rozważymy, a w miarę możliwości spróbujemy zaimplementować.
+Rozpoczęte zostały otwarte testy \\( \beta \\). Oprócz opracowań obecnie realizowanych przedmiotów, na wersje internetowe są sukcesywnie przetwarzane materiały z poprzednich lat. Wszelkie propozycje dodatkowych funkcjonalności prosimy zgłaszać za pośrednictwem adresu [kontaktowego](http://rzs.edu.pl/info/#kontakt). Z uwagi na całkowitą niezależność od Samorządu oraz ograniczenia techniczne nie jesteśmy w stanie zrealizować wszystkich koncepcji, jednak każdy pomysł szczegółowo rozważymy, a w miarę możliwości spróbujemy zaimplementować.
 
 ```java
 public static void main(String[] args) {

@@ -5,7 +5,7 @@ toc: main_page
 
 ## Cel:
 
-Naszym celem jest ułatwienie Tobie nauki wymagających przedmiotów stojących na drodze do uzyskania Twojego tytułu inżyniera informatyki na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Materiały tworzone w ramach RZS mogą być używane w celach samokształcenia zarówno przez oficjalnych członków jak i przez inne osoby. Zasady wykorzystania materiałów znajdują się w sekcji licencja.
+Naszym celem jest ułatwienie Tobie nauki wymagających przedmiotów stojących na drodze do uzyskania Twojego tytułu inżyniera informatyki na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Materiały tworzone w ramach RZS mogą być używane w celach samokształcenia zarówno przez oficjalnych członków jak i przez inne osoby. Zasady wykorzystania materiałów znajdują się w sekcji [licencja](#licencja).
 
 ---
 
@@ -15,11 +15,13 @@ W związku z ogromem materiału, który musi być opanowany przez każdego pepec
 W szczególności potrzebujemy:
 * weryfikacji obecnie zamieszczonych materiałów,
 * rozwiązań zadań z ćwiczeń,
-* modelowych rozwiązań list laboratoryjnych
+* modelowych rozwiązań list laboratoryjnych,
 * notatek z wykładu w formie plików LaTeX.
 
-Prosimy o dostarczanie rozmaitych materiałów poprzez drogi wymienione w sekcji kontakt.
+Prosimy o dostarczanie rozmaitych materiałów poprzez drogi wymienione w sekcji [kontakt](#kontakt).
 Preferowany format materiałów to LaTeX lub pdf z opcją "copy text".
+
+Sugestie dotyczące strony internetowej także są mile widziane.
 
 ---
 
@@ -44,6 +46,8 @@ Projekt Razem Zdajmy Studia, oryginalnie Razem Zdajmy Algebrę, został założo
 ## Licencja:
 
 Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji [Creative Commons BY-ND](https://www.creativecommons.org/licenses/by-sa/4.0) (uznanie autorstwa, bez utworów zależnych).
+
+---
 
 ## Kontakt:
 
