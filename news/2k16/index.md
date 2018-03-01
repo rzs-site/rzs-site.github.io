@@ -16,12 +16,12 @@ toc: main_page
 
 ***
 
-## Technologie Siecowe
+## Technologie Siecowe:
 [Strona prowadzącego](http://cs.pwr.edu.pl/krzywiecki/teaching.html)
 
 ***
 
-## Grafika komputerowa i wizualizacja
+## Grafika komputerowa i wizualizacja:
 ["Strona" prowadzącego](https://drive.google.com/drive/folders/1Eyjbc0yleaQkyKj6yf2O_NcmuwF7e4IU)
 
 #### Ćwiczenia
@@ -32,12 +32,12 @@ toc: main_page
 
 ***
 
-## Nowoczesne Technologie WWW
+## Nowoczesne Technologie WWW:
 * [Strona prowadzącego](http://cs.pwr.edu.pl/cichon/2017_18_b/WWW.php)
 
 ***
 
-## Wprowadzenie do Funkcji Zespolonych
+## Wprowadzenie do Funkcji Zespolonych:
 [Strona prowadzącego](http://cs.pwr.edu.pl/morayne/dydaktyka.html)
 
 [Strona ćwiczeniowca](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/complex.html)
@@ -47,7 +47,7 @@ toc: main_page
 
 ***
 
-## Wprowadzenie do Teorii Grafów
+## Wprowadzenie do Teorii Grafów:
 [Strona prowadzącego](http://cs.pwr.edu.pl/morayne/dydaktyka.html)
 
 [Strona ćwiczeniowca](http://cs.pwr.edu.pl/kuchta/)
@@ -57,7 +57,7 @@ toc: main_page
 
 ***
 
-## Programowanie w Logice
+## Programowanie w Logice:
 [Strona prowadzącego](http://ki.pwr.edu.pl/kobylanski/dydaktyka/page6/page2/index.html)
 
 #### Laboratorium
