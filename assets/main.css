@@ -96,11 +96,6 @@
     border-left: 1px solid #181818;
 }
 
-.nav-elem:hover, .acc-panel a:hover, .dropdown-panel a:hover, .dropdown-button {
-    background: #454545;
-    transition: background 0.3s ease-out;
-}
-
 .content {
     grid-column: 1 / span 2;
     grid-row: 3;
@@ -155,6 +150,11 @@
     color: #777;
     font-weight: bold;
     margin-left: 0.4em;
+}
+
+.nav-elem:hover, .acc-panel a:hover, .dropdown-panel a:hover, .dropdown-button:hover {
+    background: #454545;
+    transition: background 0.3s ease-out;
 }
 
 @media screen and (min-width: 830px) {
