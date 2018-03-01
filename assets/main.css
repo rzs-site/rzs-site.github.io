@@ -304,6 +304,10 @@
         font-size: 0.9rem;
         font-weight: bold;
     }
+    
+    .dropdown-button:hover {
+        background: #454545;
+    }
 
     .dropdown-button:after, .acc-button:after {
         content: "\002B";
