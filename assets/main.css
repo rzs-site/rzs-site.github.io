@@ -96,7 +96,7 @@
     border-left: 1px solid #181818;
 }
 
-.nav-elem:hover, .acc-panel a:hover, .dropdown-panel a:hover {
+.nav-elem:hover, .acc-panel a:hover, .dropdown-panel a:hover, .dropdown-button {
     background: #454545;
     transition: background 0.3s ease-out;
 }
