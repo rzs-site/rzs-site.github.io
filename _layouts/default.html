@@ -1,19 +1,20 @@
 <!DOCTYPE html>
+
 <html lang="pl">
     <head>
         {% include default_head.html %}
     </head>
 
     <body>
-        <div id="container">
+        <div class="container wo-menu">
             {% include header.html %}
             {% include navigation.html %}
 
-            <div class="row">
-                <div class="content content_box">
-                    {{ content }}
-                </div>
+            <div class="content">
+                {{ content }}
             </div>
         </div>
+
+        {% include scripts.html %}
     </body>
 </html>

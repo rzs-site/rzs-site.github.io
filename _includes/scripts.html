@@ -1,0 +1,87 @@
+<script>
+    window.onclick = function(event) {
+        var panels, j;
+        if (!event.target.matches('.nav-elem') && !event.target.matches('.dropdown-button')) {
+            panels = document.getElementsByClassName('panel');
+
+            for (j = 0; j < panels.length; j++) {
+                panels[j].style.maxHeight = null;
+            }
+        }
+
+        const mq = window.matchMedia("(min-width: 830px)");
+        if (mq.matches && !event.target.matches('.dropdown-button')) {
+            panels = document.getElementsByClassName('dropdown-panel');
+
+            for (j = 0; j < panels.length; j++) {
+                panels[j].style.maxHeight = null;
+            }
+        }
+    }
+
+    var nav_buttons = document.getElementsByClassName('nav-button');
+
+    var i;
+    for (i = 0; i < nav_buttons.length; i++) {
+        nav_buttons[i].addEventListener("click", function() {
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = "none"; //panel.scrollHeight + "px";
+            }
+
+            var panels = document.getElementsByClassName('panel');
+
+            var j;
+            for (j = 0; j < panels.length; j++) {
+                if (panels[j] != panel) {
+                    panels[j].style.maxHeight = null;
+                }
+            }
+        });
+    }
+
+    var acc_buttons = document.getElementsByClassName('acc-button');
+
+    var i;
+    for (i = 0; i < acc_buttons.length; i++) {
+        acc_buttons[i].addEventListener("click", function() {
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+    var dropdown_buttons = document.getElementsByClassName('dropdown-button');
+
+    var i;
+    for (i = 0; i < dropdown_buttons.length; i++) {
+        dropdown_buttons[i].addEventListener("click", function() {
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+
+            const mq = window.matchMedia("(min-width: 830px)");
+            if (mq.matches) {
+                var panels = document.getElementsByClassName('dropdown-panel');
+
+                var j;
+                for (j = 0; j < panels.length; j++) {
+                    if (panels[j] != panel) {
+                        panels[j].style.maxHeight = null;
+                    }
+                }
+            }
+        });
+    }
+</script>

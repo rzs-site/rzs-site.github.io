@@ -1,22 +1,21 @@
 <!DOCTYPE html>
+
 <html lang="pl">
     <head>
         {% include default_head.html %}
     </head>
 
     <body>
-        <div id="container">
+        <div class="container">
             {% include header.html %}
             {% include navigation.html %}
+            {% include menu.html %}
 
-            <div class="content row">
-                <div class="vertical_menu">
-                    {% include accordion.html %}
-                </div>
-                <div class="content_column">
-                    {{ content }}
-                </div>
+            <div class="content">
+                {{ content }}
             </div>
         </div>
+
+        {% include scripts.html %}
     </body>
 </html>
