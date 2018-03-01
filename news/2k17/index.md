@@ -47,5 +47,3 @@ toc: main_page
 
 ## Problemy Prawne Informatyki:
 [Strona prowadzącego](https://kutylowski.im.pwr.wroc.pl/lehre/recht18/)
-
-***
