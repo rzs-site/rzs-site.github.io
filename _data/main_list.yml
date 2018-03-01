@@ -44,9 +44,9 @@ toc:
     - title: Semestr 5
       subfolderitems:
         - page: Języki Formalne i Teoria Translacji  
-          url: sems/sem3/jfitt/
+          url: sems/sem5/jfitt/
         - page: Obliczenia Naukowe
-          url: sems/sem3/on/
+          url: sems/sem5/on/
     - title: Semestr 6
       subfolderitems:
         - page: Systemy Wbudowane
