@@ -1,12 +1,7 @@
 toc:
-    - title: Wstęp
-      subfolderitems:
-        - page: Teoria
-          url: wyb/tpi/wstep/teoria
-        - page: Zadania
-          url: wyb/tpi/wstep/zadania
-        - page: Rozwiązania
-          url: wyb/tpi/wstep/rozwiazania
+    - title: Teoretyczne Podstawy Informatyki
+        - page: Teoretyczne Podstawy Informatyki
+          url: wyb/tpi/
     - title: Maszyny Turinga
       subfolderitems:
         - page: Teoria
