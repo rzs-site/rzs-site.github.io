@@ -43,6 +43,7 @@ Opis pojawi się wkrótce...
 * Czcionka menu powinna się zmniejszać przy szerokościach od 800 do 950 pikseli
 * Menu mobline chowa się ale zostaje z tyłu i nadal jest aktywne
 * (w bliżej nieokreślonej przyszłości) generator planu
+* (low priority) wysuwane rozwiązanie po kliknięciu na treść zadania (coś w stylu tego co jest na stronie wykładu z prologa)
 
 ## TODO (aktualne przedmioty):
 * Algorytmy i Sturtukry Danych (skrypt!!!)
