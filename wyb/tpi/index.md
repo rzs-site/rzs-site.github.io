@@ -1,7 +1,8 @@
 ---
-layout: default
-use_math: true
+layout: acc_layout
+toc: tpi
 ---
+
 Teoretyczne Podstawy Informatyki
 ---
 ## Wstęp
