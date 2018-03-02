@@ -64,7 +64,7 @@ toc:
         - page: Wprowadzenie Do Funkcji Zespolonych
           url: wyb/zespolone/
         - page: Teoretyczne Podstawy Informatyki
-          url: wyb/tpi/
+          url: wyb/tpi/wstep/teoria
     - title: Inne    
       subfolderitems:
         - page: Generator AKZ (test)
