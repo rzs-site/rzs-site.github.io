@@ -4,16 +4,16 @@ toc:
     - title: Wstęp
       subfolderitems:
         - page: Teoria
-          url: tpi/wstep/teoria
+          url: wyb/tpi/wstep/teoria
         - page: Zadania
-          url: tpi/wstep/zadania
+          url: wyb/tpi/wstep/zadania
         - page: Rozwiązania
-          url: tpi/wstep/rozwiazania
+          url: wyb/tpi/wstep/rozwiazania
     - title: Maszyny Turinga
       subfolderitems:
         - page: Teoria
-          url: tpi/maszyny/teoria
+          url: wyb/tpi/maszyny/teoria
         - page: Zadania
-          url: tpi/maszyny/zadania
+          url: wyb/tpi/maszyny/zadania
         - page: Rozwiązania
-          url: tpi/maszyny/rozwiazania
+          url: wyb/tpi/maszyny/rozwiazania
