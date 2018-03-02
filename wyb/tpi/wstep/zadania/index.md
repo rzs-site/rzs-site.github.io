@@ -11,6 +11,9 @@ Warto przerobić następujące zadania na początek:
   1. \\( p(n) = n^2 \\) i \\( c=1 \\);
   2. \\( p(n) = 100n^{100} \\) i \\( c = \frac{1}{100} \\)
 3. Dana jest funkcja Ackermanna określona wzorem:
+
+{::options parse_block_html="true" /}
+<div class="math-box">
 \\[
 A(m,n) =
 \begin{cases}
@@ -19,4 +22,6 @@ A(m-1,1) \leftarrow m>0 \wedge n=0 \\\
 A(m-1, A(m, n-1)) \leftarrow m>0 \wedge n>0
 \end{cases}
 \\]
+</div>
+
 Dodatkowo niech \\( A_i(n) \\) oznacza \\(A(i,n)\\). Policz wartości Ackermanna dla wszystkich \\( n,m\leq 4 \\). Podaj nierekurencyjne wzory na \\( A_i(n) \\) dla \\( i \leq 4 \\).
