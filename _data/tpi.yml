@@ -1,6 +1,5 @@
 toc:
-    - title: Teoretyczne Podstawy Informatyki
-        - page: Teoretyczne Podstawy Informatyki
+    - page: Teoretyczne Podstawy Informatyki
           url: wyb/tpi/
     - title: Maszyny Turinga
       subfolderitems:
