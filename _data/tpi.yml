@@ -1,0 +1,17 @@
+Teoretyczne Podstawy Informatyki:
+    - title: Wstęp
+      subfolderitems:
+        - page: Teoria
+          url: tpi/wstep/teoria
+        - page: Zadania
+          url: tpi/wstep/zadania
+        - page: Rozwiązania
+          url: tpi/wstep/rozwiazania
+    - title: Maszyny Turinga
+      subfolderitems:
+        - page: Teoria
+          url: tpi/maszyny/teoria
+        - page: Zadania
+          url: tpi/maszyny/zadania
+        - page: Rozwiązania
+          url: tpi/maszyny/rozwiazania
