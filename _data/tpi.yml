@@ -1,6 +1,4 @@
 toc:
-    - title: Teoretyczne Podstawy Informatyki
-      url: wyb/tpi    
     - title: Wstęp
       subfolderitems:
         - page: Teoria
