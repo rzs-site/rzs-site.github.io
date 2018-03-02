@@ -14,8 +14,8 @@ Warto przerobić następujące zadania na początek:
 \\[
 A(m,n) =
 \begin{cases}
-n+1 \leftarrow m=0 \\\\
-A(m-1,1) \leftarrow m>0 \wedge n=0 \\\\
+n+1 \leftarrow m=0 \\\
+A(m-1,1) \leftarrow m>0 \wedge n=0 \\\
 A(m-1, A(m, n-1)) \leftarrow m>0 \wedge n>0
 \end{cases}
 \\]
