@@ -35,6 +35,7 @@ div.highlight, .math-box {
 }
 
 table {
+    text-align: center;
     border-collapse: collapse;
     border-spacing: 0;
     margin: auto;
