@@ -42,15 +42,9 @@ toc:
         - page: Technologie Sieciowe
           url: sems/sem4/sieciowe/
     - title: Semestr 5
-      subfolderitems:
-        - page: Języki Formalne i Teoria Translacji  
-          url: sems/sem5/jfitt/
-        - page: Obliczenia Naukowe
-          url: sems/sem5/on/
+      url: "nietensemestr"
     - title: Semestr 6
-      subfolderitems:
-        - page: Systemy Wbudowane
-          url: sems/sem6/sw/
+      url: "nietensemestr"
     - title: Wybieralne
       subfolderitems:
         - page: Programowanie w Logice
