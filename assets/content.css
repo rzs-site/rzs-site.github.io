@@ -30,5 +30,5 @@ div.highlight, .math-box {
 }
 
 div.highlight, .math-box {
-    overflow-x: scroll;
+    overflow-x: auto;
 }
