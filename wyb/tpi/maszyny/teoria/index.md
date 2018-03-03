@@ -17,12 +17,18 @@ W podanej wyżej definicji \\( Q \\) jest skończonym zbiorem stanów, \\( q_0 \
 
 \\[ \delta: Q \times \Sigma \longrightarrow Q \cup \left\\{ "yes", "no", "halt" \right\\} \times \Sigma \cup \left\\{ \sqcup \right\\} \times \left\\{ \leftarrow, \rightarrow, - \right\\} \\]
 
-Stany "yes", "no", oraz "halt" oznaczają zatrzymanie maszyny. Strzałki oznaczają ruch głowicy automatu, która w stanie początkowym wskazuje na \\(x_0\\), a element z \\(Sigma \Cup { \sqcup } \\) oznacza element, który maszyna zostawia w miejscu w którym była.
+Stany "yes", "no", oraz "halt" oznaczają zatrzymanie maszyny. Strzałki oznaczają ruch głowicy automatu, która w stanie początkowym wskazuje na \\(x_0\\), a element z \\( \Sigma \cup { \sqcup } \\) oznacza element, który maszyna zostawia w miejscu w którym była.
 
-###Przykład
+### Przykład
 
-Niech \\( \Sigma = {0,1} \\). Definiujemy język \\( L = { ww^R : w \in \Sigma * }\\) (czyli wyraz jest palindromem). Aby skonstruować TM formalnie, która akceptuje tylko te słowa, które należą do \\( L \\), należy sporządzić tabelkę wyników funkcji \\( \delta \\):
+Niech \\( \Sigma = {0,1} \\). Definiujemy język \\( L = { ww^R : w \in \Sigma * }\\) (czyli wyraz jest palindromem). Aby skonstruować TM formalnie, która akceptuje tylko te słowa, które należą do \\( L \\), należy sporządzić tabelkę funkcji \\( \delta \\):
 
-\\( \delta \\)    | \\( 0 \\) | \\( 1 \\) | \\( \sqcup \\)
-----| --------- | --------- | --------------
-\\( q_0 \\)  | \\( \left(r_0, \sqcup , \rightarrow \right) \\)  |  \\( \left(r_1, \sqcup , \rightarrow \right) \\)  | \\( \left(tak, \sqcup , - \right) \\)
+\\( \delta\left(x,q\right) \\)    | \\( 0 \\) | \\( 1 \\) | \\( \sqcup \\)
+\\( r \\)  | \\( \left(r_0, \sqcup , \rightarrow \right) \\)  |  \\( \left(r_1, \sqcup , \rightarrow \right) \\)  | tak
+\\( r_0 \\)  |  \\( \left(r_0, 0 , \rightarrow \right) \\)  | \\( \left(r_0, 1 , \rightarrow \right) \\)  |  \\( \left(l_0, \sqcup, \leftarrow \right) \\)
+\\( r_1 \\)  |  \\( \left(r_1, 0 , \rightarrow \right) \\)  | \\( \left(r_1, 1 , \rightarrow \right) \\)  |  \\( \left(l_1, \sqcup, \leftarrow \right) \\)
+\\( l_0 \\)  |  \\( l, \sqcup, \leftarrow \\) |  nie  |  nie
+\\( l_1 \\)  |  nie  |  \\( l, \sqcup, \leftarrow \\)  |  nie
+\\( l \\)  |  \\( l, 0, \leftarrow \\)  |  \\( l, 1, \leftarrow \\)  |  \\( r, \sqcup, \rightarrow \\)
+
+Nasze \\( TM M = \left( \left\\{ r, r_0, r_1, l, l_0, l_1 \right\\}, \left\\{ 0, 1\right\\}, \delta, r \right)\\)
