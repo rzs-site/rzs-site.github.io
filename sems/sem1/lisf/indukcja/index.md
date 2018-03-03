@@ -20,5 +20,5 @@ Logika i struktury formalne
 * Permutacje zbiorów skończonych
 * \\( \vert Sym(\{1,2,\ldots,n\}) \vert =n! \\)
 * Jeśli \\( \vert A \vert =n$, to \\( [A]^k={n\choose k} \\)
-* Jeśli \\( n\neq m$, to \\( \vert \{1,2,\ldots, n\} \vert \neq \vert \{1,2,\ldots, m\} \vert \\)
+* Jeśli \\( n \neq m \\), to \\( \vert \{1,2,\ldots, n\} \vert \neq \vert \{1,2,\ldots, m\} \vert \\)
 * Zasada szufladkowa Dirichleta
