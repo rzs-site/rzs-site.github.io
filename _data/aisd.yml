@@ -8,7 +8,7 @@ toc:
           url: sems/sem4/aisd/sort/insert
         - page: Przez scalanie
           url: sems/sem4/aisd/sort/merge
-    - title: Złożoność obliczeniowa
+    - title: Złożoność
       subfolderitems:
         - page: Notacje
           url: sems/sem4/aisd/complexity/merge
