@@ -5,7 +5,7 @@ toc: main_page
 
 ## Cel:
 
-Naszym celem jest ułatwienie Tobie nauki wymagających przedmiotów stojących na drodze do uzyskania Twojego tytułu inżyniera informatyki na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Formalne zasady wykorzystania materiałów znajdują się w sekcji [licencja](#licencja).
+Naszym celem jest ułatwienie Tobie nauki wymagających przedmiotów stojących na drodze do uzyskania Twojego tytułu inżyniera informatyki na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej. [Formalne](http://ki.pwr.edu.pl/gebala/) zasady wykorzystania materiałów znajdują się w sekcji [licencja](#licencja).
 
 ---
 

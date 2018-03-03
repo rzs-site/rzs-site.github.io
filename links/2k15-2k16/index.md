@@ -10,7 +10,7 @@ toc: main_page
 * [Lista 1](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex1.pdf)
 * [Lista 2](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex2.pdf)
 
-#### Laboratoruim
+#### Laboratorium
 * [Lista 1](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab1.pdf) \[Termin: 2 zajęcia\]
 * [Lista 2](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab2.pdf) \[Termin: 25.03.18, 14:32\]
 
