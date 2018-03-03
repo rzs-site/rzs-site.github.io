@@ -26,6 +26,7 @@ toc: main_page
 
 #### Ćwiczenia
 * [Lista 1](https://drive.google.com/file/d/16vLOGLkXtqCTyW311LnYq0RJzmFavtmh/view)
+* [Lista 2](https://drive.google.com/file/d/1iA3HVKiP19emB-gkeC0m_NzkPYngBj7s/view)
 
 #### Laboratorium
 * [Lista 1](https://docs.google.com/document/d/1vT03ouBOyD5CyrSE5IRz8WoAaMzSfLAiYhgecUNSlMc/view) \[Termin: 06.04.18\]
