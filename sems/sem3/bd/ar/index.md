@@ -10,26 +10,26 @@ Bazy Danych i Systemy Informacyjne
 
 ### Algebra relacji
 
-\\( \begin{tabular}{|l|l|l|}
+\\( \begin{array}{|l|l|l|}
 \hline
-$ \sigma ( A ) $             & \texttt{SELECT} * \texttt{FROM} A                  & selekcja                      \\ \hline
-$ \sigma_C ( A ) $           & \texttt{SELECT} * \texttt{FROM} A \texttt{WHERE} C & selekcja warunkowa            \\ \hline
-$ \pi_K ( A ) $              & \texttt{SELECT} K \texttt{FROM} A                  & projekcja                     \\ \hline
-$ \pi_K ( \sigma_C ( A ) ) $ & \texttt{SELECT} K \texttt{FROM} A \texttt{WHERE} C & projekcja selekcji warunkowej \\ \hline
-$ \rho_N ( R ) $             & R \texttt{AS} N                                    & zmiana nazwy                  \\ \hline
-$ \gamma_G ( R ) $           & \texttt{GROUP BY} G                                & grupowanie                    \\ \hline
-$ \gamma_{MAX(k)} ( R ) $    & \texttt{SELECT MAX}(K) \texttt{FROM} R             & agregacja                     \\ \hline
-$ \delta ( R ) $             & \texttt{DISTINCT}...                               & usuwanie powtórzeń            \\ \hline
-$ \tau_K ( R ) $             & R \texttt{SORT BY} K \texttt{(ASC)}                & sortowanie rosnąco            \\ \hline
-$ \tau_{K\ DESC} ( R ) $     & R \texttt{SORT BY} K \texttt{DESC}                 & sortowanie malejąco           \\ \hline
-$ R \cup S $                 & R \texttt{UNION} S                                 & suma zbiorów                  \\ \hline \hline
-$ R \cap S $                 & R \texttt{INTERSECT} S                             & iloczyn zbiorów               \\ \hline
-$ R \setminus S $            & R \texttt{EXCEPT} S                                & różnica zbiorów               \\ \hline
-$ R \times S $               & R \texttt{JOIN} S                                  & iloczyn kartezjański          \\ \hline
-$ R \bowtie S $              & R \texttt{INNER JOIN} S                            & naturalne złączenie           \\ \hline
-$ R \bowtie_C S $            & R \texttt{JOIN} S \texttt{ON} C                    & złączenie warunkowe           \\ \hline
-$ R \bowtie_C S $            & R \texttt{JOIN} S \texttt{ON} C                    & złączenie warunkowe           \\ \hline
-\end{tabular} \\)
+ \sigma ( A )              & \texttt{SELECT} * \texttt{FROM} A                  & \textnormal{selekcja}                      \\ \hline
+ \sigma_C ( A )            & \texttt{SELECT} * \texttt{FROM} A \texttt{WHERE} C & \textnormal{selekcja warunkowa}            \\ \hline
+ \pi_K ( A )               & \texttt{SELECT} K \texttt{FROM} A                  & \textnormal{projekcja}                     \\ \hline
+ \pi_K ( \sigma_C ( A ) )  & \texttt{SELECT} K \texttt{FROM} A \texttt{WHERE} C & \textnormal{projekcja selekcji warunkowej} \\ \hline
+ \rho_N ( R )              & R \texttt{AS} N                                    & \textnormal{zmiana nazwy}                  \\ \hline
+ \gamma_G ( R )            & \texttt{GROUP BY} G                                & \textnormal{grupowanie}                    \\ \hline
+ \gamma_{MAX(k)} ( R )     & \texttt{SELECT MAX}(K) \texttt{FROM} R             & \textnormal{agregacja}                     \\ \hline
+ \delta ( R )              & \texttt{DISTINCT}...                               & \textnormal{usuwanie powtórzeń}            \\ \hline
+ \tau_K ( R )              & R \texttt{SORT BY} K \texttt{(ASC)}                & \textnormal{sortowanie rosnąco}            \\ \hline
+ \tau_{K\ DESC} ( R )      & R \texttt{SORT BY} K \texttt{DESC}                 & \textnormal{sortowanie malejąco}           \\ \hline
+ R \cup S                  & R \texttt{UNION} S                                 & \textnormal{suma zbiorów}                  \\ \hline \hline
+ R \cap S                  & R \texttt{INTERSECT} S                             & \textnormal{iloczyn zbiorów}               \\ \hline
+ R \setminus S             & R \texttt{EXCEPT} S                                & \textnormal{różnica zbiorów}               \\ \hline
+ R \times S                & R \texttt{JOIN} S                                  & \textnormal{iloczyn kartezjański}          \\ \hline
+ R \bowtie S               & R \texttt{INNER JOIN} S                            & \textnormal{naturalne złączenie}           \\ \hline
+ R \bowtie_C S             & R \texttt{JOIN} S \texttt{ON} C                    & \textnormal{złączenie warunkowe}           \\ \hline
+ R \bowtie_C S             & R \texttt{JOIN} S \texttt{ON} C                    & \textnormal{złączenie warunkowe}           \\ \hline
+\end{array} \\)
 
 | \\( \sigma ( A ) \\)             | \\( \texttt{SELECT} * \texttt{FROM} A\\)                   | selekcja                      |
 |----------------------------------|------------------------------------------------------------|-------------------------------|
