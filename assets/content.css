@@ -31,5 +31,4 @@ div.highlight, .math-box {
 
 div.highlight, .math-box {
     overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
 }
