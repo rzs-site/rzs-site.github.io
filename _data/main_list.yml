@@ -42,9 +42,9 @@ toc:
         - page: Technologie Sieciowe
           url: sems/sem4/sieciowe/
     - title: Semestr 5
-      url: "nietensemestr"
+      url: "error/nietensemestr"
     - title: Semestr 6
-      url: "nietensemestr"
+      url: "error/nietensemestr"
     - title: Wybieralne
       subfolderitems:
         - page: Programowanie w Logice
