@@ -15,6 +15,14 @@ Niech \\( \Sigma \\) będzie skończonym alfabetem. Jako **taśmę** definiuje s
 
 W podanej wyżej definicji \\( Q \\) jest skończonym zbiorem stanów, \\( q_0 \\) stanem początkowym, a \\( \delta \\) jest funkcją:
 
-\\[ \delta: Q \times \Sigma \longrightarrow Q \cup \left\\{ "yes", "no", "halt" \right\\} \times \Sigma \cup \left\\{ \sqcup \right\\} \times \left\\{ \leftarrow, \rightarrow, \ \right\\} \\]
+\\[ \delta: Q \times \Sigma \longrightarrow Q \cup \left\\{ "yes", "no", "halt" \right\\} \times \Sigma \cup \left\\{ \sqcup \right\\} \times \left\\{ \leftarrow, \rightarrow, - \right\\} \\]
 
-Stany "yes", "no", oraz "halt" oznaczają zatrzymanie maszyny. Strzałki oznaczają ruch głowicy.
+Stany "yes", "no", oraz "halt" oznaczają zatrzymanie maszyny. Strzałki oznaczają ruch głowicy automatu, która w stanie początkowym wskazuje na \\(x_0\\), a element z \\(Sigma \Cup { \sqcup } \\) oznacza element, który maszyna zostawia w miejscu w którym była.
+
+###Przykład
+
+Niech \\( \Sigma = {0,1} \\). Definiujemy język \\( L = { ww^R : w \in \Sigma * }\\) (czyli wyraz jest palindromem). Aby skonstruować TM formalnie, która akceptuje tylko te słowa, które należą do \\( L \\), należy sporządzić tabelkę wyników funkcji \\( \delta \\):
+
+    | \\( 0 \\) | \\( 1 \\) | \\( \sqcup \\)
+----| --------- | --------- | --------------
+\\( q_0 \\)  | \\( \left(r_0, \sqcup , \rightarrow \right) \\)  |  \\( \left(r_1, \sqcup , \rightarrow \right) \\)  | \\( \left(tak, \sqcup , - \right) \\) 
