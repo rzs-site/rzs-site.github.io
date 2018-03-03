@@ -15,7 +15,7 @@ Logika i struktury formalne
 * Reguły wnioskowania \\( \{\varphi_1,\varphi_2,\ldots,\varphi_n\}\models\psi \\)
 * Tautologie, przykłady
 * Podstawienie
-* Inne spójniki logiczne: alternatywa wykluczająca \\( \bigtriangleup \\), kreska Sheffera \\( | \\), spójnik Pierce'a \\( \bot \\)
+* Inne spójniki logiczne: alternatywa wykluczająca \\( \bigtriangleup \\), kreska Sheffera \\( \vert \\), spójnik Pierce'a \\( \bot \\)
 * Notacja polska
 * Metody dowodzenia twierdzeń:
   * metoda wprost
