@@ -6,7 +6,7 @@ use_highlight: true
 Kurza twarz!
 ---
 
-Udało Ci się znajeźć stronę która jeszcze nie powstała. Pracujemy nad nią, a jako jej zamiennik prezentujemy algorytm GCD w ARM
+Ta strona jeszcze nie powstała. Pracujemy nad nią, a jako zamiennik prezentujemy Bardzo Prosty™ algorytm GCD w ARM:
 
 ```nasm
 gcd     CMP     r1, r2
