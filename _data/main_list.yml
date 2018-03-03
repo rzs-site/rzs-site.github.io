@@ -18,13 +18,13 @@ toc:
         - page: Matematyka Dyskretna
           url: sems/sem2/md/
         - page: Fizyka
-          url: sems/sem2/fizyka/
+          url: error/not_ready/
         - page: Problemy Prawne Informatyki
           url: sems/sem2/prawne/
         - page: Algebra Abstrakcyjna i Kodowanie
-          url: sems/sem2/aaik/
+          url: error/not_ready/
         - page: Kurs Programowania
-          url: sems/sem2/kp/
+          url: error/not_ready/
     - title: Semestr 3
       subfolderitems:
         - page: Architektura Komputerów i Systemy Operacyjne
@@ -40,7 +40,7 @@ toc:
         - page: Algorytmy i Struktury Danych
           url: sems/sem4/aisd/
         - page: Technologie Sieciowe
-          url: sems/sem4/sieciowe/
+          url: error/not_ready/
     - title: Semestr 5
       url: "error/nietensemestr"
     - title: Semestr 6
@@ -48,17 +48,17 @@ toc:
     - title: Wybieralne
       subfolderitems:
         - page: Programowanie w Logice
-          url: wyb/prolog/
+          url: error/not_ready/
         - page: Nowoczesne Technologie WWW
-          url: wyb/www/
+          url: error/not_ready/
         - page: Grafkika Komputerowa i Wizualizacja
-          url: wyb/grafika/
+          url: error/not_ready/
         - page: Wprowadzenie Do Teorii Grafów
-          url: wyb/grafy/
+          url: error/not_ready/
         - page: Wprowadzenie Do Funkcji Zespolonych
           url: wyb/zespolone/
         - page: Teoretyczne Podstawy Informatyki
-          url: wyb/tpi/wstep/teoria
+          url: wyb/tpi/
     - title: Inne    
       subfolderitems:
         - page: Generator AKZ (test)
