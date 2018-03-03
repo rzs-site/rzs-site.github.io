@@ -1,6 +1,7 @@
 ---
 layout: acc_layout
 toc: lisf
+use_math: true
 ---
 
 Logika i struktury formalne
@@ -17,7 +18,7 @@ Logika i struktury formalne
 * Inne spójniki logiczne: alternatywa wykluczająca $\bigtriangleup$, kreska Sheffera $|$, spójnik Pierce'a $\bot$
 * Notacja polska
 * Metody dowodzenia twierdzeń:
-..* metoda wprost
-..* metoda nie wprost $\{\neg q\rightarrow \neg p\}\models p\rightarrow q$
-..* metoda przez sprowadzenie do sprzeczności $\{p\land\neg q\rightarrow\bot\}\models p\rightarrow q$
-..* metoda przez rozważenie przypadków $\{p_1\rightarrow q,p_2\rightarrow q,\ldots, p_n\rightarrow q\}\models (p_1\lor\ldots\lor p_n)\rightarrow q$
+  * metoda wprost
+  * metoda nie wprost $\{\neg q\rightarrow \neg p\}\models p\rightarrow q$
+  * metoda przez sprowadzenie do sprzeczności $\{p\land\neg q\rightarrow\bot\}\models p\rightarrow q$
+  * metoda przez rozważenie przypadków $\{p_1\rightarrow q,p_2\rightarrow q,\ldots, p_n\rightarrow q\}\models (p_1\lor\ldots\lor p_n)\rightarrow q$
