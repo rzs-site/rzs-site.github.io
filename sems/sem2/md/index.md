@@ -9,5 +9,13 @@ Matematyka Dyskretna
 
 ### Wstęp
 
-### Materiały dodatkowe (PDF)
+
+#### Wymagana wiedza
+* zbiory (LiSF)
+* kwantyfikatory (LiSF)
+* zasada indukcji matematycznej (LiSF)
+* szeregi (AM1)
+* całki (AM1)
+
+#### Materiały dodatkowe (PDF)
 <a href="{{ site.baseurl }}/pdfs/sem2/dyskretna-zagadnienia.pdf">Zestaw wzorów powtórkowych</a> (PDF)

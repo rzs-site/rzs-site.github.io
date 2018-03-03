@@ -1,0 +1,8 @@
+      subfolderitems:
+        - page: Języki Formalne i Teoria Translacji  
+          url: sems/sem5/jfitt/
+        - page: Obliczenia Naukowe
+          url: sems/sem5/on/
+      subfolderitems:
+        - page: Systemy Wbudowane
+          url: sems/sem6/sw/

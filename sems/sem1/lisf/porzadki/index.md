@@ -7,7 +7,7 @@ use_math: true
 Logika i struktury formalne
 ---
 
-###Częściowe porządki
+### Częściowe porządki
 
 * Definicja, przykłady
 * Izomorfizm (podobieństwo) częściowych porządków
