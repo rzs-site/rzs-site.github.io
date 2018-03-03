@@ -5,7 +5,7 @@ toc: main_page
 
 ## Cel:
 
-Naszym celem jest ułatwienie Tobie nauki wymagających przedmiotów stojących na drodze do uzyskania Twojego tytułu inżyniera informatyki na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Materiały tworzone w ramach RZS mogą być używane w celach samokształcenia zarówno przez oficjalnych członków jak i przez inne osoby. Zasady wykorzystania materiałów znajdują się w sekcji [licencja](#licencja).
+Naszym celem jest ułatwienie Tobie nauki wymagających przedmiotów stojących na drodze do uzyskania Twojego tytułu inżyniera informatyki na Wydziale Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Formalne zasady wykorzystania materiałów znajdują się w sekcji [licencja](#licencja).
 
 ---
 
@@ -18,8 +18,8 @@ W szczególności potrzebujemy:
 * modelowych rozwiązań list laboratoryjnych,
 * notatek z wykładu w formie plików LaTeX.
 
-Prosimy o dostarczanie rozmaitych materiałów poprzez drogi wymienione w sekcji [kontakt](#kontakt).
-Preferowany format materiałów to LaTeX lub pdf z opcją "copy text".
+Materiały prosimy przesyłać na adres podany w sekcji [kontakt](#kontakt).
+Preferowany format to LaTeX lub pdf z opcją "copy text".
 
 Sugestie dotyczące strony internetowej także są mile widziane.
 
@@ -39,7 +39,7 @@ Członkami RZS są zdolni oraz chętni do pomocy studenci Wydziału  Podstawowyc
 
 ## Historia:
 
-Projekt Razem Zdajmy Studia, oryginalnie Razem Zdajmy Algebrę, został założony w celu rozwiązania listy przygotowawczej do egzaminu z Algebry Abstrakcyjnej i Teorii Kodowania. Następie opracowane zostały pojęcia związane z Analizą Matematyczną 2. Wymienione powyżej zadania zostały w pełni zrealizowane, a doświadczenie zdobyte podczas ich realizacji umożliwiło powstanie m.in. Opus magnum z Architektury Komputerów i Systemów Operacyjnych.
+Projekt Razem Zdajmy Studia (oryginalnie Razem Zdajmy Algebrę) został założony w celu rozwiązania listy przygotowawczej do egzaminu z Algebry Abstrakcyjnej i Teorii Kodowania. Następie opracowane zostały pojęcia związane z Analizą Matematyczną 2. Wymienione powyżej zadania zostały w pełni zrealizowane, a doświadczenie zdobyte podczas ich realizacji umożliwiło powstanie m.in. kompendium z Architektury Komputerów i Systemów Operacyjnych.
 
 ---
 
