@@ -10,21 +10,21 @@ Bazy Danych i Systemy Informacyjne
 
 ### Schematy zapytań SQL
 
-#### Ramowy szablon zapytania}
+#### Ramowy szablon zapytania
 ```sql
 SELECT kolumna
 FROM tabela
 WHERE warunek
 ```
 
-#### Bardziej zaawansowany przykład}
+#### Bardziej zaawansowany przykład
 ```sql
 SELECT t1.k1, t1.k2
 FROM ( t1 INNER JOIN t2 ON t1.k3 = t2.k3 )
 WHERE ( t1.k4 > 0 ) AND ( t1.k5 IS NULL )
 ```
 
-#### Proste (niekoniecznie sensowne) podzapytanie}
+#### Proste (niekoniecznie sensowne) podzapytanie
 ```sql
 SELECT podzap.k2
 FROM 
@@ -74,16 +74,16 @@ ON
 
 #### Operacje na zbiorach wynikowych}
 
-* A `UNION` B     - suma \(( \cup \\)         
-* A `INTERSECT` B - iloczyn \(( \cap \\)  
-* A `EXCEPT` B    - różnica \(( \setminus \\)  
+* A `UNION` B     - suma \\( \cup \\)         
+* A `INTERSECT` B - iloczyn \\( \cap \\)  
+* A `EXCEPT` B    - różnica \\( \setminus \\)  
 
 #### Porządkowanie zbioru wynikowego (tylko na końcu)
 * ... `ORDER BY` A `(ASC)` - sortowanie (domyślnie rosnąco)                   
 * ... `ORDER BY` A `DESC`  - sortowanie malejąco                              
 * ... `GROUP BY` A       - grupowanie                                       
 * ... `HAVING C `        - filtr końcowy, po wykonaniu właściwego zapytania 
-* ... `LIMIT n `         - pierwsze \(( n $ wyników                           
+* ... `LIMIT n `         - pierwsze \\( n \\) wyników                           
 
 #### TESTY KODU INLINE
 * A AND B - standardowo 
