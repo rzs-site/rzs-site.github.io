@@ -1,0 +1,19 @@
+toc:
+    - title: Wstęp
+      url: sems/sem4/aisd
+      subfolderitems:
+    - title: Sortowanie
+      subfolderitems:
+        - page: Przez wstawanie
+          url: sems/sem4/aisd/sort/insert
+        - page: Przez scalanie
+          url: sems/sem4/aisd/sort/merge
+        - page: Przez twierdzenie o nieskończonej liczbie małp
+    - title: Złożoność obliczeniowa
+      subfolderitems:
+        - page: Notacje
+          url: sems/sem4/aisd/complexity/merge
+        - page: Rekurencja uniwersalna
+          url: sems/sem4/aisd/complexity/master
+        - page: Rozwiązania
+          url: sems/sem4/aisd/complexity/
