@@ -1,6 +1,13 @@
 ---
-layout: default
+layout: acc_layout
+toc: md
+use_math: true
 ---
-Matematyka dyskretna
+
+Matematyka Dyskretna
 ---
-<a href="{{ site.baseurl }}/pdfs/sem2/dyskretna-zagadnienia.pdf">Zagadnienia</a> (PDF)
+
+### Wstęp
+
+### Materiały dodatkowe (PDF)
+<a href="{{ site.baseurl }}/pdfs/sem2/dyskretna-zagadnienia.pdf">Zestaw wzorów powtórkowych</a> (PDF)
