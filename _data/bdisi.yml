@@ -1,9 +1,9 @@
 toc:
     - title: Wstęp
-      url: sems/sem4/bd/
+      url: sems/sem3/bd/
     - title: Podstawy SQL
-      url: sems/sem4/bd/sql
+      url: sems/sem3/bd/sql
     - title: Algebra relacji
-      url: sems/sem4/bd/ar
+      url: sems/sem3/bd/ar
     - title: Normalizacja
-      url: sems/sem4/bd/norm
+      url: sems/sem3/bd/norm
