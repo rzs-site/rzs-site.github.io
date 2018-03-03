@@ -53,6 +53,6 @@ Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne inf
 
 <script type="text/javascript"><!--
 var user = "admin";
-var domain = "rzs.ovh";
+var domain = "rzs.edu.pl";
 document.write(user + "(at)" + domain);
 // --></script>
