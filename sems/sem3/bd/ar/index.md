@@ -34,20 +34,21 @@ FROM
 ON
   podzap1.k1 = podzap2.k1
 ```
-
+  \\( 
+  
 ### Operatory SQL
 
 #### Porównawcze
-* =   -  równe 
-* <>  -  różne 
-* !=  -  różne 
-* >   -  większe 
-* <   -  mniejsze 
-* >=  -  większe lub równe 
-* <=  -  mniejsze lub równe 
+* \\( = \\)  -  równe 
+* \\( <> \\) -  różne 
+* \\( != \\) -  różne 
+* \\( > \\)  -  większe 
+* \\( < \\)  -  mniejsze 
+* \\( >= \\) -  większe lub równe 
+* \\( <= \\) -  mniejsze lub równe 
 
 #### Logiczne
-* A `AND` B - koniunkcja 
+* `a AND b` - koniunkcja 
 * A `OR` B  - alternatywa 
 * `NOT` A   - zaprzeczenie 
 
@@ -69,18 +70,18 @@ ON
 * `MIN` (A)   - wartość minimalna  
 * `MAX` (A)   - wartość maksymalna 
 * `AVG` (A)   - średnia            
-* `SUM`(A)   - suma               
-* `COUNT`(A) - ilość              
+* `SUM` (A)   - suma               
+* `COUNT` (A) - ilość              
 
 #### Operacje na zbiorach wynikowych}
 
-* A `UNION` B     - suma ($ \cup $)         
-* A `INTERSECT` B - iloczyn ($ \cap $)      
-* A `EXCEPT` B    - różnica ($ \setminus $) 
+* A `UNION` B     - suma \(( \cup \\)         
+* A `INTERSECT` B - iloczyn \(( \cap \\)  
+* A `EXCEPT` B    - różnica \(( \setminus \\)  
 
 #### Porządkowanie zbioru wynikowego (tylko na końcu)
-* ... `ORDER BY` A (ASC) - sortowanie (domyślnie rosnąco)                   
-* ... `ORDER BY` A DESC  - sortowanie malejąco                              
+* ... `ORDER BY` A `(ASC)` - sortowanie (domyślnie rosnąco)                   
+* ... `ORDER BY` A `DESC`  - sortowanie malejąco                              
 * ... `GROUP BY` A       - grupowanie                                       
-* ... `HAVING` C         - filtr końcowy, po wykonaniu właściwego zapytania 
-* ... `LIMIT` n          - pierwsze $ n $ wyników                           
+* ... `HAVING C `        - filtr końcowy, po wykonaniu właściwego zapytania 
+* ... `LIMIT n `         - pierwsze \(( n $ wyników                           
