@@ -31,4 +31,13 @@ Niech \\( \Sigma = {0,1} \\). Definiujemy język \\( L = { ww^R : w \in \Sigma *
 \\( l_1 \\)  |  nie  |  \\( l, \sqcup, \leftarrow \\)  |  nie
 \\( l \\)  |  \\( l, 0, \leftarrow \\)  |  \\( l, 1, \leftarrow \\)  |  \\( r, \sqcup, \rightarrow \\)
 
-Nasze \\( TM M = \left( \left\\{ r, r_0, r_1, l, l_0, l_1 \right\\}, \left\\{ 0, 1\right\\}, \delta, r \right)\\)
+Nasza TM \\( M = \left( \left\\{ r, r_0, r_1, l, l_0, l_1 \right\\}, \left\\{ 0, 1\right\\}, \delta, r \right)\\)
+
+Na początku ta tabelka może wyglądać na magię, zatem proponuję napisać działanie tej maszyny w liście kroków:
+1. Jeśli słowo jest puste, zwróć "tak".
+2. Weź pierwszy znak, wyczyść go, pamiętając jego wartość, po czym idź w prawo aż do napotkania \\( \sqcup \\).
+3. Idź w lewo, weź pierwszy znak i porównaj go z zapamiętanym. Jeśli są różne, zwróć "nie". W przeciwnym wypadku wyczyść go.
+4. Idź w lewo aż do napotkania \\( \sqcup \\).
+5. Wróć do punktu 1.
+
+Zauważmy, że idąc w ten sposób, aby sprawdzić palindrom maszyna wykona \\( O(n^2) \\) kroków, ponieważ będzie iść n razy w prawo, n-1 razy w lewo, n-2 razy w prawo, ... .
