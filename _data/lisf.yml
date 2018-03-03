@@ -1,0 +1,21 @@
+toc:
+    - title: Wstęp
+      url: sems/sem1/lisf
+    - title: Rachunek zdań
+      url: sems/sem1/lisf/rachunek
+    - title: Zbiory
+      url: sems/sem1/lisf/zbiory
+    - title: Kwantyfikatory
+      url: sems/sem1/lisf/kwantyfikatory
+    - title: Relacje
+      url: sems/sem1/lisf/relacje
+    - title: Relacje równoważności
+      url: sems/sem1/lisf/rownowaznosc
+    - title: Częściowe porządki
+      url: sems/sem1/lisf/porzadki
+    - title: Zasada Indukcji Matematycznej
+      url: sems/sem1/lisf/indukcja
+    - title: Teoria mocy
+      url: sems/sem1/lisf/moc
+    - title: Struktury formalne
+      url: sems/sem1/lisf/formalne
