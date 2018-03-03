@@ -3,7 +3,7 @@ layout: default
 use_math: true
 ---
 
-ALgebra z Geometrią Analityczną
+Algebra z Geometrią Analityczną
 ---
 
-<iframe src="http://cs.pwr.edu.pl/cichon/2016_17_a/Algebra01.php"></iframe>
+<iframe width=100% src="http://cs.pwr.edu.pl/cichon/2016_17_a/Algebra01.php"></iframe>
