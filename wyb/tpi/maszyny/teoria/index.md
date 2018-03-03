@@ -23,6 +23,6 @@ Stany "yes", "no", oraz "halt" oznaczają zatrzymanie maszyny. Strzałki oznacza
 
 Niech \\( \Sigma = {0,1} \\). Definiujemy język \\( L = { ww^R : w \in \Sigma * }\\) (czyli wyraz jest palindromem). Aby skonstruować TM formalnie, która akceptuje tylko te słowa, które należą do \\( L \\), należy sporządzić tabelkę wyników funkcji \\( \delta \\):
 
-    | \\( 0 \\) | \\( 1 \\) | \\( \sqcup \\)
+\\( \delta \\)    | \\( 0 \\) | \\( 1 \\) | \\( \sqcup \\)
 ----| --------- | --------- | --------------
-\\( q_0 \\)  | \\( \left(r_0, \sqcup , \rightarrow \right) \\)  |  \\( \left(r_1, \sqcup , \rightarrow \right) \\)  | \\( \left(tak, \sqcup , - \right) \\) 
+\\( q_0 \\)  | \\( \left(r_0, \sqcup , \rightarrow \right) \\)  |  \\( \left(r_1, \sqcup , \rightarrow \right) \\)  | \\( \left(tak, \sqcup , - \right) \\)
