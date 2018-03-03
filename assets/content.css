@@ -28,3 +28,7 @@ div.highlight, .math-box {
 .math-box {
     color: white;
 }
+
+div.highlight, .math-box {
+    overflow-x: auto;
+}
