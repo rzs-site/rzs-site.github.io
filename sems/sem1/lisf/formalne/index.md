@@ -7,7 +7,7 @@ use_math: true
 Logika i struktury formalne
 ---
 
-###Struktury formalne
+### Struktury formalne
 
 * Język, sygnatura języka
 * Termy

@@ -7,7 +7,7 @@ use_math: true
 Logika i struktury formalne
 ---
 
-###Teoria mocy
+### Teoria mocy
 
 * Pojęcie równoliczności zbiorów
 * Podstawowe fakty
@@ -15,7 +15,7 @@ Logika i struktury formalne
 * Metoda przekątniowa
 * \\( |A|\le |B| \\) wtedy i tylko wtedy, gdy istnieje iniekcja \\( f:A\to B \\).
 * Twierdzenia Cantora \\( |A|< |P(A)| \\).
-* Twierdzenie Cantora-Bernsteina \\( |A|\le |B|\land |B|\le |A|\longrightarrow |A|=|B| \\).
+* Twierdzenie Cantora-Bernsteina \\( |A|\le |B| \land |B| \le |A|\longrightarrow |A|=|B| \\).
 * Zbiory mocy \\( \aleph_0 \\)
 * Zbiory przeliczalne
 * Otoczka Kleeniego nad alfabetem przeliczalnym, zbiór liczb algebraicznych
