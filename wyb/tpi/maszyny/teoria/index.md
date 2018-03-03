@@ -14,5 +14,5 @@ Niech \\( \Sigma \\) będzie skończonym alfabetem. Jako **taśmę** definiuje s
 {::options parse_block_html="false" /}
 
 W podanej wyżej definicji \\( Q \\) jest skończonym zbiorem stanów, \\( q_0 \\) stanem początkowym, a \\( \delta \\) jest funkcją:
-\[ \delta: Q \times \Sigma \longrightarrow Q \Cup \left\\{ "yes", "no", "halt" \right\\} \times \Sigma \Cup \left\\{ \sqcup \right\\} \times \left\\{ \leftarrow, \rightarrow, \_ \right\\} \]
+\\[ \delta: Q \times \Sigma \longrightarrow Q \Cup \left\\{ "yes", "no", "halt" \right\\} \times \Sigma \Cup \left\\{ \sqcup \right\\} \times \left\\{ \leftarrow, \rightarrow, \_ \right\\} \\]
 Stany "yes", "no", oraz "halt" oznaczają zatrzymanie maszyny. Strzałki oznaczają ruch głowicy.
