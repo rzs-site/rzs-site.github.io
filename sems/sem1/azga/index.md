@@ -6,4 +6,4 @@ use_math: true
 Algebra z Geometrią Analityczną
 ---
 
-<iframe src="http://cs.pwr.edu.pl/cichon/2016_17_a/Algebra01.php" onload="this.width=screen.width;this.height=screen.height;"></iframe>
+<iframe style="width:100%;" src="http://cs.pwr.edu.pl/cichon/2016_17_a/Algebra01.php"></iframe>
