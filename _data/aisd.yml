@@ -8,7 +8,6 @@ toc:
           url: sems/sem4/aisd/sort/insert
         - page: Przez scalanie
           url: sems/sem4/aisd/sort/merge
-        - page: Przez twierdzenie o nieskończonej liczbie małp
     - title: Złożoność obliczeniowa
       subfolderitems:
         - page: Notacje
