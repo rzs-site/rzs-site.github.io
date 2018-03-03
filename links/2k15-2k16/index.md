@@ -4,7 +4,7 @@ toc: main_page
 ---
 
 ## Algorytmy i Struktury Danych:
-[Strona prowadzącego](http://cs.pwr.edu.pl/golebiewski/)
+[Strona prowadzącego](http://cs.pwr.edu.pl/golebiewski/#teaching/1718/aisd.php)
 
 #### Ćwiczenia
 * [Lista 1](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex1.pdf)
@@ -16,12 +16,12 @@ toc: main_page
 
 ***
 
-## Technologie Siecowe:
+## Technologie Sieciowe:
 [Strona prowadzącego](http://cs.pwr.edu.pl/krzywiecki/teaching.html)
 
 ***
 
-## Grafika komputerowa i wizualizacja:
+## Grafika Komputerowa i Wizualizacja:
 ["Strona" prowadzącego](https://drive.google.com/drive/folders/1Eyjbc0yleaQkyKj6yf2O_NcmuwF7e4IU)
 
 #### Ćwiczenia

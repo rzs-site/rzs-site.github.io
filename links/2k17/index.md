@@ -31,8 +31,9 @@ toc: main_page
 [Strona prowadzącego](http://cs.pwr.edu.pl/macyna/pkursprog.html)
 
 #### Laboratoria
-* [Zadanie00](http://cs.pwr.edu.pl/macyna/lista00W.pdf)
-* [Zadanie01](http://cs.pwr.edu.pl/macyna/lista01W.pdf)
+* [Zadanie00](http://cs.pwr.edu.pl/macyna/lista00W.pdf) \[Przed: 26-02-2018]
+* [Zadanie01](http://cs.pwr.edu.pl/macyna/lista01W.pdf) \[Przed: 04-03-2018\]
+* [Zadanie02](http://cs.pwr.edu.pl/macyna/lista02W.pdf) \[Przed: 19-03-2018\]
 
 ***
 
