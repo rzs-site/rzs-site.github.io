@@ -1,0 +1,19 @@
+toc:
+    - title: Wstęp
+      url: sems/sem2/md/
+    - title: Zasada indukcji matematycznej
+      url: sems/sem2/md/indukcja
+    - title: Współczynniki dwumianowe Newtona
+      url: sems/sem2/md/dwumian
+    - title: Permutacje
+      url: sems/sem2/md/permutacje
+    - title: Liczby Stirlinga
+      url: sems/sem2/md/stirlinga
+    - title: Grafy
+      url: sems/sem2/md/grafy
+    - title: Funkcje tworzace
+      url: sems/sem2/md/tworzace
+    - title: Klasy kombinatoryczne
+      url: sems/sem2/md/kombinatoryczne
+    - title: Wykładnicze funkcje tworzace
+      url: sems/sem2/md/wykladnicze
