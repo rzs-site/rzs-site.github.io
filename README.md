@@ -40,6 +40,7 @@ Opis pojawi się wkrótce...
 ## TODO:
 
 * Opis powyżej
+* Overflow tabel i formuł matematycznych
 * (w bliżej nieokreślonej przyszłości) generator planu
 
 ## TODO (aktualne przedmioty):
