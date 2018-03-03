@@ -22,7 +22,7 @@ Bazy Danych i Systemy Informacyjne
  \delta ( R )              & \texttt{DISTINCT}...                               & \text{usuwanie powtórzeń}            \\ \hline
  \tau_K ( R )              & R \texttt{SORT BY} K \texttt{(ASC)}                & \text{sortowanie rosnąco}            \\ \hline
  \tau_{K\ DESC} ( R )      & R \texttt{SORT BY} K \texttt{DESC}                 & \text{sortowanie malejąco}           \\ \hline
- R \cup S                  & R \texttt{UNION} S                                 & \text{suma zbiorów}                  \\ \hline \hline
+ R \cup S                  & R \texttt{UNION} S                                 & \text{suma zbiorów}                  \\ \hline
  R \cap S                  & R \texttt{INTERSECT} S                             & \text{iloczyn zbiorów}               \\ \hline
  R \setminus S             & R \texttt{EXCEPT} S                                & \text{różnica zbiorów}               \\ \hline
  R \times S                & R \texttt{JOIN} S                                  & \text{iloczyn kartezjański}          \\ \hline
