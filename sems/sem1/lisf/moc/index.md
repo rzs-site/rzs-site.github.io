@@ -11,11 +11,11 @@ Logika i struktury formalne
 
 * Pojęcie równoliczności zbiorów
 * Podstawowe fakty
-* Twierdzenie Cantora \\( |A|\neq |P(A)| \\)
+* Twierdzenie Cantora \\( \vert A \vert \neq \vert P(A) \vert \\)
 * Metoda przekątniowa
-* \\( |A|\le |B| \\) wtedy i tylko wtedy, gdy istnieje iniekcja \\( f:A\to B \\).
-* Twierdzenia Cantora \\( |A|< |P(A)| \\).
-* Twierdzenie Cantora-Bernsteina \\( |A|\le |B| \land |B| \le |A|\longrightarrow |A|=|B| \\).
+* \\( \vert A \vert \le \vert B \vert \\) wtedy i tylko wtedy, gdy istnieje iniekcja \\( f:A\to B \\).
+* Twierdzenia Cantora \\( \vert A \vert < \vert P(A) \vert \\).
+* Twierdzenie Cantora-Bernsteina \\( \vert A \vert \le \vert B \vert \land \vert B \vert \le \vert A \vert \longrightarrow \vert A \vert = \vert B \vert \\).
 * Zbiory mocy \\( \aleph_0 \\)
 * Zbiory przeliczalne
 * Otoczka Kleeniego nad alfabetem przeliczalnym, zbiór liczb algebraicznych
