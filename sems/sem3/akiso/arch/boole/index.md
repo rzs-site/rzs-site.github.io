@@ -19,13 +19,13 @@ Algebra Boole'a jest algebrą \\( (S,+(x,y),*(x,y),'(x),0_S,1_S) \\), w którym 
 
 | x | y | +(x,y) | *(x,y) | '(x)|
 |-------------------------------| 
-| 0 | 0 | 0      | 0      | 1   |
+| 0 | 0 | 0  | 0  | 1   |
 |-------------------------------| 
-| 0 | 1 | 1      | 0      | 1   |
+| 0 | 1 | 1  | 0  | 1   |
 |-------------------------------| 
-| 1 | 0 | 1      | 0      | 0   |
+| 1 | 0 | 1  | 0  | 0   |
 |-------------------------------| 
-| 1 | 1 | 1      | 1      | 0   |
+| 1 | 1 | 1  | 1  | 0   |
 
 W dalszej części skryptu będziemy używać nieformalnej i ogólnie przyjętej notacji \\( +(x,y)\equiv x+y \\), \\( *(x,y)\equiv xy \\), \\( '(x)\equiv x' \\).\\
 Ponadto, każda algebra Boole'a musi spełniać następujące aksjomaty:
@@ -54,21 +54,21 @@ Funkcje boolowskie można opisać na kilka różnych sposobów. Jednym z nich je
 
 | x | y | z | f(x,y,z) |
 |----------------------|
-| 0 | 0 | 0 | 1        |
+| 0 | 0 | 0 | 1|
 |----------------------|
-| 0 | 0 | 1 | 0        |
+| 0 | 0 | 1 | 0|
 |----------------------|
-| 0 | 1 | 0 | 0        |
+| 0 | 1 | 0 | 0|
 |----------------------|
-| 0 | 1 | 1 | 1        |
+| 0 | 1 | 1 | 1|
 |----------------------|
-| 1 | 0 | 0 | 1        |
+| 1 | 0 | 0 | 1|
 |----------------------|
-| 1 | 0 | 1 | 0        |
+| 1 | 0 | 1 | 0|
 |----------------------|
-| 1 | 1 | 0 | 0        |
+| 1 | 1 | 0 | 0|
 |----------------------|
-| 1 | 1 | 1 | 0        |
+| 1 | 1 | 1 | 0|
 
 
 Tą samą funkcję można również zapisać tak jak wcześniej, w postaci zdania logicznego. Robimy to na dwa sposoby. Pierwszy z nich polega na tym, że tam gdzie w wyniku funkcji występuje 1, (np dla f(0,0,0)), ,,koduje się'' zmienne które powodują tę wartość za pomocą koniunkcji tak, aby otrzymać 1. Następnie wszystkie te ,,kody'' łączy się alternatywą. Wynik jest następujący:
@@ -82,34 +82,34 @@ Wszystkie przedstawione powyżej zapisy są równoważne. Jednakże, funkcje boo
 
 #### Metoda Karnaugh (ang. Karnaugh map}
 
-Siatka Karnaugh jest równoważnym przedstawieniem funkcji boolowskiej. Zawiera wszystkie możliwe kombinacje wejść i każdej przyporządkowuje prawdę albo fałsz na wyjściu. Weźmy pewną funkcję \\( \texttt{F(A,B,C)} \\). Ma ona trzy wejścia. Ze~wzoru \\( 2^n \\), siatka musi opisywać wartości ośmiu wariantów: \\ \\
+Siatka Karnaugh jest równoważnym przedstawieniem funkcji boolowskiej. Zawiera wszystkie możliwe kombinacje wejść i każdej przyporządkowuje prawdę albo fałsz na wyjściu. Weźmy pewną funkcję \\( ` F(A,B,C) ` \\). Ma ona trzy wejścia. Ze~wzoru \\( 2^n \\), siatka musi opisywać wartości ośmiu wariantów: \\ \\
 
 ![Siatka Karnaugh](karnaugh01.svg)
 
 W tym przypadku prawdę na wyjściu otrzymamy dla dwóch kombinacji wejściowych.
 Znajdźmy jedną z~nich, przykładowo dla ,,jedynki'' z dolnego rzędu.
 Odczytujemy zmienne z oznaczeń wierszy i kolumn.
-Wiersze definiują tutaj tylko wartość wejścia \\( \texttt{A} \\), więc trywialne. Zapisujemy \\( \texttt{A = 1} \\).
+Wiersze definiują tutaj tylko wartość wejścia \\( ` A ` \\), więc trywialne. Zapisujemy \\( ` A = 1 ` \\).
 
-Nieco bardziej skomplikowane w tym przypadku są kolumny, wyznaczające jednocześnie wartości dwóch wejść. Hipotetycznie każda zmienna powinna być zapisana w osobnym wymiarze, jednak rozszerzyłoby to problem do zagadnienia 3D lub nawet 4D. Zamiast tego przy funkcjach trzech lub czterech zmiennych następuje łączenie wejść w pary, co znacząco upraszcza rysunki. Dlatego zapisujemy \\( \\( \texttt{BC = 01} \\) \\), a następnie rozbijamy na \\( \texttt{B = 0} \\) oraz \\( \texttt{C = 1} \\). Logiczną prawdę otrzymamy (nie wyłącznie!) dla \\( \texttt{A = 1} \\), \\( \texttt{B = 0} \\), \\( \texttt{C = 1} \\). \\
+Nieco bardziej skomplikowane w tym przypadku są kolumny, wyznaczające jednocześnie wartości dwóch wejść. Hipotetycznie każda zmienna powinna być zapisana w osobnym wymiarze, jednak rozszerzyłoby to problem do zagadnienia 3D lub nawet 4D. Zamiast tego przy funkcjach trzech lub czterech zmiennych następuje łączenie wejść w pary, co znacząco upraszcza rysunki. Dlatego zapisujemy \\( \\( ` BC = 01 ` \\) \\), a następnie rozbijamy na \\( ` B = 0 ` \\) oraz \\( ` C = 1 ` \\). Logiczną prawdę otrzymamy (nie wyłącznie!) dla \\( ` A = 1 ` \\), \\( ` B = 0 ` \\), \\( ` C = 1 ` \\). \\
 
 A co w przypadku odwrotnym, gdyby szukać wartości wyjściowej dla podanych wejść?
 Weźmy nową siatkę, tym razem bardziej losowy układ i cztery zmienne. 
 
 ![Siatka Karnaugh](karnaugh02.svg)
 
-Chcemy znaleźć wartość dla \\( \texttt{A = 0, B = 1, C = 1, D = 0} \\).
-W oznaczeniach wierszy jest \\( \texttt{AB} \\), natomiast kolumny wyznaczają wartości wejść \\( \texttt{CD} \\).
-Szukamy więc \\( \texttt{AB = 01} \\) oraz \\( \texttt{CD = 10} \\). 
+Chcemy znaleźć wartość dla \\( ` A = 0, B = 1, C = 1, D = 0 ` \\).
+W oznaczeniach wierszy jest \\( ` AB ` \\), natomiast kolumny wyznaczają wartości wejść \\( ` CD ` \\).
+Szukamy więc \\( ` AB = 01 ` \\) oraz \\( ` CD = 10 ` \\). 
 
 ![Siatka Karnaugh](karnaugh03.svg)
 
-Dla podanego układu wejść nasza funkcja przyjmie wartość \\( \texttt{0} \\), logiczny fałsz. \\
+Dla podanego układu wejść nasza funkcja przyjmie wartość \\( ` 0 ` \\), logiczny fałsz. \\
 
 Jak widać, czytanie siatek Karnaugh jest bardzo proste. Większość zadań z tej kategorii dotyczy jednak znacznie trudniejszego zagadnienia, czyli samodzielnego rysowania siatki, wypełniania, a następnie minimalizacji. Dobra wiadomość: ogólny algorytm jest wspólny dla wszystkich odmian zadania. Różnica dotyczy jedynie sposobu wypełniania, ponieważ funkcja wejściowa może być przedstawiona na wiele równoważnych sposobów. Natomiast na wyjściu zawsze otrzymamy identyczny wynik, ale w zależności od treści zadania należy go odpowiednio zinterpretować.
 
 ##### Schematy siatek
-Zacznijmy od podstaw. Tabelka Karnaugh ma boki będące potęgami liczby dwa, a ilość pól wynosi \\( 2^n \\), gdzie jako \\( n \\) oznaczamy ilość zmiennych. Wiersze i kolumny (kolejność umowna) muszą zostać opisane kodem Gray'a i nazwane zmiennymi. Dla przypomnienia, kolejne wyrazy w tym kodzie różnią się dokładnie jednym bitem. Na potrzeby minimalizacji wykorzystamy kod trywialny (\\( \texttt{0,1} \\)) oraz kod dwubitowy (\\( \texttt{00, 01, 11, 10} \\)). Natomiast zmienne dzielimy między ,,pion'' i ,,poziom''. Kod jednobitowy musi być powiązany z jedną zmienną, kod dwubitowy z dwiema zmiennymi. Doskonale widać to na poniższych tabelkach modelowych: 
+Zacznijmy od podstaw. Tabelka Karnaugh ma boki będące potęgami liczby dwa, a ilość pól wynosi \\( 2^n \\), gdzie jako \\( n \\) oznaczamy ilość zmiennych. Wiersze i kolumny (kolejność umowna) muszą zostać opisane kodem Gray'a i nazwane zmiennymi. Dla przypomnienia, kolejne wyrazy w tym kodzie różnią się dokładnie jednym bitem. Na potrzeby minimalizacji wykorzystamy kod trywialny (\\( ` 0,1 ` \\)) oraz kod dwubitowy (\\( ` 00, 01, 11, 10 ` \\)). Natomiast zmienne dzielimy między ,,pion'' i ,,poziom''. Kod jednobitowy musi być powiązany z jedną zmienną, kod dwubitowy z dwiema zmiennymi. Doskonale widać to na poniższych tabelkach modelowych: 
 
 ![Siatka Karnaugh](karnaugh04.svg)
 ![Siatka Karnaugh](karnaugh05.svg)
@@ -121,14 +121,14 @@ W zadaniach można najczęściej natrafić na jeden z czterech podstawowych wari
 
 * Funkcja boolowska \\
 W pierwszej kolejności mnożymy wszystkie nawiasy i usuwamy składniki trywialne. Przykład po uporządkowaniu: \\
-\\( \texttt{F(A,B,C,D) = A'B + A (BC + C') + DD' = A'B + AC' + ABC } \\) \\
-Otrzymaliśmy tzw. sumę iloczynów (SOP). Z definicji logicznej alternatywy, jeśli którykolwiek iloczyn będzie miał wartość \\( \texttt{1} \\), to cała funkcja przyjmie \\( \texttt{1} \\) na wyjściu. Wystarczy więc osobno zinterpretować wszystkie iloczyny. Przykładowo, \\( \texttt{A'B} \\) ma wartość \\( \texttt{1} \\) wtedy i tylko wtedy, gdy \\( \texttt{A = 0} \\) oraz \\( \texttt{B = 1} \\), a pozostałe zmienne mogą być dowolne. Zgodnie z instrukcją podaną we wprowadzeniu, znajdźmy wszystkie komórki spełniające kryteria. Obie zmienne są na legendzie ,,pionowej'', więc wybieramy po prostu cały wiersz \\( \texttt{01} \\).
+\\( ` F(A,B,C,D) = A'B + A (BC + C') + DD' = A'B + AC' + ABC  ` \\) \\
+Otrzymaliśmy tzw. sumę iloczynów (SOP). Z definicji logicznej alternatywy, jeśli którykolwiek iloczyn będzie miał wartość \\( ` 1 ` \\), to cała funkcja przyjmie \\( ` 1 ` \\) na wyjściu. Wystarczy więc osobno zinterpretować wszystkie iloczyny. Przykładowo, \\( ` A'B ` \\) ma wartość \\( ` 1 ` \\) wtedy i tylko wtedy, gdy \\( ` A = 0 ` \\) oraz \\( ` B = 1 ` \\), a pozostałe zmienne mogą być dowolne. Zgodnie z instrukcją podaną we wprowadzeniu, znajdźmy wszystkie komórki spełniające kryteria. Obie zmienne są na legendzie ,,pionowej'', więc wybieramy po prostu cały wiersz \\( ` 01 ` \\).
 ![Siatka Karnaugh](karnaugh07.svg)
 
-Następny składnik to \\( \texttt{AC'} \\). Znajdujemy więc dwa wiersze z \\( \texttt{A = 1} \\) oraz dwie kolumny, gdzie \\( \texttt{C = 0} \\), a następnie zaznaczamy część wspólną.
+Następny składnik to \\( ` AC' ` \\). Znajdujemy więc dwa wiersze z \\( ` A = 1 ` \\) oraz dwie kolumny, gdzie \\( ` C = 0 ` \\), a następnie zaznaczamy część wspólną.
 ![Siatka Karnaugh](karnaugh08.svg)
 
-Ostatni iloczyn to \\( \texttt{ABC} \\). Wybieramy jeden wiersz i dwie kolumny, częścią wspólną są dwie komórki. \\ \\
+Ostatni iloczyn to \\( ` ABC ` \\). Wybieramy jeden wiersz i dwie kolumny, częścią wspólną są dwie komórki. \\ \\
 ![Siatka Karnaugh](karnaugh09.svg)
 
 W zaznaczone miejsca wstawiamy jedynki. Tabelkę bez zakreśleń przepisujemy, pozostałe miejsca uzupełniamy zerami. Z gotowym wynikiem przechodzimy do następnego kroku. \\ \\
@@ -136,7 +136,7 @@ W zaznaczone miejsca wstawiamy jedynki. Tabelkę bez zakreśleń przepisujemy, p
 
 
 * notacja \\( \Sigma \\) (skrócony zapis SOP) \\
-Pomimo pozornego skomplikowania, notacja skrócona \\( \Sigma \\) jest bardzo wygodna. Wykorzystuje ona fakt, że wiersze i kolumny są opisane kodem Gray'a, więc każdemu polu można przypisać unikatową liczbę binarną, łącząc oznaczenia wiersza i kolumny. Na początku najlepiej wykonywać trzy tabelki - pomocniczą binarną, pomocniczą dziesiętną i główną. Później można wykonywać zamianę w locie i zapisywać tylko wartości dziesiętne. Znając na pamięć kolejność komórek, nawet to staje się oczywiście niepotrzebne. W przykładach wykorzystamy natomiast metodę najdłuższą, ale najpewniejszą. Pierwsza z poniższych tabelek pomocniczych to złączone wartości wierszy i kolumn (w tej kolejności, ponieważ \\( \texttt{AB} \\) jest przed \\( \texttt{CD} \\)), a druga przedstawia zamianę wartości na system dziesiętny. \\ \\
+Pomimo pozornego skomplikowania, notacja skrócona \\( \Sigma \\) jest bardzo wygodna. Wykorzystuje ona fakt, że wiersze i kolumny są opisane kodem Gray'a, więc każdemu polu można przypisać unikatową liczbę binarną, łącząc oznaczenia wiersza i kolumny. Na początku najlepiej wykonywać trzy tabelki - pomocniczą binarną, pomocniczą dziesiętną i główną. Później można wykonywać zamianę w locie i zapisywać tylko wartości dziesiętne. Znając na pamięć kolejność komórek, nawet to staje się oczywiście niepotrzebne. W przykładach wykorzystamy natomiast metodę najdłuższą, ale najpewniejszą. Pierwsza z poniższych tabelek pomocniczych to złączone wartości wierszy i kolumn (w tej kolejności, ponieważ \\( ` AB ` \\) jest przed \\( ` CD ` \\)), a druga przedstawia zamianę wartości na system dziesiętny. \\ \\
 \begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
 \manualterms{\\( _{0000} \\),\\( _{0001} \\),\\( _{0010} \\),\\( _{0011} \\),
 \\( _{0100} \\),\\( _{0101} \\),\\( _{0110} \\),\\( _{0111} \\),
@@ -198,37 +198,37 @@ Zapiszmy wszystko, co może się przydać: cztery zmienne, wartość binarna, wa
 
 | A | B | C | D | (BIN) | (DEC) | x | y | x \\( \wedge \\) y |
 |------------------------------------------------------------|
-| 0 | 0 | 0 | 0 | 0000  | 0     | 0 | 0 | 0                  |
+| 0 | 0 | 0 | 0 | 0000  | 0 | 0 | 0 | 0  |
 |------------------------------------------------------------|
-| 0 | 0 | 0 | 1 | 0001  | 1     | 0 | 0 | 0                  |
+| 0 | 0 | 0 | 1 | 0001  | 1 | 0 | 0 | 0  |
 |------------------------------------------------------------|
-| 0 | 0 | 1 | 0 | 0010  | 2     | 0 | 0 | 0                  |
+| 0 | 0 | 1 | 0 | 0010  | 2 | 0 | 0 | 0  |
 |------------------------------------------------------------|
-| 0 | 0 | 1 | 1 | 0011  | 3     | 0 | 1 | 0                  |
+| 0 | 0 | 1 | 1 | 0011  | 3 | 0 | 1 | 0  |
 |------------------------------------------------------------|
-| 0 | 1 | 0 | 0 | 0100  | 4     | 1 | 1 | 1                  |
+| 0 | 1 | 0 | 0 | 0100  | 4 | 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 0 | 1 | 0 | 1 | 0101  | 5     | 1 | 1 | 1                  |
+| 0 | 1 | 0 | 1 | 0101  | 5 | 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 0 | 1 | 1 | 0 | 0110  | 6     | 1 | 1 | 1                  |
+| 0 | 1 | 1 | 0 | 0110  | 6 | 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 0 | 1 | 1 | 1 | 0111  | 7     | 1 | 1 | 1                  |
+| 0 | 1 | 1 | 1 | 0111  | 7 | 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 1 | 0 | 0 | 0 | 1000  | 8     | 1 | 1 | 1                  |
+| 1 | 0 | 0 | 0 | 1000  | 8 | 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 1 | 0 | 0 | 1 | 1001  | 9     | 1 | 1 | 1                  |
+| 1 | 0 | 0 | 1 | 1001  | 9 | 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 1 | 0 | 1 | 0 | 1010  | 10    | 1 | 0 | 0                  |
+| 1 | 0 | 1 | 0 | 1010  | 10| 1 | 0 | 0  |
 |------------------------------------------------------------|
-| 1 | 0 | 1 | 1 | 1011  | 11    | 1 | 0 | 0                  |
+| 1 | 0 | 1 | 1 | 1011  | 11| 1 | 0 | 0  |
 |------------------------------------------------------------|
-| 1 | 1 | 0 | 0 | 1100  | 12    | 1 | 1 | 1                  |
+| 1 | 1 | 0 | 0 | 1100  | 12| 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 1 | 1 | 0 | 1 | 1101  | 13    | 1 | 1 | 1                  |
+| 1 | 1 | 0 | 1 | 1101  | 13| 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 1 | 1 | 1 | 0 | 1110  | 14    | 1 | 1 | 1                  |
+| 1 | 1 | 1 | 0 | 1110  | 14| 1 | 1 | 1  |
 |------------------------------------------------------------|
-| 1 | 1 | 1 | 1 | 1111  | 15    | 1 | 1 | 1                  |
+| 1 | 1 | 1 | 1 | 1111  | 15| 1 | 1 | 1  |
 
 
 Otrzymane wartości należy przepisać do siatki Karnaugh. Możemy to zrobić bezpośrednio z wartości \\( A, B, C, D \\), natomiast w celu uniknięcia pomyłki zalecam zakreślanie jedynek w tabelce pomocniczej. \\ \\
@@ -261,7 +261,7 @@ Przykłady w poprzednich zadaniach (funkcja, \\( \Sigma \\), \\( \prod \\), opis
 \end{karnaugh-map} \\
 Na wyjściu możemy otrzymać jedną z dwóch podstawowych postaci, SOP lub POS. Jeśli jest zaznaczone w poleceniu, wybieramy odpowiednią (lub obie). Jeśli brak informacji, domyślnie liczymy SOP.
 
-* Minimalny SOP, suma iloczynów, np. \\( \texttt{XY + Z} \\) \\
+* Minimalny SOP, suma iloczynów, np. \\( ` XY + Z ` \\) \\
 W celu wyznaczenia POS, zaznaczamy możliwie największe grupy jedynek o bokach \\( 2^n \\).
 Dla funkcji czterech zmiennych dozwolone wartości to 1, 2 i 4.
 Zachodzenie grup na siebie jest wskazane, ponieważ im większa grupa, tym mniej symboli potrzeba do jej zapisu.
@@ -279,14 +279,14 @@ Jedna opisuje obszar równy połowie pola, dwie to już \\( 1/4 \\), przy trzech
 \end{karnaugh-map} \\
 Tworzenie funkcji przebiega odwrotnie do wypełniania tabelki.
 Dla każdej grupy należy wypisać, jakie zmienne ją jednoznacznie definiują.
-W polu ,,czerwonym'' \\( \texttt{A, C, D} \\) nie mają jednoznacznej wartości, więc zostają pominięte.
-Natomiast \\( \texttt{B} \\) na zakreślonym obszarze jest zawsze równe 1, a poza nim zawsze równe 0.
-Dlatego składnik odpowiadający największej grupie będzie równy po prostu \\( \texttt{B} \\).
+W polu ,,czerwonym'' \\( ` A, C, D ` \\) nie mają jednoznacznej wartości, więc zostają pominięte.
+Natomiast \\( ` B ` \\) na zakreślonym obszarze jest zawsze równe 1, a poza nim zawsze równe 0.
+Dlatego składnik odpowiadający największej grupie będzie równy po prostu \\( ` B ` \\).
 Podobnie dla ,,zielonego'' kwadratu.
-Łatwo można zauważyć, że obszar ten wyznaczają \\( \texttt{A} \\) oraz \\( \texttt{C'} \\). Iloczyn wynosi \\( \texttt{A'C} \\).
-Końcowy wynik to \\( \texttt{SOP = AC' + B } \\). 
+Łatwo można zauważyć, że obszar ten wyznaczają \\( ` A ` \\) oraz \\( ` C' ` \\). Iloczyn wynosi \\( ` A'C ` \\).
+Końcowy wynik to \\( ` SOP = AC' + B  ` \\). 
 
-* Minimalny POS, iloczyn sum, np. \\( \texttt{(X + Y) (Z)} \\) \\
+* Minimalny POS, iloczyn sum, np. \\( ` (X + Y) (Z) ` \\) \\
 Analogiczne postępowanie przy POS.
 Tabelkę ponownie przepisać, ale tym razem zakreślić zera.
 Ten konkretny przykład pokazuje ważną cechę siatki Karnaugh - formalnie jest ona torusem\footnote{model 3D można zakupić w Biedronce pod nazwą handlową donut}, więc naprzeciwległe krawędzie są również połączone ze sobą, co należy uwzględniać przy szukaniu grup maksymalnych.
@@ -299,18 +299,18 @@ Opisana sytuacja występuje w przypadku grupy ,,zielonej'', utworzonej ze skrajn
 \implicant{0}{2}
 \implicantedge{3}{2}{11}{10}
 \end{karnaugh-map}\\
-Z tabelki jednoznacznie wynika, że tym razem ,,zielona'' grupa jest definiowana przez \\( \texttt{C} \\) oraz \\( \texttt{B'} \\), natomiast ,,czerwona'' przez \\( \texttt{A'} \\) i \\( \texttt{B'} \\). Tutaj dochodzi dodatkowy ważny krok! Przed połączeniem w sumy, należy zanegować każdą zmienną. Ostateczny wynik to \\( \texttt{SOP = (C'+B)(A+B)} \\). 
+Z tabelki jednoznacznie wynika, że tym razem ,,zielona'' grupa jest definiowana przez \\( ` C ` \\) oraz \\( ` B' ` \\), natomiast ,,czerwona'' przez \\( ` A' ` \\) i \\( ` B' ` \\). Tutaj dochodzi dodatkowy ważny krok! Przed połączeniem w sumy, należy zanegować każdą zmienną. Ostateczny wynik to \\( ` SOP = (C'+B)(A+B) ` \\). 
 
 
 Wykorzystany przykład jest na tyle mało zaawansowany, że można szybko wykazać równoważność obu postaci.
 Najprościej przemnożyć składniki minimalnego POS:
-\\( \texttt{(C' + B)(A + B) = AC' + B} \\).
+\\( ` (C' + B)(A + B) = AC' + B ` \\).
 Wynik identyczny z minimalnym SOP.
 Przy skomplikowanych funkcjach postać nadal będzie równoważna, ale jest to znacznie trudniejsze to zaobserwowania, ponieważ mnożąc POS możemy otrzymać SOP dowolny, nie minimalny.
 
 Uwaga! Czasami (chociaż rzadko) zdarza się, że jedynki/zera wystąpią na wszystkich czterech rogach.
 Wtedy należy zgrupować je w kwadrat, korzystając jednocześnie z zasad łączenia przeciwległych boków w pionie oraz w poziomie.
-Dla siatki czterech zmiennych jak poniżej, taki iloczyn zostanie oznaczony \\( \texttt{B'D'} \\). \\ \\
+Dla siatki czterech zmiennych jak poniżej, taki iloczyn zostanie oznaczony \\( ` B'D' ` \\). \\ \\
 \begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
 \manualterms{1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0}
 \implicantcorner
@@ -320,17 +320,17 @@ Dla siatki czterech zmiennych jak poniżej, taki iloczyn zostanie oznaczony \\( 
 Z poprzedniego podpunktu otrzymaliśmy POS i/lub SOP.
 Przyjmując że poprawnie wybraliśmy możliwie najmniejszą ilość maksymalnych grup, są to oczywiście postaci minimalne.
 Jeśli w treści zadania jest wymagana postać kanoniczna, dodatkowo sztucznie uzupełniamy wszystkie brakujące zmienne.
-Do SOP bez zmiany wartości można dodać \\( \texttt{A' A} \\).
-Odpowiednikiem dla POS jest mnożenie \\( \texttt{(A + A')} \\).
-Naszym przykładem była funkcja \\( \texttt{F(A,B,C,D)} \\), ale wszystkie składniki zawierające \\( \texttt{D} \\) były trywialne, więc zmienna ta została wykluczona już na początku.
+Do SOP bez zmiany wartości można dodać \\( ` A' A ` \\).
+Odpowiednikiem dla POS jest mnożenie \\( ` (A + A') ` \\).
+Naszym przykładem była funkcja \\( ` F(A,B,C,D) ` \\), ale wszystkie składniki zawierające \\( ` D ` \\) były trywialne, więc zmienna ta została wykluczona już na początku.
 Dodajmy ją w celu uzyskania postaci kanonicznej.
-POS kanoniczny to \\( \texttt{AC' + B + DD'} \\), natomiast kanoniczny POS przybierze postać \\( \texttt{(C' + B)(A + B)(D + D')} \\).
+POS kanoniczny to \\( ` AC' + B + DD' ` \\), natomiast kanoniczny POS przybierze postać \\( ` (C' + B)(A + B)(D + D') ` \\).
 Czasami elementem zadania może być też narysowanie odpowiedniej kombinacji bramek logicznych. Wtedy wykorzystujemy minimalny SOP i postępujemy jak przy projektowaniu układów logicznych z funkcji boolowskiej (w osobnym rozdziale).
 
 ##### ,,Dla tych, którzy chcą wiedzieć więcej...''
 
 * Stany nieoznaczone \\
-Czasami w zadaniu wskazane są kombinacje, które nie muszą przyjmować żadnej określonej wartości. Najczęściej dotyczy to postaci skróconej SOP lub POS (notacje \\( \Sigma \\) i \\( \prod \\)), gdzie pola te oznaczone są literą \\( \texttt{d} \\). Ogólna zasada jest bardzo prosta - stan nieokreślony traktujemy jako zero lub jedynkę, w zależności od tego, co pozwoli lepiej zminimalizować funkcję. Przykład: \\( F (A,B,C,D) = \Sigma m (0,1,4) + d(5,7) \\) \\
+Czasami w zadaniu wskazane są kombinacje, które nie muszą przyjmować żadnej określonej wartości. Najczęściej dotyczy to postaci skróconej SOP lub POS (notacje \\( \Sigma \\) i \\( \prod \\)), gdzie pola te oznaczone są literą \\( ` d ` \\). Ogólna zasada jest bardzo prosta - stan nieokreślony traktujemy jako zero lub jedynkę, w zależności od tego, co pozwoli lepiej zminimalizować funkcję. Przykład: \\( F (A,B,C,D) = \Sigma m (0,1,4) + d(5,7) \\) \\
 \begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
 \manualterms{1,1,0,0,1,X,0,X,0,0,0,0,0,0,0,0}
 \end{karnaugh-map} 
@@ -341,7 +341,7 @@ Czasami w zadaniu wskazane są kombinacje, które nie muszą przyjmować żadnej
 Pierwszy stan nieokreślony potraktowaliśmy jako zero, drugi jako jedynkę, dzięki czemu udało się utworzyć pojedynczą grupę 2x2 zamiast dwóch 1x2. 
 * Inne zestawy bramek \\
 Standardowe zadania z SOP, POS i minimalizacji zezwalają tylko na negację, alternatywę oraz koniunkcję, natomiast przy projektowaniu prawdziwych układów do dyspozycji są również pozostałe bramki logiczne.
-Wykorzystując \\( \texttt{XOR} \\) lub \\( \texttt{XNOR} \\), możliwa jest tzw. minimalizacja skośna. \\ \\
+Wykorzystując \\( ` XOR ` \\) lub \\( ` XNOR ` \\), możliwa jest tzw. minimalizacja skośna. \\ \\
 \begin{karnaugh-map}[2][2][1][\\( B \\)][\\( A \\)]
 \manualterms{0,1,1,0}
 \implicant{1}{1}
@@ -352,12 +352,12 @@ Wykorzystując \\( \texttt{XOR} \\) lub \\( \texttt{XNOR} \\), możliwa jest tzw
 \implicant{0}{0}
 \implicant{3}{3}
 \end{karnaugh-map} \\
-Pierwsza tabelka to \\( \texttt{A'B + AB'} \\), co jest dosłowną definicją \\( \texttt{A XOR B} \\).
-Natomiast drugą można zapisać jako \\( \texttt{A'B' + BA} \\), czyli \\( \texttt{A XNOR B} \\).
+Pierwsza tabelka to \\( ` A'B + AB' ` \\), co jest dosłowną definicją \\( ` A XOR B ` \\).
+Natomiast drugą można zapisać jako \\( ` A'B' + BA ` \\), czyli \\( ` A XNOR B ` \\).
 Zamiast pięciu bramek jedna!
 A jak to wygląda po przeliczeniu na podstawowe elementy?
 Dwie negacje, dwie koniunkcje i alternatywa wymagają aż 22 tranzystorów~\cite{transistor_count}.
-Natomiast \\( \texttt{XNOR} \\) to 8 tranzystorów, \\( \texttt{XOR} \\) zaledwie 6.
+Natomiast \\( ` XNOR ` \\) to 8 tranzystorów, \\( ` XOR ` \\) zaledwie 6.
 Zysk jest oczywisty.
 Podobne rozumowanie można przeprowadzić dla większych tabel w połączeniu z minimalizacją klasyczną, stosując łączenie po skosie.
 Z przyczyn osobistych, pozostawiam to Czytelnikowi jako ćwiczenie.
@@ -367,7 +367,7 @@ Jeśli otrzymaliśmy SOP lub POS w postaci skróconej i chcemy jedynie odtworzy�
 
 * Więcej zmiennych! \\
 Powyżej czterech wejść, teoretycznie można łączyć zmienne trójkami, ale jest to znacznie mniej intuicyjne niż w przypadku par. 
-Przykładowo suma iloczynów \\( \texttt{CD' + CD} \\) to oczywiście prosta formuła \\( \texttt{C} \\).
+Przykładowo suma iloczynów \\( ` CD' + CD ` \\) to oczywiście prosta formuła \\( ` C ` \\).
 Jednak na pojedynczej siatce pięciu zmiennych mogłaby ona być widoczna jako dwie oddzielne grupy, których nie da się połączyć żadną z wcześniejszych zasad. \\
 
 \begin{tikzpicture}[thick]
@@ -391,7 +391,7 @@ Wystarczy wyobrazić sobie połówkę sześcianu, składającą się z 32 małyc
 \draw (0,4,\x ) -- (4,4,\x );}
 \end{tikzpicture} \\
 
-Na potrzeby minimalizacji wystarczą nam przekroje, dwie osobne siatki Karnaugh\footnote{W podstawowym algorytmie minimalizacji zostało zaznaczone, że każda siatka Karnaugh jest torusem. To prawda. Dobra rada: nie myśl teraz o tym. Cztery wymiary są fajne, ale bezpieczniej jest zostawić je komuś z 214b/D1.}. Dalej postępujemy identycznie jak przy standardowej minimalizacji, pamiętając oczywiście że analogiczne pola obu siatek są również złączone ze sobą. Poniżej nasz wcześniejszy przykład \\( \texttt{CD' + CD} \\). Tym razem bezproblemowo otrzymaliśmy postać minimalną \\( \texttt{F(A,B,C,D,E) = C} \\). \\
+Na potrzeby minimalizacji wystarczą nam przekroje, dwie osobne siatki Karnaugh\footnote{W podstawowym algorytmie minimalizacji zostało zaznaczone, że każda siatka Karnaugh jest torusem. To prawda. Dobra rada: nie myśl teraz o tym. Cztery wymiary są fajne, ale bezpieczniej jest zostawić je komuś z 214b/D1.}. Dalej postępujemy identycznie jak przy standardowej minimalizacji, pamiętając oczywiście że analogiczne pola obu siatek są również złączone ze sobą. Poniżej nasz wcześniejszy przykład \\( ` CD' + CD ` \\). Tym razem bezproblemowo otrzymaliśmy postać minimalną \\( ` F(A,B,C,D,E) = C ` \\). \\
 
 \begin{karnaugh-map}[4][4][2][\\( CD \\)][\\( AB \\)][\\( E \\)]
 \manualterms{0,0,1,1,

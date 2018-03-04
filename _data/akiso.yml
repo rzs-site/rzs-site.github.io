@@ -13,10 +13,6 @@ toc:
           url: sems/sem3/akiso/arch/kombinacyjne
         - page: Architektura procesora 
           url: sems/sem3/akiso/arch/procesor
-        - page: Pamięć komputera 
-          url: sems/sem3/akiso/arch/pamiec
-        - page: Wybrane techniki zarządzania pamięcią procesora
-          url: sems/sem3/akiso/arch/pamproc
         - page: Procesor 6502
           url: sems/sem3/akiso/arch/6502
         - page: Procesor architektury x86

@@ -15,14 +15,14 @@ W naturalnym kodzie binarnym wszystkie liczby mają ustaloną długość, a jeś
 
 | n | NKB(n) |
 |---|--------|
-| 0 | 000    |
-| 1 | 001    |
-| 2 | 010    |
-| 3 | 011    |
-| 4 | 100    |
-| 5 | 101    |
-| 6 | 110    |
-| 7 | 111    |
+| 0 | 000|
+| 1 | 001|
+| 2 | 010|
+| 3 | 011|
+| 4 | 100|
+| 5 | 101|
+| 6 | 110|
+| 7 | 111|
 
 #### Przesunięty kod binarny (ang. biased}
 Schemat generowania n-bit biased representation jest następujący:
@@ -32,14 +32,14 @@ Przykład 3-bitowy:
 
 | n  | biased binary |
 |----|---------------|
-| -4 | 000           |
-| -3 | 001           |
-| -2 | 010           |
-| -1 | 011           |
-| 0  | 100           |
-| 1  | 101           |
-| 2  | 110           |
-| 3  | 111           |
+| -4 | 000   |
+| -3 | 001   |
+| -2 | 010   |
+| -1 | 011   |
+| 0  | 100   |
+| 1  | 101   |
+| 2  | 110   |
+| 3  | 111   |
 
 #### Kod uzupełnieniowy do jedności (U1)
 Jeżeli liczba, którą chcemy zapisać w n-bitowym U1 jest dodatnia, to najstarszy bit jest równy 0, a pozostałe bity tworzą (n-1)-bitowe NKB.
@@ -67,14 +67,14 @@ Liczby ujemne w U2 powstają w następujący sposób:
 Spójrzmy na tę tabelę:
 | reprezentacja binarna | U1 | U2 |
 |-----------------------|----|----|
-| 000                   | +0 | 0  |
-| 001                   | 1  | 1  |
-| 010                   | 2  | 2  |
-| 011                   | 3  | 3  |
-| 100                   | -3 | -4 |
-| 101                   | -2 | -3 |
-| 110                   | -1 | -2 |
-| 111                   | -0 | -1 |
+| 000   | +0 | 0  |
+| 001   | 1  | 1  |
+| 010   | 2  | 2  |
+| 011   | 3  | 3  |
+| 100   | -3 | -4 |
+| 101   | -2 | -3 |
+| 110   | -1 | -2 |
+| 111   | -0 | -1 |
 
 Można zauważyć, że w liczbach dodatnich \\( U1 = U2 \\), a w ujemnych \\( U1 = U2+1 \\)
 #### Liczby zmiennoprzecinkowe
