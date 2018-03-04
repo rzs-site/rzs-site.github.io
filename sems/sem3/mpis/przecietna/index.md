@@ -12,16 +12,16 @@ Metody probabilistycznie i statystyka
 #### Definicja wartości przeciętniej
 Wartość przeciętną/oczekiwaną/średnią dla zmiennej losowej \\( X \\) typu skokowego określamy jako:
 \\[ \mathbb{E}(X) = \sum\_k x\_k p(x\_k) \\]
-Przy warunku, że szereg \\( \sum\_k \vert x\_k\vert  p(x\_k) \\) jest zbieżny.\\\
+Przy warunku, że szereg \\( \sum\_k \vert x\_k\vert  p(x\_k) \\) jest zbieżny.
 Wartość przeciętną/oczekiwaną/średnią dla zmiennej losowej \\( X \\) typu ciągłego określamy jako:
 \\[ \mathbb{E}(X) = \int\_\mathbb{R} x f(x) dx \\]
 Przy warunku, że całka \\( \int\_\mathbb{R} \vert x\vert  f(x) dx \\) jest zbieżna.
 
 #### Wartość przeciętna funkcji zmiennej losowej
-Niech zmienna losowa \\( Y \\) będzie funkcją zmiennej losowej \\( X \\) ( \\( Y = g(X) \\) ), przy czym znamy rozkład prawdopodobieństwa zmiennej losowej \\( X \\).\\\
+Niech zmienna losowa \\( Y \\) będzie funkcją zmiennej losowej \\( X \\) ( \\( Y = g(X) \\) ), przy czym znamy rozkład prawdopodobieństwa zmiennej losowej \\( X \\).
 Wartość przeciętną/oczekiwaną/średnią dla zmiennej losowej \\( Y \\) typu skokowego określamy jako:
 \\[ \mathbb{E}(Y) = \sum\_k g(x\_k) p(x\_k) \\]
-Przy warunku, że szereg \\( \sum\_k \vert g(x\_k)\vert  p(x\_k) \\) jest zbieżny.\\\
+Przy warunku, że szereg \\( \sum\_k \vert g(x\_k)\vert  p(x\_k) \\) jest zbieżny.
 Wartość przeciętną/oczekiwaną/średnią dla zmiennej losowej \\( Y \\) typu ciągłego określamy jako:
 \\[ \mathbb{E}(Y) = \int\_\mathbb{R} g(x) f(x) dx \\]
 Przy warunku, że całka \\( \int\_\mathbb{R} \vert g(x)\vert  f(x) dx \\) jest zbieżna.
@@ -37,13 +37,13 @@ Wariancja opisuje 'rozrzut' wartości zmiennej losowej względem wartości oczek
 \\[ \mathbb{V}(X) = \mathbb{E}((X - \mathbb{E}(X))^2) \\]
 Lub inaczej:
 \\[ \mathbb{V}(X) = \mathbb{E}(X^2) - \mathbb{E}(X)^2 \\]
-Zmienną losową \\( X \\) dla której \\( \mathbb{E}(X) = 0 \\), \\( \mathbb{V}(X) = 1 \\) nazywamy *zmienną losową standaryzowaną*.\\\
-Pierwiastek z wariancji nazywamy *odchyleniem standardowym*.
+Zmienną losową \\( X \\) dla której \\( \mathbb{E}(X) = 0 \\), \\( \mathbb{V}(X) = 1 \\) nazywamy **zmienną losową standaryzowaną**.
+Pierwiastek z wariancji nazywamy **odchyleniem standardowym**.
 
 #### Własności wariancji
 Niech \\( X \\) będzie zmienną losową dla której istnieje wariancja. Wtedy zachodzi zależność:
 \\[ \mathbb{V}(aX+b) = a^2\mathbb{V}(X) \\]
-Warunkiem koniecznym i dostatecznym tego, aby \\( \mathbb{V}(X) = 0 \\) jest to, aby rozkład \\( X \\) był jednopunktowy.\\\
+Warunkiem koniecznym i dostatecznym tego, aby \\( \mathbb{V}(X) = 0 \\) jest to, aby rozkład \\( X \\) był jednopunktowy.
 Funkcja \\( \varphi \\) określona jako:
 \\[ \varphi(c) = \mathbb{E}((X - c)^2) \\]
 Przyjmuje najmniejszą wartość gdy \\( c = \mathbb{E}(X) \\).
