@@ -37,8 +37,8 @@ Wariancja opisuje 'rozrzut' wartości zmiennej losowej względem wartości oczek
 \\[ \mathbb{V}(X) = \mathbb{E}((X - \mathbb{E}(X))^2) \\]
 Lub inaczej:
 \\[ \mathbb{V}(X) = \mathbb{E}(X^2) - \mathbb{E}(X)^2 \\]
-Zmienną losową \\( X \\) dla której \\( \mathbb{E}(X) = 0 \\), \\( \mathbb{V}(X) = 1 \\) nazywamy \textbf{zmienną losową standaryzowaną}.\\\
-Pierwiastek z wariancji nazywamy \textbf{odchyleniem standardowym}.
+Zmienną losową \\( X \\) dla której \\( \mathbb{E}(X) = 0 \\), \\( \mathbb{V}(X) = 1 \\) nazywamy *zmienną losową standaryzowaną*.\\\
+Pierwiastek z wariancji nazywamy *odchyleniem standardowym*.
 
 #### Własności wariancji
 Niech \\( X \\) będzie zmienną losową dla której istnieje wariancja. Wtedy zachodzi zależność:
@@ -49,16 +49,16 @@ Funkcja \\( \varphi \\) określona jako:
 Przyjmuje najmniejszą wartość gdy \\( c = \mathbb{E}(X) \\).
 
 #### Nierówność Czebyszewa
-Jeśli zmienna losowa \\( X \\) spełniająca warunek \\( \textbf{P}(X < 0) = 0 \\) ma wartość przeciętną \\( \mathbb{E}(X) \\), to dla dowolnego \\( \varepsilon > 0 \\) mamy:
-\\[ \textbf{P}(X \geq \varepsilon) \leq \frac{\mathbb{E}(X)}{\varepsilon} \\]
+Jeśli zmienna losowa \\( X \\) spełniająca warunek \\( *P*(X < 0) = 0 \\) ma wartość przeciętną \\( \mathbb{E}(X) \\), to dla dowolnego \\( \varepsilon > 0 \\) mamy:
+\\[ *P*(X \geq \varepsilon) \leq \frac{\mathbb{E}(X)}{\varepsilon} \\]
 
 #### Nierówność Czebyszewa-Bienayme
 Jeśli zmienna losowa \\( X \\) ma wariancje \\( \mathbb{V}(X) \\) i wartość przeciętną \\( \mathbb{E}(X) \\), to dla dowolnego \\( \varepsilon > 0 \\) mamy:
-\\[ \textbf{P}(\vert X-\mathbb{E}(X)\vert  \geq \varepsilon) \leq \frac{\mathbb{V}(X)}{\varepsilon^2} \\]
+\\[ *P*(\vert X-\mathbb{E}(X)\vert  \geq \varepsilon) \leq \frac{\mathbb{V}(X)}{\varepsilon^2} \\]
 
 #### Nierówność Markowa
 Jeśli zmienna losowa \\( X \\) ma wartość przeciętną \\( \mathbb{E}(X) \\), to dla dowolnych \\( \varepsilon, p > 0 \\) mamy:
-\\[ \textbf{P}(\vert X\vert  \geq \varepsilon) \leq \frac{\mathbb{E}(\vert X\vert ^p)}{\varepsilon^p} \\]
+\\[ *P*(\vert X\vert  \geq \varepsilon) \leq \frac{\mathbb{E}(\vert X\vert ^p)}{\varepsilon^p} \\]
 
 #### Centralne twierdzenie graniczne
 Dla danego rozkładu, określonej wartości oczekiwanej \\( m \\) i skończonej wariancji \\( \sigma^2 \\) określamy zbiór zdarzeń niezależnych, które oznaczamy przez \\( X_i \\). Wtedy:

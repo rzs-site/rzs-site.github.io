@@ -10,8 +10,8 @@ Metody probabilistycznie i statystyka
 
 ### Popularne rozkłady prawdopodobieństwa zmiennych losowych
 #### Rozkłady jednopunktowy i dwupunktowy
-Niech \\( \mathcal{X} = \{x_0\} \\) oraz \\( \mathbf{P}(X = x_0) = 1 \\). Wtedy mówimy, że zmienna losowa \\( X \\) ma \textbf{rozkład jednopunktowy}. \\( \mathbb{E}(X) = x_0 \\), \\( \mathbb{V}(X) = 0 \\).\\\
-Niech \\( \mathcal{X} = \{x_0, x_1\} \\) oraz \\( \mathbf{P}(X = x_0) = p \\), \\( \mathbf{P}(X = x_1) = 1 - p \\). Wtedy mówimy, że zmienna losowa \\( X \\) ma \textbf{rozkład dwupunktowy}. \\( \mathbb{E}(X) = p(x_0 - x_1) + x_1 \\), \\( \mathbb{V}(X) = p(1 - p)(x_0 - x_1)^2 \\).
+Niech \\( \mathcal{X} = \{x_0\} \\) oraz \\( \mathbf{P}(X = x_0) = 1 \\). Wtedy mówimy, że zmienna losowa \\( X \\) ma *rozkład jednopunktowy*. \\( \mathbb{E}(X) = x_0 \\), \\( \mathbb{V}(X) = 0 \\).\\\
+Niech \\( \mathcal{X} = \{x_0, x_1\} \\) oraz \\( \mathbf{P}(X = x_0) = p \\), \\( \mathbf{P}(X = x_1) = 1 - p \\). Wtedy mówimy, że zmienna losowa \\( X \\) ma *rozkład dwupunktowy*. \\( \mathbb{E}(X) = p(x_0 - x_1) + x_1 \\), \\( \mathbb{V}(X) = p(1 - p)(x_0 - x_1)^2 \\).
 
 #### Rozkład dwumianowy
 Wykonujemy \\( n \\) razy doświadczenie, które można opisać za pomocą rozkładu dwumianowego, przy czym możliwe wyniki to \\( A \\) oraz \\( A' \\). Prawdopodobieństwo wystąpienia \\( k \\) sukcesów wyraża się wzorem:
