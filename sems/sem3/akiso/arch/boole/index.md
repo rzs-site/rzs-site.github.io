@@ -99,28 +99,22 @@ Nieco bardziej skomplikowane w tym przypadku są kolumny, wyznaczające jednocze
 
 A co w przypadku odwrotnym, gdyby szukać wartości wyjściowej dla podanych wejść?
 Weźmy nową siatkę, tym razem bardziej losowy układ i cztery zmienne. \\ \\
-\begin{karnaugh-map}[4][4][1][CD][AB]
-\manualterms{1,1,1,0,1,1,0,1,0,0,0,0,0,1,0,0}
-\end{karnaugh-map} \\
+![Siatka Karnaugh](karnaugh02.svg)
+
 Chcemy znaleźć wartość dla \\( \texttt{A = 0, B = 1, C = 1, D = 0} \\).
 W oznaczeniach wierszy jest \\( \texttt{AB} \\), natomiast kolumny wyznaczają wartości wejść \\( \texttt{CD} \\).
 Szukamy więc \\( \texttt{AB = 01} \\) oraz \\( \texttt{CD = 10} \\). \\ \\
-\begin{karnaugh-map}*[4][4][1][CD][AB]
-\manualterms{1,1,1,0,1,1,0,1,0,0,0,0,0,1,0,0}
-\implicant{6}{6}
-\end{karnaugh-map} \\ 
+![Siatka Karnaugh](karnaugh03.svg)
+
 Dla podanego układu wejść nasza funkcja przyjmie wartość \\( \texttt{0} \\), logiczny fałsz. \\
 
 Jak widać, czytanie siatek Karnaugh jest bardzo proste. Większość zadań z tej kategorii dotyczy jednak znacznie trudniejszego zagadnienia, czyli samodzielnego rysowania siatki, wypełniania, a następnie minimalizacji. Dobra wiadomość: ogólny algorytm jest wspólny dla wszystkich odmian zadania. Różnica dotyczy jedynie sposobu wypełniania, ponieważ funkcja wejściowa może być przedstawiona na wiele równoważnych sposobów. Natomiast na wyjściu zawsze otrzymamy identyczny wynik, ale w zależności od treści zadania należy go odpowiednio zinterpretować.
 
 ##### Schematy siatek
-Zacznijmy od podstaw. Tabelka Karnaugh ma boki będące potęgami liczby dwa, a ilość pól wynosi \\( 2^n \\), gdzie jako \\( n \\) oznaczamy ilość zmiennych. Wiersze i kolumny (kolejność umowna) muszą zostać opisane kodem Gray'a i nazwane zmiennymi. Dla przypomnienia, kolejne wyrazy w tym kodzie różnią się dokładnie jednym bitem. Na potrzeby minimalizacji wykorzystamy kod trywialny (\\( \texttt{0,1} \\)) oraz kod dwubitowy (\\( \texttt{00, 01, 11, 10} \\)). Natomiast zmienne dzielimy między ,,pion'' i ,,poziom''. Kod jednobitowy musi być powiązany z jedną zmienną, kod dwubitowy z dwiema zmiennymi. Doskonale widać to na poniższych tabelkach modelowych: \\ \\
-\begin{karnaugh-map}[2][2][1][\\( B \\)][\\( A \\)]
-\end{karnaugh-map} 
-\begin{karnaugh-map}[4][2][1][\\( BC \\)][\\( A \\)]
-\end{karnaugh-map} 
-\begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
-\end{karnaugh-map}
+Zacznijmy od podstaw. Tabelka Karnaugh ma boki będące potęgami liczby dwa, a ilość pól wynosi \\( 2^n \\), gdzie jako \\( n \\) oznaczamy ilość zmiennych. Wiersze i kolumny (kolejność umowna) muszą zostać opisane kodem Gray'a i nazwane zmiennymi. Dla przypomnienia, kolejne wyrazy w tym kodzie różnią się dokładnie jednym bitem. Na potrzeby minimalizacji wykorzystamy kod trywialny (\\( \texttt{0,1} \\)) oraz kod dwubitowy (\\( \texttt{00, 01, 11, 10} \\)). Natomiast zmienne dzielimy między ,,pion'' i ,,poziom''. Kod jednobitowy musi być powiązany z jedną zmienną, kod dwubitowy z dwiema zmiennymi. Doskonale widać to na poniższych tabelkach modelowych: ![Siatka Karnaugh](karnaugh04.svg)
+![Siatka Karnaugh](karnaugh05.svg)
+![Siatka Karnaugh](karnaugh06.svg)
+
 
 ##### Wypełnianie siatki
 W zadaniach można najczęściej natrafić na jeden z czterech podstawowych wariantów podania danych wejściowych - funkcja, opis, SOP, POS. Różnice między nimi dotyczą wyłącznie etapu wypełniania, później postępowanie znów będzie identyczne. Dla udowodnienia równoważności, wszystkie cztery przykłady zostały zrealizowane dla identycznej formuły. 
@@ -128,31 +122,18 @@ W zadaniach można najczęściej natrafić na jeden z czterech podstawowych wari
 * Funkcja boolowska \\
 W pierwszej kolejności mnożymy wszystkie nawiasy i usuwamy składniki trywialne. Przykład po uporządkowaniu: \\
 \\( \texttt{F(A,B,C,D) = A'B + A (BC + C') + DD' = A'B + AC' + ABC } \\) \\
-Otrzymaliśmy tzw. sumę iloczynów (SOP). Z definicji logicznej alternatywy, jeśli którykolwiek iloczyn będzie miał wartość \\( \texttt{1} \\), to cała funkcja przyjmie \\( \texttt{1} \\) na wyjściu. Wystarczy więc osobno zinterpretować wszystkie iloczyny. Przykładowo, \\( \texttt{A'B} \\) ma wartość \\( \texttt{1} \\) wtedy i tylko wtedy, gdy \\( \texttt{A = 0} \\) oraz \\( \texttt{B = 1} \\), a pozostałe zmienne mogą być dowolne. Zgodnie z instrukcją podaną we wprowadzeniu, znajdźmy wszystkie komórki spełniające kryteria. Obie zmienne są na legendzie ,,pionowej'', więc wybieramy po prostu cały wiersz \\( \texttt{01} \\). \\ \\
-\begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
-\implicant{4}{6}
-\end{karnaugh-map} \\
-Następny składnik to \\( \texttt{AC'} \\). Znajdujemy więc dwa wiersze z \\( \texttt{A = 1} \\) oraz dwie kolumny, gdzie \\( \texttt{C = 0} \\), a następnie zaznaczamy część wspólną. \\ \\
-\begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
-\implicant{4}{6}
-\implicant{12}{9}
-\end{karnaugh-map} \\
+Otrzymaliśmy tzw. sumę iloczynów (SOP). Z definicji logicznej alternatywy, jeśli którykolwiek iloczyn będzie miał wartość \\( \texttt{1} \\), to cała funkcja przyjmie \\( \texttt{1} \\) na wyjściu. Wystarczy więc osobno zinterpretować wszystkie iloczyny. Przykładowo, \\( \texttt{A'B} \\) ma wartość \\( \texttt{1} \\) wtedy i tylko wtedy, gdy \\( \texttt{A = 0} \\) oraz \\( \texttt{B = 1} \\), a pozostałe zmienne mogą być dowolne. Zgodnie z instrukcją podaną we wprowadzeniu, znajdźmy wszystkie komórki spełniające kryteria. Obie zmienne są na legendzie ,,pionowej'', więc wybieramy po prostu cały wiersz \\( \texttt{01} \\).
+![Siatka Karnaugh](karnaugh07.svg)
+
+Następny składnik to \\( \texttt{AC'} \\). Znajdujemy więc dwa wiersze z \\( \texttt{A = 1} \\) oraz dwie kolumny, gdzie \\( \texttt{C = 0} \\), a następnie zaznaczamy część wspólną.
+![Siatka Karnaugh](karnaugh08.svg)
+
 Ostatni iloczyn to \\( \texttt{ABC} \\). Wybieramy jeden wiersz i dwie kolumny, częścią wspólną są dwie komórki. \\ \\
-\begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
-\implicant{4}{6}
-\implicant{12}{9}
-\implicant{15}{14}
-\end{karnaugh-map} \\
+![Siatka Karnaugh](karnaugh09.svg)
+
 W zaznaczone miejsca wstawiamy jedynki. Tabelkę bez zakreśleń przepisujemy, pozostałe miejsca uzupełniamy zerami. Z gotowym wynikiem przechodzimy do następnego kroku. \\ \\
-\begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
-\manualterms{,,,,1,1,1,1,1,1,,,1,1,1,1}
-\implicant{4}{6}
-\implicant{12}{9}
-\implicant{15}{14}
-\end{karnaugh-map} 
-\begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
-\manualterms{0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1}
-\end{karnaugh-map} 
+![Siatka Karnaugh](karnaugh10.svg)
+
 
 * notacja \\( \Sigma \\) (skrócony zapis SOP) \\
 Pomimo pozornego skomplikowania, notacja skrócona \\( \Sigma \\) jest bardzo wygodna. Wykorzystuje ona fakt, że wiersze i kolumny są opisane kodem Gray'a, więc każdemu polu można przypisać unikatową liczbę binarną, łącząc oznaczenia wiersza i kolumny. Na początku najlepiej wykonywać trzy tabelki - pomocniczą binarną, pomocniczą dziesiętną i główną. Później można wykonywać zamianę w locie i zapisywać tylko wartości dziesiętne. Znając na pamięć kolejność komórek, nawet to staje się oczywiście niepotrzebne. W przykładach wykorzystamy natomiast metodę najdłuższą, ale najpewniejszą. Pierwsza z poniższych tabelek pomocniczych to złączone wartości wierszy i kolumn (w tej kolejności, ponieważ \\( \texttt{AB} \\) jest przed \\( \texttt{CD} \\)), a druga przedstawia zamianę wartości na system dziesiętny. \\ \\
