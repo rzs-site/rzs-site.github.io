@@ -27,15 +27,15 @@ toc:
           url: sems/sem3/akiso/arch/cuda
     - title: Systemy operacyjne
       subfolderitems:
-        - page: 
+        - page: Programowanie wielowątkowe
           url: sems/sem3/akiso/sys/wielowatkowe
-        - page: 
+        - page: Obsługa wejścia-wyjścia
           url: sems/sem3/akiso/sys/inout
-        - page: 
+        - page: Zarządzanie pamięcią
           url: sems/sem3/akiso/sys/zarzadzanie
-        - page: 
+        - page: Pliki wykonywalne ELF 
           url: sems/sem3/akiso/sys/elf
-        - page: 
+        - page: System plików FAT 
           url: sems/sem3/akiso/sys/fat
-        - page: 
+        - page: Język C
           url: sems/sem3/akiso/sys/c
