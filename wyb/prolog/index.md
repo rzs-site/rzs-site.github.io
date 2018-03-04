@@ -11,6 +11,7 @@ Programowanie w Logice
 #### Wymagana wiedza
 * rachunek zdań (LiSF)
 * kwantyfikatory (LiSF)
+* rekurencja ogonowa (WiP)
 
 Programowanie w logice jest osobnym paradygmantem programowania opartym głównie na logice.
 Programy to serie faktów i reguł opisujących problem. Używając własności rachunku zdań z logiki prolog znajduje rozwiązanie problemu
