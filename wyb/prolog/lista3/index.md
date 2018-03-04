@@ -6,7 +6,7 @@ use_highlight: true
 
 ---
 
-# Programowanie w Logice - Lista 2
+# Programowanie w Logice - Lista 3
 
 ## Optymalizacja
 
