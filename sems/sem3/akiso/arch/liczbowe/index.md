@@ -29,7 +29,7 @@ Najczęściej używane przez nas podstawy to 2, 10 i 16. \\
 \\[ (AB)_{16} = A*16+B*1 \\]
 
 #### Zamiana podstaw systemów pozycyjnych
-\subsection{Liczby całkowite}
+#### Liczby całkowite
 \textbf{Sposób I (dzielenie):}\\
 Aby zmienić podstawę liczby, należy starą liczbę dzielić przez podstawę, zapisując resztę do najmniej znaczącej cyfry, tak długo póki nie otrzymamy 0.\\
 \textbf{Przykłady:}\\
