@@ -4,8 +4,7 @@ toc: prolog
 use_math: true
 ---
 
-Programowanie w Logice - Lista 1
----
+# Programowanie w Logice - Lista 1
 
 ## Fakty
 
@@ -15,6 +14,7 @@ Przykład praktyczny:
 ```
 lubi(student, rzs). %czytany jako student lubi rzs
 ```
+<p></p>
 ---
 
 ## Reguły
@@ -27,6 +27,7 @@ Przykład praktyczny:
 ```
 lubi(autor, X) :- lubi(X, rzs) %czytany jako student autor lubi X jeśli X lubi rzs
 ```
+<p></p>
 ---
 
 ## Operatory logiczne
@@ -58,7 +59,7 @@ Zatem następuje przypisanie do \\(X\\) wartości student. Po tym zabiegu stwier
 
 ---
 
-## Zasada zamknietego świata:
+## Zasada zamkniętego świata:
 
 Przyjmujemy że prawdziwe w programie jest jedynie to co było podane.
 
@@ -66,19 +67,20 @@ Przyjmujemy że prawdziwe w programie jest jedynie to co było podane.
 
 ## Wskazówki
 
-* Warto uzupełniać zadania własnymi testowymi danymi i sprawdzić działanie programu. Wszakże wszyscy wiemy iż początki bywają... różne.
+* Warto uzupełniać zadania własnymi testowymi danymi i sprawdzić działanie programu. Wszakże wszyscy wiemy, iż początki bywają... różne.
 * Gdy zmienna pojawia się tylko raz w regule  należy użyć zmiennej anonimowej, w innym przypadku otrzymamy ostrzeżenie. Taką zmienną zapisujemy za pomocą _ (podkreślenie). Przykładem jest:
 ```
-ojciec(X) :- syn(Y , X) % X jest ojcem gdy Y jest synem X. Powoduje ostrzeżenie iż Y jest użyty tylko raz.
-ojciec(X) :- syn(_ , X) % X jest ojcem kogoś. Nie interesuje nas kogo, ważne że jest.
+ojciec(X) :- syn(Y , X) % X jest ojcem gdy Y jest synem X. Powoduje ostrzeżenie, że Y jest użyty tylko raz.
+ojciec(X) :- syn(_ , X) % X jest ojcem kogoś. Nie interesuje nas kogo.
 ```
 
 * Należy uważać z operatorem negacji. Utrudnia on prologowi wnioskowanie, szczególnie przy dużych regułach.
+
 ---
 
 ## Zadania
 
-Zadanie 1.
+### Zadanie 1.
 
 Należy opisać relacje rodzinne przy pomocy innych podanych. Przykładowo:
 ```
@@ -88,33 +90,42 @@ Analogicznie inne przykłady
 
 ---
 
-Zadanie 2.
+### Zadanie 2.
 
 Celem tego zadania jest nauczenie nas potęgi rekurencji w Prologu. Oczywistym stwierdzeniem jest że dla wieży
-\\(B_1 > B_2 > B_3 > B_4 > B_5 \\) gdzie \\( > \\) oznacza bycie ponad jest przechodnia. Tzn. \\(B_1 > B_4 \\).
+\\(B_1 > B_2 > B_3 > B_4 > B_5 \\) gdzie \\( > \\) oznacza bycie ponad, nasza relacja jest przechodnia. Tzn. \\(B_1 > B_4 \\).
 
-Zatem above należy zdefiniować:  \\( B_i \\) jest ponad \\( B_j \\) jeśli są bezpośrednio nad sobą albo istnieje takie \\( B_k \\) że \\( B_k \\) jest bezpośrednio nad \\( B_j \\) oraz \\( B_i \\) jest ponad \\( B_k \\). Użycie sformułowania iż \\( B_k \\) jest bezpośrednio ponad \\( B_j \\) umożliwa nam uniknięcie podwójnej rekurencji.
-
----
-
-Zadanie 3.
-
-Jaka była oficjalnie dobra wersja???
+Zatem above należy zdefiniować jako:  \\( B_i \\) jest ponad \\( B_j \\) jeśli są bezpośrednio nad sobą albo istnieje takie \\( B_k \\) że \\( B_k \\) jest bezpośrednio nad \\( B_j \\) oraz \\( B_i \\) jest ponad \\( B_k \\). Użycie sformułowania iż \\( B_k \\) jest bezpośrednio ponad \\( B_j \\) umożliwa nam uniknięcie podwójnej rekurencji która zapętli się w nieskończoność.
 
 ---
 
-Zadanie 4.
+### Zadanie 3.
+
+Tutaj nie do końca należy się trzymać polecenia. Zamiast definiować rekurencyjne dla \\( leftOf \\) powinniśmy zdefiniować inną, podobnie nazwaną regułę.
+W innym przypadku wpadniemy w nieskończoną rekurencję. Niech ta reguła nazywa się \\( rLeftOf \\). Należy ją zdefiniować analogicznie do zadania2.
+\\( rRightOf \\) definiujemy jako zamiane argumentów w  \\( rLeftOf \\). Analogicznie definujemy rekursyjne \\( rAbove \\)
+
+Najtrudniejszą częścią zadania jest predykat \\( higher \\) . Musimy rozważyć aż cztery przypadki. Dla \\( higher(X, Y) \\):
+* \\( X \\) może być \\( rAbove \\) nad \\( Y \\)
+* \\( X \\) może być \\( rAbove \\) nad \\( Z \\) a \\( Z \\) na lewo od \\( Y \\)
+* \\( X \\) może być \\( rAbove \\) nad \\( Z \\) a \\( Z \\) na prawo od \\( Y \\)
+* \\( X \\) może być \\( above \\) nad \\( A \\), \\( Y \\) może być \\( above \\) nad \\( B \\) oraz  \\( A \\) jest \\( higher \\) \\( B \\)
+
+---
+
+### Zadanie 4.
 
 Tutaj następuje przymusowa powtórka LiSF.
 
 \\( X \\) jest elementem maksymalnym częściowego porządku jeśli \\( le(X, X) \\) (X jest w dziedzinie)
 oraz nie istnieje \\( le(Y, X) \\) (tj. nie istnieje Y który jest większy od Y).
-Element jest największy jeżeli jest on w dziedzinie oraz jest on jedynym elementem maksymalnym (tj. nie istnieje inny element maksymalnymy)
+Element jest największy jeżeli jest on w dziedzinie oraz jest on jedynym elementem maksymalnym (tj. nie istnieje inny element maksymalnymy).
+
 Analogicznie element najmniejszy oraz minimalny.
 
 ---
 
-Zadanie 5.
+### Zadanie 5.
 
 Ciąg dalszy powtórki LiSF.
 
@@ -129,7 +140,7 @@ Należy zamienić na:
 
 \\( \neg (\exists X((X \in D)\land( \neg (le(X, X))))) \\).
 
-\\(X in D \\) zapiszemy w prologu jako:
+\\(X \in D \\) zapiszemy w prologu jako:
 ```
 le( X, _) ; le(_, X)
 ```
@@ -138,9 +149,9 @@ Analogicznie postępujemy z innymi własnościami. Dokładniejsze przekształcen
 
 ---
 
-Zadanie 6.
+### Zadanie 6.
 
-Najwygodniej skorzystać z perykatu:
+Najwygodniej skorzystać z predykatu:
 ```
 between(X, Y, Z), ... %Z przyjmie wtedy wszystkie wartosci pomiędzy X a Y (włącznie!)
 ```
