@@ -37,7 +37,7 @@ toc: main_page
 [Strona prowadzącego](http://cs.pwr.edu.pl/cichon/2017_18_b/WWW.php)
 
 ### Laboratorium
-* Lista 1 \[Termin: 16.03.18 - szkic, 30.03.18 - całość\]
+* Projekt 1 \[Termin: 16.03.18 - szkic, 30.03.18 - całość\]
 
 ***
 
