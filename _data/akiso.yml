@@ -1,0 +1,41 @@
+toc:
+    - title: Wstęp
+      url: sems/sem3/akiso/
+    - title: Architektura komputerów
+      subfolderitems:
+        - page: Systemy liczbowe
+          url: sems/sem3/akiso/arch/liczbowe
+        - page: Reprezentacja liczb
+          url: sems/sem3/akiso/arch/reprezentacja
+        - page: Algebra Boole’a
+          url: sems/sem3/akiso/arch/boole
+        - page: Układy kombinacyjne
+          url: sems/sem3/akiso/arch/kombinacyjne
+        - page: Architektura procesora 
+          url: sems/sem3/akiso/arch/procesor
+        - page: Pamięć komputera 
+          url: sems/sem3/akiso/arch/pamiec
+        - page: Wybrane techniki zarządzania pamięcią procesora
+          url: sems/sem3/akiso/arch/pamproc
+        - page: Procesor 6502
+          url: sems/sem3/akiso/arch/6502
+        - page: Procesor architektury x86
+          url: sems/sem3/akiso/arch/x86
+        - page: Procesor ARM
+          url: sems/sem3/akiso/arch/arm
+        - page: Technologia CUDA
+          url: sems/sem3/akiso/arch/cuda
+    - title: Systemy operacyjne
+      subfolderitems:
+        - page: 
+          url: sems/sem3/akiso/sys/wielowatkowe
+        - page: 
+          url: sems/sem3/akiso/sys/inout
+        - page: 
+          url: sems/sem3/akiso/sys/zarzadzanie
+        - page: 
+          url: sems/sem3/akiso/sys/elf
+        - page: 
+          url: sems/sem3/akiso/sys/fat
+        - page: 
+          url: sems/sem3/akiso/sys/c
