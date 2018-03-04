@@ -35,37 +35,36 @@ kandydującego.
 ##### Podstawowe
 
 * zwrotność:
-$ ( Y \subseteq X )
+\\(  ( Y \subseteq X )
 \Rightarrow
-( X \rightarrow Y ) $
+( X \rightarrow Y )  \\)
 * poszerzenie:
-$ ( X \rightarrow Y )
+\\(  ( X \rightarrow Y )
 \Rightarrow
-( WX \rightarrow WY ) $
+( WX \rightarrow WY )  \\)
 * przechodniość:
-$ ( X \rightarrow Y ) \wedge ( Y \rightarrow Z )
+\\(  ( X \rightarrow Y ) \wedge ( Y \rightarrow Z )
 \Rightarrow
-( X \rightarrow Z ) $  
-
+( X \rightarrow Z )  \\)  
 
 ##### Wynikające z podstawowych
 
 * dekompozycja:
-$ ( X \rightarrow YZ )
+\\(  ( X \rightarrow YZ )
 \Rightarrow
-( X \rightarrow Y ) \wedge ( X \rightarrow Z) $
+( X \rightarrow Y ) \wedge ( X \rightarrow Z)  \\)
 * kompozycja:
-$ ( X \rightarrow Y ) \wedge ( W \rightarrow Z )
+\\(  ( X \rightarrow Y ) \wedge ( W \rightarrow Z )
 \Rightarrow
-( XW \rightarrow YZ ) $
+( XW \rightarrow YZ )  \\)
 * suma:
-$ ( X \rightarrow Y ) \wedge ( X \rightarrow Z )
+\\(  ( X \rightarrow Y ) \wedge ( X \rightarrow Z )
 \Rightarrow
-( X \rightarrow YZ ) $  
+( X \rightarrow YZ )  \\)  
 * pseudoprzechodniość:
-$ ( X \rightarrow Y ) \wedge ( YW \rightarrow Z )
+\\(  ( X \rightarrow Y ) \wedge ( YW \rightarrow Z )
 \Rightarrow
-( XW \rightarrow Z ) $  
+( XW \rightarrow Z )  \\)  
 * samozależność:
 \\(  ( X \rightarrow X )  \\) 
  
