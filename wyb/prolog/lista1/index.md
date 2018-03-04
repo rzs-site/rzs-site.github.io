@@ -4,8 +4,7 @@ toc: prolog
 use_math: true
 ---
 
-Programowanie w Logice - Lista 1
----
+# Programowanie w Logice - Lista 1
 
 ## Fakty
 
@@ -15,6 +14,7 @@ Przykład praktyczny:
 ```
 lubi(student, rzs). %czytany jako student lubi rzs
 ```
+
 ---
 
 ## Reguły
@@ -27,6 +27,7 @@ Przykład praktyczny:
 ```
 lubi(autor, X) :- lubi(X, rzs) %czytany jako student autor lubi X jeśli X lubi rzs
 ```
+
 ---
 
 ## Operatory logiczne
@@ -79,7 +80,7 @@ ojciec(X) :- syn(_ , X) % X jest ojcem kogoś. Nie interesuje nas kogo.
 
 ## Zadania
 
-Zadanie 1.
+### Zadanie 1.
 
 Należy opisać relacje rodzinne przy pomocy innych podanych. Przykładowo:
 ```
@@ -89,7 +90,7 @@ Analogicznie inne przykłady
 
 ---
 
-Zadanie 2.
+### Zadanie 2.
 
 Celem tego zadania jest nauczenie nas potęgi rekurencji w Prologu. Oczywistym stwierdzeniem jest że dla wieży
 \\(B_1 > B_2 > B_3 > B_4 > B_5 \\) gdzie \\( > \\) oznacza bycie ponad, nasza relacja jest przechodnia. Tzn. \\(B_1 > B_4 \\).
@@ -98,7 +99,7 @@ Zatem above należy zdefiniować jako:  \\( B_i \\) jest ponad \\( B_j \\) jeśl
 
 ---
 
-Zadanie 3.
+### Zadanie 3.
 
 Tutaj nie do końca należy się trzymać polecenia. Zamiast definiować rekurencyjne dla \\( leftOf \\) powinniśmy zdefiniować inną, podobnie nazwaną regułę.
 W innym przypadku wpadniemy w nieskończoną rekurencję. Niech ta reguła nazywa się \\( rLeftOf \\). Należy ją zdefiniować analogicznie do zadania2.
@@ -112,7 +113,7 @@ Najtrudniejszą częścią zadania jest predykat \\( higher \\) . Musimy rozważ
 
 ---
 
-Zadanie 4.
+### Zadanie 4.
 
 Tutaj następuje przymusowa powtórka LiSF.
 
@@ -124,7 +125,7 @@ Analogicznie element najmniejszy oraz minimalny.
 
 ---
 
-Zadanie 5.
+### Zadanie 5.
 
 Ciąg dalszy powtórki LiSF.
 
@@ -148,9 +149,9 @@ Analogicznie postępujemy z innymi własnościami. Dokładniejsze przekształcen
 
 ---
 
-Zadanie 6.
+### Zadanie 6.
 
-Najwygodniej skorzystać z perykatu:
+Najwygodniej skorzystać z predykatu:
 ```
 between(X, Y, Z), ... %Z przyjmie wtedy wszystkie wartosci pomiędzy X a Y (włącznie!)
 ```
