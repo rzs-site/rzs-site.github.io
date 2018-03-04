@@ -38,7 +38,7 @@ Uwaga! Generator planu jest całkowicie nową funkcjonalnością. Aktualnie koli
 
 <tr>
 	<td>07:30</td>
-	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(pn) 07')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 07')"><span class="slider"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(wt) 07')"><span class="slider"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(sr) 07')"><span class="slider"></span></label></td>
 	<td><label class="switch"><input type="checkbox" onclick="myFunction(this,'(cz) 07')"><span class="slider"></span></label></td>
