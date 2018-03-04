@@ -21,15 +21,15 @@ będzie funkcją ograniczoną, a
 \\( \mathcal{P}_n \\)
 podziałem \\( P \\) na \\( n \\)
 prostopadłościanów o objętościach
-\\( |P_1|, \ldots, |P_n| \\).
+\\(  \vert P_1 \vert , \ldots,  \vert P_n \vert  \\).
 
 Wtedy definiujemy następujące wartości:
 \\[ M = \sup_P f \Rightarrow M_i = \sup_{P_i} f \\]
 \\[ m = \inf_P f \Rightarrow m_i = \inf_{P_i} f \\]
 
 Suma całkowa Riemanna:
-* Dolna: \\( L_\mathcal{P} (f) = \sum_{i=1}^n m_i |P_i| \\)
-* Górna: \\( U_\mathcal{P} (f) = \sum_{i=1}^n M_i |P_i| \\)
+* Dolna: \\( L_\mathcal{P} (f) = \sum_{i=1}^n m_i  \vert P_i \vert  \\)
+* Górna: \\( U_\mathcal{P} (f) = \sum_{i=1}^n M_i  \vert P_i \vert  \\)
 
 Całkę górną i dolną definiujemy następująco:
 \\[ \sup_\mathcal{P} L_\mathcal{P} (f) = \underline{\iiint_P} f(x,y) dP \\]

@@ -11,7 +11,7 @@ Analiza Matematyczna 2
 ### Twierdzenie o podstawianiu
 
 Jeśli \\( T: V \to V' \\) jest wzajemnie jednoznacznym odwzorowaniem mającym pierwsze pochodne cząstkowe ciągłe takim, że \\( T^{-1} \\) też ma te własności (dyfeomorfizmem), gdzie \\( V, \\) \\( V' \\) są regularne w \\( \mathbb{R}^3 \\) oraz \\( T(u,v,w) = (x,y,z) \\), wtedy:
-\\\[ \iiint_{v'} f(x,y,z) dP' = \iint_V f(x(u,v,w), y(u,v,w), z(u,v,w)) \left| \frac{\partial (x,y,z)}{\partial (u,v,w)} \right| dP \\]
+\\\[ \iiint_{v'} f(x,y,z) dP' = \iint_V f(x(u,v,w), y(u,v,w), z(u,v,w)) \left \vert  \frac{\partial (x,y,z)}{\partial (u,v,w)} \right \vert  dP \\]
 
 \[
 \frac{\partial (x,y,z)}{\partial (u,v,w)} = 

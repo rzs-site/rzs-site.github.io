@@ -20,16 +20,16 @@ Kula o środku w punkcie \\( \overrightarrow{x} \\) i promieniu \\( r \\): \\( \
 \\\[ \overrightarrow{x} \cdot \overrightarrow{y} = \sum_{i=1}^{n} x_i y_i\ \\]
 
 ### Nierówność Cauchy'ego-Schwarza
-\\\[ \overrightarrow{x} \cdot \overrightarrow{y} \leq \|x\| \cdot \|y\|\ \\]
+\\\[ \overrightarrow{x} \cdot \overrightarrow{y} \leq \ \vert x\ \vert  \cdot \ \vert y\ \vert \ \\]
 
 ### Nierówność trójkąta
-\\\[ \|\overrightarrow{x}+\overrightarrow{y}\| \leq \|\overrightarrow{x}\| + \|\overrightarrow{y}\|\ \\]
+\\\[ \ \vert \overrightarrow{x}+\overrightarrow{y}\ \vert  \leq \ \vert \overrightarrow{x}\ \vert  + \ \vert \overrightarrow{y}\ \vert \ \\]
 
 ### Własności odległości
 
-* \\( \|\overrightarrow{x}-\overrightarrow{y}\| = 0 \iff \overrightarrow{x} = \overrightarrow{y} \\)
-* \\( \|\overrightarrow{x}-\overrightarrow{y}\| = \|\overrightarrow{y}-\overrightarrow{x}\| \\)
-* \\( \|\overrightarrow{x}-\overrightarrow{y}\| \leq \|\overrightarrow{x}-\overrightarrow{z}\| + \|\overrightarrow{z}-\overrightarrow{y}\| \\)
+* \\( \ \vert \overrightarrow{x}-\overrightarrow{y}\ \vert  = 0 \iff \overrightarrow{x} = \overrightarrow{y} \\)
+* \\( \ \vert \overrightarrow{x}-\overrightarrow{y}\ \vert  = \ \vert \overrightarrow{y}-\overrightarrow{x}\ \vert  \\)
+* \\( \ \vert \overrightarrow{x}-\overrightarrow{y}\ \vert  \leq \ \vert \overrightarrow{x}-\overrightarrow{z}\ \vert  + \ \vert \overrightarrow{z}-\overrightarrow{y}\ \vert  \\)
 
 
 ### Odległość Euklidesowa
@@ -38,5 +38,5 @@ Odległość euklidesowa definiuje funkcję:
 \\\[ d: \mathbb{R}^n \times \mathbb{R}^n \to [0,\infty)\ \\]
 Funkcja \\( d \\) nazywa się metryką euklidesową.
 Ogólnie każdą funkcję \\( d: \mathcal{X}^n \times \mathcal{X}^n \to [0,\infty) \\) spełniającą warunki z \textbf{1.5} nazywamy \textbf{metryką}, a zbiór \\( \mathcal{X} \\) na którym ta funkcja działa \textbf{przestrzenią metryczną} z metryką \\( d \\).\\\
-\textbf{Uwaga:} \\( \overrightarrow{x} \cdot \overrightarrow{y} = \|\overrightarrow{x}\|\cdot\|\overrightarrow{y}\|\cos\alpha,\ \alpha\\[ 0;\pi \\] \\)
+\textbf{Uwaga:} \\( \overrightarrow{x} \cdot \overrightarrow{y} = \ \vert \overrightarrow{x}\ \vert \cdot\ \vert \overrightarrow{y}\ \vert \cos\alpha,\ \alpha\\[ 0;\pi \\] \\)
 

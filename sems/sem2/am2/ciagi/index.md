@@ -10,7 +10,7 @@ Analiza Matematyczna 2
 ## Ciągi w \\( \mathbb{R^n \\)
 
 ### Definicja granicy ciągu
-\\[ \lim_{k\to\infty} P_k = P \iff \lim_{k\to\infty} \|P_k - P\| = 0\ \\]
+\\[ \lim_{k\to\infty} P_k = P \iff \lim_{k\to\infty} \ \vert P_k - P\ \vert  = 0\ \\]
 
 ### Zbieżność po współrzędnych
 
@@ -18,9 +18,9 @@ Niech \\( P_k = (p_{k_1}, \ldots, p_{k_n}) \\) oraz \\( P = (p_1, \ldots, p_n) \
 \\[ \lim_{k\to\infty} P_k = P \iff \left(\forall i \in [n \\]\right)\left(\lim_{k\to\infty} p_{k_i} = p_i\right)\]
 
 ### Warunek Cauchy'ego
-\\[ \left(\forall \varepsilon > 0\right)\left(\exists k_0\right)\left(\forall m,l \geq k_o\right)\left(\|P_m - P_l\| < \varepsilon\right)\ \\]
+\\[ \left(\forall \varepsilon > 0\right)\left(\exists k_0\right)\left(\forall m,l \geq k_o\right)\left(\ \vert P_m - P_l\ \vert  < \varepsilon\right)\ \\]
 Czyli dla zbieżności po współrzędnych mamy:
-\\[ \left(\forall i \in [n \\]\right)\left(|p_{m_i} - p_{l_i}| \leq \sqrt{\sum_{j=1}^n\left(p_{m_j} - p_{l_j}\right)^2} < \varepsilon\right)\]
+\\[ \left(\forall i \in [n \\]\right)\left( \vert p_{m_i} - p_{l_i} \vert  \leq \sqrt{\sum_{j=1}^n\left(p_{m_j} - p_{l_j}\right)^2} < \varepsilon\right)\]
 
 ### Własności ciągów zbieżnych
 
