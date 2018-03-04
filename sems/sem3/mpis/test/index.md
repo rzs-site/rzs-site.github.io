@@ -9,7 +9,7 @@ Strona testowa
 ---
 
 Potrójny:
-\\( \left\\\{A\_i\right\\\}^n\_{i=1} \\)
+\\( \left\\{A\_i\right\\{^n\_{i=1} \\)
 
 Podwójny:
 \\( \left\\{A\_i\right\\}^n\_{i=1} \\)
