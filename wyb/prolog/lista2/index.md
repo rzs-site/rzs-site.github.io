@@ -73,6 +73,8 @@ Podobnie mozna przeanalizować dwukrotność:
 
 ### Zadanie 3*.
 
+###### Prawdopodobnie istnieje prostszy sposób rozwiązania tego zadania.
+
 Tutaj najłatwiej stworzyć listę odwiedzonych już wierzchołów i sprawdzać możemy dojśc jeszcze do innego wierzchołka.
 Możemy zdefiniować ściężkę od \\(A, B\\) gdy:
 * \\(A = B \\)
@@ -82,6 +84,7 @@ Sprawdzając czy da się przejść od \\(X \\) do \\(Y \\) musimy czy zachodzi j
 * \\(X \\) i \\(Y \\) są połączone
 * \\(X \\) jest połączone z \\(Z \\), \\(Z \\) jest różne od \\(Y \\) (od tego mamy pierwszy warunek) i nie odwiedziliśmy jeszcze \\(Z \\).
 Wtedy dorzucamy \\(Z \\) do odwiedzonych i wywołujemy rekurencyjne sprawdzenie czy da się przejść od \\(Z \\) do \\(Y \\).
+
 
 ---
 
