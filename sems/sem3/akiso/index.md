@@ -19,9 +19,9 @@ Nikt nie każe pisać w asmeblerze.
 
 ### O projekcie
 
-Kompendium AKiSO jest naszym najbardziej rozbudowanym projektem, dlatego w przeciwieństwie do pozostałych przedmiotów, podstawowe źródło informacji stanowi plik PDF (wygodniejszy do druku i .
+Kompendium AKiSO jest naszym najbardziej rozbudowanym projektem, dlatego w przeciwieństwie do pozostałych przedmiotów, podstawowe źródło informacji stanowi plik PDF (wygodniejszy do druku i czytania).
 Kopia internetowa pełni natomiast jedynie funkcję pomocniczą, dla umożliwienia szybkiego sprawdzenia informacji oraz przeglądania na urządzeniach mobilnych.
 Zgodność obu wersji można porównać poniżej:
 
-* Plik PDF: <a href="{{ site.baseurl }}/pdfs/sem3/akiso_opus_magnum_v6503.pdf">Kompendium AKiSO v4.2</a> (PDF)
+* Plik PDF: <a href="{{ site.baseurl }}/pdfs/sem3/akiso_opus_magnum_v6503.pdf">Kompendium AKiSO v4.2</a>
 * Kopia internetowa: na podstawie PDF v4.2, wersja α - brak ilustracji, problemy z biblioteką matematyczną

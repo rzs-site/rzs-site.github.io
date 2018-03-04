@@ -84,12 +84,3 @@ ON
 * ... `GROUP BY` A       - grupowanie                                       
 * ... `HAVING C `        - filtr końcowy, po wykonaniu właściwego zapytania 
 * ... `LIMIT n `         - pierwsze \\( n \\) wyników                           
-
-#### TESTY KODU INLINE
-* A AND B - standardowo 
-* A `AND` B - wielkie litery, tylko SQL inline 
-* a `AND` b - małe litery, tylko SQL inline 
-* `A AND B` - wielkie litery, całość inline 
-* `a AND b` - małe litery, całość inline 
-* \\( A \\) AND \\( B \\) - LaTeX (tylko zmienne, bez stylów)
-* \\( A \texttt{AND} B \\) - LaTeX (texttt dla SQL)
