@@ -29,7 +29,7 @@ div.highlight, .math-box {
     color: white;
 }
 
-div.highlight, .math-box {
+div.highlight, .math-box, .table-box, .MathJax_Display {
     overflow-x: auto;
     overflow-y: hidden;
 }

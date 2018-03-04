@@ -25,7 +25,9 @@ function myFunction(but,te) {
 
 Uwaga! Generator planu jest całkowicie nową funkcjonalnością. Aktualnie kolizje są już wykreślane prawidłowo, natomiast nadal odznaczanie wybranych wcześniej kratek prowadzi do awarii skryptu. W razie błędnego wyboru, odświeżyć stronę.
 
-<table style="float: left; margin: 10px 0px;">
+{::options parse_block_html="true" /}
+<div class="table-box">
+<table>
 
 <tr>
 	<td></td>
@@ -100,8 +102,14 @@ Uwaga! Generator planu jest całkowicie nową funkcjonalnością. Aktualnie koli
 </tr>
 </table>
 
+</div>
+{::options parse_block_html="false" /}
 
-<table style="float: left; margin: 10px 0px;" id="tabelaHTML">
+<br />
+
+{::options parse_block_html="true" /}
+<div class="table-box">
+<table id="tabelaHTML">
   <tr>
     <th class="tg-yw4l">Kod grupy</th>
     <th class="tg-yw4l">Nazwa</th>
@@ -1651,3 +1659,6 @@ Uwaga! Generator planu jest całkowicie nową funkcjonalnością. Aktualnie koli
     <td class="tg-yw4l">Mgr Brzózka Aleksander</td>
   </tr>
 </table>
+
+</div>
+{::options parse_block_html="false" /}

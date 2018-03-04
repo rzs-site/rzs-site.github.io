@@ -23,6 +23,8 @@ Stany "yes", "no", oraz "halt" oznaczają zatrzymanie maszyny. Strzałki oznacza
 
 Niech \\( \Sigma = {0,1} \\). Definiujemy język \\( L = { ww^R : w \in \Sigma * }\\) (czyli wyraz jest palindromem). Aby skonstruować TM formalnie, która akceptuje tylko te słowa, które należą do \\( L \\), należy sporządzić tabelkę funkcji \\( \delta \\):
 
+{::options parse_block_html="true" /}
+<div class="table-box">
 \\( \delta\left(x,q\right) \\)    | \\( 0 \\) | \\( 1 \\) | \\( \sqcup \\)
 \\( r \\)  | \\( \left(r_0, \sqcup , \rightarrow \right) \\)  |  \\( \left(r_1, \sqcup , \rightarrow \right) \\)  | tak
 \\( r_0 \\)  |  \\( \left(r_0, 0 , \rightarrow \right) \\)  | \\( \left(r_0, 1 , \rightarrow \right) \\)  |  \\( \left(l_0, \sqcup, \leftarrow \right) \\)
@@ -30,6 +32,9 @@ Niech \\( \Sigma = {0,1} \\). Definiujemy język \\( L = { ww^R : w \in \Sigma *
 \\( l_0 \\)  |  \\( l, \sqcup, \leftarrow \\) |  nie  |  nie
 \\( l_1 \\)  |  nie  |  \\( l, \sqcup, \leftarrow \\)  |  nie
 \\( l \\)  |  \\( l, 0, \leftarrow \\)  |  \\( l, 1, \leftarrow \\)  |  \\( r, \sqcup, \rightarrow \\)
+
+</div>
+{::options parse_block_html="false" /}
 
 Nasza TM \\( M = \left( \left\\{ r, r_0, r_1, l, l_0, l_1 \right\\}, \left\\{ 0, 1\right\\}, \delta, r \right)\\)
 

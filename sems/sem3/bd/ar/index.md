@@ -10,6 +10,8 @@ Bazy Danych i Systemy Informacyjne
 
 ### Algebra relacji
 
+{::options parse_block_html="true" /}
+<div class="table-box">
 | Operator                         | Odpowiednik w SQL              | Opis                          |
 |----------------------------------|-------------------------- -----|-------------------------------|
 | \\( \sigma ( A ) \\)             | `SELECT` * `FROM` A            | selekcja                      |
@@ -29,3 +31,6 @@ Bazy Danych i Systemy Informacyjne
 | \\( R \bowtie S  \\)             | R `INNER JOIN` S               | naturalne złączenie           |
 | \\( R \bowtie_C S\\)             | R `JOIN` S `ON` C              | złączenie warunkowe           |
 | \\( R \bowtie_C S\\)             | R `JOIN` S `ON` C              | złączenie warunkowe           |
+
+</div>
+{::options parse_block_html="false" /}
