@@ -16,6 +16,6 @@ Dokonujemy tego poprzez rozważanie \\(F(n + 1) \\) i doprowadzenie do formy nam
 
 ### Przykłady:
 * Nierówność Bernoulliego,
-* \\( \forall(n > 4) 2^n > n^2 \\)
+* \\( \forall(n > 4) \  \quad 2^n > n^2 \\)
 * \\( \sum_{i = 1}^{n} i = \frac{n(n+1)}{2} \\)
 * Wzór włączeń i wyłączeń

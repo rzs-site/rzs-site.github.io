@@ -9,7 +9,7 @@ Matematyka Dyskretna
 
 ### Funkcje tworzące
 
-* Wyprowadzenie funkcji tworzącej ciągu Fibbonacciego:
+Wyprowadzenie funkcji tworzącej ciągu Fibbonacciego:
 
 {::options parse_block_html="true" /}
 <div class="math-box"> <p>
@@ -44,15 +44,24 @@ Matematyka Dyskretna
         \text{Korzystając ze wzoru na sumę szerego geometrycznego:} \\\
         \frac{1}{\sqrt{5}}\sum_{n = 0}^\infty \left(\left(\frac{2}{-1 + \sqrt{5}}\right)^{n} - \left(\frac{2}{-1 - \sqrt{5}}\right)^n\right) x^n \\\
         \text{Co daje nam wynik:} \\\
-        F(x) = \frac{1}{\sqrt{5}}\left(\left(\frac{2}{-1 + \sqrt{5}}\right)^{n} - \left(\frac{2}{-1 - \sqrt{5}}\right)^n\right)
+        F_n = \frac{1}{\sqrt{5}}\left(\left(\frac{2}{-1 + \sqrt{5}}\right)^{n} - \left(\frac{2}{-1 - \sqrt{5}}\right)^n\right)
+        \text{Możemy to przekształcić do postaci:} \\\
+        F_n = \frac{1}{\sqrt{5}} \left( \left( \frac{1 + \sqrt{5}}{2} \right)^n - \left( \frac{1 - \sqrt{5}}{2} \right)^n \right)
 
     \\]
     </p></div>
 {::options parse_block_html="false" /}
 
-<!-- TESTTTTTTT. -->
+Liczby Catalana to ciąg liczbowy mający zastosowanie w kombinatoryce. Definujemy je jako:
 
+\\(C_0 = 1 \quad C_{n+1} = \sum_{i=0}^{n}C_i C_{n-i} \\)
 
+Można dla nich wyznaczyć funkcję tworzącą niemalże analogicznie do liczb Fibbonacciego.
 
-* Ukorzenione drzewa binarne, liczby Catalana \\( C_n=\frac{1}{n+1}{2n\choose n} \\)
-* Liczby Catalana, więcej przykładów
+Otrzymamy wtedy \\( C_n=\frac{1}{n+1}{2n\choose n} \\)
+
+\\(C_n\\) można interpretować jako:
+* Liczba sposóbów rozmieszczenia nawiasów dla n+1 argumentowego wyrażenia.
+* Liczbę różnych drzew binarnych o \\(n+1 \\) liściach.
+* Liczbę dróg na kwadracie \\(n \times n \\) z lewego dolnego wierzchołka do prawego górnego tak aby nie przekroczyć przekątnej.
+* Liczba sposobów podziałów  wielokąta majęcego \\(n + 2 \\) krawędzi na trójkąty przy pomocy nieprzecinających się krawędzi.
