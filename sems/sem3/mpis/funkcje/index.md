@@ -15,7 +15,7 @@ Niech \\( X \\) będzie zmienną losową oraz niech \\( g \\) będzie dowolną f
 
 #### Własności
 Jeżeli znamy gęstość zmiennej losowej \\( X \\), dystrybuantę zmiennej losowej \\( Y \\) znajdujemy w następujący sposób:
-\\[ *F*_Y(y) = *P*(Y<y) = *P*\left(g(X)<y\right) = \int_{\{x:g(x)<y\}} f_X(x)dx \\]
+\\[ *F*_Y(y) = \mathbb{P}(Y<y) = \mathbb{P}\left(g(X)<y\right) = \int_{\{x:g(x)<y\}} f_X(x)dx \\]
 Jeśli \\( g \\) jest funkcją różniczkowalną oraz ściśle monotoniczną (czyli rosnącą lub malejącą), oznaczamy przez \\( g^{-1} \\) funkcję odwrotną do \\( g \\) i mamy:
 Dla \\( g \\) rosnącej:
 \\[ \frac{d}{dy}*F*_Y(y) = f_Y(Y) = \frac{d}{dy} \int_{\{x:g(x)<y\}} f_X(x)dx = \frac{d}{dy} \int_{\{x:x<g^{-1}(y)\}} f_X(x)dx = f_X\left(g^{-1}(y)\right)(g^{-1})'(y) \\]

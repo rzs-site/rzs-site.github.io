@@ -49,16 +49,16 @@ Funkcja \\( \varphi \\) określona jako:
 Przyjmuje najmniejszą wartość gdy \\( c = \mathbb{E}(X) \\).
 
 #### Nierówność Czebyszewa
-Jeśli zmienna losowa \\( X \\) spełniająca warunek \\( *P*(X < 0) = 0 \\) ma wartość przeciętną \\( \mathbb{E}(X) \\), to dla dowolnego \\( \varepsilon > 0 \\) mamy:
-\\[ *P*(X \geq \varepsilon) \leq \frac{\mathbb{E}(X)}{\varepsilon} \\]
+Jeśli zmienna losowa \\( X \\) spełniająca warunek \\( \mathbb{P}(X < 0) = 0 \\) ma wartość przeciętną \\( \mathbb{E}(X) \\), to dla dowolnego \\( \varepsilon > 0 \\) mamy:
+\\[ \mathbb{P}(X \geq \varepsilon) \leq \frac{\mathbb{E}(X)}{\varepsilon} \\]
 
 #### Nierówność Czebyszewa-Bienayme
 Jeśli zmienna losowa \\( X \\) ma wariancje \\( \mathbb{V}(X) \\) i wartość przeciętną \\( \mathbb{E}(X) \\), to dla dowolnego \\( \varepsilon > 0 \\) mamy:
-\\[ *P*(\vert X-\mathbb{E}(X)\vert  \geq \varepsilon) \leq \frac{\mathbb{V}(X)}{\varepsilon^2} \\]
+\\[ \mathbb{P}(\vert X-\mathbb{E}(X)\vert  \geq \varepsilon) \leq \frac{\mathbb{V}(X)}{\varepsilon^2} \\]
 
 #### Nierówność Markowa
 Jeśli zmienna losowa \\( X \\) ma wartość przeciętną \\( \mathbb{E}(X) \\), to dla dowolnych \\( \varepsilon, p > 0 \\) mamy:
-\\[ *P*(\vert X\vert  \geq \varepsilon) \leq \frac{\mathbb{E}(\vert X\vert ^p)}{\varepsilon^p} \\]
+\\[ \mathbb{P}(\vert X\vert  \geq \varepsilon) \leq \frac{\mathbb{E}(\vert X\vert ^p)}{\varepsilon^p} \\]
 
 #### Centralne twierdzenie graniczne
 Dla danego rozkładu, określonej wartości oczekiwanej \\( m \\) i skończonej wariancji \\( \sigma^2 \\) określamy zbiór zdarzeń niezależnych, które oznaczamy przez \\( X_i \\). Wtedy:
