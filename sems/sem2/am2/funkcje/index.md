@@ -1,12 +1,12 @@
 ---
 layout: acc_layout
 toc: am2
-use_math: true 
+use_math: true
 ---
 
 Analiza Matematyczna 2
 ---
-## Funkcje z \\( \mathbb{R^n \\) w \\( \mathbb{R}^m \\)}
+## Funkcje z \\( \mathbb{R^n} \\) w \\( \mathbb{R}^m \\)
 
 ### Definicja
 \\\[ f: \mathcal{D} \to \mathbb{R}^m,\ \mathcal{D} \subset \mathbb{R}^n\ \\]
@@ -29,5 +29,6 @@ Jeśli \\( \overrightarrow{x_0} \\) jest punktem skupienia \\( \mathcal{D} \\) t
 
 ### Twierdzenie o niezmienności zwartości
 
-Jeśli \\( \mathcal{D} \\) jest zbiorem zwartym (gdzie \\( \mathcal{D} \subset \mathbb{R}^n \\)) oraz \\( f: \mathcal{D} \to \mathbb{R}^m \\) jest ciągła, to \\( f\left\\[ \mathcal{D}\right \\] \\) jest zwarty w \\( \mathbb{R}^m \\). \\\
-\textbf{Wniosek:} Każda funkcja ciągła \\( f: \mathcal{D} \to \mathbb{R} \\), gdzie \\( \mathcal{D} \\) jest zwarty w \\( \mathbb{R}^n \\) ma wartość najmniejszą i największą.
+Jeśli \\( \mathcal{D} \\) jest zbiorem zwartym (gdzie \\( \mathcal{D} \subset \mathbb{R}^n \\)) oraz \\( f: \mathcal{D} \to \mathbb{R}^m \\) jest ciągła, to \\( f\left\[ \mathcal{D}\right \] \\) jest zwarty w \\( \mathbb{R}^m \\).
+
+**Wniosek:** Każda funkcja ciągła \\( f: \mathcal{D} \to \mathbb{R} \\), gdzie \\( \mathcal{D} \\) jest zwarty w \\( \mathbb{R}^n \\) ma wartość najmniejszą i największą.

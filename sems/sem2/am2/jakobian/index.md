@@ -1,7 +1,7 @@
 ---
 layout: acc_layout
 toc: am2
-use_math: true 
+use_math: true
 ---
 
 Analiza Matematyczna 2
@@ -11,10 +11,10 @@ Analiza Matematyczna 2
 ### Twierdzenie o podstawianiu
 
 Jeśli \\( T: V \to V' \\) jest wzajemnie jednoznacznym odwzorowaniem mającym pierwsze pochodne cząstkowe ciągłe takim, że \\( T^{-1} \\) też ma te własności (dyfeomorfizmem), gdzie \\( V, \\) \\( V' \\) są regularne w \\( \mathbb{R}^3 \\) oraz \\( T(u,v,w) = (x,y,z) \\), wtedy:
-\\\[ \iiint_{v'} f(x,y,z) dP' = \iint_V f(x(u,v,w), y(u,v,w), z(u,v,w)) \left \vert  \frac{\partial (x,y,z)}{\partial (u,v,w)} \right \vert  dP \\]
+\\[ \iiint_{v'} f(x,y,z) dP' = \iint_V f(x(u,v,w), y(u,v,w), z(u,v,w)) \left \vert  \frac{\partial (x,y,z)}{\partial (u,v,w)} \right \vert  dP \\]
 
-\[
-\frac{\partial (x,y,z)}{\partial (u,v,w)} = 
+\\[
+\frac{\partial (x,y,z)}{\partial (u,v,w)} =
 \begin{vmatrix}
 x_u & x_v & x_w \\\
 y_u & y_v & y_w \\\
@@ -32,7 +32,7 @@ y = r \sin\varphi
 \\]
 
 \\[
-\frac{\partial (x,y,z)}{\partial (u,v,w)} = 
+\frac{\partial (x,y,z)}{\partial (u,v,w)} =
 \begin{vmatrix}
 \cos\varphi & -r\sin\varphi \\\
 \sin\varphi & r\cos\varphi
@@ -51,7 +51,7 @@ z = r \cos\theta
 \\]
 
 \\[
-\frac{\partial (x,y,z)}{\partial (u,v,w)} = 
+\frac{\partial (x,y,z)}{\partial (u,v,w)} =
 \begin{vmatrix}
 \sin\theta\cos\varphi & r\cos\theta\cos\varphi & -r\sin\theta\sin\varphi \\\
 \sin\theta\sin\varphi & r\cos\theta\sin\varphi & r\sin\theta\cos\varphi \\\
@@ -71,7 +71,7 @@ z = z
 \\]
 
 \\[
-\frac{\partial (x,y,z)}{\partial (u,v,w)} = 
+\frac{\partial (x,y,z)}{\partial (u,v,w)} =
 \begin{vmatrix}
 \cos\varphi & -r\sin\varphi & 0 \\\
 \sin\varphi & r\cos\varphi & 0 \\\

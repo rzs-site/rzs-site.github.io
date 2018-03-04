@@ -1,7 +1,7 @@
 ---
 layout: acc_layout
 toc: am2
-use_math: true 
+use_math: true
 ---
 
 Analiza Matematyczna 2
@@ -55,7 +55,7 @@ Jest to uogólnienie różniczkowalności funkcji jednej zmiennej, wtedy mamy:
 
 ### Pochodna funkcji wektorowej
 
-Niech \\( f: \mathcal{D} \to \mathbb{R}^m \\), \\( \mathcal{D} \subset \mathbb{R} \\), \\( \mathcal{D} \\)-przedział. Wtedy \\( f \\) nazywamy krzywą parametryczną (Obraz \\( f\\[ \mathcal{D} \\] \\) również nazywamy krzywą):
+Niech \\( f: \mathcal{D} \to \mathbb{R}^m \\), \\( \mathcal{D} \subset \mathbb{R} \\), \\( \mathcal{D} \\)-przedział. Wtedy \\( f \\) nazywamy krzywą parametryczną (Obraz \\( f\[ \mathcal{D} \] \\) również nazywamy krzywą):
 
 * Ciągłą jeśli \\( f \\) jest ciągła
 * Różniczkowalną gdy \\( f'\left(\mathcal{D}\right) \\) istnieje dla każdego \\( t \in \mathcal{D} \\)
@@ -72,14 +72,16 @@ Jeśli \\( f''(t) \\) istnieje dla każdego \\( t \in \mathcal{D} \\), to \\( T'
 ### Pochodna pola wektorowego
 
 Niech \\( f: \mathcal{D} \to \mathbb{R}^m \\), gdzie \\( \mathcal{D} \subset \mathbb{R}^n \\). Wtedy mamy:
-\\\[ f\left(\overrightarrow{x}\right) = \left(f_1 \left(\overrightarrow{x}\right), \ldots, f_m \left(\overrightarrow{x}\right)\right)\ \ \ \ \text{gdzie}\ f_i: \mathcal{D} \to \mathbb{R}\ \\]
-\[f'\left(\overrightarrow{x}\right) =
+
+\\[ f\left(\overrightarrow{x}\right) = \left(f_1 \left(\overrightarrow{x}\right), \ldots, f_m \left(\overrightarrow{x}\right)\right)\ \ \ \ \text{gdzie}\ f_i: \mathcal{D} \to \mathbb{R}\ \\]
+
+\\[f'\left(\overrightarrow{x}\right) =
 \begin{bmatrix}
 \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \dots  & \frac{\partial f_1}{\partial x_n} \\\ \\\
 \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & \dots  & \frac{\partial f_2}{\partial x_n} \\\ \\\
 \vdots & \vdots & \ddots & \vdots \\\ \\\
 \frac{\partial f_m}{\partial x_1} & \frac{\partial f_m}{\partial x_2} & \dots  & \frac{\partial f_m}{\partial x_n}
-\end{bmatrix}\]
+\end{bmatrix} \\]
 
 ### Pochodna cząstkowa funkcji złożonej
 
@@ -89,53 +91,37 @@ Pochodna złożona to, ogólnie, iloczyn pochodnej funkcji wewnętrznej i zewnę
 ### Twierdzenie Lagrange'a o wartości średniej
 
 Niech \\( f: \mathcal{D} \to \mathbb{R} \\), \\( \mathcal{D} \subset \mathbb{R}^n \\), będzie funkcją różniczkowalną oraz niech \\( \overrightarrow{p_0} \in \mathcal{D} \\), \\( \overrightarrow{p} = \overrightarrow{p_0} + \overrightarrow{h} \\) Wtedy mamy:
-\\\[ f\left(\overrightarrow{p}\right) - f\left(\overrightarrow{p_0}\right) = \text{d}f\left(\overrightarrow{p_\theta}\right)\ \\]
+\\[ f\left(\overrightarrow{p}\right) - f\left(\overrightarrow{p_0}\right) = \text{d}f\left(\overrightarrow{p_\theta}\right)\ \\]
 Dla pewnego \\( \overrightarrow{p_\theta} = \overrightarrow{p_0} + \theta\overrightarrow{h} \\), \\( \theta \in (0,1) \\).
 
 ### Wzór Taylora dla funkcji mającej ciągłe pochodne cząstkowe pierwszego i drugiego rzędu
 
 Niech \\( f : \mathbb{R}^n \to \mathbb{R}^m \\) będzie funkcją \\( n \\)-różniczkowalną,
-\\( \vec{a} = (a_1, a_2, \dotsc, a_n) \in \mathbb{R}^n \\) i 
-\\( \vec{h} = (h_1, h_2, \dotsc, h_n) \in \mathbb{R}^n \\). Wzór Taylora wygląda 
+\\( \vec{a} = (a_1, a_2, \dotsc, a_n) \in \mathbb{R}^n \\) i
+\\( \vec{h} = (h_1, h_2, \dotsc, h_n) \in \mathbb{R}^n \\). Wzór Taylora wygląda
 następująco:
-\[
-f(\vec{a} + \vec{h}) = 
-f(\vec{a}) 
-   + \mathrm{d}f_{\vec{a}}(\vec{h}) 
-+ \mathrm{d}^2f_{\vec{a}}(\vec{h}) 
-+ \dotso
-+ R_n(\vec{a}, \vec{h})
-\]
+\\[
+f(\vec{a} + \vec{h}) =
+f(\vec{a}) + \mathrm{d}f_{\vec{a}}(\vec{h}) + \mathrm{d}^2f_{\vec{a}}(\vec{h}) + \dotso + R_n(\vec{a}, \vec{h})
+\\]
 gdzie \\( \mathrm{d}^nf_{\vec{a}}(\vec{h}) \\) to \\( n \\)-krotna różniczka zupełna
 w punkcie \\( \vec{a} \\),
-która jest definiowana rekurencyjnie: 
+która jest definiowana rekurencyjnie:
 
+1. \\(\mathrm{d}f_{\vec{a}}(\vec{h}) =  \nabla f (\vec{a}) \cdot \vec{h} = \frac{\partial f(\vec{a})}{\partial x_1} \cdot h_1 + \frac{\partial f(\vec{a})}{\partial x_2} \cdot h_2 + \dotso + \frac{\partial f(\vec{a})}{\partial x_n} \cdot h_n \\)
+1. \\(\mathrm{d}^{n+1} f_{\vec{a}}(\vec{h}) = \mathrm{d} \left(\mathrm{d}^n f_{\vec{a}}(\vec{h})\right) \\)
 
-* 
-$\mathrm{d}f_{\vec{a}}(\vec{h}) =  \nabla f (\vec{a}) \cdot \vec{h} =
-\frac{\partial f(\vec{a})}{\partial x_1} \cdot h_1 
-+ \frac{\partial f(\vec{a})}{\partial x_2} \cdot h_2
-+ \dotso
-+ \frac{\partial f(\vec{a})}{\partial x_n} \cdot h_n$
-*
-$\mathrm{d}^{n+1} f_{\vec{a}}(\vec{h}) = 
-\mathrm{d} \left(\mathrm{d}^n f_{\vec{a}}(\vec{h})\right)$
-   
-Można udowodnić, że jawna postać \\( n \\)-tej różniczki (\\( n > 1 \\)) 
+Można udowodnić, że jawna postać \\( n \\)-tej różniczki (\\( n > 1 \\))
 dla funkcji dwóch zmiennych
 wygląda następująco:
-\[
-\mathrm{d}^n f_{\vec{a}}(h_1, h_2)
-= \sum^n_{k = 0}\binom{n}{k} \frac{\partial^n f(\vec{a})}
-{\partial x_1^{n - k} \partial x_2^k} \cdot h_1^{n - k} h_2^k
-\]
+\\[
+\mathrm{d}^n f_{\vec{a}}(h_1, h_2) = \sum^n_{k = 0}\binom{n}{k} \frac{\partial^n f(\vec{a})} {\partial x_1^{n - k} \partial x_2^k} \cdot h_1^{n - k} h_2^k
+\\]
 Czyli dla \\( n = 2 \\):
-\[
+\\[
 \mathrm{d}^2 f_{(x_1, x_2)}(h_1, h_2)
-= \frac{\partial^2 f(x_1, x_2)}{\partial x_1^2}h_1^2
-+ 2\frac{\partial^2 f(x_1, x_2)}{\partial x_1 \partial x_2}h_1h_2
-+ \frac{\partial^2 f(x_1, x_2)}{\partial x_2^2}h_2^2
-\]
+= \frac{\partial^2 f(x_1, x_2)}{\partial x_1^2}h_1^2 + 2\frac{\partial^2 f(x_1, x_2)}{\partial x_1 \partial x_2}h_1h_2 + \frac{\partial^2 f(x_1, x_2)}{\partial x_2^2}h_2^2
+\\]
 
 ### Aproksymacja funkcji wielu zmiennych
 

@@ -1,7 +1,7 @@
 ---
 layout: acc_layout
 toc: am2
-use_math: true 
+use_math: true
 ---
 
 Analiza Matematyczna 2
@@ -11,7 +11,7 @@ Analiza Matematyczna 2
 ### Definicja
 
 Zbiór
-\\( P = \{(x,y,z) \in \mathbb{R}^3 : a \leq x \leq a',\ b \leq y \leq b',\ c \leq z \leq c'\} \\),
+\\( P = \\{(x,y,z) \in \mathbb{R}^3 : a \leq x \leq a',\ b \leq y \leq b',\ c \leq z \leq c' \\} \\),
 gdzie
 \\( a,a',b,b',c,c' \in \mathbb{R} \\),
 nazywamy prostopadłościanem.

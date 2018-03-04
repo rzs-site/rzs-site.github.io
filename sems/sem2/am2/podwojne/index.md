@@ -1,7 +1,7 @@
 ---
 layout: acc_layout
 toc: am2
-use_math: true 
+use_math: true
 ---
 
 Analiza Matematyczna 2
@@ -10,7 +10,7 @@ Analiza Matematyczna 2
 
 ### Definicja
 
-Zbiór \\( P = \{(x,y) \in \mathbb{R}^2 : a \leq x \leq b,\ c \leq y \leq d \} \\), gdzie \\( a,b,c,d \in \mathbb{R} \\), nazywamy prostokątem. Jego pole oznaczamy jako \\(  \vert P \vert  \\). \\( \mathcal{P} =  \\) podział \\( P \\) na prostokąty \\( P_1, P_2, \ldots, P_n \\), gdzie \\( \Delta P_i =  \vert P_i \vert  \\).
+Zbiór \\( P = \\{(x,y) \in \mathbb{R}^2 : a \leq x \leq b,\ c \leq y \leq d \\} \\), gdzie \\( a,b,c,d \in \mathbb{R} \\), nazywamy prostokątem. Jego pole oznaczamy jako \\(  \vert P \vert  \\). \\( \mathcal{P} =  \\) podział \\( P \\) na prostokąty \\( P_1, P_2, \ldots, P_n \\), gdzie \\( \Delta P_i =  \vert P_i \vert  \\).
 Niech \\( f : P \to \mathbb{R} \\) będzie funkcją ograniczoną, wtedy definiujemy następujące wartości:
 \\\[ M = \sup_P f \Rightarrow M_i = \sup_{P_i} f \\]
 \\\[ m = \inf_P f \Rightarrow m_i = \inf_{P_i} f \\]
@@ -18,7 +18,7 @@ Suma całkowa Riemanna:
 
 * Dolna: \\( L_\mathcal{P} (f) = \sum_{i=1}^n m_i \Delta P_i \\)
 * Górna: \\( U_\mathcal{P} (f) = \sum_{i=1}^n M_i \Delta P_i \\)
-* Pośrednia: \\( M_\mathcal{P} (f) = \sum_{i=1}^n a_i \Delta P_i \\), gdzie \\( a_i \in \\[ m_i, M_i \\] \\)
+* Pośrednia: \\( M_\mathcal{P} (f) = \sum_{i=1}^n a_i \Delta P_i \\), gdzie \\( a_i \in \[ m_i, M_i \] \\)
 
 Całkę górną i dolną definiujemy następująco:
 \\\[ \sup_\mathcal{P} L_\mathcal{P} (f) = \underline{\iint_P} f(x,y) dP\ \\]
@@ -29,7 +29,7 @@ Jeśli te dwie całki są sobie równe to mówimy, że \\( f \\) jest całkowaln
 ### Własności
 
 
-* Jeśli \\( f \\) jest całkowalna na \\( P \\), to dla każdego ciągu podziałów \\( \mathcal{P}_k \\) takiego, że \\( \delta (\mathcal{P}_k) \to_{k \to \infty} 0 \\), mamy, że \\( \lim_{k \to \infty} \sigma_{\mathcal{P}_k} (f) = \iint_P f dP \\).
+* Jeśli \\( f \\) jest całkowalna na \\( P \\), to dla każdego ciągu podziałów \\( \mathcal{P}\_k \\) takiego, że \\( \delta (\mathcal{P}\_k) \to\_{k \to \infty} 0 \\), mamy, że \\( \lim_{k \to \infty} \sigma_{\mathcal{P}_k} (f) = \iint_P f dP \\).
 * Każda funkcja ciągła na \\( P \\) (ogólniej każda taka która ma zbiór punktów nieciągłości o mierze Jordana \\( = 0 \\) ) jest całkowalna.
 * Własności analogiczne dla całki pojedynczej: addytywność, mnożenie przez skalar, \\( m \vert P \vert  \leq \iint_P f dP \leq M \vert P \vert  \\).
 * Interpretacją geometryczną jest objętość pola pod wykresem funkcji.
@@ -44,12 +44,12 @@ Jeśli \\( f \\) jest ciągła to mamy na \\( P \\):
 
 ### Inne zbiory całkowania
 
-Całkę z funkcji ograniczonej możemy rozszerzyć na dowolny zbiór ograniczony, biorąc prostokąt w którym ten zbiór się zawiera i kładąc \\( f(x,y) = 0 \\) dla każdego punktu spoza zbioru. \\\
+Całkę z funkcji ograniczonej możemy rozszerzyć na dowolny zbiór ograniczony, biorąc prostokąt w którym ten zbiór się zawiera i kładąc \\( f(x,y) = 0 \\) dla każdego punktu spoza zbioru.
 Możemy także całkować po obszarach normalnych (tj takich zawartych pomiędzy wykresami funkcji).
 
 ### Niezależność w sensie Jordana
 
-Zbiór \\( \mathcal{D} \subseteq \mathbb{R}^2 \\) jest niezależny w sensie Jordana jeśli istnieje całka \\( \iint_\mathcal{D} dP \\) taka, że \\(  \vert \mathcal{D} \vert  = \iint_\mathcal{D} dP \\), gdzie mamy \\( f:P \to \{0,1\} \\), \\( f \mathchar"3416_\mathcal{D} \equiv 1 \\), \\( f \mathchar"3416_{P \setminus \mathcal{D}} \equiv 0 \\).
+Zbiór \\( \mathcal{D} \subseteq \mathbb{R}^2 \\) jest niezależny w sensie Jordana jeśli istnieje całka \\( \iint_\mathcal{D} dP \\) taka, że \\(  \vert \mathcal{D} \vert  = \iint_\mathcal{D} dP \\), gdzie mamy \\( f:P \to \\{0,1\\} \\), \\( f \upharpoonleft\_\mathcal{D} \equiv 1 \\), \\( f \upharpoonleft\_{P \setminus \mathcal{D}} \equiv 0 \\).
 
 ### Kryterium niezależności w sensie Jordana dla zbioru płaskiego
 
