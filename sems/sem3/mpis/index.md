@@ -1,6 +1,15 @@
 ---
-layout: default
+layout: acc_layout
+toc: mpis
+use_math: true
+use_highlight: true
 ---
+
 Metody probabilistycznie i statystyka
 ---
-<a href="{{ site.baseurl }}/pdfs/sem3/mpis-skrypt.pdf">Skrypt</a> (PDF)
+
+### Wymagania wstępne
+
+* całki oznaczone (AM1)
+* sumy skończone (MD)
+* zbiory (LiSF)
