@@ -20,8 +20,8 @@ Rozkładem prawdopodobieństwa zmiennej losowej \\( X \\) na przestrzeni probabi
 \\[ \mathbb{P}\_X (A) = \mathbb{P} \left( \{\omega \in \Omega : X(\omega) \in A\} \right) \\]
 Zauważmy, że zdefiniowane wyżej byty indukują nową przestrzeń probabilistyczną \\( \left(\\mathbb{R}, *S*\_\mathcal{B}, \mathbb{P}\_X\right) \\).\\\
 Zgodnie z metodą podaną wcześniej, dystrybuantę rozkładu prawdopodobieństwa zmiennej losowej \\( X \\) definiujemy jako:
-\\[ *F*\_X (x) = \mathbb{P}\_X \left(\left( -\infty; x \right)\right) \\]
+\\[ \mathbb{F}\_X (x) = \mathbb{P}\_X \left(\left( -\infty; x \right)\right) \\]
 Otrzymujemy również następującą zależność:
-\\[ \mathbb{P}\_X \left(\langle a, b)\right) = \mathbb{P} \left( \{\omega \in \Omega : a \leq X(\omega) < b\} \right) = *F*\_X (b) - *F*\_X (a) \\]
+\\[ \mathbb{P}\_X \left(\langle a, b)\right) = \mathbb{P} \left( \{\omega \in \Omega : a \leq X(\omega) < b\} \right) = \mathbb{F}\_X (b) - \mathbb{F}\_X (a) \\]
 Możemy również stosować skrócony zapis:
 \\[ \mathbb{P} \left(a \leq X < b)\right) = \mathbb{P} \left( \{\omega \in \Omega : a \leq X(\omega) < b\} \right) \\]
