@@ -10,8 +10,9 @@ Bazy Danych i Systemy Informacyjne
 
 ### Algebra relacji
 
-| \\( \sigma ( A ) \\)             | `SELECT` * `FROM` A            | selekcja                      |
+| Operator                         | Odpowiednik w SQL              | Opis                          |
 |----------------------------------|-------------------------- -----|-------------------------------|
+| \\( \sigma ( A ) \\)             | `SELECT` * `FROM` A            | selekcja                      |
 | \\( \sigma_C ( A )  \\)          | `SELECT` * `FROM` A `WHERE` C  | selekcja warunkowa            |
 | \\( \pi_K ( A )  \\)             | `SELECT` K `FROM` A            | projekcja                     |
 | \\( \pi_K ( \sigma_C ( A ) ) \\) | `SELECT` K `FROM` A `WHERE` C  | projekcja selekcji warunkowej |
