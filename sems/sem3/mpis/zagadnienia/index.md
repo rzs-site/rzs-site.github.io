@@ -1,8 +1,8 @@
 ---
-layout: acc_layout
+layout: acc\_layout
 toc: mpis
-use_math: true
-use_highlight: true
+use\_math: true
+use\_highlight: true
 ---
 
 Metody probabilistycznie i statystyka
@@ -18,14 +18,14 @@ Metody probabilistycznie i statystyka
 * **Zdarzeniem niemożliwym** jest zbiór \\( \emptyset \\).
 * Zdarzenia **rozłączne** to takie, że \\( A \cap B = \emptyset \\).
 * **Zdarzeniem przeciwnym** do zdarzenia \\( A \\) nazywamy zdarzenie \\( A' = \Omega - A \\).
-* Rodzinę zdarzeń postaci \\( \\{A_i\\}^{n}\_{i=1} \\), której elementy są parami rozłączne oraz dla której \\( \bigcup^n_{i=1} A_i = \Omega \\) nazywamy **układem zupełnym**.
+* Rodzinę zdarzeń postaci \\( \\{A\_i\\}^{n}\\_{i=1} \\), której elementy są parami rozłączne oraz dla której \\( \bigcup^n\_{i=1} A\_i = \Omega \\) nazywamy **układem zupełnym**.
 
 #### Najmniejsze (bo małe ciała są fajne) przeliczalnie addytywne ciało zdarzeń
 Niech \\( \Omega \subseteq \\mathbb{R}^n \\) oraz niech \\( \mathcal{S}^* \\) będzie taką rodziną podzbiorów \\( \Omega \\),
 że \\( \Omega \in \mathcal{S}^\* \\),
 \\( \left(\forall A \in \mathcal{S}^\*\right)\left(\Omega - A \in \mathcal{S}^* \right) \\)
 oraz
-\\( \left( \forall A_1,\ A_2,\ \ldots \in \mathcal{S}^\* \right) \left(\bigcup^\infty\_{i=1} A_i \in \mathcal{S}^\* \right) \\).
+\\( \left( \forall A\_1,\ A\_2,\ \ldots \in \mathcal{S}^\* \right) \left(\bigcup^\infty\\_{i=1} A\_i \in \mathcal{S}^\* \right) \\).
 Rodzinę taką nazywamy **przeliczalnie addytywnym ciałem zdarzeń**.
 Najmniejszą z tych rodzin oznaczać będziemy przez \\( \mathcal{S} \\).
 Jest to rodzina zbiorów **borelowskich** której elementami są zdarzenia losowe.
@@ -35,29 +35,29 @@ Mamy zbiory \\( \Omega \\) oraz \\( \mathcal{S} \\). Definiujemy funkcję \\( \m
 \\[ \mathbb{P}:\ \mathcal{S}\ \rightarrow\ \\mathbb{R} \\]
 \\[ \left( \forall A \in \mathcal{S} \right)\left( \mathbb{P}(A) \geq 0 \right) \\]
 \\[ \mathbb{P}(\Omega) = 1 \\]
-\\[ \left( \forall A_1,A_2,\ldots \in \mathcal{S} \right)\left( \left( \forall A_i,\ A_j \right)\left( A_i \cap A_j = \emptyset \right) \rightarrow \mathbb{P}\left( \bigcup^\infty_{i=1} A_i \right) = \sum^\infty_{i=1} \mathbb{P}\left(A_i\right) \right) \\]
+\\[ \left( \forall A\_1,A\_2,\ldots \in \mathcal{S} \right)\left( \left( \forall A\_i,\ A\_j \right)\left( A\_i \cap A\_j = \emptyset \right) \rightarrow \mathbb{P}\left( \bigcup^\infty\_{i=1} A\_i \right) = \sum^\infty\_{i=1} \mathbb{P}\left(A\_i\right) \right) \\]
 Funkcję taką nazywamy *rozkładem prawdopodobieństwa*, a jej wartości *prawdopodobieństwem* zdarzeń losowych.
 
 #### Podstawowe własności rozkładu prawdopodobieństwa
 \\[ \mathbb{P}\left(\emptyset\right) = 0 \\]
-\\[ \mathbb{P}\left( \bigcup^n_{i=1} A_i \right) = \sum^n_{i=1} \mathbb{P}\left(A_i\right) \\]
+\\[ \mathbb{P}\left( \bigcup^n\_{i=1} A\_i \right) = \sum^n\_{i=1} \mathbb{P}\left(A\_i\right) \\]
 \\[ \mathbb{P}\left(A'\right) = 1 - \mathbb{P}\left(A\right) \\]
 \\[ \mathbb{P}\left(A \cup B\right) = \mathbb{P}\left(A\right) + \mathbb{P}\left(B\right) - \mathbb{P}\left(A \cap B\right) \\]
 \\[ A \subset B \rightarrow \mathbb{P}\left(A\right) \leq \mathbb{P}\left(B\right) \\]
 
 #### Ciekawsze własności rozkładu prawdopodobieństwa
-Jeśli zdarzenia \\( A_1 \\), \\( A_2 \\), ... stanowią ciąg *wstępujący*, czyli mamy \\( A_1 \subset A_2 \subset \ldots \\) oraz jeśli \\( \bigcup_i A_i = A \\) wtedy:
-\\[ \text{lim}_{n \rightarrow \infty}\ \mathbb{P}\left(A_n\right) = \mathbb{P}(A) \\]
-Dowód przeprowadzamy rozpatrując różnice między kolejnymi zbiorami ( \\( A_i - A_{i-1} = B_i \\) ).\\\
-Jeśli zdarzenia \\( A_1 \\), \\( A_2 \\), ... stanowią ciąg *zstępujący*, czyli mamy \\( A_1 \supset A_2 \supset \ldots \\) oraz jeśli \\( \bigcap_i A_i = A \\) wtedy:
-\\[ \text{lim}_{n \rightarrow \infty}\ \mathbb{P}\left(A_n\right) = \mathbb{P}(A) \\]
+Jeśli zdarzenia \\( A\_1 \\), \\( A\_2 \\), ... stanowią ciąg *wstępujący*, czyli mamy \\( A\_1 \subset A\_2 \subset \ldots \\) oraz jeśli \\( \bigcup\_i A\_i = A \\) wtedy:
+\\[ \text{lim}\_{n \rightarrow \infty}\ \mathbb{P}\left(A\_n\right) = \mathbb{P}(A) \\]
+Dowód przeprowadzamy rozpatrując różnice między kolejnymi zbiorami ( \\( A\_i - A\_{i-1} = B\_i \\) ).\\\
+Jeśli zdarzenia \\( A\_1 \\), \\( A\_2 \\), ... stanowią ciąg *zstępujący*, czyli mamy \\( A\_1 \supset A\_2 \supset \ldots \\) oraz jeśli \\( \bigcap\_i A\_i = A \\) wtedy:
+\\[ \text{lim}\_{n \rightarrow \infty}\ \mathbb{P}\left(A\_n\right) = \mathbb{P}(A) \\]
 Do dowodu wykorzystujemy poprzedni fakt.
 
 #### Dystrybuanta
 Niech \\( \Omega = \\mathbb{R}^1 \\). Definiujemy funkcję *F* w następujący sposób:
 
 * *F* jest niemalejąca
-* \\( \text{lim}_{x \rightarrow -\infty}\ *F*(x) = 0 \\) oraz \\( \text{lim}_{x \rightarrow \infty}\ *F*(x) = 1 \\)
+* \\( \text{lim}\_{x \rightarrow -\infty}\ *F*(x) = 0 \\) oraz \\( \text{lim}\_{x \rightarrow \infty}\ *F*(x) = 1 \\)
 * *F* jest lewostronnie ciągła
 
 Taką funkcje nazywamy *dystrybuantą* i definiuje ona, jednoznacznie, rozkład prawdopodobieństwa w następujący sposób:

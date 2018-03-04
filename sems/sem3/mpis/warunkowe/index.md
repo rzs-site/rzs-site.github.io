@@ -1,8 +1,8 @@
 ---
-layout: acc_layout
+layout: acc\_layout
 toc: mpis
-use_math: true
-use_highlight: true
+use\_math: true
+use\_highlight: true
 ---
 
 Metody probabilistycznie i statystyka
@@ -15,7 +15,7 @@ Prawdopodobieństwo zdarzenia \\( A \\) pod warunkiem wystąpienia zdarzenia \\(
 \\[ \mathbb{P}\left(A \cap B\right) = \mathbb{P}\left(A\vert B\right)\mathbb{P}\left(B\right) \\]
 Zauważmy, że funkcja \\( \mathbb{P}\left(A\vert B\right) \\), przy ustalonym \\( B \\) spełnia aksjomaty rozkładu prawdopodobieństwa.\\\
 Na podstawie powyższego wzoru możemy, za pomocą indukcji matematycznej, wyznaczyć wzór na prawdopodobieństwo iloczynu zbiorów:
-\\[ \mathbb{P}\left( A_1 \cap A_2 \cap \ldots \cap A_n \right) = \mathbb{P}\left( A_n \vert  A_1 \cap A_2 \cap \ldots \cap A_{n-1} \right) \ldots \mathbb{P}\left( A_3 \vert  A_1 \cap A_2 \right)\mathbb{P}\left( A_2 \vert  A_1 \right)\mathbb{P}\left( A_1 \right) \\]
+\\[ \mathbb{P}\left( A\_1 \cap A\_2 \cap \ldots \cap A\_n \right) = \mathbb{P}\left( A\_n \vert  A\_1 \cap A\_2 \cap \ldots \cap A\_{n-1} \right) \ldots \mathbb{P}\left( A\_3 \vert  A\_1 \cap A\_2 \right)\mathbb{P}\left( A\_2 \vert  A\_1 \right)\mathbb{P}\left( A\_1 \right) \\]
 
 #### Niezależność zdarzeń
 Zdarzenie nazywamy *niezależnymi* jeśli zachodzi następujący warunek:
@@ -24,8 +24,8 @@ Zdarzenie nazywamy *niezależnymi* jeśli zachodzi następujący warunek:
 Warunek ten możemy również zapisać w postaci:
 \\[ \mathbb{P}\left(A \cap B\right) = \mathbb{P}\left(A\right)\mathbb{P}\left(B\right) \\]
 #### Rodziny zdarzeń niezależnych
-Rodzinę zdarzeń \\( \left\{A_i\right\}^n_{i=1} \\) nazywamy rodziną zdarzeń niezależnych jeśli dla każdych \\( k_1 \\), \\( k_2 \\), ..., \\( k_p \\), takich, że \\( 1 \leq k_1 \leq \ldots \leq n \\) mamy:
-\\[ \mathbb{P}\left(A_{k_1} \cap A_{k_2} \cap \ldots \cap A_{k_p}\right) = \mathbb{P}\left(A_{k_1}\right)\mathbb{P}\left(A_{k_2}\right) \ldots \mathbb{P}\left(A_{k_p}\right) \\]
-Rodzinę zdarzeń \\( \left\{A_i\right\}^\infty_{i=1} \\) nazywamy rodziną zdarzeń niezależnych jeśli dla każdego \\( n \in \\mathbb{N} \\), takiego, że \\( n > 1 \\) rodzina \\( \left\{A_i\right\}^n_{i=1} \\) jest rodziną zdarzeń niezależnych.\\\
-Niech \\( \left\{A_i\right\}^{n+1}_{i=1} \\) będzie rodziną zdarzeń niezależnych. Wtedy zdarzenia \\( \bigcup_{i=1}^n A_i \\) oraz \\( A_{n+1} \\) są parą zdarzeń niezależnych.\\\
-Niech \\( \left\{A_i\right\}^{n}_{i=1} \\) będzie rodziną zdarzeń niezależnych. Wtedy \\( \left\{A_i'\right\}^{n}_{i=1} \\), czyli rodzina składająca się ze zdarzeń \\( A_1' \\), \\( A_2' \\) itd, jest rodziną zdarzeń niezależnych.
+Rodzinę zdarzeń \\( \left\{A\_i\right\}^n\_{i=1} \\) nazywamy rodziną zdarzeń niezależnych jeśli dla każdych \\( k\_1 \\), \\( k\_2 \\), ..., \\( k\_p \\), takich, że \\( 1 \leq k\_1 \leq \ldots \leq n \\) mamy:
+\\[ \mathbb{P}\left(A\_{k\_1} \cap A\_{k\_2} \cap \ldots \cap A\_{k\_p}\right) = \mathbb{P}\left(A\_{k\_1}\right)\mathbb{P}\left(A\_{k\_2}\right) \ldots \mathbb{P}\left(A\_{k\_p}\right) \\]
+Rodzinę zdarzeń \\( \left\{A\_i\right\}^\infty\_{i=1} \\) nazywamy rodziną zdarzeń niezależnych jeśli dla każdego \\( n \in \\mathbb{N} \\), takiego, że \\( n > 1 \\) rodzina \\( \left\{A\_i\right\}^n\_{i=1} \\) jest rodziną zdarzeń niezależnych.\\\
+Niech \\( \left\{A\_i\right\}^{n+1}\_{i=1} \\) będzie rodziną zdarzeń niezależnych. Wtedy zdarzenia \\( \bigcup\_{i=1}^n A\_i \\) oraz \\( A\_{n+1} \\) są parą zdarzeń niezależnych.\\\
+Niech \\( \left\{A\_i\right\}^{n}\_{i=1} \\) będzie rodziną zdarzeń niezależnych. Wtedy \\( \left\{A\_i'\right\}^{n}\_{i=1} \\), czyli rodzina składająca się ze zdarzeń \\( A\_1' \\), \\( A\_2' \\) itd, jest rodziną zdarzeń niezależnych.

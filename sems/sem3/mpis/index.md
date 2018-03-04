@@ -1,8 +1,8 @@
 ---
-layout: acc_layout
+layout: acc\_layout
 toc: mpis
-use_math: true
-use_highlight: true
+use\_math: true
+use\_highlight: true
 ---
 
 Metody probabilistycznie i statystyka

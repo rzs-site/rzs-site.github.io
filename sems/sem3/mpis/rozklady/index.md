@@ -1,8 +1,8 @@
 ---
-layout: acc_layout
+layout: acc\_layout
 toc: mpis
-use_math: true
-use_highlight: true
+use\_math: true
+use\_highlight: true
 ---
 
 Metody probabilistycznie i statystyka
@@ -10,14 +10,14 @@ Metody probabilistycznie i statystyka
 
 ### Popularne rozkłady prawdopodobieństwa zmiennych losowych
 #### Rozkłady jednopunktowy i dwupunktowy
-Niech \\( \mathcal{X} = \{x_0\} \\) oraz \\( \mathbf{P}(X = x_0) = 1 \\). Wtedy mówimy, że zmienna losowa \\( X \\) ma *rozkład jednopunktowy*. \\( \\mathbb{E}(X) = x_0 \\), \\( \\mathbb{V}(X) = 0 \\).\\\
-Niech \\( \mathcal{X} = \{x_0, x_1\} \\) oraz \\( \mathbf{P}(X = x_0) = p \\), \\( \mathbf{P}(X = x_1) = 1 - p \\). Wtedy mówimy, że zmienna losowa \\( X \\) ma *rozkład dwupunktowy*. \\( \\mathbb{E}(X) = p(x_0 - x_1) + x_1 \\), \\( \\mathbb{V}(X) = p(1 - p)(x_0 - x_1)^2 \\).
+Niech \\( \mathcal{X} = \{x\_0\} \\) oraz \\( \mathbf{P}(X = x\_0) = 1 \\). Wtedy mówimy, że zmienna losowa \\( X \\) ma *rozkład jednopunktowy*. \\( \\mathbb{E}(X) = x\_0 \\), \\( \\mathbb{V}(X) = 0 \\).\\\
+Niech \\( \mathcal{X} = \{x\_0, x\_1\} \\) oraz \\( \mathbf{P}(X = x\_0) = p \\), \\( \mathbf{P}(X = x\_1) = 1 - p \\). Wtedy mówimy, że zmienna losowa \\( X \\) ma *rozkład dwupunktowy*. \\( \\mathbb{E}(X) = p(x\_0 - x\_1) + x\_1 \\), \\( \\mathbb{V}(X) = p(1 - p)(x\_0 - x\_1)^2 \\).
 
 #### Rozkład dwumianowy
 Wykonujemy \\( n \\) razy doświadczenie, które można opisać za pomocą rozkładu dwumianowego, przy czym możliwe wyniki to \\( A \\) oraz \\( A' \\). Prawdopodobieństwo wystąpienia \\( k \\) sukcesów wyraża się wzorem:
 \\[ \mathbf{P}(X = k) = \binom{n}{k} p^k q^{n-k} \\]
 Zauważmy, że:
-\\[ \sum_{k=0}^n \binom{n}{k} p^k q^{n-k} = 1 \\]
+\\[ \sum\_{k=0}^n \binom{n}{k} p^k q^{n-k} = 1 \\]
 \\[ \\mathbb{E}(X) = np,\ \\mathbb{V}(X) = np(1 - p) \\]
 Wartość najbardziej prawdopodobną (nie mylić z wartością oczekiwaną) określamy jako:
 \\[ \Big[(n+1)p\Big] \\]
@@ -56,5 +56,5 @@ Zauważmy, że jeśli rozważamy serię doświadczeń zgodną ze schematem Berno
 
 #### Rozkład normalny
 \\[ f(x) = \frac{1}{\sqrt{2\pi} \sigma} e^{\frac{-(x - m)^2}{2\sigma^2}} \\]
-\\[ F(x) = \int_{-\infty}^x \frac{1}{\sqrt{2\pi} \sigma} e^{\frac{-(x - m)^2}{2\sigma^2}} \\]
+\\[ F(x) = \int\_{-\infty}^x \frac{1}{\sqrt{2\pi} \sigma} e^{\frac{-(x - m)^2}{2\sigma^2}} \\]
 \\[ \\mathbb{E}(X) = m\qquad\\mathbb{V}(X) = \sigma^2 \\]

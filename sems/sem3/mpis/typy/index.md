@@ -1,8 +1,8 @@
 ---
-layout: acc_layout
+layout: acc\_layout
 toc: mpis
-use_math: true
-use_highlight: true
+use\_math: true
+use\_highlight: true
 ---
 
 Metody probabilistycznie i statystyka
@@ -10,19 +10,19 @@ Metody probabilistycznie i statystyka
 
 ### Podstawowe typy zmiennych losowych
 #### Zmienne losowe typu skokowego
-Zmienna losowa typu skokowego (bądź inaczej: dyskretna zmienna losowa) to taka dla której istnieje co najwyżej przeliczalny zbiór \\( \mathcal{X} \\) (czyli zbiór postaci \\( \{x_1, \ldots, x_n\} \\) lub \\( \{x_1, x_2, \ldots\} \\), gdzie \\( x_k \\) nazywamy wartościami zmiennej losowej) dla którego \\( \mathbb{P}_X (\mathcal{X}) = 1 \\).\\\
+Zmienna losowa typu skokowego (bądź inaczej: dyskretna zmienna losowa) to taka dla której istnieje co najwyżej przeliczalny zbiór \\( \mathcal{X} \\) (czyli zbiór postaci \\( \{x\_1, \ldots, x\_n\} \\) lub \\( \{x\_1, x\_2, \ldots\} \\), gdzie \\( x\_k \\) nazywamy wartościami zmiennej losowej) dla którego \\( \mathbb{P}\_X (\mathcal{X}) = 1 \\).\\\
 Rozkład prawdopodobieństwa zmiennej losowej wygląda wtedy następująco:
-\\[ p(x_k) = \mathbf{P} \left(\{ \omega \in \Omega : X(\omega) = x_k \}\right) \\]
-Zauważmy, że \\( \sum_k p(x_k) = 1 \\) oraz, że dystrybuanta naszej zmiennej losowej jest lewostronnie ciągła, przedziałami stała i ma skoki w punktach gdzie \\( p(x_k) > 0 \\) o wartości \\( p(x_k) \\).
+\\[ p(x\_k) = \mathbf{P} \left(\{ \omega \in \Omega : X(\omega) = x\_k \}\right) \\]
+Zauważmy, że \\( \sum\_k p(x\_k) = 1 \\) oraz, że dystrybuanta naszej zmiennej losowej jest lewostronnie ciągła, przedziałami stała i ma skoki w punktach gdzie \\( p(x\_k) > 0 \\) o wartości \\( p(x\_k) \\).
 
 #### Zmienne losowe typu ciągłego
 Niech teraz \\( \mathcal{X} = \mathcal{R} \\). Zmienną losową typu ciągłego jest funkcja zdefiniowana w następny sposób:
-\\[ \mathbf{F}(x) = \int_{-\infty}^x f(u)du \\]
+\\[ \mathbf{F}(x) = \int\_{-\infty}^x f(u)du \\]
 Gdzie \\( f \\) jest funkcją nazywaną *gęstością prawdopodobieństwa*, która jest nieujemna oraz spełnia:
-\\[ \int_{-\infty}^\infty f(u)du = 1 \\]
+\\[ \int\_{-\infty}^\infty f(u)du = 1 \\]
 W przedziałach w których \\( f \\) jest ciągła zachodzi zależność:
 \\[ \mathbf{F}'(x) = f(x) \\]
-Prawdopodobieństwo \\( \mathbb{P}(x_1 \leq X < x_2) \\) dla \\( x_1 < x_2 \\) określamy, z własności dystrybuanty, jako:
-\\[ P(x_1 \leq X < x_2) = \int_{x_1}^{x_2} f(u)du \\]
-Zauważmy również, że dla dowolnej liczby rzeczywistej \\( x_0 \in \\mathbb{R} \\) mamy:
-\\[ P(X = x_0) = 0 \\]
+Prawdopodobieństwo \\( \mathbb{P}(x\_1 \leq X < x\_2) \\) dla \\( x\_1 < x\_2 \\) określamy, z własności dystrybuanty, jako:
+\\[ P(x\_1 \leq X < x\_2) = \int\_{x\_1}^{x\_2} f(u)du \\]
+Zauważmy również, że dla dowolnej liczby rzeczywistej \\( x\_0 \in \\mathbb{R} \\) mamy:
+\\[ P(X = x\_0) = 0 \\]
