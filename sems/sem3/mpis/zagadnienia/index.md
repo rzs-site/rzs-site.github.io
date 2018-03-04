@@ -18,7 +18,7 @@ Metody probabilistycznie i statystyka
 * **Zdarzeniem niemożliwym** jest zbiór \\( \emptyset \\).
 * Zdarzenia **rozłączne** to takie, że \\( A \cap B = \emptyset \\).
 * **Zdarzeniem przeciwnym** do zdarzenia \\( A \\) nazywamy zdarzenie \\( A' = \Omega - A \\).
-* Rodzinę zdarzeń postaci \\( \{A_i\}^\{n\}_\{i=1\} \\), której elementy są parami rozłączne oraz dla której \\( \bigcup^n_\{i=1\} A_i = \Omega \\) nazywamy **układem zupełnym**.
+* Rodzinę zdarzeń postaci \\( {A_i}^{n}_{i=1} \\), której elementy są parami rozłączne oraz dla której \\( \bigcup^n_{i=1} A_i = \Omega \\) nazywamy **układem zupełnym**.
 
 #### Najmniejsze (bo małe ciała są fajne) przeliczalnie addytywne ciało zdarzeń
 Niech \\( \Omega \subseteq \mathbb{R}^n \\) oraz niech \\( \mathcal{S}^* \\) będzie taką rodziną podzbiorów \\( \Omega \\), że \\( \Omega \in \mathcal{S}^* \\), \\( \left(\forall A \in \mathcal{S}^*\right)\left(\Omega - A \in \mathcal{S}^* \right) \\) oraz\\\ \\( \left(\forall A_1,\ A_2,\ \ldots \in \mathcal{S}^*\right)\left(\bigcup^\infty_{i=1} A_i \in \mathcal{S}^* \right) \\). Rodzinę taką nazywamy **przeliczalnie addytywnym ciałem zdarzeń**. Najmniejszą z tych rodzin oznaczać będziemy przez \\( \mathcal{S} \\). Jest to rodzina zbiorów *borelowskich* której elementami są zdarzenia losowe.
