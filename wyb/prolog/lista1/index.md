@@ -2,6 +2,7 @@
 layout: acc_layout
 toc: prolog
 use_math: true
+use_highlight: true
 ---
 
 # Programowanie w Logice - Lista 1
@@ -11,7 +12,7 @@ use_math: true
 Przykład teoretyczny: \\( p(t_1, t_2, ... t_n) \\)
 
 Przykład praktyczny:
-```
+```prolog
 lubi(student, rzs). %czytany jako student lubi rzs
 ```
 <p></p>
@@ -24,7 +25,7 @@ warunkiem z którego wynika \\(head \\) to zapisujemy \\(head :- body\\).
 
 Przykład praktyczny:
 
-```
+```prolog
 lubi(autor, X) :- lubi(X, rzs) %czytany jako student autor lubi X jeśli X lubi rzs
 ```
 <p></p>
@@ -69,7 +70,7 @@ Przyjmujemy że prawdziwe w programie jest jedynie to co było podane.
 
 * Warto uzupełniać zadania własnymi testowymi danymi i sprawdzić działanie programu. Wszakże wszyscy wiemy, iż początki bywają... różne.
 * Gdy zmienna pojawia się tylko raz w regule  należy użyć zmiennej anonimowej, w innym przypadku otrzymamy ostrzeżenie. Taką zmienną zapisujemy za pomocą _ (podkreślenie). Przykładem jest:
-```
+```prolog
 ojciec(X) :- syn(Y , X) % X jest ojcem gdy Y jest synem X. Powoduje ostrzeżenie, że Y jest użyty tylko raz.
 ojciec(X) :- syn(_ , X) % X jest ojcem kogoś. Nie interesuje nas kogo.
 ```
@@ -83,10 +84,10 @@ ojciec(X) :- syn(_ , X) % X jest ojcem kogoś. Nie interesuje nas kogo.
 ### Zadanie 1.
 
 Należy opisać relacje rodzinne przy pomocy innych podanych. Przykładowo:
-```
+```prolog
 dziadek(X, Y) :- ... % musimy napisać że istnieje takie Z iż X jest ojcem Z a Z jest ojcem Y
 ```
-Analogicznie inne przykłady
+Analogicznie inne przykłady.
 
 ---
 
@@ -141,7 +142,7 @@ Należy zamienić na:
 \\( \neg (\exists X((X \in D)\land( \neg (le(X, X))))) \\).
 
 \\(X \in D \\) zapiszemy w prologu jako:
-```
+```prolog
 le( X, _) ; le(_, X)
 ```
 
@@ -152,7 +153,7 @@ Analogicznie postępujemy z innymi własnościami. Dokładniejsze przekształcen
 ### Zadanie 6.
 
 Najwygodniej skorzystać z predykatu:
-```
+```prolog
 between(X, Y, Z), ... %Z przyjmie wtedy wszystkie wartosci pomiędzy X a Y (włącznie!)
 ```
 następnie trzeba napisać predykat \\(prime(N)\\) zwracający \\(true \\) jeśli \\(N \\) jest liczbą pierwszą. Należy w nim zapisać iż żadna mniejsza liczba od \\(N \\) nie dzieli \\(N \\) bez reszty.

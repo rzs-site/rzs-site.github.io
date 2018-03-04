@@ -34,7 +34,10 @@ toc: main_page
 ***
 
 ## Nowoczesne Technologie WWW:
-* [Strona prowadzącego](http://cs.pwr.edu.pl/cichon/2017_18_b/WWW.php)
+[Strona prowadzącego](http://cs.pwr.edu.pl/cichon/2017_18_b/WWW.php)
+
+### Laboratorium
+* Projekt 1 \[Termin: 16.03.18 - szkic, 30.03.18 - całość\]
 
 ***
 
@@ -45,6 +48,7 @@ toc: main_page
 
 #### Ćwiczenia
 * [Lista 1](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/lista_1.pdf)
+* [Lista 2](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/AZ-lista_2.pdf)
 
 ***
 
