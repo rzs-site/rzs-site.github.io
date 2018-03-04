@@ -87,7 +87,7 @@ Wszystkie przedstawione powyżej zapisy są równoważne. Jednakże, funkcje boo
 
 Siatka Karnaugh jest równoważnym przedstawieniem funkcji boolowskiej. Zawiera wszystkie możliwe kombinacje wejść i każdej przyporządkowuje prawdę albo fałsz na wyjściu. Weźmy pewną funkcję \\( \texttt{F(A,B,C)} \\). Ma ona trzy wejścia. Ze~wzoru \\( 2^n \\), siatka musi opisywać wartości ośmiu wariantów: \\ \\
 
-![Siatka Karnaugh](sems/sem3/akiso/arch/boole/karnaugh01.svg)
+![Siatka Karnaugh](karnaugh01.svg)
 
 
 W tym przypadku prawdę na wyjściu otrzymamy dla dwóch kombinacji wejściowych.
