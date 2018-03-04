@@ -10,7 +10,7 @@ Metody probabilistycznie i statystyka
 
 ### Prawdopodobieństwo warunkowe. Niezależność zdarzeń
 #### Prawdopodobieństwo warunkowe
-Prawdopodobieństwo zdarzenia \\( A \\) pod warunkiem wystąpienia zdarzenia \\( B \\) (przy założeniu, że \\( *P*\left(B\right) > 0 \\)) oznaczamy przez \\( *P*\left(A\vert B\right) \\) i definiujemy następująco:
+Prawdopodobieństwo zdarzenia \\( A \\) pod warunkiem wystąpienia zdarzenia \\( B \\) (przy założeniu, że \\( *P*\left(B\right) > 0 \\) ) oznaczamy przez \\( *P*\left(A\vert B\right) \\) i definiujemy następująco:
 \\[ *P*\left(A\vert B\right) = \frac{*P*\left(A \cap B\right)}{*P*\left(B\right)} \\]
 \\[ *P*\left(A \cap B\right) = *P*\left(A\vert B\right)*P*\left(B\right) \\]
 Zauważmy, że funkcja \\( *P*\left(A\vert B\right) \\), przy ustalonym \\( B \\) spełnia aksjomaty rozkładu prawdopodobieństwa.\\\
