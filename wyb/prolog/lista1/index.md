@@ -14,7 +14,7 @@ Przykład praktyczny:
 ```
 lubi(student, rzs). %czytany jako student lubi rzs
 ```
-
+<p></p>
 ---
 
 ## Reguły
@@ -27,7 +27,7 @@ Przykład praktyczny:
 ```
 lubi(autor, X) :- lubi(X, rzs) %czytany jako student autor lubi X jeśli X lubi rzs
 ```
-
+<p></p>
 ---
 
 ## Operatory logiczne
@@ -59,7 +59,7 @@ Zatem następuje przypisanie do \\(X\\) wartości student. Po tym zabiegu stwier
 
 ---
 
-## Zasada zamknietego świata:
+## Zasada zamkniętego świata:
 
 Przyjmujemy że prawdziwe w programie jest jedynie to co było podane.
 
