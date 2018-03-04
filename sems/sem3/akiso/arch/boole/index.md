@@ -17,19 +17,15 @@ Architektura Komputerów i Systemy Operacyjne
 #### Definicja algebry Boole'a
 Algebra Boole'a jest algebrą \\( (S,+(x,y),*(x,y),'(x),0_S,1_S) \\), w którym S jest zbiorem, \\( 0_S \\) i \\( 1_S \\) są stałymi na tym zbiorze, a działania na stałych zdefiniowane są następującą tabelką:
 
-\begin{table}[H]
-\centering
-\caption{Działania w algebrze bóla}
-\label{my-label}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-x & y & +(x,y) & *(x,y) & '(x) \\ \hline
-0 & 0 & 0 & 0 & 1 \\ \hline
-0 & 1 & 1 & 0 & 1 \\ \hline
-1 & 0 & 1 & 0 & 0 \\ \hline
-1 & 1 & 1 & 1 & 0 \\ \hline
-\end{tabular}
-\end{table}
+| x | y | +(x,y) | *(x,y) | '(x)|
+|-------------------------------| 
+| 0 | 0 | 0      | 0      | 1   |
+|-------------------------------| 
+| 0 | 1 | 1      | 0      | 1   |
+|-------------------------------| 
+| 1 | 0 | 1      | 0      | 0   |
+|-------------------------------| 
+| 1 | 1 | 1      | 1      | 0   |
 
 W dalszej części skryptu będziemy używać nieformalnej i ogólnie przyjętej notacji \\( +(x,y)\equiv x+y \\), \\( *(x,y)\equiv xy \\), \\( '(x)\equiv x' \\).\\
 Ponadto, każda algebra Boole'a musi spełniać następujące aksjomaty:
@@ -56,23 +52,24 @@ Obydwa przykłady są bardzo często używane w informatyce. Powinno się pokaza
 Funkcją boolowską jest każda funkcja \\( f:\{0,1\}^n\rightarrow\{0,1\} \\). Każde zdanie logiczne może definiować inną funkcję boolowską. Na przykład \\( f(x,y)=x\leftrightarrow y \\) jest funkcją boolowską.\\
 Funkcje boolowskie można opisać na kilka różnych sposobów. Jednym z nich jest tabelka prawdy. Na przykład:
 
-\begin{table}[H]
-\centering
-\caption{Tabelka prawdy}
-\label{my-label}
-\begin{tabular}{|c|c|c|c|}
-\hline
-x & y & z & f(x,y,z) \\ \hline
-0 & 0 & 0 & 1 \\ \hline
-0 & 0 & 1 & 0 \\ \hline
-0 & 1 & 0 & 0 \\ \hline
-0 & 1 & 1 & 1 \\ \hline
-1 & 0 & 0 & 1 \\ \hline
-1 & 0 & 1 & 0 \\ \hline
-1 & 1 & 0 & 0 \\ \hline
-1 & 1 & 1 & 0 \\ \hline
-\end{tabular}
-\end{table}
+| x | y | z | f(x,y,z) |
+|----------------------|
+| 0 | 0 | 0 | 1        |
+|----------------------|
+| 0 | 0 | 1 | 0        |
+|----------------------|
+| 0 | 1 | 0 | 0        |
+|----------------------|
+| 0 | 1 | 1 | 1        |
+|----------------------|
+| 1 | 0 | 0 | 1        |
+|----------------------|
+| 1 | 0 | 1 | 0        |
+|----------------------|
+| 1 | 1 | 0 | 0        |
+|----------------------|
+| 1 | 1 | 1 | 0        |
+
 
 Tą samą funkcję można również zapisać tak jak wcześniej, w postaci zdania logicznego. Robimy to na dwa sposoby. Pierwszy z nich polega na tym, że tam gdzie w wyniku funkcji występuje 1, (np dla f(0,0,0)), ,,koduje się'' zmienne które powodują tę wartość za pomocą koniunkcji tak, aby otrzymać 1. Następnie wszystkie te ,,kody'' łączy się alternatywą. Wynik jest następujący:
 \\[ f(x,y,z)=(\neg x \wedge \neg y \wedge \neg z) \vee ( \neg x \wedge y \wedge z ) \vee ( x \wedge \neg y \wedge \neg z ) \\]
@@ -199,33 +196,40 @@ Funkcja zwracająca prawdę dla czterobitowych liczb większych od 3, których s
 
 Zapiszmy wszystko, co może się przydać: cztery zmienne, wartość binarna, wartość dziesiętna, warunek 1 (oznaczony jako \\( x \\)), warunek 2 (oznaczony jako \\( y \\)) oraz końcową wartość, czyli koniunkcję warunków. \\
 
-%\begin{table}[]
-%\centering
-%\caption{Przykładowa tabela wartości do zadania opisowego z minimalizacji}
-%\label{my-label}
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
-\hline
-A & B & C & D &
-(BIN) & (DEC) & x & y
-& x \\( \wedge \\) y \\ \hline
-0 & 0 & 0 & 0 & 0000 & 0 & 0 & 0 & 0 \\ \hline
-0 & 0 & 0 & 1 & 0001 & 1 & 0 & 0 & 0 \\ \hline
-0 & 0 & 1 & 0 & 0010 & 2 & 0 & 0 & 0 \\ \hline
-0 & 0 & 1 & 1 & 0011 & 3 & 0 & 1 & 0 \\ \hline
-0 & 1 & 0 & 0 & 0100 & 4 & 1 & 1 & 1 \\ \hline
-0 & 1 & 0 & 1 & 0101 & 5 & 1 & 1 & 1 \\ \hline
-0 & 1 & 1 & 0 & 0110 & 6 & 1 & 1 & 1 \\ \hline
-0 & 1 & 1 & 1 & 0111 & 7 & 1 & 1 & 1 \\ \hline
-1 & 0 & 0 & 0 & 1000 & 8 & 1 & 1 & 1 \\ \hline
-1 & 0 & 0 & 1 & 1001 & 9 & 1 & 1 & 1 \\ \hline
-1 & 0 & 1 & 0 & 1010 & 10 & 1 & 0 & 0 \\ \hline
-1 & 0 & 1 & 1 & 1011 & 11 & 1 & 0 & 0 \\ \hline
-1 & 1 & 0 & 0 & 1100 & 12 & 1 & 1 & 1 \\ \hline
-1 & 1 & 0 & 1 & 1101 & 13 & 1 & 1 & 1 \\ \hline
-1 & 1 & 1 & 0 & 1110 & 14 & 1 & 1 & 1 \\ \hline
-1 & 1 & 1 & 1 & 1111 & 15 & 1 & 1 & 1 \\ \hline
-\end{tabular}
-%\end{table}
+| A | B | C | D | (BIN) | (DEC) | x | y | x \\( \wedge \\) y |
+|------------------------------------------------------------|
+| 0 | 0 | 0 | 0 | 0000  | 0     | 0 | 0 | 0                  |
+|------------------------------------------------------------|
+| 0 | 0 | 0 | 1 | 0001  | 1     | 0 | 0 | 0                  |
+|------------------------------------------------------------|
+| 0 | 0 | 1 | 0 | 0010  | 2     | 0 | 0 | 0                  |
+|------------------------------------------------------------|
+| 0 | 0 | 1 | 1 | 0011  | 3     | 0 | 1 | 0                  |
+|------------------------------------------------------------|
+| 0 | 1 | 0 | 0 | 0100  | 4     | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 0 | 1 | 0 | 1 | 0101  | 5     | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 0 | 1 | 1 | 0 | 0110  | 6     | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 0 | 1 | 1 | 1 | 0111  | 7     | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 1 | 0 | 0 | 0 | 1000  | 8     | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 1 | 0 | 0 | 1 | 1001  | 9     | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 1 | 0 | 1 | 0 | 1010  | 10    | 1 | 0 | 0                  |
+|------------------------------------------------------------|
+| 1 | 0 | 1 | 1 | 1011  | 11    | 1 | 0 | 0                  |
+|------------------------------------------------------------|
+| 1 | 1 | 0 | 0 | 1100  | 12    | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 1 | 1 | 0 | 1 | 1101  | 13    | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 1 | 1 | 1 | 0 | 1110  | 14    | 1 | 1 | 1                  |
+|------------------------------------------------------------|
+| 1 | 1 | 1 | 1 | 1111  | 15    | 1 | 1 | 1                  |
+
 
 Otrzymane wartości należy przepisać do siatki Karnaugh. Możemy to zrobić bezpośrednio z wartości \\( A, B, C, D \\), natomiast w celu uniknięcia pomyłki zalecam zakreślanie jedynek w tabelce pomocniczej. \\ \\
 \begin{karnaugh-map}*[4][4][1][\\( CD \\)][\\( AB \\)]
