@@ -198,7 +198,7 @@ bne loop
 cld
 rts
 
-val dta b(%01101101)
+val dta b(
 
 res dta b(0),b(0)
 \end{minted}
@@ -211,7 +211,7 @@ lsr @
 lsr @
 lsr @
 lsr @
-digit   and #%00001111
+digit   and #
 ora #'0'
 cmp #'9'+1
 bcc pr

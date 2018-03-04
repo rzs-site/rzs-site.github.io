@@ -8,7 +8,7 @@ use_highlight: true
 Architektura Komputerów i Systemy Operacyjne
 ---
 
-## Technologia CUDA % zmiana z Architektura CUDA, nie jest to architektura, a jedynie interfejs umożliwiający wywołanie kodu na karcie
+## Technologia CUDA 
 \begin{quote}{Dan Brown}
 CUDA to po prostu opowieści, w które wierzymy, gdyż pragniemy, żeby były prawdziwe. 
 \end{quote}

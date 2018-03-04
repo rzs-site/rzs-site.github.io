@@ -92,15 +92,15 @@ cmpr1, r2  ; porównaj r1 r2
 subgt  r1, r1, r2  ; jeśli r1 > r2, r1 -= r2 
 suble  r2, r2, r1  ; jeśli r1 <= r2, r2 -= r1
 \end{minted}
-%### Tryby adresowania
-% \begin{description}
-% * [Pośrednie rejestrowe]
-% \begin{minted}{text}
-% ADR R1, zmienna
-% LDRB R2, [R1]
-% \end{minted}
-% \end{description}
-%#### Etykiety
+
+
+
+
+
+
+
+
+
 ### Wybrane rozkazy procesora
 Pamiętajmy, że każda instrukcja może zawierać warunek wykonania
 \begin{description}

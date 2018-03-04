@@ -183,12 +183,12 @@ Początkowo ` A = 0, B = 0 `. Sprawdźmy, jak się zachowa funkcja po zmianie st
 (1,0.5) node[not port, scale=.5] (mynot0) {}
 (3,0) node[or port] (myor1) {}
 (4.5,1) node[and port] (myand2) {}
-(mynot0.in) node[anchor=south east] {0} % B
-(myor1.in 2) node[anchor=east] {0} % A
-(mynot0.out) node[anchor=south west] {1} % B'
-(myand2.in 1) node[anchor=south east] {0} % B
-(myand2.in 2) node[anchor=east] {1} % A + B'
-(myand2.out) node[anchor=west] {0} % (A + B') B
+(mynot0.in) node[anchor=south east] {0} 
+(myor1.in 2) node[anchor=east] {0} 
+(mynot0.out) node[anchor=south west] {1} 
+(myand2.in 1) node[anchor=south east] {0} 
+(myand2.in 2) node[anchor=east] {1} 
+(myand2.out) node[anchor=west] {0} 
 (mynot0.out) -| (myor1.in 1)
 (myand2.in 1) -| (mynot0.in)
 (myor1.out) -| (myand2.in 2) 
@@ -198,12 +198,12 @@ Początkowo ` A = 0, B = 0 `. Sprawdźmy, jak się zachowa funkcja po zmianie st
 (1,0.5) node[not port, scale=.5] (mynot0) {}
 (3,0) node[or port] (myor1) {}
 (4.5,1) node[and port] (myand2) {}
-(mynot0.in) node[anchor=south east] {\textcolor{red}{1}} % B
-(myor1.in 2) node[anchor=east] {0} % A
-(mynot0.out) node[anchor=south west] {1} % B'
-(myand2.in 1) node[anchor=south east] {\textcolor{red}{1}} % B
-(myand2.in 2) node[anchor=east] {1} % A + B'
-(myand2.out) node[anchor=west] {0} % (A + B') B
+(mynot0.in) node[anchor=south east] {\textcolor{red}{1}} 
+(myor1.in 2) node[anchor=east] {0} 
+(mynot0.out) node[anchor=south west] {1} 
+(myand2.in 1) node[anchor=south east] {\textcolor{red}{1}} 
+(myand2.in 2) node[anchor=east] {1} 
+(myand2.out) node[anchor=west] {0} 
 (mynot0.out) -| (myor1.in 1)
 (myand2.in 1) -| (mynot0.in)
 (myor1.out) -| (myand2.in 2) 
@@ -213,12 +213,12 @@ Początkowo ` A = 0, B = 0 `. Sprawdźmy, jak się zachowa funkcja po zmianie st
 (1,0.5) node[not port, scale=.5] (mynot0) {}
 (3,0) node[or port] (myor1) {}
 (4.5,1) node[and port] (myand2) {}
-(mynot0.in) node[anchor=south east] {1} % B
-(myor1.in 2) node[anchor=east] {0} % A
-(mynot0.out) node[anchor=south west] {\textcolor{red}{0}} % B'
-(myand2.in 1) node[anchor=south east] {1} % B
-(myand2.in 2) node[anchor=east] {1} % A + B'
-(myand2.out) node[anchor=west] {\textcolor{red}{1}} % (A + B') B
+(mynot0.in) node[anchor=south east] {1} 
+(myor1.in 2) node[anchor=east] {0} 
+(mynot0.out) node[anchor=south west] {\textcolor{red}{0}} 
+(myand2.in 1) node[anchor=south east] {1} 
+(myand2.in 2) node[anchor=east] {1} 
+(myand2.out) node[anchor=west] {\textcolor{red}{1}} 
 (mynot0.out) -| (myor1.in 1)
 (myand2.in 1) -| (mynot0.in)
 (myor1.out) -| (myand2.in 2) 
@@ -228,12 +228,12 @@ Początkowo ` A = 0, B = 0 `. Sprawdźmy, jak się zachowa funkcja po zmianie st
 (1,0.5) node[not port, scale=.5] (mynot0) {}
 (3,0) node[or port] (myor1) {}
 (4.5,1) node[and port] (myand2) {}
-(mynot0.in) node[anchor=south east] {1} % B
-(myor1.in 2) node[anchor=east] {0} % A
-(mynot0.out) node[anchor=south west] {0} % B'
-(myand2.in 1) node[anchor=south east] {1} % B
-(myand2.in 2) node[anchor=east] {\textcolor{red}{0}} % A + B'
-(myand2.out) node[anchor=west] {1} % (A + B') B
+(mynot0.in) node[anchor=south east] {1} 
+(myor1.in 2) node[anchor=east] {0} 
+(mynot0.out) node[anchor=south west] {0} 
+(myand2.in 1) node[anchor=south east] {1} 
+(myand2.in 2) node[anchor=east] {\textcolor{red}{0}} 
+(myand2.out) node[anchor=west] {1} 
 (mynot0.out) -| (myor1.in 1)
 (myand2.in 1) -| (mynot0.in)
 (myor1.out) -| (myand2.in 2) 
@@ -243,12 +243,12 @@ Początkowo ` A = 0, B = 0 `. Sprawdźmy, jak się zachowa funkcja po zmianie st
 (1,0.5) node[not port, scale=.5] (mynot0) {}
 (3,0) node[or port] (myor1) {}
 (4.5,1) node[and port] (myand2) {}
-(mynot0.in) node[anchor=south east] {1} % B
-(myor1.in 2) node[anchor=east] {0} % A
-(mynot0.out) node[anchor=south west] {0} % B'
-(myand2.in 1) node[anchor=south east] {1} % B
-(myand2.in 2) node[anchor=east] {0} % A + B'
-(myand2.out) node[anchor=west] {\textcolor{red}{0}} % (A + B') B
+(mynot0.in) node[anchor=south east] {1} 
+(myor1.in 2) node[anchor=east] {0} 
+(mynot0.out) node[anchor=south west] {0} 
+(myand2.in 1) node[anchor=south east] {1} 
+(myand2.in 2) node[anchor=east] {0} 
+(myand2.out) node[anchor=west] {\textcolor{red}{0}} 
 (mynot0.out) -| (myor1.in 1)
 (myand2.in 1) -| (mynot0.in)
 (myor1.out) -| (myand2.in 2) 
@@ -258,12 +258,12 @@ Początkowo ` A = 0, B = 0 `. Sprawdźmy, jak się zachowa funkcja po zmianie st
 (1,0.5) node[not port, scale=.5] (mynot0) {}
 (3,0) node[or port] (myor1) {}
 (4.5,1) node[and port] (myand2) {}
-(mynot0.in) node[anchor=south east] {1} % B
-(myor1.in 2) node[anchor=east] {0} % A
-(mynot0.out) node[anchor=south west] {0} % B'
-(myand2.in 1) node[anchor=south east] {1} % B
-(myand2.in 2) node[anchor=east] {0} % A + B'
-(myand2.out) node[anchor=west] {0} % (A + B') B
+(mynot0.in) node[anchor=south east] {1} 
+(myor1.in 2) node[anchor=east] {0} 
+(mynot0.out) node[anchor=south west] {0} 
+(myand2.in 1) node[anchor=south east] {1} 
+(myand2.in 2) node[anchor=east] {0} 
+(myand2.out) node[anchor=west] {0} 
 (mynot0.out) -| (myor1.in 1)
 (myand2.in 1) -| (mynot0.in)
 (myor1.out) -| (myand2.in 2) 
@@ -346,10 +346,9 @@ Działa identycznie jak półsumator, ale uwzględnia przeniesienie z poprzednie
 
 Komparator jest jednym z najprostszych (pod względem logicznym) układów. Zwraca prawdę wtedy i tylko wtedy, gdy dane wejścia są ze sobą w określonej relacji. Najprostszym komparatorem jest bramka ` XNOR `, która zwraca prawdę tylko w przypadku równości.
 
-%### Konwertery
-%\subparagraph{Kodery}
-%\subparagraph{Dekodery}
-%### Komutatory
-%#### Multiplekser
-%#### Demultiplekser
-%### Arytmetyczne jednostki logiczne
+
+
+
+
+
+

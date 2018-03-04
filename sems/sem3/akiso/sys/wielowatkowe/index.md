@@ -15,19 +15,19 @@ Architektura Komputerów i Systemy Operacyjne
 -- Kto tam?
 \end{quote}
 
-% ### Proces
-% #### Tworzenie procesu potomnego
-% #### Proces zombie
-% #### Komunikacja między procesami (IPC)
-% ### Wątek
-% #### Tworzenie wątków
-% #### Zarządzanie wątkami
-% ### Pamięć współdzielona
-% ### Wyścigi wątków
-% ### Sychronizacja wątków
-% #### Zmienne atomowe
-% #### Semafory
-% #### Wzajemne wykluczenie (ang. \emph{mutex)}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Domeną nowoczesnych systemów operacyjnych była wielozadaniowość
 systemu. Pozwala ona na wykonywanie różnych dla komputera

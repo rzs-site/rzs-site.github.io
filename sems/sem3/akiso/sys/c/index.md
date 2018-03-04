@@ -289,61 +289,61 @@ Tabela typów, które muszą być wyrównane do \\(n\\) bajtów
 dla ARM GCC i GCC (32-bitowe), znajduje się
 jako~\ref{tab:align-types}. 
 
-% Niech \\(S = (m_1, m_2, \dotsc, m_n)\\) będzie strukturą (\\(n \ge 1\\)),
-% a \\(m_i\\) członkami tej struktury (\\(1 \le i \le n\\)).
-% Niech \\(\Sigma(S)\\) będzie
-% funkcją przyporządkowującą wielkość struktury, tzn.
-% \\(\Sigma(S) = \sum_{i = 1}^n \sigma (m_i)\\), gdzie \\(\sigma(m_i)\\)
-% to wielkość członka struktury.
-% \begin{theorem}[Algorytm wyrównania]
-% % Dla każdego
-% % członka \\(m_i\\), gdzie \\(2 \le i \le n\\), struktury \\(S\\) 
-% % jeśli \\(\neg (\alpha(m_i) | \Sigma(\mathcal{P}_i))\\),
-% % to między \\(m_{i - 1}\\) a \\(m_i\\) wstaw takiego członka \\(m'_{i - 1}\\),
-% % że \\(\sigma(m'_{i - 1}) = \mathcal{P}(i) {\ \mathop \mathrm{mod}\ } \alpha(m_i)\\).
-% % Taka struktura \\(S\\) jest wtedy strukturą wyrównaną.
-% Niech \\(S = (m_1, m_2, \dotsc, m_n)\\) będzie niewyrównaną strukturą,
-% gdzie \\(n \ge 1\\).
-% Niech \\(S_i\\) oznacza podstrukturę wyrównaną do \\(i\\)-tego 
-% członka struktury \\(S\\), gdzie \\(1 \le i \le n - 1\\). 
-% Wtedy \\(S_{i + 1} = S_i \frown \Delta_{i + 1}\\),
-% gdzie \[
-% \Delta_{i + 1} = \begin{cases}
-% (m_{i + 1}) & \sigma(m_{i + 1}) | \Sigma(S_i) \\
-% (m'_i, m_{i + 1}) & \neg (\sigma(m_{i + 1}) | \Sigma(S_i))
-% \end{cases}
-% \]
-% oraz $\sigma(m'_i) = \Sigma(S_i)
-% {\ \mathop \mathrm{mod}\ } \sigma(m_{i + 1})$.
-% Strukturę \\(S_n\\) nazywamy wyrównaną strukturą \\(S\\).
-% \end{theorem}
-% \begin{proof}
-% Dowód indukcyjny. Sprawdźmy \\(S_1\\). Jak widać, jest to struktura
-% trywialnie wyrównana. Ustalmy \\(k\\) naturalne. 
-% Załóżmy, że \\(S_i\\) jest strukturą wyrównaną
-% do \\(i\\)-tego członka \\(m_i\\) struktury \\(S\\) dla każdego \\(i < k\\)
-% Oznaczmy \\(S'_k = S_{k - 1} \frown (m_{k})\\). Wtedy adres względny
-% \\(m_k\\) w strukturze \\(S'_k\\) wynosi
-% \[
-% \delta = \Sigma(S_{k - 1}) + \sigma(m_k)
-% \]
-% Teraz mamy dwie możliwości. Jeśli \\(\sigma(m_k) | \delta\\),
-% to \\(S'_k = S_{k + 1}\\) jest strukturą wyrównaną do \\(\sigma(m_k)\\).
-% W przeciwnym wypadku kładziemy $\delta' = \Sigma(S_{k - 1}) + 
-% \sigma(m_k) + \Sigma(S_{k - 1})
-% {\ \mathop \mathrm{mod}\ } \sigma(m_k) = l\sigma(m_k)$
-% dla pewnego \\(l \in \mathbb{Z}\\) i mamy, że \\(\sigma(m_k) | \delta'\\).
-% Należy dodać takiego członka \\(m'_{k - 1}\\), że 
-% $\sigma(m'_{k - 1}) = \Sigma(S_{k - 1})
-% {\ \mathop \mathrm{mod}\ } \sigma(m_k)$. Stąd otrzymamy, że
-% \\(S_{k + 1} = S_{k - 1} \frown (m'_{k - 1}, m_{k})\\) jest strukturą
-% wyrównaną do \\(m_k\\). Czyli \\(S_{k + 1} = S_k \frown \Delta_{k + 1}\\) jest
-% strukturą wyrównaną do \\(k + 1\\)-tego członka struktury \\(S\\).
 
-% Zatem z zasady indukcji zupełnej mamy, że \\(S_n\\) jest wyrównanym
-% odpowiednikiem struktury \\(S\\).
 
-% \end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Ogólnie zasada obliczenia odpowiedniego wypełnienia dla każdego z pól
 struktury odbywa się następująco. Przesunięciem (ang. \emph{offset}) będziemy nazywać
