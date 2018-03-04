@@ -48,7 +48,7 @@ Opis pojawi się wkrótce...
 * Grafkika Komputerowa i Wizualizacja  (skrypt!)
 * Technologie Sieciowe (skrypt)
 * Wprowadzenie Do Funkcji Zespolonych (skrypt)
-* Programowanie w logice 
+* Programowanie w logice
 * Nowoczesne Technologie WWW (w zasadzie sam nie wiem, co tu trzeba...)
 * Teoretyczne Podstawy Informatyki (Dla Wybrańców)
 
@@ -68,7 +68,17 @@ Opis pojawi się wkrótce...
 * Metody probabilistyczne i statystyka (przepisać notatki Alka - trochę mało opisowe jak na stronę, ale jest ok)
 * Technologie programowania (regex z mojego PDFa, ale trzy pozostałe rozdziały trzeba by od podstaw)
 
+## TODO (Damian):
+* przykład indukcji
+* więcej o współczynnikach dwumianowych
+* delta =   (1, 2, 3, ... n)
+            (delta(1), delta(2), delta(3),... delta(n))
+* diagram dla inwersji + dowód obrazkowy twierdzenia o znakach
+* grafy z MD (podkradnę parę z Wprowadzenia do grafów!)
+* rozbudować wyprowadzenie funkcji tworzącej F_n
+
+
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
