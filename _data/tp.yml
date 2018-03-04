@@ -1,11 +1,5 @@
 toc:
     - title: Wstęp
       url: sems/sem3/tp
-    - title: Zasady projektowania
-      url: sems/sem3/tp/rules
-    - title: Wzorce projektowe
-      url: sems/sem3/tp/patterns
     - title: Wyrażenia regularne
       url: sems/sem3/tp/regex
-    - title: Frameworki
-      url: sems/sem3/tp/frameworks
