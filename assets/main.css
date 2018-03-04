@@ -157,7 +157,7 @@
     transition: background 0.3s ease-out;
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 845px) {
     .container {
         grid-template-columns: 22% 78%;
     }
