@@ -86,9 +86,10 @@ Wszystkie przedstawione powyżej zapisy są równoważne. Jednakże, funkcje boo
 #### Metoda Karnaugh (ang. Karnaugh map}
 
 Siatka Karnaugh jest równoważnym przedstawieniem funkcji boolowskiej. Zawiera wszystkie możliwe kombinacje wejść i każdej przyporządkowuje prawdę albo fałsz na wyjściu. Weźmy pewną funkcję \\( \texttt{F(A,B,C)} \\). Ma ona trzy wejścia. Ze~wzoru \\( 2^n \\), siatka musi opisywać wartości ośmiu wariantów: \\ \\
-\begin{karnaugh-map}[4][2][1][BC][A]
-\manualterms{1,0,0,0,0,1,0,0}
-\end{karnaugh-map} \\
+
+![Siatka Karnaugh](sems/sem3/akiso/arch/boole/karnaugh01.svg)
+
+
 W tym przypadku prawdę na wyjściu otrzymamy dla dwóch kombinacji wejściowych.
 Znajdźmy jedną z~nich, przykładowo dla ,,jedynki'' z dolnego rzędu.
 Odczytujemy zmienne z oznaczeń wierszy i kolumn.
@@ -124,9 +125,7 @@ Zacznijmy od podstaw. Tabelka Karnaugh ma boki będące potęgami liczby dwa, a 
 ##### Wypełnianie siatki
 W zadaniach można najczęściej natrafić na jeden z czterech podstawowych wariantów podania danych wejściowych - funkcja, opis, SOP, POS. Różnice między nimi dotyczą wyłącznie etapu wypełniania, później postępowanie znów będzie identyczne. Dla udowodnienia równoważności, wszystkie cztery przykłady zostały zrealizowane dla identycznej formuły. 
 
-
-
-* \textbf{Funkcja boolowska} \\
+* Funkcja boolowska \\
 W pierwszej kolejności mnożymy wszystkie nawiasy i usuwamy składniki trywialne. Przykład po uporządkowaniu: \\
 \\( \texttt{F(A,B,C,D) = A'B + A (BC + C') + DD' = A'B + AC' + ABC } \\) \\
 Otrzymaliśmy tzw. sumę iloczynów (SOP). Z definicji logicznej alternatywy, jeśli którykolwiek iloczyn będzie miał wartość \\( \texttt{1} \\), to cała funkcja przyjmie \\( \texttt{1} \\) na wyjściu. Wystarczy więc osobno zinterpretować wszystkie iloczyny. Przykładowo, \\( \texttt{A'B} \\) ma wartość \\( \texttt{1} \\) wtedy i tylko wtedy, gdy \\( \texttt{A = 0} \\) oraz \\( \texttt{B = 1} \\), a pozostałe zmienne mogą być dowolne. Zgodnie z instrukcją podaną we wprowadzeniu, znajdźmy wszystkie komórki spełniające kryteria. Obie zmienne są na legendzie ,,pionowej'', więc wybieramy po prostu cały wiersz \\( \texttt{01} \\). \\ \\
@@ -155,7 +154,7 @@ W zaznaczone miejsca wstawiamy jedynki. Tabelkę bez zakreśleń przepisujemy, p
 \manualterms{0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1}
 \end{karnaugh-map} 
 
-* \textbf{notacja \\( \Sigma \\)} (skrócony zapis SOP) \\
+* notacja \\( \Sigma \\) (skrócony zapis SOP) \\
 Pomimo pozornego skomplikowania, notacja skrócona \\( \Sigma \\) jest bardzo wygodna. Wykorzystuje ona fakt, że wiersze i kolumny są opisane kodem Gray'a, więc każdemu polu można przypisać unikatową liczbę binarną, łącząc oznaczenia wiersza i kolumny. Na początku najlepiej wykonywać trzy tabelki - pomocniczą binarną, pomocniczą dziesiętną i główną. Później można wykonywać zamianę w locie i zapisywać tylko wartości dziesiętne. Znając na pamięć kolejność komórek, nawet to staje się oczywiście niepotrzebne. W przykładach wykorzystamy natomiast metodę najdłuższą, ale najpewniejszą. Pierwsza z poniższych tabelek pomocniczych to złączone wartości wierszy i kolumn (w tej kolejności, ponieważ \\( \texttt{AB} \\) jest przed \\( \texttt{CD} \\)), a druga przedstawia zamianę wartości na system dziesiętny. \\ \\
 \begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
 \manualterms{\\( _{0000} \\),\\( _{0001} \\),\\( _{0010} \\),\\( _{0011} \\),
@@ -190,7 +189,7 @@ Nasz przykład to \\( F (A,B,C,D) = \Sigma m (4,5,6,7,8,9,12,13,14,15) \\). Nume
 \manualterms{0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1}
 \end{karnaugh-map}
 
-* \textbf{Notacja \\( \prod \\)} (skrócony zapis POS) \\
+* Notacja \\( \prod \\) (skrócony zapis POS) \\
 Wykorzystujemy identyczne tabelki pomocnicze jak dla notacji \\( \Sigma \\), bardzo podobny jest również algorytm. Zaznaczamy w dziesiętnej tabelce podane numery. Jedyna różnica polega na tym, że w zaznaczone miejsca wstawiamy zera, a uzupełniamy jedynkami, czyli odwrotnie jak wcześniej. Teraz przykładem będzie funkcja \\( F (A,B,C,D) = M \prod (0,1,2,3,10,11) \\). Zaznaczmy wszystkie sześć pól: \\ \\
 \begin{karnaugh-map}*[4][4][1][\\( CD \\)][\\( AB \\)]
 \manualterms{\\( _{0} \\),\\( _{1} \\),\\( _{2} \\),\\( _{3} \\),
@@ -208,7 +207,7 @@ Wykorzystujemy identyczne tabelki pomocnicze jak dla notacji \\( \Sigma \\), bar
 \manualterms{0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1}
 \end{karnaugh-map}
 
-* \textbf{Polecenie opisowe} \\
+* Polecenie opisowe \\
 Może wydawać się trudne, jednak przy małej ilości zmiennych (do 5) wystarczające jest rozważenie przypadków w tradycyjnej tabelce.
 \begin{zadanie}
 Funkcja zwracająca prawdę dla czterobitowych liczb większych od 3, których suma cyfr w zapisie dziesiętnym wynosi co najmniej 3.
@@ -222,9 +221,9 @@ Zapiszmy wszystko, co może się przydać: cztery zmienne, wartość binarna, wa
 %\label{my-label}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \hline
-\textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} &
-\textbf{(BIN)} & \textbf{(DEC)} & \textbf{x} & \textbf{y}
-& \textbf{x \\( \wedge \\) y} \\ \hline
+A & B & C & D &
+(BIN) & (DEC) & x & y
+& x \\( \wedge \\) y \\ \hline
 0 & 0 & 0 & 0 & 0000 & 0 & 0 & 0 & 0 \\ \hline
 0 & 0 & 0 & 1 & 0001 & 1 & 0 & 0 & 0 \\ \hline
 0 & 0 & 1 & 0 & 0010 & 2 & 0 & 0 & 0 \\ \hline
@@ -274,7 +273,7 @@ Przykłady w poprzednich zadaniach (funkcja, \\( \Sigma \\), \\( \prod \\), opis
 \end{karnaugh-map} \\
 Na wyjściu możemy otrzymać jedną z dwóch podstawowych postaci, SOP lub POS. Jeśli jest zaznaczone w poleceniu, wybieramy odpowiednią (lub obie). Jeśli brak informacji, domyślnie liczymy SOP.
 
-* \textbf{Minimalny SOP}, suma iloczynów, np. \\( \texttt{XY + Z} \\) \\
+* Minimalny SOP, suma iloczynów, np. \\( \texttt{XY + Z} \\) \\
 W celu wyznaczenia POS, zaznaczamy możliwie największe grupy jedynek o bokach \\( 2^n \\).
 Dla funkcji czterech zmiennych dozwolone wartości to 1, 2 i 4.
 Zachodzenie grup na siebie jest wskazane, ponieważ im większa grupa, tym mniej symboli potrzeba do jej zapisu.
@@ -299,7 +298,7 @@ Podobnie dla ,,zielonego'' kwadratu.
 Łatwo można zauważyć, że obszar ten wyznaczają \\( \texttt{A} \\) oraz \\( \texttt{C'} \\). Iloczyn wynosi \\( \texttt{A'C} \\).
 Końcowy wynik to \\( \texttt{SOP = AC' + B } \\). 
 
-* \textbf{Minimalny POS}, iloczyn sum, np. \\( \texttt{(X + Y) (Z)} \\) \\
+* Minimalny POS, iloczyn sum, np. \\( \texttt{(X + Y) (Z)} \\) \\
 Analogiczne postępowanie przy POS.
 Tabelkę ponownie przepisać, ale tym razem zakreślić zera.
 Ten konkretny przykład pokazuje ważną cechę siatki Karnaugh - formalnie jest ona torusem\footnote{model 3D można zakupić w Biedronce pod nazwą handlową donut}, więc naprzeciwległe krawędzie są również połączone ze sobą, co należy uwzględniać przy szukaniu grup maksymalnych.
@@ -342,7 +341,7 @@ Czasami elementem zadania może być też narysowanie odpowiedniej kombinacji br
 
 ##### ,,Dla tych, którzy chcą wiedzieć więcej...''
 
-* \textbf{Stany nieoznaczone} \\
+* Stany nieoznaczone \\
 Czasami w zadaniu wskazane są kombinacje, które nie muszą przyjmować żadnej określonej wartości. Najczęściej dotyczy to postaci skróconej SOP lub POS (notacje \\( \Sigma \\) i \\( \prod \\)), gdzie pola te oznaczone są literą \\( \texttt{d} \\). Ogólna zasada jest bardzo prosta - stan nieokreślony traktujemy jako zero lub jedynkę, w zależności od tego, co pozwoli lepiej zminimalizować funkcję. Przykład: \\( F (A,B,C,D) = \Sigma m (0,1,4) + d(5,7) \\) \\
 \begin{karnaugh-map}[4][4][1][\\( CD \\)][\\( AB \\)]
 \manualterms{1,1,0,0,1,X,0,X,0,0,0,0,0,0,0,0}
@@ -352,7 +351,7 @@ Czasami w zadaniu wskazane są kombinacje, które nie muszą przyjmować żadnej
 \implicant{0}{5}
 \end{karnaugh-map} \\
 Pierwszy stan nieokreślony potraktowaliśmy jako zero, drugi jako jedynkę, dzięki czemu udało się utworzyć pojedynczą grupę 2x2 zamiast dwóch 1x2. 
-* \textbf{Inne zestawy bramek} \\
+* Inne zestawy bramek \\
 Standardowe zadania z SOP, POS i minimalizacji zezwalają tylko na negację, alternatywę oraz koniunkcję, natomiast przy projektowaniu prawdziwych układów do dyspozycji są również pozostałe bramki logiczne.
 Wykorzystując \\( \texttt{XOR} \\) lub \\( \texttt{XNOR} \\), możliwa jest tzw. minimalizacja skośna. \\ \\
 \begin{karnaugh-map}[2][2][1][\\( B \\)][\\( A \\)]
@@ -375,10 +374,10 @@ Zysk jest oczywisty.
 Podobne rozumowanie można przeprowadzić dla większych tabel w połączeniu z minimalizacją klasyczną, stosując łączenie po skosie.
 Z przyczyn osobistych, pozostawiam to Czytelnikowi jako ćwiczenie.
 
-* \textbf{Szybkie zamiany} \\
+* Szybkie zamiany \\
 Jeśli otrzymaliśmy SOP lub POS w postaci skróconej i chcemy jedynie odtworzyć funkcję bez minimalizacji, można to zrobić nie wykorzystując tabelek. Każdą liczbę z nawiasu zapisujemy w postaci binarnej na tylu bitach, ile funkcja ma wejść. Dla \\( F (A,B,C) = \Sigma m (1,2,7) \\) będą to 001, 010, 111. Kolejne bity zamieniamy na kolejne litery. 1 oznacza daną zmienną, 0 jej negację. \\( 001 \rightarrow A'B'C \\), \\( 010 \rightarrow A'BC' \\), \\( 111 \rightarrow ABC \\). Końcowym wynikiem jest \\( F (A,B,C) = A'B'C + A'BC' + ABC \\). Analogicznie \\( F (X,Y,Z) = \prod M (0,3,6) \\), ale dla POS zasada jest odwrotna: 1 to negacja, 0 niezmieniona wartość. Otrzymujemy 000, 011, 110. Z tego \\( F (X,Y,Z) = (A + B + C) (A + B' + C') (A' + B' + C) \\)
 
-* \textbf{Więcej zmiennych!} \\
+* Więcej zmiennych! \\
 Powyżej czterech wejść, teoretycznie można łączyć zmienne trójkami, ale jest to znacznie mniej intuicyjne niż w przypadku par. 
 Przykładowo suma iloczynów \\( \texttt{CD' + CD} \\) to oczywiście prosta formuła \\( \texttt{C} \\).
 Jednak na pojedynczej siatce pięciu zmiennych mogłaby ona być widoczna jako dwie oddzielne grupy, których nie da się połączyć żadną z wcześniejszych zasad. \\
@@ -418,7 +417,7 @@ Na potrzeby minimalizacji wystarczą nam przekroje, dwie osobne siatki Karnaugh\
 \implicant{3}{10}[0,1]
 \end{karnaugh-map} 
 
-* \textbf{A może dwa wyjścia?} \\
+* A może dwa wyjścia? \\
 W przypadku projektowania układu posiadającego więcej niż jedno wyjście, zazwyczaj zadowalające efekty daje zapisanie dla każdego z nich osobnej funkcji boolowskiej, a następnie oddzielna minimalizacja. Warto również zaznaczyć powtarzające się iloczyny (w SOP), dzięki czemu będzie możliwe wykorzystanie danego zestawu bramek wielokrotnie. Natomiast wyznaczenie w takim przypadku postaci jednoznacznie minimalnej jest problemem NP-trudnym, znacząco wykraczającym poza zakres tego kompendium. W przypadku zainteresowania tematem, odsyłam do literatury~\cite{multi_minimization}. 
 
 
