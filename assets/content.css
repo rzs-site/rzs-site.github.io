@@ -23,7 +23,7 @@ div.highlight, .math-box {
 }
 
 pre.highlight > code {
-    margin-inline-end: 1em;
+    margin-right: 1em;
 }
 
 .content h1:first-of-type {
