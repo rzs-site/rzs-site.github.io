@@ -89,7 +89,6 @@ Siatka Karnaugh jest równoważnym przedstawieniem funkcji boolowskiej. Zawiera 
 
 ![Siatka Karnaugh](karnaugh01.svg)
 
-
 W tym przypadku prawdę na wyjściu otrzymamy dla dwóch kombinacji wejściowych.
 Znajdźmy jedną z~nich, przykładowo dla ,,jedynki'' z dolnego rzędu.
 Odczytujemy zmienne z oznaczeń wierszy i kolumn.
@@ -98,12 +97,14 @@ Wiersze definiują tutaj tylko wartość wejścia \\( \texttt{A} \\), więc tryw
 Nieco bardziej skomplikowane w tym przypadku są kolumny, wyznaczające jednocześnie wartości dwóch wejść. Hipotetycznie każda zmienna powinna być zapisana w osobnym wymiarze, jednak rozszerzyłoby to problem do zagadnienia 3D lub nawet 4D. Zamiast tego przy funkcjach trzech lub czterech zmiennych następuje łączenie wejść w pary, co znacząco upraszcza rysunki. Dlatego zapisujemy \\( \\( \texttt{BC = 01} \\) \\), a następnie rozbijamy na \\( \texttt{B = 0} \\) oraz \\( \texttt{C = 1} \\). Logiczną prawdę otrzymamy (nie wyłącznie!) dla \\( \texttt{A = 1} \\), \\( \texttt{B = 0} \\), \\( \texttt{C = 1} \\). \\
 
 A co w przypadku odwrotnym, gdyby szukać wartości wyjściowej dla podanych wejść?
-Weźmy nową siatkę, tym razem bardziej losowy układ i cztery zmienne. \\ \\
+Weźmy nową siatkę, tym razem bardziej losowy układ i cztery zmienne. 
+
 ![Siatka Karnaugh](karnaugh02.svg)
 
 Chcemy znaleźć wartość dla \\( \texttt{A = 0, B = 1, C = 1, D = 0} \\).
 W oznaczeniach wierszy jest \\( \texttt{AB} \\), natomiast kolumny wyznaczają wartości wejść \\( \texttt{CD} \\).
-Szukamy więc \\( \texttt{AB = 01} \\) oraz \\( \texttt{CD = 10} \\). \\ \\
+Szukamy więc \\( \texttt{AB = 01} \\) oraz \\( \texttt{CD = 10} \\). 
+
 ![Siatka Karnaugh](karnaugh03.svg)
 
 Dla podanego układu wejść nasza funkcja przyjmie wartość \\( \texttt{0} \\), logiczny fałsz. \\
@@ -111,7 +112,9 @@ Dla podanego układu wejść nasza funkcja przyjmie wartość \\( \texttt{0} \\)
 Jak widać, czytanie siatek Karnaugh jest bardzo proste. Większość zadań z tej kategorii dotyczy jednak znacznie trudniejszego zagadnienia, czyli samodzielnego rysowania siatki, wypełniania, a następnie minimalizacji. Dobra wiadomość: ogólny algorytm jest wspólny dla wszystkich odmian zadania. Różnica dotyczy jedynie sposobu wypełniania, ponieważ funkcja wejściowa może być przedstawiona na wiele równoważnych sposobów. Natomiast na wyjściu zawsze otrzymamy identyczny wynik, ale w zależności od treści zadania należy go odpowiednio zinterpretować.
 
 ##### Schematy siatek
-Zacznijmy od podstaw. Tabelka Karnaugh ma boki będące potęgami liczby dwa, a ilość pól wynosi \\( 2^n \\), gdzie jako \\( n \\) oznaczamy ilość zmiennych. Wiersze i kolumny (kolejność umowna) muszą zostać opisane kodem Gray'a i nazwane zmiennymi. Dla przypomnienia, kolejne wyrazy w tym kodzie różnią się dokładnie jednym bitem. Na potrzeby minimalizacji wykorzystamy kod trywialny (\\( \texttt{0,1} \\)) oraz kod dwubitowy (\\( \texttt{00, 01, 11, 10} \\)). Natomiast zmienne dzielimy między ,,pion'' i ,,poziom''. Kod jednobitowy musi być powiązany z jedną zmienną, kod dwubitowy z dwiema zmiennymi. Doskonale widać to na poniższych tabelkach modelowych: ![Siatka Karnaugh](karnaugh04.svg)
+Zacznijmy od podstaw. Tabelka Karnaugh ma boki będące potęgami liczby dwa, a ilość pól wynosi \\( 2^n \\), gdzie jako \\( n \\) oznaczamy ilość zmiennych. Wiersze i kolumny (kolejność umowna) muszą zostać opisane kodem Gray'a i nazwane zmiennymi. Dla przypomnienia, kolejne wyrazy w tym kodzie różnią się dokładnie jednym bitem. Na potrzeby minimalizacji wykorzystamy kod trywialny (\\( \texttt{0,1} \\)) oraz kod dwubitowy (\\( \texttt{00, 01, 11, 10} \\)). Natomiast zmienne dzielimy między ,,pion'' i ,,poziom''. Kod jednobitowy musi być powiązany z jedną zmienną, kod dwubitowy z dwiema zmiennymi. Doskonale widać to na poniższych tabelkach modelowych: 
+
+![Siatka Karnaugh](karnaugh04.svg)
 ![Siatka Karnaugh](karnaugh05.svg)
 ![Siatka Karnaugh](karnaugh06.svg)
 
