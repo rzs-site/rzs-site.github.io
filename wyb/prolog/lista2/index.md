@@ -3,6 +3,7 @@ layout: acc_layout
 toc: prolog
 use_math: true
 use_highlight: true
+
 ---
 
 # Programowanie w Logice - Lista 2
