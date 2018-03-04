@@ -25,7 +25,7 @@ function myFunction(but,te) {
 
 Uwaga! Generator planu jest całkowicie nową funkcjonalnością. Aktualnie kolizje są już wykreślane prawidłowo, natomiast nadal odznaczanie wybranych wcześniej kratek prowadzi do awarii skryptu. W razie błędnego wyboru, odświeżyć stronę.
 
-<table style="float: left; margin: 10px;">
+<table style="float: left; margin: 10px 0px;">
 
 <tr>
 	<td></td>
@@ -101,7 +101,7 @@ Uwaga! Generator planu jest całkowicie nową funkcjonalnością. Aktualnie koli
 </table>
 
 
-<table style="float: left; margin: 10px;" id="tabelaHTML">
+<table style="float: left; margin: 10px 0px;" id="tabelaHTML">
   <tr>
     <th class="tg-yw4l">Kod grupy</th>
     <th class="tg-yw4l">Nazwa</th>
