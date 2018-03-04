@@ -23,8 +23,10 @@ function myFunction(but,te) {
 }
 </script>
 
-Uwaga! Generator planu znajduje się we wczesnej fazie rozwoju, wyszukuje wyłącznie lektoraty.
-W razie błędnego wyboru należy odświeżyć stronę, nie ma jeszcze możliwości odznaczania pojedynczych kursów.
+Uwaga! Generator planu znajduje się we wczesnej fazie rozwoju, obsługuje wyłącznie lektoraty.
+Należy odznaczyć godziny, które powinny zostać wykluczone z wyszukiwania.
+Skrypt wybierze kursy pasujące do "zielonych" komórek.
+W razie błędnego wyboru trzeba odświeżyć stronę, nie ma jeszcze możliwości poprawy pojedynczych godzin.
 Import danych z AKZ: 2018.03.04, 01:20
 
 {::options parse_block_html="true" /}
