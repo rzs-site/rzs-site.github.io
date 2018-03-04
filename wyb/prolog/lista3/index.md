@@ -19,9 +19,13 @@ Rekursja ogonowa to szczególny rodzaj rekursji. Jeżeli w rekurencyjnej funkcji
 
 ## Instrukcja warunkowa
 
-Zapisując predykaty możemy korzystać z predukatu \\( -> \\) a działa on w następujący sposób:
-\\( W -> T; E \\) gdzie \\(W \\) to warunek, \\(T \\) to warunek sprawdzany gdy \\(W \\) jest prawdą a \\(E \\) to warunek spradzany gdy \\(W \\) to fałsz.
-
+Zapisując predykaty możemy korzystać z predykatu działającego jako warunek.
+Należy korzystać z niego w następujący sposób:
+```prolog
+(W -> ( T ); ( E )) %gdzie W jest warunkiem, -> operatorem warunkowym,
+%T warunkami sprawdzanymi gdy W jest prawdą, E warunkami sprawdzanymi gdy W to fałsz.
+```
+<p></p>
 ---
 
 ## Zadania
