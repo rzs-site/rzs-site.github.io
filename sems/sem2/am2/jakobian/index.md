@@ -8,10 +8,8 @@ Analiza Matematyczna 2
 ---
 ## Całkowanie przez podstawienie i Jakobian przejścia
 
-
-
 ### Twierdzenie o podstawianiu
-\noindent
+
 Jeśli \\( T: V \to V' \\) jest wzajemnie jednoznacznym odwzorowaniem mającym pierwsze pochodne cząstkowe ciągłe takim, że \\( T^{-1} \\) też ma te własności (dyfeomorfizmem), gdzie \\( V, \\) \\( V' \\) są regularne w \\( \mathbb{R}^3 \\) oraz \\( T(u,v,w) = (x,y,z) \\), wtedy:
 \\\[ \iiint_{v'} f(x,y,z) dP' = \iint_V f(x(u,v,w), y(u,v,w), z(u,v,w)) \left| \frac{\partial (x,y,z)}{\partial (u,v,w)} \right| dP\ \\]
 \[\frac{\partial (x,y,z)}{\partial (u,v,w)} = 
@@ -21,10 +19,8 @@ y_u & y_v & y_w \\\
 z_u & z_v & z_w
 \end{vmatrix}\]
 
-
-
 ### Współrzędne biegunowe
-\noindent
+
 \[\begin{cases}
 x = r \cos\varphi \\\
 y = r \sin\varphi
@@ -36,10 +32,8 @@ y = r \sin\varphi
 \end{vmatrix}
 = r\]
 
-
-
 ### Współrzędne sferyczne
-\noindent
+
 \[\begin{cases}
 x = r \sin\theta \cos\varphi \\\
 y = r \sin\theta \sin\varphi \\\
@@ -53,10 +47,8 @@ z = r \cos\theta
 \end{vmatrix}
 = r^2 \sin\theta\]
 
-
-
 ### Współrzędne cylindryczne
-\noindent
+
 \[\begin{cases}
 x = r \cos\varphi \\\
 y = r \sin\varphi \\\
