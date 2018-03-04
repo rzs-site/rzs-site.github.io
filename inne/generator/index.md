@@ -23,11 +23,18 @@ function myFunction(but,te) {
 }
 </script>
 
-Uwaga! Generator planu znajduje się we wczesnej fazie rozwoju, obsługuje wyłącznie lektoraty.
+### Status projektu
+Generator Planu RZS został stworzony w celu uproszczenia wyboru kursów ogólnouczelnianych.
+Obecna wersja (v0.5) przetwarza lektoraty dla studiów stacjonarnych I stopnia.
+Planowane jest rozszerzenie bazy o pozostałe kursy (w tym sportowe) oraz dodanie możliwości wyboru rodzaju.
+
+### Obsługa
 Należy odznaczyć godziny, które powinny zostać wykluczone z wyszukiwania.
 Skrypt wybierze kursy pasujące do "zielonych" komórek.
 W razie błędnego wyboru trzeba odświeżyć stronę, nie ma jeszcze możliwości poprawy pojedynczych godzin.
-Import danych z AKZ: 2018.03.04, 01:20
+
+### Status danych
+Aktualne źródło: serwer RZS. Ostatni import: 2018.03.04, 01:20
 
 {::options parse_block_html="true" /}
 <div class="table-box">
