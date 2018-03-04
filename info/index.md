@@ -31,12 +31,6 @@ Materiały dydaktyczne udostępnione w ramach RZS są interpretacją wykładów 
 
 ---
 
-## Zespół:
-
-Członkami RZS są zdolni oraz chętni do pomocy studenci Wydziału  Podstawowych Problemów Techniki na Politechnice Wrocławskiej. Aktualnie liczba członków grupy RZS przekracza 35 osób.
-
----
-
 ## Historia:
 
 Projekt Razem Zdajmy Studia (oryginalnie Razem Zdajmy Algebrę) został założony w celu rozwiązania listy przygotowawczej do egzaminu z Algebry Abstrakcyjnej i Teorii Kodowania. Następie opracowane zostały pojęcia związane z Analizą Matematyczną 2. Wymienione powyżej zadania zostały w pełni zrealizowane, a doświadczenie zdobyte podczas ich realizacji umożliwiło powstanie m.in. kompendium z Architektury Komputerów i Systemów Operacyjnych.
