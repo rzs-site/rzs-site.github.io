@@ -2,147 +2,102 @@
 layout: acc_layout
 toc: prolog
 use_math: true
+use_highlight: true
 ---
 
-Programowanie w Logice - Lista 1
----
+# Programowanie w Logice - Lista 2
 
-## Fakty
+## Funktory
 
-Przykład teoretyczny: \\( p(t_1, t_2, ... t_n) \\)
+Funktorów używamy do budowania złożonych termów. Umożliwają one przechowywanie większej ilości informacji.
 
 Przykład praktyczny:
 ```
-lubi(student, rzs). %czytany jako student lubi rzs
+matka(janek).           %matka janka
+matka(matka(janek)).    %matka matki janka
+matka(ojciec(janek)).   %matka ojca janka
 ```
+<p></p>
 ---
 
-## Reguły
+## Listy
 
-Przykład teoretyczny: jeśli \\(head\\) jest postaci \\(p(t_1, t_2, ... t_n) \\) a \\(body\\) jest
-warunkiem z którego wynika \\(head \\) to zapisujemy \\(head :- body\\).
+List używamy do dopiswania informacji. Uwaga: operacje na listach są kosztowne, zwłaszcza jeśli dotyczą ogona.
+Zaleca się dokonywać operacji na głowie.
 
 Przykład praktyczny:
-
 ```
-lubi(autor, X) :- lubi(X, rzs) %czytany jako student autor lubi X jeśli X lubi rzs
+[1,2,3,4,5] = [H|T] %wtedy H = 1 a T wskazuje na reszte listy tj. [2,3,4,5]
+[] %lista pusta
 ```
+<p></p>
 ---
 
-## Operatory logiczne
+## Użyteczne predykaty
 
-\\(\land \\) zapisujemy jako \\(,\\)
+Lista predykatów które przydadzą się w rozwiązywaniu zadań z tej listy.
 
-\\(\lor \\) zapisujemy jako \\(;\\) Uwaga: Krążą pogłoski braku miłości do średników. Należy stosować prawa De Morgana
-
-\\(\neg \\) zapisujemy jako \\(not (p(...))\\) albo \\( \backslash+ (p(...)) \\)
-
----
-
-## Styl
-
-Dla części \\(body \\) po każdym z warunków należy stosować enter oraz tabulację.
-
-Takie same reguły należy zapisywać pod sobą.
-
-Między różnymi regułami należy zostawić conajmniej jedną linię przerwy.
-
----
-
-## Stałe i zmienne
-
-W [pierwszym](#fakty) przykładzie praktycznych mieliśmy dwie stałe. Pierwszą z nich jest student, drugą rzs.
-W [drugim](#reguły) przykładzie praktycznych mamy dwie stałe: autor oraz rzs. Zmienną jest \\(X\\). Prolog poszuka takich
-\\(X\\) aby spełnialy fakt (lub regułę jeśli bedzie zdefiniowana) lubi. W [pierwszym](#fakty) przykładzie widzimy iż student lubi rzs.
-Zatem następuje przypisanie do \\(X\\) wartości student. Po tym zabiegu stwierdza że autor lubi student.
-
----
-
-## Zasada zamknietego świata:
-
-Przyjmujemy że prawdziwe w programie jest jedynie to co było podane.
-
----
-
-## Wskazówki
-
-* Warto uzupełniać zadania własnymi testowymi danymi i sprawdzić działanie programu. Wszakże wszyscy wiemy iż początki bywają... różne.
-* Gdy zmienna pojawia się tylko raz w regule  należy użyć zmiennej anonimowej, w innym przypadku otrzymamy ostrzeżenie. Taką zmienną zapisujemy za pomocą _ (podkreślenie). Przykładem jest:
+Przykład praktyczny:
 ```
-ojciec(X) :- syn(Y , X) % X jest ojcem gdy Y jest synem X. Powoduje ostrzeżenie iż Y jest użyty tylko raz.
-ojciec(X) :- syn(_ , X) % X jest ojcem kogoś. Nie interesuje nas kogo, ważne że jest.
+member(X, L). %jest prawdziwy gdy X należy do listy L. Umożliwa łatwo przejście wszystkich elementów z Listy
+append(L1, L2, L3). %jest prawdziwy gdy L3 jest połączeniem L1 i L2. Umożliwia łatwe łączenie list.
+select(X, L1, L2).  %jest prawdziwgy gdy L2 powstaje przez zabranie z L1 jednego elementu X.
 ```
-
-* Należy uważać z operatorem negacji. Utrudnia on prologowi wnioskowanie, szczególnie przy dużych regułach.
+<p></p>
 ---
 
 ## Zadania
 
-Zadanie 1.
+### Zadanie 1.
 
-Należy opisać relacje rodzinne przy pomocy innych podanych. Przykładowo:
-```
-dziadek(X, Y) :- ... % musimy napisać że istnieje takie Z iż X jest ojcem Z a Z jest ojcem Y
-```
-Analogicznie inne przykłady
+Zabieraj element z przodu i tyłu listy \\( L \\) tak długo aż stanie się ona pusta bądź długości 1.
+Jeżeli jest ona pusta, to nie ma elementu środkowego.
+Jeżeli jest ona długości 1, to znasz element środkowy.
 
 ---
 
-Zadanie 2.
+### Zadanie 2.
 
-Celem tego zadania jest nauczenie nas potęgi rekurencji w Prologu. Oczywistym stwierdzeniem jest że dla wieży
-\\(B_1 > B_2 > B_3 > B_4 > B_5 \\) gdzie \\( > \\) oznacza bycie ponad jest przechodnia. Tzn. \\(B_1 > B_4 \\).
+Zastanawiając się co to znaczy, iż element pojawia się raz na liście dochodzi do wniosków:
 
-Zatem above należy zdefiniować:  \\( B_i \\) jest ponad \\( B_j \\) jeśli są bezpośrednio nad sobą albo istnieje takie \\( B_k \\) że \\( B_k \\) jest bezpośrednio nad \\( B_j \\) oraz \\( B_i \\) jest ponad \\( B_k \\). Użycie sformułowania iż \\( B_k \\) jest bezpośrednio ponad \\( B_j \\) umożliwa nam uniknięcie podwójnej rekurencji.
+* Element pojawia się w głowie i nie pojawia się w ogonie.
+* Element nie pojawia się w głowie (tj. jest od niej różny) i pojawia się raz w ogonie.
 
----
+Podobnie mozna przeanalizować dwukrotność:
 
-Zadanie 3.
-
-Jaka była oficjalnie dobra wersja???
-
----
-
-Zadanie 4.
-
-Tutaj następuje przymusowa powtórka LiSF.
-
-\\( X \\) jest elementem maksymalnym częściowego porządku jeśli \\( le(X, X) \\) (X jest w dziedzinie)
-oraz nie istnieje \\( le(Y, X) \\) (tj. nie istnieje Y który jest większy od Y).
-Element jest największy jeżeli jest on w dziedzinie oraz jest on jedynym elementem maksymalnym (tj. nie istnieje inny element maksymalnymy)
-Analogicznie element najmniejszy oraz minimalny.
+* Element pojawia się w głowie i pojawia się raz w ogonie.
+* Element nie pojawia się w głowie i pojawia się dwa razy w ogonie.
 
 ---
 
-Zadanie 5.
+### Zadanie 3.
 
-Ciąg dalszy powtórki LiSF.
+Tutaj najłatwiej stworzyć listę odwiedzonych już wierzchołów i sprawdzać możemy dojśc jeszcze do innego wierzchołka.
+Możemy zdefiniować ściężkę od \\(A, B\\) gdy:
+* \\(A = B \\)
+* da się przejść od \\(A \\) do \\(B \\) i \\(A \neq B \\)
 
-Aby sprawdzić czy relacja jest częściowym porządkiem należy sprawdzić trzy własności. Ponieważ prolog kiepsko radzi sobie sprawdzając przypadki ogólne
-należy pozamieniać kwantyfikatory
-
-Przechodność:
-
-\\( \forall X(X \in D \implies le(X, X)) \\).
-
-Należy zamienić na:
-
-\\( \neg (\exists X((X \in D)\land( \neg (le(X, X))))) \\).
-
-\\(X in D \\) zapiszemy w prologu jako:
-```
-le( X, _) ; le(_, X)
-```
-
-Analogicznie postępujemy z innymi własnościami. Dokładniejsze przekształcenie na [stronie](http://ki.pwr.edu.pl/kobylanski/dydaktyka/page6/page2/index.html) prowadzącego.
+Sprawdzając czy da się przejść od \\(X \\) do \\(Y \\) musimy czy zachodzi jeden z warunków
+* \\(X \\) i \\(Y \\) są połączone
+* \\(X \\) jest połączone z \\(Z \\), \\(Z \\) jest różne od \\(Y \\) (od tego mamy pierwszy warunek) i nie odwiedziliśmy jeszcze \\(Z \\).
+Wtedy dorzucamy \\(Z \\) do odwiedzonych i wywołujemy rekurencyjne sprawdzenie czy da się przejść od \\(Z \\) do \\(Y \\).
 
 ---
 
-Zadanie 6.
+### Zadanie 4.
 
-Najwygodniej skorzystać z perykatu:
+Prawdopodobnie dobrym sposobem jest znalezienie wszystkich momentów w których osoba dostała jakiś przedmiot. Oznaczmy te momenty jako \\(t_1, t_2, ... t_n \\).
+Warto pamiętać że \\(t_1 \\) może być równe \\(0\\).
+Następnie dla każdego momentu \\(t_i\\) znajdzmy najwcześniejszy moment oddania \\(t'_1 \\). Wtedy osoba posiada przedmiot
+w czasie pomiędzy \\(t_i\\) oraz \\(t'_1 \\). Jeśli chodzi o ostatni moment otrzymania \\(t_n\\) to jeżeli nie ma większego \\(t'_n \\) to osoba posiada przedmiot do końca. Należy wtedy ustawić jakiś górny limit czasu i wypisać rozwiązanie.
+
+---
+
+### Zadanie 5.
+
+Zespół ekspretów ciągle pracuje nad idealnym rozwiązaniem.
+Prawdopodobnie trzeba będzie użyc
+
+```prolog
+consult(przemko).
 ```
-between(X, Y, Z), ... %Z przyjmie wtedy wszystkie wartosci pomiędzy X a Y (włącznie!)
-```
-następnie trzeba napisać predykat \\(prime(N)\\) zwracający \\(true \\) jeśli \\(N \\) jest liczbą pierwszą. Należy w nim zapisać iż żadna mniejsza liczba od \\(N \\) nie dzieli \\(N \\) bez reszty.
-Można tego dokonać także rekurencyjnie.

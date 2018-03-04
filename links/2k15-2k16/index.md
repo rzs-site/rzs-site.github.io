@@ -45,6 +45,7 @@ toc: main_page
 
 #### Ćwiczenia
 * [Lista 1](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/lista_1.pdf)
+* [Lista 2](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/AZ-lista_2.pdf)
 
 ***
 
