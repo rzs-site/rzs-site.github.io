@@ -54,11 +54,11 @@ Jeśli zdarzenia \\( A\_1 \\), \\( A\_2 \\), ... stanowią ciąg *zstępujący*,
 Do dowodu wykorzystujemy poprzedni fakt.
 
 #### Dystrybuanta
-Niech \\( \Omega = \\mathbb{R}^1 \\). Definiujemy funkcję \mathbb{F} w następujący sposób:
+Niech \\( \Omega = \\mathbb{R}^1 \\). Definiujemy funkcję \\( \mathbb{F} \\) w następujący sposób:
 
-* \mathbb{F} jest niemalejąca
+* \\( \mathbb{F} \\) jest niemalejąca
 * \\( \text{lim}\_{x \rightarrow -\infty}\ \mathbb{F}(x) = 0 \\) oraz \\( \text{lim}\_{x \rightarrow \infty}\ \mathbb{F}(x) = 1 \\)
-* \mathbb{F} jest lewostronnie ciągła
+* \\( \mathbb{F} \\) jest lewostronnie ciągła
 
 Taką funkcje nazywamy *dystrybuantą* i definiuje ona, jednoznacznie, rozkład prawdopodobieństwa w następujący sposób:
 \\[ \mathbb{P}\left(\langle a;b)\right) = \mathbb{F}(b) - \mathbb{F}(a) \\]
