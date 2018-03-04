@@ -8,6 +8,8 @@ use_highlight: true
 Architektura Komputerów i Systemy Operacyjne
 ---
 
+### Systemy liczbowe
+
 {::options parse_block_html="true" /}
 <div class="math-box"><p>"Liczby rządzą światem." - Pitagoras</p></div>
 {::options parse_block_html="false" /}
