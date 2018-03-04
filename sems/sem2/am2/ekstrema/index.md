@@ -17,10 +17,10 @@ Niech \\( f: \mathcal{D} \to \mathbb{R} \\), \\( \mathcal{D} \subset \mathbb{R}^
 Warunek konieczny: Jeśli funkcja \\( f \\) ma pochodne cząstkowe w \\( \overrightarrow{p} \\) oraz ma ekstremum lokalne w \\( \overrightarrow{p} \\) to:
 \\\[ \frac{\partial f}{\partial x_1} = \frac{\partial f}{\partial x_2} = \ldots = \frac{\partial f}{\partial x_n} = 0\ \\]
 \textbf{Wyróżnik dla funkcji dwóch zmiennych:}
-\\\[ \textnormal{W} \left(\overrightarrow{p}\right) = \left(\frac{\partial^2 f}{\partial x^2} \cdot \frac{\partial^2 f}{\partial y^2} - \left(\frac{\partial^2 f}{\partial x \partial y}\right)^2 \right) \left(\overrightarrow{p}\right)\ \\]
-\textbf{Warunek dostateczny (funkcja dwóch zmiennych \\( x \\) i \\( y \\):} Jeśli \\( f \\) ma ciągłe pochodne cząstkowe pierwszego i drugiego rzędu, \\( \frac{\partial f}{\partial x_1} = \frac{\partial f}{\partial x_2} = \ldots = \frac{\partial f}{\partial x_n} = 0 \\) oraz wyróżnik \\( \textnormal{W} \left(\overrightarrow{p}\right) > 0 \\) to \\( f \\) ma ekstremum w punkcie \\( \overrightarrow{p} \\), przy czym jeśli \\( \frac{\partial^2 f}{\partial x^2} > 0 \\) to jest to minimum, a jeśli \\( \frac{\partial^2 f}{\partial x^2} < 0 \\) to jest to maksimum. \\\
-Natomiast jeśli \\( \textnormal{W} \left(\overrightarrow{p}\right) < 0 \\), to \\( \overrightarrow{p} \\) jest punktem siodłowym. \\\
-W przypadku \\( \textnormal{W} \left(\overrightarrow{p}\right) = 0 \\) należy zastosować inne metody.
+\\\[ \text{W} \left(\overrightarrow{p}\right) = \left(\frac{\partial^2 f}{\partial x^2} \cdot \frac{\partial^2 f}{\partial y^2} - \left(\frac{\partial^2 f}{\partial x \partial y}\right)^2 \right) \left(\overrightarrow{p}\right)\ \\]
+\textbf{Warunek dostateczny (funkcja dwóch zmiennych \\( x \\) i \\( y \\):} Jeśli \\( f \\) ma ciągłe pochodne cząstkowe pierwszego i drugiego rzędu, \\( \frac{\partial f}{\partial x_1} = \frac{\partial f}{\partial x_2} = \ldots = \frac{\partial f}{\partial x_n} = 0 \\) oraz wyróżnik \\( \text{W} \left(\overrightarrow{p}\right) > 0 \\) to \\( f \\) ma ekstremum w punkcie \\( \overrightarrow{p} \\), przy czym jeśli \\( \frac{\partial^2 f}{\partial x^2} > 0 \\) to jest to minimum, a jeśli \\( \frac{\partial^2 f}{\partial x^2} < 0 \\) to jest to maksimum. \\\
+Natomiast jeśli \\( \text{W} \left(\overrightarrow{p}\right) < 0 \\), to \\( \overrightarrow{p} \\) jest punktem siodłowym. \\\
+W przypadku \\( \text{W} \left(\overrightarrow{p}\right) = 0 \\) należy zastosować inne metody.
 
 ### Warstwica funkcji
 

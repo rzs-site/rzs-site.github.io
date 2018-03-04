@@ -15,7 +15,7 @@ Analiza Matematyczna 2
 
 Jeśli \\( \overrightarrow{x_0} \\) jest punktem skupienia \\( \mathcal{D} \\) to:
 
-\\\[ \lim_{\overrightarrow{x}\to\overrightarrow{x_0}} f\left(\overrightarrow{x}\right) = \overrightarrow{p} \in \mathbb{R}^n \iff \left(\forall\ \textnormal{ciąg}\ \overrightarrow{x_k} \to \overrightarrow{x_0}, \overrightarrow{x_k} \in \mathcal{D} \right)\left(\lim_{k\to\infty} f\left(\overrightarrow{x_k}\right) = \overrightarrow{p}\right)\ \\]
+\\\[ \lim_{\overrightarrow{x}\to\overrightarrow{x_0}} f\left(\overrightarrow{x}\right) = \overrightarrow{p} \in \mathbb{R}^n \iff \left(\forall\ \text{ciąg}\ \overrightarrow{x_k} \to \overrightarrow{x_0}, \overrightarrow{x_k} \in \mathcal{D} \right)\left(\lim_{k\to\infty} f\left(\overrightarrow{x_k}\right) = \overrightarrow{p}\right)\ \\]
 
 ### Ciągłość
 
@@ -25,7 +25,7 @@ Jeśli \\( \overrightarrow{x_0} \\) jest punktem skupienia \\( \mathcal{D} \\) t
 
 \\( f: \mathcal{D} \to \mathbb{R}^m \\), \\( \mathcal{D} \in \mathbb{R}^n \\) jest ciągła w \\( \overrightarrow{x_0} \\) wtedy i tylko wtedy gdy:
 \\\[ f\left(\overrightarrow{x}\right) = \left(f_1\left(\overrightarrow{x}\right), f_2\left(\overrightarrow{x}\right), \ldots, f_m\left(\overrightarrow{x}\right)\right)\ \\]
-\\\[ \left(\forall i \leq m\right)\left(f_i\left(\overrightarrow{x}\right)\ \textnormal{jest ciągła w}\ \overrightarrow{x_0}\right)\ \\]
+\\\[ \left(\forall i \leq m\right)\left(f_i\left(\overrightarrow{x}\right)\ \text{jest ciągła w}\ \overrightarrow{x_0}\right)\ \\]
 
 ### Twierdzenie o niezmienności zwartości
 

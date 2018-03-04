@@ -72,7 +72,7 @@ Jeśli \\( f''(t) \\) istnieje dla każdego \\( t \in \mathcal{D} \\), to \\( T'
 ### Pochodna pola wektorowego
 
 Niech \\( f: \mathcal{D} \to \mathbb{R}^m \\), gdzie \\( \mathcal{D} \subset \mathbb{R}^n \\). Wtedy mamy:
-\\\[ f\left(\overrightarrow{x}\right) = \left(f_1 \left(\overrightarrow{x}\right), \ldots, f_m \left(\overrightarrow{x}\right)\right)\ \ \ \ \textnormal{gdzie}\ f_i: \mathcal{D} \to \mathbb{R}\ \\]
+\\\[ f\left(\overrightarrow{x}\right) = \left(f_1 \left(\overrightarrow{x}\right), \ldots, f_m \left(\overrightarrow{x}\right)\right)\ \ \ \ \text{gdzie}\ f_i: \mathcal{D} \to \mathbb{R}\ \\]
 \[f'\left(\overrightarrow{x}\right) =
 \begin{bmatrix}
 \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \dots  & \frac{\partial f_1}{\partial x_n} \\\ \\\
@@ -89,7 +89,7 @@ Pochodna złożona to, ogólnie, iloczyn pochodnej funkcji wewnętrznej i zewnę
 ### Twierdzenie Lagrange'a o wartości średniej
 
 Niech \\( f: \mathcal{D} \to \mathbb{R} \\), \\( \mathcal{D} \subset \mathbb{R}^n \\), będzie funkcją różniczkowalną oraz niech \\( \overrightarrow{p_0} \in \mathcal{D} \\), \\( \overrightarrow{p} = \overrightarrow{p_0} + \overrightarrow{h} \\) Wtedy mamy:
-\\\[ f\left(\overrightarrow{p}\right) - f\left(\overrightarrow{p_0}\right) = \textnormal{d}f\left(\overrightarrow{p_\theta}\right)\ \\]
+\\\[ f\left(\overrightarrow{p}\right) - f\left(\overrightarrow{p_0}\right) = \text{d}f\left(\overrightarrow{p_\theta}\right)\ \\]
 Dla pewnego \\( \overrightarrow{p_\theta} = \overrightarrow{p_0} + \theta\overrightarrow{h} \\), \\( \theta \in (0,1) \\).
 
 ### Wzór Taylora dla funkcji mającej ciągłe pochodne cząstkowe pierwszego i drugiego rzędu
