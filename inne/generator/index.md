@@ -42,65 +42,65 @@ Import danych z AKZ: 2018.03.04, 01:20
 
 <tr>
 	<td>07:30</td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 07')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 07')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 07')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 07')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 07')"></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 07')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 07')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 07')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 07')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 07')"><span class="slider"></span></label></td>
 </tr>
 
 <tr>
 	<td>09:15</td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 09')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 09')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 09')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 09')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 09')"></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 09')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 09')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 09')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 09')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 09')"><span class="slider"></span></label></td>
 </tr>
 
 <tr>
 	<td>11:15</td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 11')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 11')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 11')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 11')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 11')"></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 11')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 11')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 11')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 11')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 11')"><span class="slider"></span></label></td>
 </tr>
 
 <tr>
 	<td>13:15</td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 13')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 13')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 13')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 13')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 13')"></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 13')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 13')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 13')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 13')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 13')"><span class="slider"></span></label></td>
 </tr>
 
 <tr>
 	<td>15:15</td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 15')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 15')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 15')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 15')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 15')"></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 15')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 15')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 15')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 15')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 15')"><span class="slider"></span></label></td>
 </tr>
 
 <tr>
 	<td>17:05</td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 17')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 17')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 17')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 17')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 17')"></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 17')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 17')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 17')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 17')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 17')"><span class="slider"></span></label></td>
 </tr>
 
 <tr>
 	<td>18:55</td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 18')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 18')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 18')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 18')"></label></td>
-	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 18')"></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pn) 18')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(wt) 18')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(sr) 18')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(cz) 18')"><span class="slider"></span></label></td>
+	<td><label class="switch"><input type="radio" onclick="myFunction(this,'(pt) 18')"><span class="slider"></span></label></td>
 </tr>
 </table>
 
