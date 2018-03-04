@@ -10,7 +10,7 @@ Metody probabilistycznie i statystyka
 
 ### Funkcje zmiennej losowej
 #### Definicja
-Niech \\( X \\) będzie zmienną losową oraz niech \\( g \\) będzie dowolną funkcją borelowską. Wtedy *funkcję zmiennej losowej Y* definiujemy jako:
+Niech \\( X \\) będzie zmienną losową oraz niech \\( g \\) będzie dowolną funkcją borelowską. Wtedy **funkcję zmiennej losowej Y** definiujemy jako:
 \\[ Y(\omega) = g\left(X(\omega)\right) \\]
 
 #### Własności
