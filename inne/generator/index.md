@@ -33,7 +33,7 @@ Należy odznaczyć godziny, które powinny zostać wykluczone z wyszukiwania.
 Skrypt wybierze kursy pasujące do "zielonych" komórek.
 W razie błędnego wyboru trzeba odświeżyć stronę, nie ma jeszcze możliwości poprawy pojedynczych godzin.
 
-### Status danych
+### Dane
 Aktualne źródło: serwer RZS. Ostatni import: 2018.03.04, 01:20
 
 {::options parse_block_html="true" /}
