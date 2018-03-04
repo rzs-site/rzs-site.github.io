@@ -24,7 +24,7 @@ Wartość najbardziej prawdopodobną (nie mylić z wartością oczekiwaną) okre
 Gdzie \\( [x] \\) oznacza część całkowitą z \\( x \\).
 
 #### Rozkład Poissona(nie czytać Pojzona)
-Niech \\( \mathcal{X} = \mathbb{N} \\) oraz niech \\( k \in \mathbb{N} \\). Rozkład Poissona(\\( \mathbf{Pois}(\lambda) \\), gdzie \\( \lambda > 0 \\)) określamy jako:
+Niech \\( \mathcal{X} = \mathbb{N} \\) oraz niech \\( k \in \mathbb{N} \\). Rozkład Poissona( \\( \mathbf{Pois}(\lambda) \\), gdzie \\( \lambda > 0 \\) ) określamy jako:
 \\[ \mathbf{P}(X = k) = \frac{e^{-\lambda} \lambda^k}{k!} \\]
 Mamy, również:
 \\[ \mathbb{E}(X) = \mathbb{V}(X) = \lambda \\]

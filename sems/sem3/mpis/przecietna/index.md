@@ -18,7 +18,7 @@ Wartość przeciętną/oczekiwaną/średnią dla zmiennej losowej \\( X \\) typu
 Przy warunku, że całka \\( \int_\mathbb{R} \vert x\vert  f(x) dx \\) jest zbieżna.
 
 #### Wartość przeciętna funkcji zmiennej losowej
-Niech zmienna losowa \\( Y \\) będzie funkcją zmiennej losowej \\( X \\) (\\( Y = g(X) \\)), przy czym znamy rozkład prawdopodobieństwa zmiennej losowej \\( X \\).\\\
+Niech zmienna losowa \\( Y \\) będzie funkcją zmiennej losowej \\( X \\) ( \\( Y = g(X) \\) ), przy czym znamy rozkład prawdopodobieństwa zmiennej losowej \\( X \\).\\\
 Wartość przeciętną/oczekiwaną/średnią dla zmiennej losowej \\( Y \\) typu skokowego określamy jako:
 \\[ \mathbb{E}(Y) = \sum_k g(x_k) p(x_k) \\]
 Przy warunku, że szereg \\( \sum_k \vert g(x_k)\vert  p(x_k) \\) jest zbieżny.\\\
@@ -27,9 +27,9 @@ Wartość przeciętną/oczekiwaną/średnią dla zmiennej losowej \\( Y \\) typu
 Przy warunku, że całka \\( \int_\mathbb{R} \vert g(x)\vert  f(x) dx \\) jest zbieżna.
 
 #### Własności wartości przeciętnej
-Niech zmienna losowa \\( Y \\) będzie funkcją zmiennej losowej \\( X \\) (\\( Y = g(X) \\)) oraz niech \\( g \\) będzie postaci \\( aX + b \\) dla dowolnych \\( a \\), \\( b \\). Wtedy określamy wartość przeciętną jako:
+Niech zmienna losowa \\( Y \\) będzie funkcją zmiennej losowej \\( X \\) ( \\( Y = g(X) \\) ) oraz niech \\( g \\) będzie postaci \\( aX + b \\) dla dowolnych \\( a \\), \\( b \\). Wtedy określamy wartość przeciętną jako:
 \\[ \mathbb{E}\left(Y\right) = \mathbb{E}\left(aX + b\right) = a\mathbb{E}\left(X\right) + b \\]
-Niech zmienna losowa \\( Y \\) będzie funkcją zmiennej losowej \\( X \\) (\\( Y = \sum_i g_i(X) \\)) oraz niech \\( \mathbb{E}(g_i(X)) \\) istnieje dla każdego \\( i \in [N] \\). Wtedy określamy wartość przeciętną jako:
+Niech zmienna losowa \\( Y \\) będzie funkcją zmiennej losowej \\( X \\) ( \\( Y = \sum_i g_i(X) \\) ) oraz niech \\( \mathbb{E}(g_i(X)) \\) istnieje dla każdego \\( i \in [N] \\). Wtedy określamy wartość przeciętną jako:
 \\[ \mathbb{E}\left(Y\right) = \mathbb{E}\left(\sum_i g_i(X)\right) = \sum_i \mathbb{E}\left(g_i(X)\right) \\]
 
 #### Definicja wariancji

@@ -16,7 +16,7 @@ Niech \\( \left(\Omega, *S*, *P*\right) \\) będzie dowolną przestrzenią proba
 W szczególności, gdy \\( \Omega \\) jest zbiorem co najwyżej przeliczalnym, każde przekształcenie typy \\( X : \Omega\rightarrow\mathbb{R} \\) jest zmienną losową.
 
 #### Definicja rozkładu prawdopodobieństwa zmiennej losowej
-Rozkładem prawdopodobieństwa zmiennej losowej \\( X \\) na przestrzeni probabilistycznej \\( \left(\Omega, *S*, *P*\right) \\) jest następująca funkcja, określona na rodzinie zbiorów borelowskich na prostej (oznaczmy ją przez \\( *S*_\mathcal{B} \\)):
+Rozkładem prawdopodobieństwa zmiennej losowej \\( X \\) na przestrzeni probabilistycznej \\( \left(\Omega, *S*, *P*\right) \\) jest następująca funkcja, określona na rodzinie zbiorów borelowskich na prostej (oznaczmy ją przez \\( *S*_\mathcal{B} \\) ):
 \\[ *P*_X (A) = *P* \left( \{\omega \in \Omega : X(\omega) \in A\} \right) \\]
 Zauważmy, że zdefiniowane wyżej byty indukują nową przestrzeń probabilistyczną \\( \left(\mathbb{R}, *S*_\mathcal{B}, *P*_X\right) \\).\\\
 Zgodnie z metodą podaną wcześniej, dystrybuantę rozkładu prawdopodobieństwa zmiennej losowej \\( X \\) definiujemy jako:

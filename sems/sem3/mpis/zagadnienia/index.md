@@ -13,7 +13,7 @@ Metody probabilistycznie i statystyka
 *Zdarzeniem elementarnym* nazywamy niepodzielny wynik pewnego doświadczenia.\\\
 Zbiór wszystkich możliwych zdarzeń elementarnych (dla danego doświadczenia) nazywamy *przestrzenią zdarzeń elementarnych* i oznaczamy go przez \\( \Omega \\).\\\
 *Zdarzeniem losowym* nazywamy pewien podzbiór \\( \Omega \\). W przypadku, gdy przestrzeń jest co najwyżej przeliczalna, zbiorem wszystkich zdarzeń losowych jest po prostu \\( \mathbb{P}\left(\Omega\right) \\), natomiast w przypadku gdy przestrzeń jest nieprzeliczalna zbiorem tym będzie rodzina \\( \mathcal{S} \\) o której za chwilę.\\\
-Jako, że zdarzenia są zbiorami, możemy na nich wykonywać takie same działania jak na zbiorach (\\( \textit{suma,\ iloczyn\ itp} \\)).\\\
+Jako, że zdarzenia są zbiorami, możemy na nich wykonywać takie same działania jak na zbiorach ( \\( \textit{suma,\ iloczyn\ itp} \\) ).\\\
 *Zdarzeniem pewnym* jest cały zbiór \\( \Omega \\).\\\
 *Zdarzeniem niemożliwym* jest zbiór \\( \emptyset \\).\\\
 Zdarzenia *rozłączne* to takie, że \\( A \cap B = \emptyset \\).\\\
@@ -41,7 +41,7 @@ Funkcję taką nazywamy *rozkładem prawdopodobieństwa*, a jej wartości *prawd
 #### Ciekawsze własności rozkładu prawdopodobieństwa
 Jeśli zdarzenia \\( A_1 \\), \\( A_2 \\), ... stanowią ciąg *wstępujący*, czyli mamy \\( A_1 \subset A_2 \subset \ldots \\) oraz jeśli \\( \bigcup_i A_i = A \\) wtedy:
 \\[ \text{lim}_{n \rightarrow \infty}\ *P*\left(A_n\right) = *P*(A) \\]
-Dowód przeprowadzamy rozpatrując różnice między kolejnymi zbiorami (\\( A_i - A_{i-1} = B_i \\)).\\\
+Dowód przeprowadzamy rozpatrując różnice między kolejnymi zbiorami ( \\( A_i - A_{i-1} = B_i \\) ).\\\
 Jeśli zdarzenia \\( A_1 \\), \\( A_2 \\), ... stanowią ciąg *zstępujący*, czyli mamy \\( A_1 \supset A_2 \supset \ldots \\) oraz jeśli \\( \bigcap_i A_i = A \\) wtedy:
 \\[ \text{lim}_{n \rightarrow \infty}\ *P*\left(A_n\right) = *P*(A) \\]
 Do dowodu wykorzystujemy poprzedni fakt.
