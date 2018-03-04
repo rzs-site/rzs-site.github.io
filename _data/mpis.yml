@@ -1,0 +1,19 @@
+toc:
+    - title: Wstęp
+      url: sems/sem3/mpis/
+    - title: Podstawowe zagadnienia
+      url: sems/sem3/mpis/zagadnienia
+    - title: Prawdopodobienstwo warunkowe. Niezaleznosc zdarzen
+      url: sems/sem3/mpis/warunkowe
+    - title: Prawdopodobienstwo zupełne. Wzór Bayesa
+      url: sems/sem3/mpis/zupelne
+    - title: Zmienne losowe
+      url: sems/sem3/mpis/losowe
+    - title: Podstawowe typy zmiennych losowych
+      url: sems/sem3/mpis/typy
+    - title: Funkcje zmiennej losowej
+      url: sems/sem3/mpis/funkcje
+    - title: Wartosc przecietna i wariancja
+      url: sems/sem3/mpis/przecietna
+    - title: Popularne rozkłady prawdopodobienstwa zmiennych losowych
+      url: sems/sem3/mpis/rozklady
