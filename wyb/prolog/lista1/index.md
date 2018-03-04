@@ -11,7 +11,7 @@ use_math: true
 Przykład teoretyczny: \\( p(t_1, t_2, ... t_n) \\)
 
 Przykład praktyczny:
-```
+```prolog
 lubi(student, rzs). %czytany jako student lubi rzs
 ```
 <p></p>
