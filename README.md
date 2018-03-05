@@ -54,19 +54,11 @@ Opis pojawi się wkrótce...
 
 ## TODO (archiwum):
 * Analiza matematyczna 1 (przepisać notatki Kuby na webdev)
-* Logika i struktury formalne (uporządkować zagadnienia dr-a Żeberskiego)
-* Algebra z Geometrią Analityczną (zapytać Cichonia o zgodę na przeklejenie jego notatek, bez tego masa roboty od zera)
-* Wstęp do Informatyki i Programowania (parę żartów o C starczy)
-* Analiza matematyczna 2 (przepisać notatki Alka na webdev)
 * Matematyka dyskretna (uporządkować zagadnienia dr-a Żeberskiego)
 * Fizyka (podlinkować katedrę fizyki, na nic więcej się nie wysilamy)
 * Problemy Prawne Informatyki (Alek?)
 * Kurs Programowania (bez żartów, uratujmy tych nieszczęśników od AWT - choćby krótka wzmianka o wyższości FXa)
-* Algebra Abstrakcyjna i Kodowanie (jak AzGA - albo notatki Cichonia, albo masa roboty)
 * Architektura komputerów i systemy operacyjne (uzupełnić dwa brakujące rozdziały, następnie przepisać na webdev)
-* Bazy danych (przepisać notatki moje notatki /MP, na ten moment starczy)
-* Metody probabilistyczne i statystyka (przepisać notatki Alka - trochę mało opisowe jak na stronę, ale jest ok)
-* Technologie programowania (regex z mojego PDFa, ale trzy pozostałe rozdziały trzeba by od podstaw)
 
 ## TODO (Damian):
 * przykład indukcji
