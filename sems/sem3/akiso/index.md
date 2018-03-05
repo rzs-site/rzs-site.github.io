@@ -7,6 +7,22 @@ use_highlight: true
 
 Architektura Komputerów i Systemy Operacyjne
 ---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+
+<script>
+$.getJSON('http://api.icndb.com/jokes/random', function(data) {
+console.log(data);
+document.getElementById("demo").innerHTML = data.value.joke;
+});
+</script>
+
+{::options parse_block_html="true" /}
+<div id="demo" class="math-box">
+</div>
+{::options parse_block_html="false" /}
+
 ### Opis przedmiotu
 
 Nikt nie każe pisać w asmeblerze.
