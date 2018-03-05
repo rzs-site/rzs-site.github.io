@@ -100,7 +100,7 @@
     grid-column: 1 / span 2;
     grid-row: 3;
 
-    background: #ccc;
+    background: #ddd;
 
     padding: 1em;
 }
@@ -178,7 +178,7 @@
         grid-column: 1;
         grid-row: 3;
 
-        background: #dadada;
+        background: #eaeaea;
     }
 
     .nav-panel {
@@ -226,7 +226,7 @@
     }
 
     .menu .nav-elem {
-        background: #dadada;
+        background: #eaeaea;
         width: 100%;
 
         padding: 0.8em;
