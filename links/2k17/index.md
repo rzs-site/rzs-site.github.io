@@ -13,6 +13,8 @@ toc: main_page
 
 ## Algebra Abstrakcyjna i Kodowanie:
 [Strona prowadzącego, dr Krzysztof Majcher](http://szmaragd.im.pwr.wroc.pl/~kmajcher/AlgebraKodowanieWyklad.html)
+[Strona ćwiczeniowca, mgr Dominik Bojko](http://cs.pwr.edu.pl/bojko/dydaktyka.html#aaik)
+[Strona ćwiczeniowca, prof. dr hab. Paweł Krupski](http://cs.pwr.edu.pl/krupski/dydaktyka.php)
 
 #### Ćwiczenia
 * [Lista zadań](http://szmaragd.im.pwr.wroc.pl/~kmajcher/Algebra_2_2016.pdf)
@@ -29,6 +31,8 @@ toc: main_page
 
 ## Kurs Programowania:
 [Strona prowadzącego, dr inż. Wojciech Macyna](http://cs.pwr.edu.pl/macyna/pkursprog.html)
+[Strona laboranta, dr Rafał Kapelko](http://cs.pwr.edu.pl/kapelko/)
+[Strona laboranta, dr inż. Małgorzata Sułkowska](http://ki.pwr.edu.pl/sulkowska/dydakt.html)
 
 #### Laboratoria
 * [Zadanie00](http://cs.pwr.edu.pl/macyna/lista00W.pdf) \[Przed: 26-02-2018]
@@ -39,6 +43,8 @@ toc: main_page
 
 ## Fizyka:
 [Strona prowadzącego, prof. dr hab. Katarzyna Sznajd-Weron](http://www.if.pwr.wroc.pl/~katarzynaweron/FizInf.html)
+[Strona ćwiczeniowca, mgr Adam Mielnik-Pyszczorski](http://www.if.pwr.wroc.pl/~mielnik/)
+[Strona prowadzącego, dr inż. Maciej Mulak](http://www.if.pwr.edu.pl/~mmulak/)
 
 #### Ćwiczenia
 * [Lista 1](http://www.if.pwr.wroc.pl/~katarzynaweron/students/FizInf/FizInf_L1.pdf)
