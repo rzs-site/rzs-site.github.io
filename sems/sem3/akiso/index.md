@@ -19,7 +19,7 @@ document.getElementById("demo").innerHTML = data.value.joke;
 </script>
 
 {::options parse_block_html="true" /}
-<div id="demo" class="math-box">
+<div id="demo" class="math-box" style="padding: 5px;">
 </div>
 {::options parse_block_html="false" /}
 
