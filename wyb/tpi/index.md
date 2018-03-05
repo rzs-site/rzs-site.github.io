@@ -3,7 +3,7 @@ layout: acc_layout
 toc: tpi
 ---
 
-#Teoretyczne Podstawy Informatyki
+# Teoretyczne Podstawy Informatyki
 
 ## Wstęp
 
