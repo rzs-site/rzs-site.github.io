@@ -7,10 +7,10 @@ use_math: true
 Analiza Matematyczna 2
 ---
 
-# Wymagania wstępne
+### Wymagania wstępne
 
 Po prostu cały materiał AM1.
 
-# Opis przedmiotu
+### Opis przedmiotu
 
 Całki podwójne, całki potrójne... wspominałem coś o topologii?
