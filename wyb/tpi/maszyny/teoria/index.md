@@ -63,3 +63,23 @@ Przypatrzmy się poraz kolejny językowi \\(L = \left\\{w: w\text{ jest palindro
 
 </div>
 {::options parse_block_html="false" /}
+
+Zauważmy, że pokazana maszyna wykona 3n+3 kroków, ponieważ najpierw przejdzie w prawo aż do blanka kopiując wszystko na drugą taśmę, następnie wróci się do początku pierwszej taśmy i będzie porównywać obie taśmy ze sobą. Przejścia "\\( - \\)" oznaczają stan nieosiągalny, ale należy go podać.
+
+Można łatwo pokazać, że mając TM k-taśmową można stworzyć TM jednotaśmową, nie tracąc "obliczalności", to znaczy, że jeśli możemy rozwiązać problem na k-taśmowej TM, to na jednotaśmowej też. Wystarczy dodać jeden symbol do alfabetu, np. \\( "\\\#" \\) i stan każdej taśmy zapisać na jednej, omijając zbędne "\\( \sqcup \\)". W danym stanie każda taśma jest skończona, więc da się to zrobić. Wtedy \\( "\\#" \\) jest separatorem. Bardzo drogie niestety czasowo jest poruszanie się po takiej jednej taśmie, oraz trudne może być wstawianie elementów pomiędzy dwie odseparowane taśmy, bo wtedy trzeba wszystko przesuwać.
+
+Pojedynczy ruch k taśm przechodzi w 2(k+1)(kT) ruchów na jednej taśmie, gdzie T jest czasem dla danych długości n, czyli ostatecznie jednotaśmowa TM wykona \\(O(T^2)\\) ruchów
+
+{::options parse_block_html="true" /}
+<div class="math-box"><h4>TWIERDZENIE (o redukcji taśm)</h4><p> Każda k-taśmowa TM może być symulowana przez jednotaśmową TM z czasem kwadratowym </p></div>
+{::options parse_block_html="false" /}
+
+## Niedeterministyczna TM (NTM)
+
+Niedeterministyczna TM to będzie taka, w której z danego stanu q można przejść do nie jednego wyniku. Definiujemy \\( \delta \\) w następujący sposób:
+
+\\[ \delta : Q \times \left( \Sigma \cup \left\\{\sqcup\right\\}\right) \longrightarrow \mathbb{P}\left( \left( Q \cup \left\\{ "yes", "no", "halt" \right\\} \right) \times \left( \Sigma \cup \left\\{ \sqcup \right\\} \right)  \times \left\\{ \leftarrow, \rightarrow, - \right\\}  \right) \\]
+
+NTM akceptuje język, jeśli co najmniej jedna ścieżka prowadzi do tak.
+
+Mając NTM, można stworzyć deterministyczną TM z kilkoma taśmami, ale czas rośnie wykładniczo w stosunku do NTM. Do dowodu tego odsyłam do literatury.
