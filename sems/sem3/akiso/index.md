@@ -14,12 +14,13 @@ Architektura Komputerów i Systemy Operacyjne
 <script>
 $.getJSON('http://api.icndb.com/jokes/random', function(data) {
 console.log(data);
-document.getElementById("demo").innerHTML = data.value.joke;
+document.getElementById("chuck").innerHTML = data.value.joke;
 });
 </script>
 
 {::options parse_block_html="true" /}
-<div id="demo" class="math-box" style="padding: 5px;">
+<div class="math-box">
+<p id="chuck"></p>
 </div>
 {::options parse_block_html="false" /}
 
