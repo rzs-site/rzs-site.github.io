@@ -178,7 +178,7 @@
         grid-column: 1;
         grid-row: 3;
 
-        background: #eaeaea;
+        background: #e9e9e9;
     }
 
     .nav-panel {
@@ -226,7 +226,7 @@
     }
 
     .menu .nav-elem {
-        background: #eaeaea;
+        background: #e9e9e9;
         width: 100%;
 
         padding: 0.8em;
