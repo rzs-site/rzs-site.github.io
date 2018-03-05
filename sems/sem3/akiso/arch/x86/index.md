@@ -9,9 +9,8 @@ Architektura Komputerów i Systemy Operacyjne
 ---
 
 ## Procesor architektury x86
-\begin{quote}{{\tt 4D 5A}}
-Ja Państwu nie każę pisać w assemblerze.
-\end{quote}
+"Ja Państwu nie każę pisać w assemblerze" - 4D 5A
+
 Najpopularniejszą 32-bitową architekturą procesorów spotykanych w komputerach jest architektura x86 (dokładniej x86-32, zwana także IA-32). Jest ona zaliczana do kategorii CISC (akronim od ang. \textit{Complex Instruction Set Computing}), tzn. zawiera złożone instrukcje, wiele trybów adresowania, bezpośrednie odwołania do pamięci.
 
 Historia tej architektury rozpoczyna się w roku 1985, kiedy wychodzi procesor 80386, rozszerzający 16-bitową architekturę x86-16 (8086 - 80286). Architektura była rozwijana i ulepszana, np. przez przetwarzanie potokowe, superskalarność, przewidywanie rozgałęzień\footnote{Jest to obecnie gorący temat, w związku z atakami Spectre i Meltdown, które wykorzystują lukę w tym ulepszeniu do uzyskania nieuprawnionego dostępu do danych, zobacz: \url{https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html}}, wielordzeniowość.
