@@ -19,12 +19,12 @@ toc:
           url: sems/sem2/md/
         - page: Problemy Prawne Informatyki
           url: sems/sem2/prawne/
+        - page: Fizyka
+          url: sems/sem2/fizyka/
         - page: Algebra Abstrakcyjna i Kodowanie
           url: error/not_ready/
         - page: Kurs Programowania
           url: error/not_ready/
-        - page: Fizyka (link zewnętrzny)
-          url: sems/sem2/fizyka/
     - title: Semestr 3
       subfolderitems:
         - page: Architektura Komputerów i Systemy Operacyjne
