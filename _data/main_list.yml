@@ -24,7 +24,7 @@ toc:
         - page: Kurs Programowania
           url: error/not_ready/
         - page: Fizyka (link zewnętrzny)
-          url: http://www.facebook.com/pitimesdoor/
+          url: sems/sem2/fizyka/
     - title: Semestr 3
       subfolderitems:
         - page: Architektura Komputerów i Systemy Operacyjne
