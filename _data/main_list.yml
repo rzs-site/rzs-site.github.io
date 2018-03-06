@@ -17,14 +17,14 @@ toc:
           url: sems/sem2/am2/
         - page: Matematyka Dyskretna
           url: sems/sem2/md/
-        - page: Fizyka
-          url: error/not_ready/
         - page: Problemy Prawne Informatyki
           url: sems/sem2/prawne/
         - page: Algebra Abstrakcyjna i Kodowanie
           url: error/not_ready/
         - page: Kurs Programowania
           url: error/not_ready/
+        - page: Fizyka (link zewnętrzny)
+          url: https://www.facebook.com/pitimesdoor/
     - title: Semestr 3
       subfolderitems:
         - page: Architektura Komputerów i Systemy Operacyjne
