@@ -13,7 +13,7 @@ Trwają prace nad wersją internetową, na podstawie notatek Pawła Wilkosza (PD
 
 ### Do pobrania
 
-* <a href="{{ site.baseurl }}/pdfs/sem1/am1-wzory-granice.pdf">Wzory i granice</a> (PDF)
-* <a href="{{ site.baseurl }}/pdfs/sem1/am1-revision-v2.pdf">Wzory i granice</a> (PDF)
+* <a href="{{ site.baseurl }}/pdfs/sem1/am1-wzory-granice.pdf">"Wzory i granice", M.Pietrek</a> (PDF)
+* <a href="{{ site.baseurl }}/pdfs/sem1/am1-revision-v2.pdf">"Notatki AM1", P. Wilkosz, J. Gogola</a> (PDF)
 
 
