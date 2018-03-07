@@ -12,7 +12,12 @@ Analiza matematyczna 1
 #### Ciąg liczb rzeczywistych (definicja)
 
 {::options parse_block_html="true" /}
-	<div class="math-box"><p> 
+<div class="math-box"><p> **Maszyna Turinga** (TM) to czwórka \\( \left(Q, \Sigma, \delta, q_0\right) \\) .</p></div>
+{::options parse_block_html="false" /}
+
+
+{::options parse_block_html="true" /}
+	<div class="def-box"><p> 
 		Ciągiem liczb rzeczywitych nazywamy dowolną funkcję
 		\\( f: \mathbb{N} \rightarrow \mathbb{R} \\)
 		Wartości \\( f(n) \\) to wyrazy ciągu.
@@ -20,6 +25,7 @@ Analiza matematyczna 1
 {::options parse_block_html="false" /}
 
 #### Granica ciągu (definicja)
+
 {::options parse_block_html="true" /}
 	<div class="def-box">
 		Liczba \\( a \in \mathbb{R} \\) jest granicą ciągu \\( (a_n) \\), gdy:
