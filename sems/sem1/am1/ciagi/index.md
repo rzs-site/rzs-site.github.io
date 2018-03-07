@@ -13,7 +13,7 @@ Analiza matematyczna 1
 
 {::options parse_block_html="true" /}
 <div class="def-box"><p>
-Ciągiem liczb rzeczywitych nazywamy dowolną funkcję
+Ciągiem liczb rzeczywistych nazywamy dowolną funkcję
 \\( f: \mathbb{N} \rightarrow \mathbb{R} \\)
 Wartości \\( f(n) \\) to wyrazy ciągu.
 </p></div>

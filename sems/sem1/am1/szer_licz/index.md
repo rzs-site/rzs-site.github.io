@@ -117,11 +117,7 @@ i równoważnie:
 \sum_{n=1}^{\infty}a_n \text{ jest rozbieżny}
 \\]
 
-
-
-\begin{center}
-\textbf{OSZACOWANIA DLA KRYTERIUM PORÓWNAWCZEGO}
-\end{center}
+**OSZACOWANIA DLA KRYTERIUM PORÓWNAWCZEGO**
 
 \\[ 
 \sum_{n=1}^{\infty} \frac{1}{n^{\alpha}}
@@ -170,13 +166,11 @@ ale nie jest bezwzględnie zbieżny. (np. kryterium Leibniza)
 {::options parse_block_html="true" /}
 <div class="theorem-box"><p>
 Szeregi bezwzględnie zbieżne są przemienne, to znaczy:
-\begin{center}
 \\( \sum_{n=1}^{\infty}a_n \\) - bezwzględnie zbieżny\\
 \\( m_1, m_2, ... \\) permutacje zbioru \\( \mathbb{N} \\)
 to:\\
 \\( \sum_{n=1}^{\infty}a_{m_n} \\) jest zbieżny oraz
 \\( \sum_{n=1}^{\infty}a_{m_n} = \sum_{n=1}^{\infty}a_n \\)
-\end{center}
 </p></div>
 {::options parse_block_html="false" /}
 
@@ -214,10 +208,8 @@ gdzie \\( c_n = a_1b_n + a_2b_{n-1} + ... + a_nb_1 \\)
 <div class="theorem-box"><p>
 Do obliczania zbieżności bezwzględnej szeregów można używać kryteriów
 d'Alamberta i Cauchy'ego.
-\begin{center}
 \\( \lim_{n \to \infty} \vert \frac{a_{n+1}}{a_n} \vert < 1 \\) - szereg bezwzględnie zbieżny\\
 \\( \lim_{n \to \infty} \sqrt[n]{ \vert a_n \vert } < 1 \\) -  szereg bezwzględnie zbieżny\\
 (analogicznie dla granicy > 1)
-\end{center}
 </p></div>
 {::options parse_block_html="false" /}
