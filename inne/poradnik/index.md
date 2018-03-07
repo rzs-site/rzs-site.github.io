@@ -2,8 +2,9 @@
 layout: acc_layout
 toc: poradnik
 ---
-Poradnik Przetrwania na Informatyce WPPT
+Poradnik Przetrwania
 ---
 
-### Ostrzeżenie
-Niniejszy poradnik dotyczy wyłącznie Informatyki WPPT, dlatego 
+### O projekcie
+
+Niniejsza podstrona nie jest związana z żadnym przedmiotem. Kolekcjonujemy tutaj wszystkie poradniki i materiały organizacyjne, które mogą być przydatne na początku studiów inżynierskich.
