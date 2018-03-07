@@ -12,7 +12,7 @@ Analiza matematyczna 1
 #### Ciąg liczb rzeczywistych (definicja)
 
 {::options parse_block_html="true" /}
-<div class="math-box"><p> Ciągiem liczb rzeczywitych nazywamy dowolną funkcję \\( f: \mathbb{N} \rightarrow \mathbb{R} \\) Wartości \\( f(n) \\) to wyrazy ciągu.</p></div>
+<div class="def-box"><p> Ciągiem liczb rzeczywitych nazywamy dowolną funkcję \\( f: \mathbb{N} \rightarrow \mathbb{R} \\) Wartości \\( f(n) \\) to wyrazy ciągu.</p></div>
 {::options parse_block_html="false" /}
 
 
