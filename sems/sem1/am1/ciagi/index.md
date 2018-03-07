@@ -10,12 +10,13 @@ Analiza matematyczna 1
 ### Ciągi
 
 #### Ciąg liczb rzeczywistych (definicja)
+
 {::options parse_block_html="true" /}
-	<div class="def-box">
+	<div class="def-box"><p> 
 		Ciągiem liczb rzeczywitych nazywamy dowolną funkcję
 		\\( f: \mathbb{N} \rightarrow \mathbb{R} \\)
 		Wartości \\( f(n) \\) to wyrazy ciągu.
-	</div>
+	</p></div>
 {::options parse_block_html="false" /}
 
 #### Granica ciągu (definicja)
