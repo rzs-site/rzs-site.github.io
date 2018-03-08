@@ -1,3 +1,7 @@
+.content {
+    text-align: justify;
+}
+
 .content a {
     color: green;
     text-decoration: none;

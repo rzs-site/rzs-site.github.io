@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: white;
+}
+
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -16,8 +20,8 @@
 }
 
 .header {
-    background: #008000;
-    margin-bottom: 1rem;
+    background: linear-gradient(#008000ff, #0080009d);
+
     padding: 1rem 0;
 
     text-align: center;
@@ -55,11 +59,6 @@
     text-align: center;
 }
 
-.nav-elem, .dropdown-panel a {
-    background: #333;
-    color: white;
-}
-
 .nav-elem, .dropdown-panel a, .acc-panel a {
     display: block;
 
@@ -83,7 +82,7 @@
     display: block;
     width: 100%;
 
-    background: #222;
+    background: linear-gradient(#333, #181818);
 }
 
 .navigation:after {
@@ -125,8 +124,6 @@
     width: 100%;
 
     text-align: center;
-    background: #333;
-    color: white;
 
     border: none;
 
@@ -136,6 +133,10 @@
     font-family: inherit;
     font-size: 0.9rem;
     font-weight: bold;
+}
+
+.sub-dropdown .dropdown-button, .nav-elem, .dropdown-panel a {
+    color: white;
 }
 
 .acc-panel a, .dropdown-panel a {
@@ -150,6 +151,10 @@
     color: #777;
     font-weight: bold;
     margin-left: 0.4em;
+}
+
+a.nav-elem, button.dropdown-button, button.acc-button {
+    background: #333;
 }
 
 .nav-elem:hover, .acc-panel a:hover, .dropdown-panel a:hover, .dropdown-button:hover {
@@ -167,18 +172,16 @@
         grid-row: 1;
     }
 
-    .navigation{
+    .navigation {
         grid-column: 1 / span 3;
         grid-row: 2;
-
-        background: #333;
     }
 
     .menu {
         grid-column: 1;
         grid-row: 3;
 
-        background: #e9e9e9;
+        background: linear-gradient(to right, #ddd, #e9e9e9);
     }
 
     .nav-panel {
@@ -225,8 +228,11 @@
         border-left: none;
     }
 
+    a.nav-elem, button.nav-elem, button.dropdown-button {
+        background: #0000;
+    }
+
     .menu .nav-elem {
-        background: #e9e9e9;
         width: 100%;
 
         padding: 0.8em;
@@ -239,6 +245,8 @@
     .content {
         grid-column: 2;
         grid-row: 3;
+
+        background: linear-gradient(to right, #cecece, #ddd 1.6%);
     }
 
     .wo-menu .content {
@@ -273,7 +281,7 @@
 
     .acc-panel a {
         display: block;
-        background: #f1f1f1;
+        background: #0000; /*#f1f1f1;*/
 
         padding: 0.8em;
     }
@@ -284,6 +292,9 @@
 
     .acc-panel {
         clear: both;
+
+        background: #f1f1f1;
+        box-shadow: inset 0 0 0.4em 0em rgba(0,0,0,0.15);
     }
 
     .sub-dropdown {
@@ -293,7 +304,6 @@
 
     .sub-dropdown .dropdown-button {
         text-align: left;
-        background: #333;
         color: white;
 
         border: none;
@@ -304,9 +314,14 @@
         font-size: 0.9rem;
         font-weight: bold;
     }
-    
-    .dropdown-button:hover {
-        background: #454545;
+
+    .navigation, .dropdown-button {
+        background: linear-gradient(#4a4a4a, #383838);
+    }
+
+    .nav-elem:hover, .dropdown-button:hover {
+        background: #555;
+        transition: background 0.3s ease-out;
     }
 
     .dropdown-button:after, .acc-button:after {
