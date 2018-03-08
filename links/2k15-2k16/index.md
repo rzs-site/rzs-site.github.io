@@ -9,6 +9,7 @@ toc: main_page
 #### Ćwiczenia
 * [Lista 1](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex1.pdf)
 * [Lista 2](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex2.pdf)
+* [Lista 3](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex3.pdf)
 
 #### Laboratorium
 * [Lista 1](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab1.pdf) \[Termin: 2 zajęcia\]

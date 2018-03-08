@@ -17,10 +17,10 @@ toc:
           url: sems/sem2/am2/
         - page: Matematyka Dyskretna
           url: sems/sem2/md/
-        - page: Fizyka
-          url: error/not_ready/
         - page: Problemy Prawne Informatyki
           url: sems/sem2/prawne/
+        - page: Fizyka
+          url: sems/sem2/fizyka/
         - page: Algebra Abstrakcyjna i Kodowanie
           url: error/not_ready/
         - page: Kurs Programowania
@@ -63,3 +63,5 @@ toc:
       subfolderitems:
         - page: Generator AKZ (test)
           url: inne/generator/
+        - page: Poradnik Przetrwania
+          url: inne/poradnik/

@@ -11,12 +11,14 @@ Architektura Komputerów i Systemy Operacyjne
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 </script>
 
+{::options parse_block_html="true" /}
 <script>
-$.getJSON('http://api.icndb.com/jokes/random', function(data) {
+$.getJSON('http://api.icndb.com/jokes/random?limitTo=[nerdy]', function(data) {
 console.log(data);
 document.getElementById("chuck").innerHTML = data.value.joke;
 });
 </script>
+{::options parse_block_html="false" /}
 
 {::options parse_block_html="true" /}
 <div class="math-box">

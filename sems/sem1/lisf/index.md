@@ -6,7 +6,7 @@ toc: lisf
 Logika i struktury formalne
 ---
 
-# O projekcie
+### O projekcie
 
 Na poszczególnych podstronach znajdują się zagadnienia wymagane przez dr-a hab. Szymona Żeberskiego w semestrze zimowym 2016/2017 (planowane jest skrótowe opracowanie poszczególnych tematów na podstawie wykładów Doktora). Natomiast do nauki "od podstaw" polecamy poniższa literaturę:
 

@@ -1,3 +1,7 @@
+.content {
+    text-align: justify;
+}
+
 .content a {
     color: green;
     text-decoration: none;
@@ -15,7 +19,7 @@
     box-shadow: 0 0 0.5px 0.5px rgba(0,0,0,0.06);
 }
 
-div.highlight, .math-box {
+div.highlight, .math-box, .def-box, .theorem-box, .fact-box {
     box-shadow: inset 0 0 0.2em 0.2em rgba(0,0,0,0.4);
     background-color: #444;
     color: white;
@@ -34,11 +38,11 @@ pre.highlight > code {
     margin-top: 0;
 }
 
-.math-box {
-    color: white;
+.math-box, .def-box, .theorem-box, .fact-box {
+    color: #e9e9e9;
 }
 
-div.highlight, .math-box, .table-box, .MathJax_Display {
+div.highlight, .math-box, .table-box, .def-box, .theorem-box, .fact-box, .MathJax_Display {
     overflow-x: auto;
     overflow-y: hidden;
 }
