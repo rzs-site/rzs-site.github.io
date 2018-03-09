@@ -207,7 +207,7 @@ a.nav-elem, button.dropdown-button, button.acc-button {
     }
 
     .menu .nav-elem:hover {
-        background: #b5b5b5;
+        background: #8dbf8d;
     }
 
     .nav-elem {
@@ -285,7 +285,7 @@ a.nav-elem, button.dropdown-button, button.acc-button {
     }
 
     .acc-panel a:hover {
-        background: #fff;
+        background: #b5f1b5;
     }
 
     .acc-panel {
