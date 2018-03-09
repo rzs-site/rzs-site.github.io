@@ -9,6 +9,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
+    -ms-grid-columns: 50% 50%;
 
     width: 100%;
     max-width: 1080px;
@@ -37,6 +38,9 @@ body {
     color: white;
     font-size: 1.4rem;
 
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    -ms-grid-row: 1;
     grid-column: 1 / span 3;
     grid-row: 1;
 }
@@ -45,6 +49,9 @@ body {
     display: inline-block;
     position: relative;
 
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    -ms-grid-row: 2;
     grid-column: 1;
     grid-row: 2;
 
@@ -52,10 +59,13 @@ body {
 }
 
 .wo-menu .navigation {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
     grid-column: 1 / span 2;
 }
 
 .menu {
+    -ms-grid-column: 2;
     grid-column: 2;
 }
 
@@ -113,6 +123,9 @@ body {
 }
 
 .content, .wo-menu > .content {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    -ms-grid-row: 3;
     grid-column: 1 / span 2;
     grid-row: 3;
 
@@ -182,19 +195,29 @@ a.nav-elem, button.dropdown-button, button.acc-button {
 @media screen and (min-width: 845px) {
     .container {
         grid-template-columns: 22% 78%;
+        -ms-grid-columns: 22% 78%;
     }
 
     .header {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        -ms-grid-row: 1;
         grid-column: 1 / span 3;
         grid-row: 1;
     }
 
     .navigation {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        -ms-grid-row: 2;
         grid-column: 1 / span 3;
         grid-row: 2;
     }
 
     .menu {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        -ms-grid-row: 3;
         grid-column: 1;
         grid-row: 3;
 
@@ -266,6 +289,8 @@ a.nav-elem, button.dropdown-button, button.acc-button {
     }
 
     .content {
+        -ms-grid-column: 2;
+        -ms-grid-row: 3;
         grid-column: 2;
         grid-row: 3;
         
@@ -277,6 +302,8 @@ a.nav-elem, button.dropdown-button, button.acc-button {
     }
 
     .wo-menu .content {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
         grid-column: 1 / span 2;
     }
 
