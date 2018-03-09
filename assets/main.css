@@ -23,14 +23,14 @@ body {
 
 .header {
     background: #008000;
-    background: -moz-linear-gradient(#008000ff, #0080009d); /* FF 3.6+ */  
-    background: -ms-linear-gradient(#008000ff, #0080009d); /* IE10 */  
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #008000ff), color-stop(100%, #0080009d)); /* Safari 4+, Chrome 2+ */  
-    background: -webkit-linear-gradient(#008000ff, #0080009d); /* Safari 5.1+, Chrome 10+ */  
-    background: -o-linear-gradient(#008000ff, #0080009d); /* Opera 11.10 */  
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008000ff', endColorstr=#0080009d); /* IE6 & IE7 */  
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#008000ff', endColorstr=#0080009d)"; /* IE8+ */  
-    background: linear-gradient(#008000ff, #0080009d); /* the standard */
+    background: -moz-linear-gradient(#008000, #61b061); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#008000, #61b061); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #008000), color-stop(100%, #61b061)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#008000, #61b061); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#008000, #61b061); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008000', endColorstr=#61b061); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#008000', endColorstr=#61b061)"; /* IE8+ */  
+    background: linear-gradient(#008000, #61b061); /* the standard */
 
     padding: 1rem 0;
 
@@ -183,10 +183,6 @@ body {
     margin-left: 0.4em;
 }
 
-a.nav-elem, button.dropdown-button, button.acc-button {
-    background: #333;
-}
-
 .nav-elem:hover, .acc-panel a:hover, .dropdown-panel a:hover, .dropdown-button:hover {
     background: #454545;
     transition: background 0.3s ease-out;
@@ -271,7 +267,9 @@ a.nav-elem, button.dropdown-button, button.acc-button {
     }
     
     .menu a.nav-elem, .menu button.nav-elem {
+        /* TODO: Full support */
         background: #e9e9e9;
+        background: linear-gradient(to right, #ddd, #e9e9e9);
     }
     
     .navigation a.nav-elem, .menu a.nav-elem, .menu button.nav-elem, .navigation button.dropdown-button {
