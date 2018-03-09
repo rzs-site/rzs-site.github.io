@@ -252,7 +252,7 @@ a.nav-elem, button.dropdown-button, button.acc-button {
     }
     
     a.nav-elem, button.nav-elem, button.dropdown-button {
-        background: #0000;
+        background: #0000 ! important;
     }
 
     .menu .nav-elem {
