@@ -21,6 +21,7 @@ body {
 }
 
 .header {
+    background: #008000;
     background: -moz-linear-gradient(#008000ff, #0080009d); /* FF 3.6+ */  
     background: -ms-linear-gradient(#008000ff, #0080009d); /* IE10 */  
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #008000ff), color-stop(100%, #0080009d)); /* Safari 4+, Chrome 2+ */  
