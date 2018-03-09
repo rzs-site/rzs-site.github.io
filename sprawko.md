@@ -1,3 +1,9 @@
+---
+layout: acc_layout
+toc: main_page
+use_highlight: true
+---
+
 # Technologie Sieciowe - Lista 1
 
 ## Ping
