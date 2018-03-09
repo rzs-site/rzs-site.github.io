@@ -247,7 +247,7 @@ a.nav-elem, button.dropdown-button, button.acc-button {
         border-left: none;
     }
     
-    a.nav-elem, button.nav-elem {
+    .menu a.nav-elem, .menu button.nav-elem {
         background: #e9e9e9;
     }
     
