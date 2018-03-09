@@ -21,7 +21,14 @@ body {
 }
 
 .header {
-    background: linear-gradient(#008000ff, #0080009d);
+    background: -moz-linear-gradient(#008000ff, #0080009d); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#008000ff, #0080009d); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #008000ff), color-stop(100%, #0080009d)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#008000ff, #0080009d); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#008000ff, #0080009d); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008000ff', endColorstr=#0080009d); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#008000ff', endColorstr=#0080009d)"; /* IE8+ */  
+    background: linear-gradient(#008000ff, #0080009d); /* the standard */
 
     padding: 1rem 0;
 
