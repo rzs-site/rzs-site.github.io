@@ -90,8 +90,16 @@ body {
 .nav-button {
     display: block;
     width: 100%;
-
-    background: linear-gradient(#333, #181818);
+    
+    background: #333;
+    background: -moz-linear-gradient(#333, #181818); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#333, #181818); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333), color-stop(100%, #181818)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#333, #181818); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#333, #181818); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333', endColorstr=#181818); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#333', endColorstr=#181818)"; /* IE8+ */  
+    background: linear-gradient(#333, #181818); /* the standard */
 }
 
 .navigation:after {
@@ -190,6 +198,8 @@ a.nav-elem, button.dropdown-button, button.acc-button {
         grid-column: 1;
         grid-row: 3;
 
+        /* TODO: Full support */
+        background: #e9e9e9;
         background: linear-gradient(to right, #ddd, #e9e9e9);
     }
 
@@ -236,7 +246,11 @@ a.nav-elem, button.dropdown-button, button.acc-button {
         display: none;
         border-left: none;
     }
-
+    
+    a.nav-elem, button.nav-elem {
+        background: ##e9e9e9;
+    }
+    
     a.nav-elem, button.nav-elem, button.dropdown-button {
         background: #0000;
     }
@@ -257,6 +271,8 @@ a.nav-elem, button.dropdown-button, button.acc-button {
         
         margin-right: -1px;
 
+        /* TODO: Full support */
+        background: #ddd;
         background: linear-gradient(to right, #cecece, #ddd 1.6%);
     }
 
@@ -292,6 +308,7 @@ a.nav-elem, button.dropdown-button, button.acc-button {
 
     .acc-panel a {
         display: block;
+        background: #f1f1f1;
         background: #0000; /*#f1f1f1;*/
 
         padding: 0.8em;
@@ -327,7 +344,15 @@ a.nav-elem, button.dropdown-button, button.acc-button {
     }
 
     .navigation, .dropdown-button {
-        background: linear-gradient(#4a4a4a, #383838);
+        background: #404040;
+        background: -moz-linear-gradient(#4a4a4a, #383838); /* FF 3.6+ */  
+        background: -ms-linear-gradient(#4a4a4a, #383838); /* IE10 */  
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a4a4a), color-stop(100%, #383838)); /* Safari 4+, Chrome 2+ */  
+        background: -webkit-linear-gradient(#4a4a4a, #383838); /* Safari 5.1+, Chrome 10+ */  
+        background: -o-linear-gradient(#4a4a4a, #383838); /* Opera 11.10 */  
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a4a4a', endColorstr=#383838); /* IE6 & IE7 */  
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a4a4a', endColorstr=#383838)"; /* IE8+ */  
+        background: linear-gradient(#4a4a4a, #383838); /* the standard */
     }
 
     .nav-elem:hover, .dropdown-button:hover {
