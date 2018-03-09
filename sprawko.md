@@ -14,7 +14,7 @@ Ping to program wykorzyrzystywany do testowanie łączności z dowolnym hostem w
 
 ### Pomiary
 
-##### Trasa do odległego serwera
+#### Trasa do odległego serwera
 
 Sprawdzimy ile potrzeba skoków by dostać się do serwera [strony rządu Brazyli](https://www.brasil.gov.br/). Żeby tego dokonać wyślijmy najpierw pakiet z maksymalnym czasem życia (TTL) 20 skoków:
 
@@ -50,7 +50,7 @@ Ping statistics for 170.246.252.243:
 
 Żaden z pakietów nie dotarł, stąd wnioskujemy, że ilość węzłów na trasie do serwera to 20, a od serwera to (255 - ttl) 16. Widzimy, że trasy w obie strony są różne.
 
-##### Wpływ wielkości pakietu
+#### Wpływ wielkości pakietu
 
 Największy pakiet jaki udało mi się wysłać miał rozmiar 1480 bajtów oraz 1472 bajty bez fragmentowania. Powyżej tego rozmiaru program rzucał błąd:
 
@@ -128,11 +128,11 @@ Approximate round trip times in milli-seconds:
     Minimum = 46ms, Maximum = 46ms, Average = 46ms
 ```
 
-##### Wpływ fragmentacji pakietów
+#### Wpływ fragmentacji pakietów
 
 Wyłączenie zakazu fragmentacji pakietów (`-f`) powoduje, że jesteśmy w stanie wysłać nieco większe. Nie ma jednak wpływu na czas oraz ilość pokonanych węzłów.
 
-##### Średnica internetu
+#### Średnica internetu
 
 Nam udało się znaleść serwer odległy od 21 węzłów na tomiast wiadomo, że średnica internetu jest większa i wynosi około 30-35.
 
