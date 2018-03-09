@@ -71,6 +71,7 @@ body {
 
 .nav-panel {
     width: 100%;
+    background: #333;
 }
 
 .nav-elem {
@@ -165,6 +166,10 @@ body {
     font-weight: bold;
 }
 
+.sub-dropdown .dropdown-button, .acc-button {
+    background: #333;
+}
+
 .sub-dropdown .dropdown-button, .nav-elem, .dropdown-panel a {
     color: white;
 }
@@ -226,6 +231,7 @@ body {
 
     .nav-panel {
         display: block;
+        background: inherit;
     }
 
     .menu .nav-panel {
