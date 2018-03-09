@@ -40,7 +40,6 @@ Opis pojawi się wkrótce...
 ## TODO:
 
 * Opis powyżej
-* Lepszy support dla gradientów (bo niektóre przeglądarki są głupie)
 * (w bliżej nieokreślonej przyszłości) generator planu
 
 ## TODO (aktualne przedmioty):
