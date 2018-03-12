@@ -10,7 +10,7 @@ Technologia Programowania
 
 {::options parse_block_html="true" /}
 <div class="math-box">
-<p id="chuck">Wtedy swe miecze przekują na lemiesze</p>
+<p id="chuck">"Wtedy swe miecze przekują na lemiesze." - Iz 2,4</p>
 </div>
 {::options parse_block_html="false" /}
 
