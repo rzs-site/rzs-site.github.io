@@ -14,7 +14,12 @@ toc:
     - title: Grafy
       url: sems/sem2/md/grafy
     - title: Funkcje tworzące
-      url: sems/sem2/md/tworzace
+      subfolderitems:
+        - page: Funkcje tworzące informacje
+          url: sems/sem2/md/tworzace/ogol
+        - page: Wyprowadzenia
+          url: sems/sem2/md/tworzace/wyp
+
     - title: Klasy kombinatoryczne
       url: sems/sem2/md/kombinatoryczne
     - title: Wykładnicze funkcje tworzące

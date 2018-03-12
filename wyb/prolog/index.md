@@ -13,10 +13,10 @@ Programowanie w Logice
 * kwantyfikatory (LiSF)
 * rekurencja ogonowa (WiP)
 
-Programowanie w logice jest osobnym paradygmantem programowania opartym głównie na logice.
+Programowanie w logice jest osobnym paradygmatem programowania opartym głównie na logice.
 Programy to serie faktów i reguł opisujących problem. Używając własności rachunku zdań z logiki prolog znajduje rozwiązanie problemu
-poprzez przeszukanie grafu możliwch rozwiązań
+poprzez przeszukanie grafu możliwych rozwiązań.
 
-Należy pamiętać że przeszukiwanie odbywa się na zasadzie przeszukania w głąb. Powoduje to iż nieskończone rozwiązania są największą pułapką.
-Można temu przeciwdziałać starając się umieścić najbardziej ogarniczające reguły jak najbliżej lewej strony gdyż wtedy zostaną szybciej
+Należy pamiętać, że przeszukiwanie odbywa się na zasadzie przeszukania w głąb. Powoduje to, iż nieskończone rozwiązania są największą pułapką.
+Można temu przeciwdziałać starając się umieścić najbardziej ograniczające reguły jak najbliżej lewej strony, gdyż wtedy zostaną szybciej
 wykonane i ograniczą liczbę rozwiązań. Alternatywnym rozwiązaniem jest używanie odcięć.
