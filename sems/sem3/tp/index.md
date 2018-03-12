@@ -8,6 +8,12 @@ use_highlight: true
 Technologia Programowania
 ---
 
+{::options parse_block_html="true" /}
+<div class="math-box">
+<p id="chuck">Wtedy swe miecze przekują na lemiesze</p>
+</div>
+{::options parse_block_html="false" /}
+
 ### Opis przedmiotu
 Wzorce projektowe, GRASP, wyrażenia regularne, a na laboratoriach projekt gry w technologii klient-serwer.
 
