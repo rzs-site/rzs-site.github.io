@@ -65,3 +65,5 @@ toc:
           url: inne/generator/
         - page: Poradnik Przetrwania
           url: inne/poradnik/
+     - page: RZS Premium
+       url: protected/
