@@ -1,6 +1,5 @@
 ---
-layout: acc_layout
-toc: main_page
+layout: default
 use_math: true
 use_highlight: true
 ---
