@@ -16,10 +16,10 @@ pass_style: true
             <input id="staticrypt-password"
                    type="password"
                    name="password"
-                   placeholder="passphrase"
+                   placeholder="hasło"
                    autofocus/>
 
-            <input type="submit" class="staticrypt-decrypt-button" value="DECRYPT"/>
+            <input type="submit" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
         </form>
     </div>
 
@@ -32,7 +32,7 @@ pass_style: true
         e.preventDefault();
     
         var client = new XMLHttpRequest();
-        client.open('GET', '/foo.txt');
+        client.open('GET', '/encrypted.txt');
         client.onreadystatechange = function() {
         var passphrase = document.getElementById('staticrypt-password').value,
             encryptedMsg = client.responseText,
