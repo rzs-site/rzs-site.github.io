@@ -44,6 +44,6 @@ pass_style: true
 
         var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
 
-        document.getElementById('staticrypt-page').innerHTML = plainHTML
+        document.getElementById('staticrypt-page').innerHTML = plainHTML;
     });
 </script>
