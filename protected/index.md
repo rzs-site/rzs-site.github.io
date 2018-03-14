@@ -46,7 +46,7 @@ pass_style: true
         e.preventDefault();
         console.log(crypt);
         var passphrase = document.getElementById('staticrypt-password').value,
-            encryptedMsg = client.responseText,
+            encryptedMsg = crypt,
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
