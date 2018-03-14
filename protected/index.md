@@ -48,11 +48,11 @@ pass_style: true
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 			
-         if (passphrase == "fraktur") {
+        if (passphrase == "fraktur") {
 			var d = new Date();
 			d.setTime(d.getTime() + (5*60*1000));
 			var expires = "expires=" + d.toGMTString();
-			document.cookie = "fraktur=" + cvalue + ";" + expires + ";path=/";
+			document.cookie = "fraktur=on" + ";" + expires + ";path=/";
 			var head  = document.getElementsByTagName('head')[0];
 			var link  = document.createElement('link');
 			link.id   = cssId;
