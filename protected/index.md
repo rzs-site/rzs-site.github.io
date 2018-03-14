@@ -53,8 +53,8 @@ pass_style: true
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
-            console.log(CryptoJS.HmacSHA256(encryptedMsg.substring(64), CryptoJS.SHA256(passphrase).toString()).toString(););
-            console.log(CryptoJS.HmacSHA256(crypt1.substring(64), CryptoJS.SHA256(passphrase).toString()).toString(););
+            console.log(CryptoJS.HmacSHA256(encryptedMsg.substring(64), CryptoJS.SHA256(passphrase).toString()).toString());
+            console.log(CryptoJS.HmacSHA256(crypt1.substring(64), CryptoJS.SHA256(passphrase).toString()).toString());
             
         if (decryptedHMAC !== encryptedHMAC) {
             alert('Naprawdę wydawało Ci się, że takie jest hasło? XD');
