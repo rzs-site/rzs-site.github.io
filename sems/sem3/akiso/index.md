@@ -7,14 +7,15 @@ use_highlight: true
 Architektura Komputerów i Systemy Operacyjne
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$.getJSON('http://api.icndb.com/jokes/random?limitTo=[nerdy]', function(data) {
+	console.log(data);
+	document.getElementById("chuck").innerHTML = data.value.joke;
+});
+</script>
+	
 {::options parse_block_html="true" /}
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		$.getJSON('http://api.icndb.com/jokes/random?limitTo=[nerdy]', function(data) {
-		console.log(data);
-		document.getElementById("chuck").innerHTML = data.value.joke;
-	});
-	</script>
 	<div class="math-box">
 		<p id="chuck"></p>
 	</div>
