@@ -5,7 +5,7 @@ layout: pass_layout
 <div class="staticrypt-page">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
-            <p class="staticrypt-title">Protected Page</p>
+            <p class="staticrypt-title">Strona zabezpieczona.</p>
             <p></p>
         </div>
 
