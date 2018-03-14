@@ -32,7 +32,7 @@ pass_style: true
         e.preventDefault();
     
         var client = new XMLHttpRequest();
-        client.open('GET', '/encrypted.txt');
+        client.open('GET', '/protected/encrypted.txt');
         client.onreadystatechange = function() {
         var passphrase = document.getElementById('staticrypt-password').value,
             encryptedMsg = client.responseText,
