@@ -14,6 +14,7 @@ toc: main_page
 #### Laboratorium
 * [Lista 1](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab1.pdf) \[Termin: 2 zajęcia\]
 * [Lista 2](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab2.pdf) \[Termin: 25.03.18, 14:32\]
+* [Lista 3](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab3.pdf) \[Termin: 15.04.18, 10:34\]
 
 ***
 
