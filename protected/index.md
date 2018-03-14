@@ -48,13 +48,13 @@ pass_style: true
         e.preventDefault();
 
         var passphrase = document.getElementById('staticrypt-password').value,
-            encryptedMsg = crypt1,
+            encryptedMsg = crypt,
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
-            console.log(CryptoJS.HmacSHA256(encryptedMsg.substring(64), CryptoJS.SHA256(passphrase).toString()).toString());
-            console.log(CryptoJS.HmacSHA256(crypt1.substring(64), CryptoJS.SHA256(passphrase).toString()).toString());
+            console.log(decryptedHMAC);
+            console.log(encryptedHMAC);
             
         if (decryptedHMAC !== encryptedHMAC) {
             alert('Naprawdę wydawało Ci się, że takie jest hasło? XD');
