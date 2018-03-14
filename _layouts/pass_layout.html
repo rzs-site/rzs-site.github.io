@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        {% include default_head.html %}
+    </head>
+
+    <body>
+        <div class="container wo-menu">
+            {% include header.html %}
+            {% include navigation.html %}
+
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+
+        {% include scripts.html %}
+    </body>
