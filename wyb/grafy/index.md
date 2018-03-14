@@ -12,4 +12,5 @@ Wprowadzenie do Teorii Grafów
 * kombinatoryka (MPiS)
 
 #### O projekcie
-Robocza wersja skryptu dostępna jest w formie [PDFa (v1.0)](/pdfs/wyb/grafy-skrypt.pdf). Planowane jest przeniesienie materiału na stronę internetową.
+Robocza wersja skryptu dostępna jest w formie pliku PDF. Planowane jest przeniesienie materiału na stronę internetową.
+* [Wprowadzenie do Teorii Grafów - skrypt (v1.0)](/pdfs/wyb/grafy-skrypt.pdf)
