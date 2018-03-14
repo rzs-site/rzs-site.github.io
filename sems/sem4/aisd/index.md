@@ -1,6 +1,5 @@
 ---
-layout: acc_layout
-toc: aisd
+layout: default
 use_math: true
 use_highlight: true
 ---
@@ -19,4 +18,4 @@ Algorytmy i Struktury Danych
 
 ### O projekcie
 Podobnie jak kompendium AKiSO, materiały z AiSD są tworzone docelowo w formie PDFa (ze względu na objętość materiału).
-* [Algorytmy i Struktury Danych - skrypt (v1.0)](/pdfs/sem4/aids-skrypt)
+* [Algorytmy i Struktury Danych - skrypt (v1.0)](/pdfs/sem4/aids-skrypt.pdf)
