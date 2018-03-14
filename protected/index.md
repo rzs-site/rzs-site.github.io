@@ -30,17 +30,14 @@ pass_style: true
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
 
 <script>
+    var client = new XMLHttpRequest();
     window.onload = function(){
-        var client = new XMLHttpRequest();
         client.open('GET', '/protected/encrypted.txt');
         client.onreadystatechange = function() {
-            alert(client.responseText);
+            console.log(client.responseText);
         }
         client.send();
     };
-</script>
-
-<script>
     
     document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
         e.preventDefault();
