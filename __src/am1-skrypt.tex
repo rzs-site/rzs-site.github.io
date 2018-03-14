@@ -1,0 +1,1088 @@
+\documentclass{article}
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[margin=1.5in]{geometry} 
+\usepackage{color} 
+\usepackage{amsmath}                                                                      
+\usepackage{amsfonts}                                                                      
+\usepackage{graphicx}                                                                     
+\usepackage{booktabs}
+\usepackage{amsthm}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+
+\theoremstyle{definition}
+\newtheorem{de}{Definicja}[subsection]
+
+\theoremstyle{definition}
+\newtheorem{tw}{Twierdzenie}[subsection]
+
+\theoremstyle{definition}
+\newtheorem*{fakt}{FAKT}
+
+\author{Jakub Gogola, Mikołaj Pietrek, Paweł Wilkosz}
+\title{Analiza Matematyczna 1 - powtórzenie}  
+
+
+
+\begin{document}
+
+\maketitle
+
+\section{Wstęp}
+
+Drogi czytelniku! Jeśli to czytasz, prawdopodobnie tak jak ja stoisz u wrót
+egzaminu a Analizy Matematycznej 1 z prof. Pawłem Krupskim
+i szukasz źródła które pomoże co w powtórzeniu
+całej teorii potrzebnej żeby zdać ten piękny przedmiot. W tym celu postanowiłem
+zrobić tego PDFa :---) (\#pdk hehe) jest to zapis notatek Jakuba Gogoli
+z pewnymi zmianami poczynionymi przeze mnie. Dołączam także kartę wzorów autorstwa
+Mikołaja Pietrka.
+Zastrzegam iż jest to projekt non-profit
+(z czego 50\% obiecałem Jakubowi Gogoli i Mikołajowi
+Pietrkowi).
+
+NIE GWARANTUJĘ SKUTECZNOŚCI PONIŻSZYCH NOTATEK, JEŻELI CHCESZ MIEĆ 100\% 
+PEWNOŚĆ POPRAWNOŚCI MATERIAŁU, ZAJRZYJ DO LITERATURY!!!
+
+\section{Ciągi}
+
+\begin{de}
+(Ciąg liczb rzeczywistych)
+
+Ciągiem liczb rzeczywitych nazywamy dowolną funkcję
+$ f: \mathbb{N} \rightarrow \mathbb{R} $
+Wartości $ f(n) $ to wyrazy ciągu.
+\end{de}
+
+\begin{de}
+(Granica ciągu)
+
+Liczba $ a \in \mathbb{R} $ jest granicą ciągu $ (a_n) $, gdy:
+$$
+(\forall \epsilon > 0)(\exists k \in \mathbb{N})(\forall n \geq k)
+(|a_n - a| < \epsilon)
+$$
+
+Mówimy wtedy, że ciąg jest zbieżny do granicy $a$, czyli
+$$ \lim_{n \to \infty} a_n = a $$
+
+Lub prościej: $ \lim a_n =a $
+\end{de}
+
+\subsection{Własności ciągów zbieżnych}
+
+\begin{enumerate}
+\item Każdy ciąg zbieżny ma dokładnie jedną granicę.
+\item ciąg zbieżny jest ograniczony jeśli
+      $ \lim a_n = a $ to
+      $ (\exists k)(\forall n \geq k)(|a_n - a| < 1) $
+\item $ \lim |a_n| = |\lim a_n| $
+\end{enumerate}
+
+\begin{tw}
+(o trzech ciągach)
+
+Jeżeli $ a_n \leq c_n \leq b_n $ dla dostatecznie dużych n i 
+$ \lim a_n = \lim b_n $ to
+$ \lim c_n = \lim a_n = \lim b_n $
+\end{tw}
+
+\begin{tw}
+Każdy ciąg \textbf{monotoniczny} i \textbf{ograniczony}
+jest \textbf{zbieżny}
+\end{tw}
+
+\begin{de}
+(ciąg rozbieżny)
+
+Ciąg jest rozbieżny do $ \infty $, gdy
+$$
+(\forall r \in \mathbb{R})(\exists k)(\forall n \geq k)(a_n > r)
+$$
+
+Ciąg jest rozbieżny do $ -\infty $, gdy
+$$
+(\forall r \in \mathbb{R})(\exists k)(\forall n \geq k)(a_n < r)
+$$
+\end{de}
+
+\begin{tw}
+\
+\begin{enumerate}
+\item Jeśli $ \lim a_n = \pm \infty $ to 
+      $ \lim \frac{1}{a_n} = 0 $
+\item Jeśli $(\lim a_n) = 0$, $a_n > 0$ dla prawie wszystkich n
+      ( $ (\exists N) (\forall n>N) $ )
+      to $ \lim \frac{1}{a_n} = + \infty $
+      (analogicznie $-\infty$ dla $a_n < 0$)
+\item Jeśli $(a_n)$ jest \textbf{ograniczony} i
+      $ \lim (b_n = \infty) $
+      to $ \lim (a_n + b_n) = \infty $\\
+      oraz $ \lim (a_n - b_n) = - \infty $
+      i $ \lim (\frac{a_n}{b_n}) = 0 $
+\item Jeśli $ \lim a_n = a $, $a>0$, $ \lim b_n = \infty $,
+      to $ \lim a_n b_n = \infty $
+      (analogicznie gdy $\lim b_n = - \infty $)
+\end{enumerate}
+\end{tw}
+
+\begin{de}
+(podciąg)
+
+Jeśli $ (\forall n \in \mathbb{N}) m_1<m_2<...<m_n \in \mathbb{N} $,
+to $ (a_{m_n})_{n=1}^{\infty} $
+nazywamy podciągiem ciągu $ (a_n)_{n=1}^{\infty} $
+\end{de}
+
+\begin{tw}
+Podciąg ciągu zbieżnego do $a$ jest zbieżny do $a$.
+\end{tw}
+
+\begin{tw}
+(Bolzano-Weierstrasa)
+
+Każdy ograniczony ciąg liczb rzeczywistych ma podciąg zbieżny.
+
+\underline{WNIOSEK}
+\begin{enumerate}
+\item Każdy ciąg ograniczony $ (a_n) $ taki, że każdy jego podciąg jest
+      zbieżny do granicy g jest też zbieżny do granicy g.
+\item Każdy ciąg ograniczony rozbieżny zawiera przynajmniej 
+      dwa podciągi zbieżne do różnych granic.
+\end{enumerate}
+\end{tw}
+
+\begin{tw}
+(Warunek Cauchy'ego)
+
+$$ (\forall \epsilon > 0)(\exists k \in \mathbb{N})(\forall m,n \geq k)
+   (|a_m - a_n| < \epsilon)
+$$
+\end{tw}
+
+\begin{fakt}
+\
+
+\begin{enumerate}
+\item Każdy ciąg zbieżny spełnia warunek Cauchy'ego.
+\item Każdy ciąg spełniający warunek Cauchy'ego jest ograniczony.
+\item Każdy ciąg spełniający warunek Cauchy'ego zawiera podciąg zbieżny.
+\end{enumerate}
+\end{fakt}
+
+\begin{tw}
+(Cauchy)
+
+Ciąg liczb rzeczywistych jest zbieżny $\iff$ spełnia warunek Cauchy'ego.
+\end{tw}
+
+\section{Szeregi liczbowe}
+
+\begin{de}
+Niech $(a_n)$ będzie ciągiem liczb rzeczywistych. Szeregiem o wyrazach 
+$a_n$,\\ $n=1,2,...$, nazywamy \textbf{ciąg sum częściowych}:
+$$
+  S_n = a_1 +...+ a_n = \sum_{k=1}^{n} a_k
+$$
+\end{de}
+
+\begin{de}
+\
+
+Granicą ciągu sum częściowych, o ile istnieje, nazywa się sumę szeregu
+i jest oznaczana $ \sum_{k=1}^{\infty} a_k = a_1 + a_2 + ... $
+
+Mówimy wtedy że szereg jest zbieżny. W przeciwnym razie - rozbieżny.
+\end{de}
+
+\begin{de}
+(n-ta reszta)
+
+$ r_n = \sum_{k=n+1}^{\infty} a_k = a_{n+1} + a_{n+2} + ... $
+to \textbf{n-ta reszta} szeregu $ \sum_{k=1}^{\infty} $
+\end{de}
+
+\subsection{Podstawowe własności szeregów}
+
+\begin{enumerate}
+\item Jeśli $ \sum_{k=1}^{\infty}a_k $ i $ \sum_{k=1}^{\infty}b_k $
+      są zbieżne ,to $ \sum_{k=1}^{\infty}a_k+b_k $ jest zbieżny
+      oraz $ \sum_{k=1}^{\infty}a_k+b_k =  \sum_{k=1}^{\infty}a_k +
+      \sum_{k=1}^{\infty}b_k$
+\item Jeśli $ \sum_{k=1}^{\infty}a_k $ jest zbieżny to:
+      $ \sum_{k=1}^{\infty}c \cdot a_k = 
+      c \sum_{k=1}^{\infty}a_k $
+\item Jeżeli $ \sum_{k=1}^{\infty}a_k $ jest zbieżny to ciąg reszt
+      $ r_n = \sum_{k=n+1}^{\infty}a_k $ jest zbieżny do 0.
+\item (Warunek Cauchy'ego)
+
+      $$
+      \sum_{k=1}^{\infty}a_k \text{ jest zbieżny}
+      \iff
+      (\forall \epsilon>0)(\exists k \in \mathbb{N})(\forall m \in \mathbb{N})
+      (\underbrace{|a_{k+1}+ ... + a_{k+m}|}
+      _{\substack{\text{m-ta suma częściowa}\\ \text{k-tej reszty}}}
+      < \epsilon)
+      $$
+\end{enumerate}
+
+\subsection{Kryteria zbieżności szeregów}
+
+\begin{enumerate}
+\item Leibniz
+
+     Jeżeli ciąg $(a_n)$ jest malejący i zbieżny
+     do zera, to szereg $ \sum_{n=1}^{\infty} (-1)^n a_n $
+     jest zbieżny.
+\item Porównawcze
+
+      Jeśli $ 0 \leq b_n \leq a_n $ (ciągi nieujemne) i szereg
+      $ \sum_{n=1}^{\infty}a_n $ jest \textbf{zbieżny} to
+      $ \sum_{n=1}^{\infty}b_n $ jest \textbf{zbieżny} i
+      $ \sum_{n=1}^{\infty}b_n \leq \sum_{n=1}^{\infty}a_n $
+
+      Jeśli $ 0 \leq a_n \leq b_n $ (ciągi nieujemne) i szereg
+      $ \sum_{n=1}^{\infty}a_n $ jest \textbf{rozbieżny} to
+      $ \sum_{n=1}^{\infty}b_n $ jest \textbf{rozbieżny}
+\item d'Alambert
+
+      $ \sum_{n=1}^{\infty}a_n $, $a_n >0$\\
+      \\
+      $ \lim_{n \to \infty} \frac{a_{n+1}}{a_n} < 1 $ - szereg zbieżny\\
+      $ \lim_{n \to \infty} \frac{a_{n+1}}{a_n} = 1 $ - nie można określić zbieżności\\
+      $ \lim_{n \to \infty} \frac{a_{n+1}}{a_n} > 1 $ - szereg rozbieżny
+\item Cauchy
+
+      $ \sum_{n=1}^{\infty}a_n $, $a_n >0$\\
+      \\
+      $ \lim_{n \to \infty} \sqrt[n]{a_n} < 1 $ - szereg zbieżny\\
+      $ \lim_{n \to \infty} \sqrt[n]{a_n} = 1 $ - nie można określić zbieżności\\
+      $ \lim_{n \to \infty} \sqrt[n]{a_n} > 1 $ - szereg rozbieżny
+\item całkowe
+
+      Dla szeregu $ \sum_{n=1}^{\infty}a_n $ tworzymy funkcję $f(x)$ taką,
+      że $f(n) = a_n $ dla każdego n.
+      $f(x)$ - malejąca i dodatnia dla $x \geq n_0 $ dla pewnego $n_0$
+      Szereg jes zbieżny wtedy i tylko wtedy gdy całka
+      $$
+      \int_{n_0}^{\infty} f(x) dx
+      $$
+      jest zbieżna.
+\item warunek konieczny zbieżności szeregu
+
+      $$
+      \sum_{n=1}^{\infty}a_n  \text{ jest zbieżny}
+      \implies
+      \lim_{n \to \infty} a_n =0
+      $$
+
+      i równoważnie:
+
+      $$
+      \lim_{n \to \infty} a_n \neq 0
+      \implies
+      \sum_{n=1}^{\infty}a_n  \text{ jest rozbieżny}
+      $$
+      
+\end{enumerate}
+
+\begin{center}
+\textbf{OSZACOWANIA DLA KRYTERIUM PORÓWNAWCZEGO}
+\end{center}
+
+$$
+\sum_{n=1}^{\infty} \frac{1}{n^{\alpha}}
+\begin{cases}
+\alpha > 1 -\text{ zbieżny}
+\\
+\alpha \leq 1 -\text{ rozbieżny}
+\end{cases}
+$$
+$$
+\sin x < x
+$$
+$$
+\ln x < x-1
+$$
+$$
+\sin x \geq \frac{2}{\pi}x, \hspace{1cm} x \in [0;\frac{\pi}{2}]
+$$
+$$
+\tg x \leq \frac{4}{\pi}x, \hspace{1cm} x \in [0;\frac{\pi}{4}]
+$$
+
+\subsection{Szeregi bezwzględnie zbieżne}
+
+\begin{de}
+$ \sum_{n=1}^{\infty}a_n $ jest bezwzględnie zbieżny, jeśli
+$ \sum_{n=1}^{\infty}|a_n| $ jest zbieżny.
+\end{de}
+
+\begin{tw}
+Szereg bezwzględnie zbieżny jest zbieżny. Ponadto
+$ |\sum_{n=1}^{\infty}a_n| \leq \sum_{n=1}^{\infty}|a_n| $
+\end{tw}
+
+\begin{tw}
+Szereg $ \sum_{n=1}^{\infty}a_n $ jest warunkowo zbieżny, gdy jest zbieżny,
+ale nie jest bezwzględnie zbieżny. (np. kryterium Leibniza)
+\end{tw}
+
+\begin{tw}
+Szeregi bezwzględnie zbieżne są przemienne, to znaczy:
+\begin{center}
+$ \sum_{n=1}^{\infty}a_n $ - bezwzględnie zbieżny\\
+$ m_1, m_2, ...$ permutacje zbioru $\mathbb{N}$
+to:\\
+$ \sum_{n=1}^{\infty}a_{m_n} $ jest zbieżny oraz
+$ \sum_{n=1}^{\infty}a_{m_n} = \sum_{n=1}^{\infty}a_n $
+\end{center}
+\end{tw}
+
+\begin{tw}
+(Riemann)
+
+Jeśli $ \sum_{n=1}^{\infty}a_n $ jest warunkowo zbieżny to
+$ (\forall r \in \mathbb{R} \cup \{\pm \infty \}) $
+istnieje taka permutacja $m_1, m_2, ... $ taka, że
+$$ \sum_{n=1}^{\infty}a_{m_n} = r $$
+
+Istnieje też permutacja $k_1, k_2, ... $ taka, że $ \sum_{n=1}^{\infty}a_{k_n} $
+jest rozbieżny.
+
+\end{tw}
+
+
+\begin{tw}
+(Mnożenie szeregów bezwzględnie zbieżnych)
+
+Jeśli $ \sum_{n=1}^{\infty}a_n $, $ \sum_{n=1}^{\infty}b_n $
+są bezwzględnie zbieżne to:
+
+$$
+(\sum_{n=1}^{\infty}a_n)  (\sum_{n=1}^{\infty}b_n) = \sum_{n=1}^{\infty}c_n 
+$$
+gdzie $ c_n = a_1b_n + a_2b_{n-1} + ... + a_nb_1 $
+\end{tw}
+ 
+\begin{tw}
+Do obliczania zbieżności bezwzględnej szeregów można używać kryteriów
+d'Alamberta i Cauchy'ego.
+\begin{center}
+$ \lim_{n \to \infty} |\frac{a_{n+1}}{a_n}| < 1 $ - szereg bezwzględnie zbieżny\\
+$ \lim_{n \to \infty} \sqrt[n]{|a_n|} < 1 $ -       szereg bezwzględnie zbieżny\\
+(analogicznie dla granicy > 1)
+\end{center}
+\end{tw}
+
+\section{Szeregi potęgowe}
+
+\begin{de}
+Szereg
+$$
+\sum_{n=1}^{\infty}a_nx^n
+$$
+nazywamy szeregiem potęgowym.
+\end{de}
+
+\begin{tw}
+Jeśli $ \sum_{n=1}^{\infty}a_nx^n $ jest zbieżny dla $x=x_0 \neq 0$, to jest zbieżny bezwzględnie
+$ (\forall x \in (-|x_0|,|x_0|)) $
+\end{tw}
+
+\begin{de}
+Promień zbieżności szeregu $ \sum_{n=1}^{\infty}a_nx^n $
+
+$$ r = \sup\{|x_0|: \sum_{n=1}^{\infty}a_nx^n \text{ jest zbieżny }\} $$
+
+\begin{itemize}
+\item Jeśli $x \in (-r; r)$ to $ \sum_{n=1}^{\infty}a_nx^n $ jest zbieżny.
+\item Jeśli $x \notin (-r; r)$ to $ \sum_{n=1}^{\infty}a_nx^n $ jest rozbieżny.
+\item Jeśli $x = \pm r $ to $ \sum_{n=1}^{\infty}a_n $ moze być zbieżny lub rozbieżny.
+\end{itemize}
+
+\end{de}
+
+\subsection{Wyznaczanie promienia zbieżności}
+
+$$
+r = \left[
+    \frac{1}{
+      \lim\limits_{n \to \infty} | \frac{a_{n+1}}{a_n} |
+    }
+    \right]
+\quad
+\text{lub}
+\quad
+r = \left[
+    \frac{1}{
+      \lim\limits_{n \to \infty} | \sqrt[n]{a_n} |
+    }
+    \right]
+$$
+
+Następnie należy sprawdzić zbieżność dla $ x= \pm r $
+
+\section{Funkcje}
+
+\subsection{Granice funkcji}
+
+\begin{de}
+(Punkt skupienia zbioru)
+
+$ \emptyset \neq D \subseteq \mathbb{R} $
+
+$a \in \mathbb{R}$ jest lewostronnym punktem skupienia zbioru D, gdy
+istnieje ciąg $(d_n)$ taki, że $ d_n \in D $, $ d_n > a $ i $ \lim d_n = a $
+
+$a \in \mathbb{R}$ jest prawostronnym punktem skupienia zbioru A, gdy
+istnieje ciąg $(d_n)$ taki, że $ d_n \in D $, $ d_n < a $ i $ \lim d_n = a $
+
+$a$ jest punktem skupienia zbioru $D$ gdy jest lewo- lub prawostronnym punktem skupienia.
+
+Intuicyjnie $a$ jest punktem skupienia zbioru $D$ gdy dowolnie blisko
+$a$ znajduje się nieskończenie wiele liczb ze zbioru $D$.
+\end{de}
+
+\underline{PRZYKŁADY:}
+
+\begin{itemize}
+\item $D$ - zbiór skończony - brak punktu skupienia
+\item $\mathbb{N}$ - brak punktu skupienia
+\item $ \{ 1, \frac{1}{2}, \frac{1}{3}, ...\} $ - punkt skupienia $a=0$
+\item $[0,1]$ - każdy punkt jest punktem skupienia
+\item $\mathbb{Q}$ - każda liczba rzeczywista jest punktem skupienia
+\end{itemize}
+
+\begin{de}
+(granica funkcji)
+
+Niech: $f: D \to \mathbb{R} $. Niech $a$ będzie lewostronnym punktem skupienia zbioru $D$.
+$ \lim_{x \to a^-} f(x) = g $, gdy dla każdego ciągu $ x_n \to a, x_n \in D, x_n<a $
+zachodzi $ \lim_{x \to a^-} f(x_n) = g $. Liczbę $g$ nazywamy granicą lewostronną funkcji $f$
+w punkcie $a$.
+
+Analogicznie $ \lim_{x \to a^+} f(x) = g $ (punkt skupienia prawostronny i $x_n>a$) nazywamy 
+granicą prawostronną.
+\end{de}
+
+\begin{de}
+$$
+\lim_{x \to \pm \infty} f(x) = g \text{, gdy } (\forall x_n \in D), \lim x_n = \pm \infty
+\text{, mamy } \lim f(x_n) = g
+$$
+\end{de}
+
+\textbf{UWAGA}
+Arytmetyka granic jest analogiczna jak w przypadku ciągów. Dotyczy to również twierdzenia 
+o trzech ciągach. (w tym wypadku - trzech funkcjach)
+
+\begin{tw}
+(granica funkcji żłożonej)
+
+$$
+\text{Jeśli}
+\lim_{x \to a} f(x) = A, 
+\lim_{y \to A} g(y) = B\text{, to}
+\lim_{x \to a} g(f(x)) = B
+$$
+\end{tw}
+
+\subsection{Ciągłość funkcji}
+
+\begin{de}
+(Heine)
+
+Niech $ f: X \to Y; X, Y \subseteq \mathbb{R} $. Funkcja $f$ jest ciągłą w punkcie a jeśli:
+
+$$
+(\forall x_n \in X)((x_n \to a) \implies (f(x_n) \to f(a)))
+$$
+
+\begin{itemize}
+\item Funkcja jest ciągła lewostronnie, gdy:
+$$
+(\forall x_n \in X)((x_n \to a^-) \implies (f(x_n) \to f(a)))
+$$
+\item Funkcja jest ciągła prawostronnie, gdy:
+$$
+(\forall x_n \in X)((x_n \to a^+) \implies (f(x_n) \to f(a)))
+$$
+\end{itemize}
+
+Fukcja jest ciągła w $a \iff f$ jest ciągła lewo- i prawostronnie w a.
+\end{de}
+
+\begin{tw}
+\
+
+Suma, różnica, iloczyn, iloraz funkcji ciągłych jest ciągły.
+Złożenie dwóch funkcji ciągłych jest funkcją ciągłą.
+\end{tw}
+
+\begin{de}
+(Cauchy)
+
+Funkcja $ f: D \to \mathbb{R} $ jest ciągła w punkcie $ x_0 $ gdy:
+
+$$
+(\forall \epsilon > 0)(\exists \delta)(\forall x)((|x-x_0|<\delta) \implies (|f(x)-f(x_0)|<\epsilon))
+$$
+
+Powyższy warunek nazywamy warunkiem Cauchy'ego ciągłości funkcji w punkcie $x_0$.
+\end{de}
+
+\begin{de}
+(jednostajna ciągłość)
+
+Funkcja $ f: D \to \mathbb{R} $ jest jednostajnie ciągła, gdy 
+$$
+(\forall \epsilon > 0)(\exists \delta > 0)(\forall x,x')((|x-x'|<\delta) \implies
+(|f(x)-f(x')| < \epsilon))
+$$
+
+Funkcja jednostajnie ciągła jest ciągła.
+\end{de}
+
+\begin{de}
+(warunek Lipschitza)
+
+Funkcja $ f:\mathbb{R} \to \mathbb{R} $ spełnia warunek Lipschitza ze stałą $L$,
+gdy dla dowolnych $x_1, x_2 \in \mathbb{R}$ zachodzi nierówność
+$$
+|f(x_1)-f(x_2)| \leq L|x_1-x_2|
+$$
+Każda funkcja spełniająca warunek Lipschitza jest jednostajnie ciągła.
+\end{de}
+
+\begin{tw}
+\
+
+Niech $f:(a,b) \to \mathbb{R}$ będzie funkcją różniczkowalną. Wówczas $f$
+spełnia warunek Lipschitza ze stałą $L$ wtedy i tylko wtedy gdy jej pochodna
+jest ograniczona (z góry lub z dołu) przez $L$.
+\end{tw}
+
+\begin{de}
+Zbiór $Z$ jest wypukły gdy $a,b \in Z \implies [a,b] \in Z$
+\end{de}
+
+\begin{tw}
+(Darboux - o przyjmowaniu wartości pośrednich)
+
+Jeśli $f: Z \to \mathbb{R}$ jest ciągła i $Z$ jest wypukły w $\mathbb{R}$, to $f[Z]$ jest wypukły.
+
+\underline{Wniosek:}
+
+Jeśli $f$ jest ciągła na zbiorze wypukłym $Z$ i $ f(x)<t<f(y) $, to $ t \in f[Z] $, 
+funkcja przyjmuje wartości pośrednie $f(x)$ i $f(y)$
+\end{tw}
+
+\begin{tw}
+Jeśli $ f:[a,b] \to \mathbb{R} : f $ jest ciągła, to $ [a, b] $
+jest przedziałem domkniętym. W szczegolności $f$ przyjmuje wartość 
+największą i najmniejszą.
+\end{tw}
+
+\begin{tw}
+(O funkcji odwrotnej)
+
+Jeśli $ f: [a,b] \to f([a,b]) \subseteq \mathbb{R} $ jest ciągła i różnowartościowa
+to funkcja odwrotna $ g=f^{-1}: f([a, b]) \to [a,b] $ jest ciągła.
+\end{tw}
+
+\subsection{Pochodna funkcji}
+
+\begin{de}
+(iloraz różnicowy w punkcie $ a \in D_f $)
+
+$$
+\frac{f(x) - f(a)}{x - a}
+$$
+alternatywnie dla $ x-a = h $
+$$
+\frac{f(a+h) - f(a)}{h}
+$$
+
+Pochodną funkcji nazywamy granicę ilorazu róznicowego gdy $h \to 0$
+\end{de}
+
+\begin{tw}
+$$
+f \text{ jest różniczkowalna w }a \implies f \text{ jest ciągła w } a
+$$
+\end{tw}
+\subsection{Ekstrema funkcji}
+
+\begin{de}
+\
+
+$f: D \to \mathbb{R}$ ma maksimum lokalne w punkcie $a \in D$, gdy dla 
+pewnego przedziału $ (a - \delta, a+\delta),(\delta>0) $ (otoczenie punktu $a$)
+i dla wszystkich $ x \in (a - \delta, a+\delta) \cap D $ mamy
+$ f(x) \leq f(a) $
+\end{de}
+
+\begin{tw}
+Jeśli funkcja jest różniczkowalna w punkcie $a$ i ma w $a$ ekstremum lokalne,
+to $f'(a)=0$. (warunek konieczny istnienia ekstremum)
+\end{tw}
+
+\begin{tw}
+(Rolle'a)
+
+Jeśłi $f:[a,b] \to \mathbb{R}$ jest ciągła i różniczkowalna w $(a,b)$ oraz
+$f(a) = f(b)$, to istnieje $c\in(a,b)$ takie że $f'(c)=0$.
+\end{tw}
+
+\begin{tw}
+(Lagrange'a)
+
+Jeśli $f:[a,b]\to\mathbb{R}$ jest ciągła i różniczkowalna w $(a,b)$, to 
+istnieje $c \in (a,b)$, takie że
+$$
+f'(c) = \frac{f(b) - f(a)}{b-a}
+$$
+\end{tw}
+
+\begin{tw}
+(Cauchy'ego)
+
+Jeśli $f:[a,b] \to \mathbb{R}$ i $g:[a,b] \to \mathbb{R}$
+są ciągłe i różniczkowalne w $(a,b)$ i 
+$ (\forall x \in (a,b))(g'(x) \neq 0) $, to istnieje $c \in (a,b)$ takie, że:
+$$
+\frac{f(b) - f(a)}{g(b)-g(a)} = \frac{f'(c)}{g'(c)}
+$$
+\end{tw}
+\subsection{Asymptotyczne tempo wzrostu funkcji}
+
+\begin{de}
+(Notacja "O")
+$$
+f(x) = O(g(x)) \iff \lim_{x \to \infty} \left|\frac{f(x)}{g(x)}\right|< \infty
+$$
+\end{de}
+
+\begin{de}
+(Notacja "o")
+$$
+f(x) = o(g(x)) \iff \lim_{x \to \infty} \frac{f(x)}{g(x)}=0
+$$
+\end{de}
+
+\begin{de}
+(Notacja "$\Theta$")
+$$
+f(x) = \Theta(g(x)) \iff 0<\lim_{x \to \infty}
+\left|\frac{f(x)}{g(x)}\right|< \infty
+$$
+\end{de}
+
+\subsection{Reguła de l'Hospitala}
+
+Jeśli $\lim\limits_{x \to a} f(x) = \lim\limits_{x \to a} g(x) \in \{0, \pm\infty \}$
+oraz istnieje granica $\lim\limits_{x \to a} \frac{f'(x)}{g'(x)}$
+to
+
+$$
+\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}
+$$
+\subsection{Wzór Taylora i Maclaurina}
+
+Jeśli funkcja jest n-krotnie różniczkowalna w $[a,b]$, to
+$$
+f(b) = f(a) + \frac{b-a}{1!} \cdot f'(a) + ... +
+       \frac{(b-a)^2}{2!} \cdot f''(a) + ... +
+       \frac{(b-a)^{n-1}}{(n-1)!} \cdot f^{(n-1)}(a) + R_n
+$$
+gdzie
+$$
+R_n = \frac{(x-x_0)^n}{n!}f^{(n)}(c_n), \ \ a<c_n<b
+$$
+
+Wzór Taylora dla $a=0$ nazywamy wzorem Maclaurina.
+
+\begin{tw}
+Jeżeli ciąg reszt $R_n$ w rozwinięciu Taylora (w szczególności Maclaurina)
+funkcji $f$ jest zbieżny do $0$ dla każdego $x$ z pewnego otoczenia $U$
+punktu $x_0$, szereg
+$$ f(x) = \sum_{n=0}^{\infty} \frac{(x-x_0)^n}{n!} \cdot f^{(n)}(x_0) $$
+jest zbieżny dla każdego $x \in U$
+
+Taki szereg nazywamy szeregiem Taylora (Maclaurina) funkcji f.
+\end{tw}
+
+\subsection{Różniczkowanie szeregów potęgowych}
+
+\begin{tw}
+Szeregi $ \sum_{n=1}^{\infty}c_n x^n $ i $ \sum_{n=1}^{\infty}n c_n x^{n-1} $
+mają takie same promienie zbieżności i zachodzi wzór
+$$ \left(\sum_{n=1}^{\infty}c_n x^n \right)' =
+\sum_{n=1}^{\infty}n c_n x^{n-1} $$
+
+dla $ |x| < R $ - promień zbieżności
+(różniczkowanie wyraz po wyrazie)
+\end{tw}
+
+\section{Całki}
+
+\subsection{Metody liczenia całek nieoznaczonych}
+
+\subsubsection{Całkowanie przez części}
+
+Jeżeli $f$ i $g$ mają ciągłe pierwsze pochodne to:
+
+$$
+\int f(x) \cdot g'(x) dx = f(x) \cdot g(x) - \int f'(x) \cdot g(x) dx
+$$
+
+\subsubsection{Całkowanie przez podstawienie}
+
+Jeżeli funkcję $f(x)$ można zapisać w postaci
+$$
+f(x) = g(h(x)) \cdot h'(x)
+$$
+gdzie funkcja $h(x)$ ma ciągłą pochodną, to
+$$
+\int f(x) dx = \int g(t) dt
+$$
+gdzie $ t = h(x) $
+
+\subsection{Całki oznaczone}
+Jeśli
+$$
+\int f(x) dx = F(x)
+$$
+to
+$$
+\int_a^b f(x) dx = F(b) - F(a)
+$$
+
+\begin{tw}
+(Podstawowe twierdzenie rachunku całkowego)
+
+Jeśli funkcja $f: \mathbb{R} \to \mathbb{R}$ jest ciągła, to
+$$
+\frac{d}{dx} \left(
+                    \int_a^x f(t) dt 
+             \right)
+             = f(x)
+$$
+Wynika z tego iż całkowanie jest operacją odwrotną do różniczkowania.
+\end{tw}
+
+\subsection{Całki niewłaściwe}
+
+\subsubsection{Całki niewłaściwe pierwszego rodzaju}
+
+Są to całki określone na nieograniczonym przedziale całkowania
+$[a, \infty),(-\infty, b]$ lub $(-\infty,\infty)$. Liczy je się 
+za pomocą granic.
+
+$$
+\int_a^{\infty} f(x) dx = \lim_{T \to \infty} \int_a^T f(x) dx
+$$
+$$
+\int_{-\infty}^b f(x) dx = \lim_{T \to -\infty} \int_T^b f(x) dx
+$$
+$$
+\int_{-\infty}^{\infty} f(x) dx =
+\int_{-\infty}^a f(x) dx + \int_a^{\infty} f(x) dx 
+$$
+
+Całka niewłaściwa jest
+\begin{itemize}
+\item zbieżna (granica właściwa równa dowolnej liczbie) 
+\item rozbieżna do $\pm \infty$ (granica niewłaściwa)
+\item rozbieżna (granicy nie da się określić)
+\end{itemize}
+
+\subsection{Metody aproksymacji (przybliżania) całek oznaczonych}
+
+\subsubsection{Przybliżanie całki Riemanna przez sumy całkowe}
+
+\subsubsection{Metoda trapezów}
+
+$P=$ podział $[a,b]$ na $n$ równych części
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.6]{trapez.png}
+
+pole trapezu $ \frac{f(x_{i-1}) + f(x_i)}{2} \Delta x_i ,
+\ \ \Delta x_i=\frac{b-a}{n}$
+\end{figure}
+
+$$ 
+\int_a^b f(x) dx \approx \frac{b-a}{2n} \sum_{i=1}^n \big(f(x_{i-1})+f(x_i)\big) = 
+\frac{b-a}{2n} \big(f(a) +2f(x_1) + ... + 2f(x_{n-1}) + f(b) \big)
+$$
+
+\subsubsection{Metoda Simpsona}
+
+$P=$ podział $[a,b]$ na $n$ równych części, $n$ - parzyste,
+$\Delta x_i=\frac{b-a}{n} = h$
+
+$$
+\int_a^b f(x) dx \approx
+\frac{b-a}{3n}
+\bigg[
+f(a) +4f(x_1) + 2f(x_2) + 4f(x_3) + 2f(x_4) +...+
+4f(x_{n-1}) + f(b)
+\bigg]
+$$
+
+$n$ - ilość punktów podziału
+
+błąd $E_n$ można przybliżyć jako
+
+$$
+0 \leq E_n \leq \frac{K}{180n^4}(b-a)^5
+\text{, gdzie }
+K = \max\{|f^{(4)}(x)|: x \in [a,b]\}
+$$
+\newpage
+\underline{Przykład zastosowania}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.4]{plama.png}
+
+plama ropy
+\end{figure}
+
+Według wzoru
+$$
+P = \int_0^{10} [g(x)-h(x)] dx \approx
+\frac{10}{3\cdot10} \bigg[0.5 + 4\cdot1.1 + 2\cdot1.3 + 2\cdot1.4 + ... + 0.2 \bigg]
+$$
+
+\subsubsection{Wielomian interpolacyjny Lagrange'a}
+
+Danych jest $(n+1)$ punktów $x_0,...,x_n \in \mathbb{R}$, w których pewna 
+funkcja przyjmuje wartości (pomiary) $y_0,...,y_n \in \mathbb{R}$
+Zakładamy że funkcja ta jest ciągła (opisuje zjawisko fizyczne ciągłe)
+
+Wtedy istnieje (dokładnie jeden) wielomian stopnia $n$ przyjmujący wartości 
+$y_0,...,y_n$ w punktach $x_0,...,x_n$.
+
+$$
+W(x) = y_0u_0(x) + y_1u_1(x) +...+ y_nu_n(x)
+$$
+gdzie
+$$
+u_k(x) = \frac
+{(x-x_0)\cdot...\cdot(x-x_{k-1})(x-x_{k+1})\cdot...\cdot(x-x_n)}
+{(x_k-x_0)\cdot...\cdot(x_k-x_{k-1})(x_k-x_{k+1})\cdot...\cdot(x_k-x_n)}
+$$
+
+Jeżeli $u_k$ dla pewnego $x$ przyjmuje wartość $1$ to dla innego $x$
+przymuje wartość $0$.
+
+\section{Funkcje wektorowe}
+
+\begin{de}
+Przestrzenie euklidesowe $\mathbb{R}^n$
+
+$\mathbb{R}^n$ jest przestrzenią liniową (wektorową) z działaniami:
+\begin{itemize}
+\item dodawanie punktów (wektorów):
+      $$
+      (x_1,...,x_n) \pm (y_1,...,y_n) = (x_1+y_1,...,x_n+y_n)
+      $$
+\item mnożenie przez skalar:
+      $$
+      \alpha (x_1,...,x_n) = (\alpha x_1,...,\alpha x_n)
+      $$
+\end{itemize}
+
+$\overline{0} = \vec{0} = (0,...,0)$ nazywamy wektorem zerowym
+\end{de}
+
+\begin{de}
+Wektor $\overline{AB}$ $a,b \in \mathbb{R}^n$, o początku w punkcie $A$ i końcu
+w $B$
+$$
+\overline{AB} = (b_1-a_1,...b_n-a_n)
+$$
+gdzie $a_n$ to współrzędne punktu $A$, a $b_n$ to współrzędne punktu $B$.
+\end{de}
+
+\subsection{Rachunek wektorowy}
+
+\begin{de}
+(dodawanie wektorów)
+$$
+\overline{AB}+\overline{BC}=\overline{AC}
+$$
+\end{de}
+
+\begin{de}
+(iloczyn skalarny)
+$$
+\overline{x} \cdot \overline{y} = x_1y_1+...+x_ny_n
+\text{, gdzie }
+\overline{x} = (x_1,...,x_n) \ 
+\overline{y} = (y_1,...,y_n)
+$$
+\end{de}
+
+\begin{tw}
+(właśności iloczynu skalarnego)
+
+\begin{enumerate}
+\item $ \overline{x} \cdot \overline{y} = \overline{y}  \cdot \overline{x} $
+\item $ \overline{x}\cdot (\overline{y}+\overline{z}) =
+        \overline{x}\cdot\overline{y}+\overline{x}\cdot\overline{z} $
+\item $ (\alpha\overline{x}) \cdot \overline{y}=
+        \alpha(\overline{x} \cdot \overline{y})= 
+        \overline{x} \cdot (\alpha\overline{y}) $
+\end{enumerate}
+\end{tw}
+
+\begin{de}
+(iloczyn wektorowy w $\mathbb{R}^3$)
+$$
+\overline{x} \times \overline{y} =
+ \overline{i} (x_2y_3-x_3y_2)
++\overline{j} (x_3y_1-x_1y_3)
++\overline{k} (x_1y_2-x_2y_1) = \\
+((x_2y_3-x_3y_2), (x_3y_1-x_1y_3), (x_1y_2-x_2y_1))
+$$
+\end{de}
+
+\begin{tw}
+(właśności iloczynu wektorowego)
+
+\begin{enumerate}
+\item $\overline{a} \times (\overline{b} \times \overline{c})
+      = (\overline{a} \cdot \overline{c}) \times \overline{b}
+      - (\overline{a} \cdot \overline{b}) \times \overline{c} $
+\item $(\overline{a} \times \overline{b}) \cdot \overline{c} = 
+        \overline{a}\cdot(\overline{b}\times\overline{c}) $
+\item $ \overline{a}\times\overline{b}=
+       -\overline{b}\times\overline{a} $
+\end{enumerate}
+\end{tw}
+
+\begin{de}
+(norma euklidesowa wektora)
+
+$$
+||\overline{x}|| = \sqrt{x_1^2+...+x_n^2}
+$$
+$$
+||x||^2 = \overline{x} \cdot \overline{x} = \overline{x}^2
+$$
+\end{de}
+
+\begin{de}
+(Nierówność Cauchy'ego-Schwarza)
+$$
+\overline{x} \cdot \overline{y} \leq 
+||\overline{x}|| \cdot ||\overline{y}||
+$$
+\end{de}
+
+\begin{de}
+(kula w $\mathbb{R}^n$)
+$$
+K(\overline{a}, r) =
+\{\overline{x} \in \mathbb{R}^n:||\overline{x}-\overline{a}|| < r\}
+$$
+gdzie $\overline{a}$ to środek kuli a $r$ to dodatni promień kuli.
+\end{de}
+
+\subsection{Ciagi i funkcje wektorowe}
+
+
+\begin{de}
+(ciąg w $\mathbb{R}^n$)
+$$
+f: \mathbb{N} \to \mathbb{R}^n
+\text{, co oznaczamy }
+(\overline{x_n})_{n=1}^{\infty}
+$$
+Intuicyjnie, jest to ciąg wektorów.
+\end{de}
+
+\begin{de}
+(granica ciągu w $\mathbb{R}^n$)
+$$
+lim_{n \to \infty} = \overline{x_n} = \overline{x} \in \mathbb{R}^n
+\text{, gdy }
+(\forall \epsilon>0)(\exists k \in \mathbb{N})(\forall n\geq k)
+(||\overline{x_n}-\overline{x}||<\epsilon)
+$$
+\end{de}
+
+\begin{tw}
+\
+
+Jeśli $\overline{x}=(x_1,...,x_n), \overline{x_n} = (x_{n1},...,x_{nm})$
+to
+$$\lim \overline{x_n} = \overline{x} \iff
+(\forall 1 \leq i \leq m)(\lim\limits_{n \to \infty} x_{ni} = x_i)$$
+\end{tw}
+
+\begin{de}
+(Granica funkcji wektorowej)
+
+$ f: D \to \mathbb{R}^n : D \subseteq \mathbb{R}$
+$t_0$ - punkt skupienia $D$
+
+$$
+\lim_{t\to t_0} f(t) = \overline{x}
+\text{, gdy }
+(\forall \epsilon>0)(\exists \delta>0)(|t-t_0|<\delta \implies
+||f(t)-\overline{x}||<\epsilon)
+$$
+(Granica funkcji wektorowej jest granicą funkcji składowych)
+\end{de}
+
+\begin{tw}
+Funkcja wektorowa jest ciągła gdy wszystkie jej składowe są ciągłe.
+\end{tw}
+
+\begin{tw}
+Jeżeli dwie funkcje wektorowe są ciągłe to ich suma, różnica, iloczyn wektorowy
+i skalarny funkcji wektorowych są ciągłe
+\end{tw}
+
+\begin{tw}
+Pochodna funkcji wektorowej to funkcja wektorowa o składowych będących
+pochodnymi skłądowych różniczkowanej funkcji. Zatem różniczkujemy
+"po składowych"
+\end{tw}
+
+\begin{tw}
+Całka nieoznaczona $ \int f(x)dx = F(x) + \overline{W}$z funkcji wektorowej
+to funkcja pierwotna wyznaczana z dokładnością do stałego wektora czyli taka,
+że $F'(x) = f(x)$
+
+Całka nieoznaczona z funkcji wektorowej to funkcja o składowych równych całkom
+nieoznaczonym całkowanej funkcji.
+\end{tw}
+
+\begin{tw}
+Całka oznaczona z funkcji wektorowej to wektor o składowych równych
+całkom oznaczonym z funkcji składowych całkowanej funkcji.
+\end{tw}
+
+\subsection{Interpretacja fizyczna}
+
+Jeśli $\overline{r}(t) = (x(t), y(t), z(t))$ opisuje położenie punktu, to
+$\overline{r}'(t) $ to wektor prędkości w chwili $t$.
+
+Analogicznie $\overline{r}''(t)$ to wektor przyspieszenia.
+
+
+
+\newpage
+\includepdf{wzory.pdf}
+\end{document}
