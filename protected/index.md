@@ -38,7 +38,53 @@ pass_style: true
         }
         client.send();
     };
-    
+ 
+
+	function setFraktur(cvalue) {
+		var d = new Date();
+		d.setTime(d.getTime() + (5*60*1000));
+		var expires = "expires=" + d.toGMTString();
+		document.cookie = "fraktur=" + cvalue + ";" + expires + ";path=/";
+	}
+
+
+	function getCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+
+	function checkCookie() {
+		var fr=getCookie("fraktur");
+		if (fr == "on") {
+			var cssId = 'myCss';  // you could encode the css path itself to generate id..
+			if (!document.getElementById(cssId))
+			{
+				var head  = document.getElementsByTagName('head')[0];
+				var link  = document.createElement('link');
+				link.id   = cssId;
+				link.rel  = 'stylesheet';
+				link.type = 'text/css';
+				link.href = '/assets/fraktur_style.css';
+				link.media = 'all';
+				head.appendChild(link);
+			}
+		}
+	}
+	
+
+
+ 
     document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
         e.preventDefault();
 
@@ -49,18 +95,8 @@ pass_style: true
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 			
         if (passphrase == "fraktur") {
-			var d = new Date();
-			d.setTime(d.getTime() + (5*60*1000));
-			var expires = "expires=" + d.toGMTString();
-			document.cookie = "fraktur=on" + ";" + expires + ";path=/";
-			var head  = document.getElementsByTagName('head')[0];
-			var link  = document.createElement('link');
-			link.id   = cssId;
-			link.rel  = 'stylesheet';
-			link.type = 'text/css';
-			link.href = '/assets/fraktur_style.css';
-			link.media = 'all';
-			head.appendChild(link);
+			setFraktur("on");
+			checkCookie();
 			alert('Witamy w Świecie Prawdziwych Fontów!');
             return;
         }           
