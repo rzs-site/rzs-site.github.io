@@ -3,6 +3,8 @@ layout: default
 pass_style: true
 ---
 
+
+
 <div class="staticrypt-page" id="str">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
@@ -28,12 +30,21 @@ pass_style: true
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
 
 <script>
-    document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
-        e.preventDefault();
-    
+    window.onload = function(){
         var client = new XMLHttpRequest();
         client.open('GET', '/protected/encrypted.txt');
         client.onreadystatechange = function() {
+            alert(client.responseText);
+        }
+        client.send();
+    };
+</script>
+
+<script>
+    
+    document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+
         var passphrase = document.getElementById('staticrypt-password').value,
             encryptedMsg = client.responseText,
             encryptedHMAC = encryptedMsg.substring(0, 64),
@@ -48,9 +59,5 @@ pass_style: true
         var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
 
         document.getElementById('str').innerHTML = plainHTML;
-        }
-        client.send();
-    
-
     });
 </script>
