@@ -1,5 +1,6 @@
 ---
-layout: pass_layout
+layout: default
+pass_style: true
 ---
 
 <div class="staticrypt-page">
