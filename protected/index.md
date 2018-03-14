@@ -6,7 +6,7 @@ pass_style: true
 <div class="staticrypt-page" id="str">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
-            <p class="staticrypt-title">Strona zabezpieczona.</p>
+            <p class="staticrypt-title">Podaj kod dostępu</p>
             <p></p>
         </div>
 
