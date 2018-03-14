@@ -39,14 +39,6 @@ pass_style: true
         client.send();
     };
  
-
-	function setFraktur(cvalue) {
-		var d = new Date();
-		d.setTime(d.getTime() + (5*60*1000));
-		var expires = "expires=" + d.toGMTString();
-		document.cookie = "fraktur=" + cvalue + ";" + expires + ";path=/";
-	}
-
  
     document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
         e.preventDefault();
@@ -55,14 +47,7 @@ pass_style: true
             encryptedMsg = crypt.split('\r')[0].split('\n')[0],
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
-            decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
-			
-        if (passphrase == "fraktur") {
-			setFraktur("on");
-			checkCookie();
-			alert('Witamy w Świecie Prawdziwych Fontów!');
-            return;
-        }           
+            decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();     
 		
         if (decryptedHMAC !== encryptedHMAC) {
             alert('O przepraszam, to nie to hasło!');
