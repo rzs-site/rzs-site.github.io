@@ -16,9 +16,9 @@ Architektura Komputerów i Systemy Operacyjne
 </script>
 	
 {::options parse_block_html="true" /}
-	<div class="math-box">
-		<p id="chuck"></p>
-	</div>
+<div class="math-box">
+	<p id="chuck"></p>
+</div>
 {::options parse_block_html="false" /}
 
 ### Opis przedmiotu
