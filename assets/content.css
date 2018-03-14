@@ -70,30 +70,3 @@ td {
     background: red;
     background: #eee;
 }
-
-@font-face {
-	font-family: 'UnifrakturMaguntia';
-	src: local('UnifrakturMaguntia'),
-		url('/fonts/UnifrakturMaguntia.2016-02-21.woff2') format('woff2'),
-		url('/fonts/UnifrakturMaguntia.2016-02-21.woff') format('woff'),
-		url('/fonts/UnifrakturMaguntia.2016-02-21.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'UnifrakturCook';
-	src: local('UnifrakturCook'),
-		url('/fonts/UnifrakturCook.2013-08-25.woff2') format('woff2'),
-		url('/fonts/UnifrakturCook.2013-08-25.woff') format('woff'),
-		url('/fonts/UnifrakturCook.2013-08-25.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-* {
-	font-family: UnifrakturMaguntia;
-}
-h1, h2, h3, #navigation p, dt, th {
-	font-family: UnifrakturCook;
-}	
-
