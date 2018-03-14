@@ -1,7 +1,5 @@
 ---
-layout: default
-use_math: true
-use_highlight: true
+layout: pass_layout
 ---
 
 <div class="staticrypt-page">
@@ -25,10 +23,6 @@ use_highlight: true
     </div>
 
 </div>
-<footer class="staticrypt-footer">
-    <p class="pull-right">Created with <a href="https://robinmoisson.github.io/staticrypt">StatiCrypt</a></p>
-</footer>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
 
@@ -43,7 +37,7 @@ use_highlight: true
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
 
         if (decryptedHMAC !== encryptedHMAC) {
-            alert('Bad passphrase!');
+            alert('Naprawdę wydawało Ci się, że takie jest hasło? XD');
             return;
         }
 
