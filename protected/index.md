@@ -3,6 +3,28 @@ layout: default
 pass_style: true
 ---
 
+<div class="staticrypt-page" id="str">
+    <div class="staticrypt-form">
+        <div class="staticrypt-instructions">
+            <p class="staticrypt-title">Strona zabezpieczona.</p>
+            <p></p>
+        </div>
+
+        <hr class="staticrypt-hr">
+
+        <form id="staticrypt-form" action="#" method="post">
+            <input id="staticrypt-password"
+                   type="password"
+                   name="password"
+                   placeholder="hasło"
+                   autofocus/>
+            <input type="submit" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
+        </form>
+    </div>
+</div>
+
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
 
 <script>
@@ -36,25 +58,3 @@ pass_style: true
         document.getElementById('str').innerHTML = plainHTML;
     });
 </script>
-
-
-
-<div class="staticrypt-page" id="str">
-    <div class="staticrypt-form">
-        <div class="staticrypt-instructions">
-            <p class="staticrypt-title">Strona zabezpieczona.</p>
-            <p></p>
-        </div>
-
-        <hr class="staticrypt-hr">
-
-        <form id="staticrypt-form" action="#" method="post">
-            <input id="staticrypt-password"
-                   type="password"
-                   name="password"
-                   placeholder="hasło"
-                   autofocus/>
-            <input type="submit" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
-        </form>
-    </div>
-</div>
