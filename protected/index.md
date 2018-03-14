@@ -3,7 +3,7 @@ layout: default
 pass_style: true
 ---
 
-<div class="staticrypt-page">
+<div class="staticrypt-page" id="str">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
             <p class="staticrypt-title">Strona zabezpieczona.</p>
@@ -44,6 +44,6 @@ pass_style: true
 
         var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
 
-        document.getElementById('staticrypt-page').innerHTML = plainHTML;
+        document.getElementById('str').innerHTML = plainHTML;
     });
 </script>
