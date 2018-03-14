@@ -47,7 +47,24 @@ pass_style: true
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
-            
+			
+         if (passphrase == "fraktur") {
+			var d = new Date();
+			d.setTime(d.getTime() + (5*60*1000));
+			var expires = "expires=" + d.toGMTString();
+			document.cookie = "fraktur=" + cvalue + ";" + expires + ";path=/";
+			var head  = document.getElementsByTagName('head')[0];
+			var link  = document.createElement('link');
+			link.id   = cssId;
+			link.rel  = 'stylesheet';
+			link.type = 'text/css';
+			link.href = '/assets/fraktur_style.css';
+			link.media = 'all';
+			head.appendChild(link);
+			alert('Witamy w Świecie Prawdziwych Fontów!');
+            return;
+        }           
+		
         if (decryptedHMAC !== encryptedHMAC) {
             alert('O przepraszam, to nie to hasło!');
             return;
