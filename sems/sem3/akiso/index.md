@@ -1,6 +1,5 @@
 ---
-layout: acc_layout
-toc: akiso
+layout: default
 use_math: true
 use_highlight: true
 ---
@@ -8,22 +7,17 @@ use_highlight: true
 Architektura Komputerów i Systemy Operacyjne
 ---
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-</script>
-
 {::options parse_block_html="true" /}
-<script>
-$.getJSON('http://api.icndb.com/jokes/random?limitTo=[nerdy]', function(data) {
-console.log(data);
-document.getElementById("chuck").innerHTML = data.value.joke;
-});
-</script>
-{::options parse_block_html="false" /}
-
-{::options parse_block_html="true" /}
-<div class="math-box">
-<p id="chuck"></p>
-</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$.getJSON('http://api.icndb.com/jokes/random?limitTo=[nerdy]', function(data) {
+		console.log(data);
+		document.getElementById("chuck").innerHTML = data.value.joke;
+	});
+	</script>
+	<div class="math-box">
+		<p id="chuck"></p>
+	</div>
 {::options parse_block_html="false" /}
 
 ### Opis przedmiotu
@@ -38,9 +32,5 @@ Nikt nie każe pisać w asmeblerze.
 
 ### O projekcie
 
-Kompendium AKiSO jest naszym najbardziej rozbudowanym projektem, dlatego w przeciwieństwie do pozostałych przedmiotów, podstawowe źródło informacji stanowi plik PDF (wygodniejszy do druku i czytania).
-Kopia internetowa pełni natomiast jedynie funkcję pomocniczą, dla umożliwienia szybkiego sprawdzenia informacji oraz przeglądania na urządzeniach mobilnych.
-Zgodność obu wersji można porównać poniżej:
-
-* Plik PDF: <a href="{{ site.baseurl }}/pdfs/sem3/akiso_opus_magnum_v6503.pdf">Kompendium AKiSO v4.2</a>
-* Kopia internetowa: na podstawie PDF v4.2, wersja α - brak ilustracji, problemy z biblioteką matematyczną
+Kompendium AKiSO jest naszym najbardziej rozbudowanym projektem, dlatego w przeciwieństwie do pozostałych przedmiotów, notatki są obecnie dostępne wyłącznie jako plik PDF (wygodniejszy do druku i czytania przy tej objętości materiału).
+* [Architektura Komputerów i Systemy Operacyjne - skrypt (v4.2)](/pdfs/sem3/akiso-skrypt.pdf)
