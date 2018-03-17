@@ -1,5 +1,5 @@
 ---
-layout: gen_layout
+layout: default
 gen_style: true
 ---
 Generator planu

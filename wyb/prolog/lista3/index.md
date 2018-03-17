@@ -53,4 +53,5 @@ Alternatywą (niesprawdzoną jako rozwiązanie) jest wyznacznie znaku dla wygene
 
 ---
 
-###### * Wymienione wyżej rozwiązania NIE gwarnatują kompletu punktów.
+###### * Wymienione wyżej rozwiązania NIE gwarnatują kompletu punktów**.
+###### ** Alternatywne rozwiązania też są punktowane wysoko.

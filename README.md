@@ -61,11 +61,6 @@ Opis pojawi się wkrótce...
 * Architektura komputerów i systemy operacyjne (uzupełnić dwa brakujące rozdziały, następnie przepisać na webdev)
 
 ## TODO (Damian):
-* przykład indukcji
-* więcej o współczynnikach dwumianowych
-* delta =   (1, 2, 3, ... n)
-            (delta(1), delta(2), delta(3),... delta(n))
-* diagram dla inwersji + dowód obrazkowy twierdzenia o znakach
 * grafy z MD (podkradnę parę z Wprowadzenia do grafów!)
 * rozbudować wyprowadzenie funkcji tworzącej F_n
 
