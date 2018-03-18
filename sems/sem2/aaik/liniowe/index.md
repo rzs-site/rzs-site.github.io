@@ -42,7 +42,7 @@ Algebra z Geometrią Analityczną
     standardowej kodu.
 12. Kod dualny do kodu  \\(  \\mathcal{C}  \\)  :  \\[ 
     \\mathcal{C}^{\\perp} = \\{x \\in F^n: (\\forall
-    y\\in\\mathcal{C})(\\IS{x}{y} = 0)\\}  \\] 
+    y\\in\\mathcal{C})(\\langle\\,x,y\\rangle = 0)\\}  \\] 
 13. Twierdzenie.  \\(  \\mathcal{C}^{\\perp} = ker(F)  \\)  , gdzie
      \\(  F(x) = G\\cdot x^T  \\)  .
 
