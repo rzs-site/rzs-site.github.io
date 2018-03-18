@@ -4,19 +4,6 @@ toc: aaik
 use_math: true
 ---
 
-Algebra z Geometrią Analityczną
----
-\\( \\def\\RR{\\mathbb{R}} \\def\\QQ{\\mathbb{Q}} \\def\\ZZ{\\mathbb{Z}}
-\\def\\CC{\\mathbb{C}} \\def\\NN{\\mathbb{N}}
-\\def\\IFF{\\leftrightarrow}
-\\newcommand{\\span}\[1\]{\\mathrm{span}(\#1)}
-\\newcommand{\\IS}\[2\]{\\langle\\,\#1,\#2\\rangle}
-\\newcommand{\\GG}\[1\]{\\langle\#1\\rangle}
-\\newcommand{\\sgn}\[1\]{\\mathrm{sgn}(\#1)}
-\\newcommand{\\rank}\[1\]{\\mathrm{rank}(\#1)}
-\\newcommand{\\nwd}\[2\]{\\mathrm{nwd}(\#1,\#2)} \\)
-
-
 ### 09.03.2017: Funkcja Eulera
 
 1.  Def.  \\(  \\phi(n) = \|\\{k: 1\\leq k\\leq n \\land
