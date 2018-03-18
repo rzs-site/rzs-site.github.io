@@ -19,7 +19,6 @@ Algebra z Geometrią Analityczną
 
 ### 02.03.2017: Grupy i podgrupy
 
-    X\\subseteq X \\) nazywamy najmniejszą podgrupę \\( \\GG{X} \\)
 1.  Def. Zbiór  \\(  H\\subseteq G  \\)  jest podgrupą grupy  \\( 
     (G,\\cdot)  \\)  jeśli  \\(  H\\neq \\emptyset  \\)  oraz
     1.   \\(  (\\forall x,y\\in H)(x\\cdot y \\in H)  \\) 
