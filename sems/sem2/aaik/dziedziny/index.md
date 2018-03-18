@@ -7,7 +7,7 @@ use_math: true
 ### 20.04.2017: Dziedziny Ideałów Głównych
 
 1.  **Definicja** **Dziedzina euklidesowa** (ED): dziedzina całkowitości
-    z funkcją  \\(  v:R\\to\\NN  \\)  (normą) taką, że
+    z funkcją  \\(  v:R\\to\\mathbb{N}  \\)  (normą) taką, że
     1.   \\(  v(x)=0 \\equiv x=0  \\) 
     2.  Dla dowolnych  \\(  a,b\\in R  \\)  takich, że  \\(  b\\neq 0
          \\)  istnieją  \\(  q, r \\in R  \\)  takie, że  \\(  a=
@@ -15,7 +15,7 @@ use_math: true
 2.  **Definicja** Dziedzina  \\(  R  \\)  jest **dziedziną ideałów
     głównych** (PID) jeśli każdy ideał w  \\(  R  \\)  jest główny
 3.  **Twierdzenie.**  \\(  ED \\subseteq PID  \\) 
-4.  Przykład. W pierścieniu  \\(  \\ZZ\[x\]  \\)  ideał  \\(  (2,x)
+4.  Przykład. W pierścieniu  \\(  \\mathbb{Z}\[x\]  \\)  ideał  \\(  (2,x)
      \\)  nie jest ideałem głównym.
 5.  **Twierdzenie.** Jeśli  \\(  R  \\)  jest PID oraz  \\( 
     I\_0\\subseteq I\_1 \\subseteq I\_2 \\subseteq \\ldots  \\)  są
@@ -27,7 +27,7 @@ use_math: true
      \\)  .
 7.  **Twierdzenie.** Elementy pierwsze są nierozkładalne
 8.  **Twierdzenie.** W PID elementy nierozkładalne sa pierwsze.
-9.  Przykład: W pierścieniu  \\(  \\ZZ\[\\sqrt{-3}\]  \\)  liczba  \\( 
+9.  Przykład: W pierścieniu  \\(  \\mathbb{Z}\[\\sqrt{-3}\]  \\)  liczba  \\( 
     2  \\)  jest nierozkładalna ale nie jest pierwsza:  \\( 
     2\|(1+i\\sqrt{3})(1-i\\sqrt{3})  \\)  .
 10. PRZYKŁAD (Twierdzenie Fermata): Liczba pierwsza  \\(  p\\gt 2  \\) 
@@ -41,8 +41,8 @@ use_math: true
     Pokazujemy, że  \\(  p\|(a+i)(a-i)  \\)  oraz, że  \\( 
     \\neg(p\|(a+i))  \\)  oraz  \\(  \\neg(p\|(a-i))  \\)  . Z tego
     wnioskujemy, że  \\(  p  \\)  nie jest elementem pierwszym w  \\( 
-    \\ZZ\[i\]  \\)  . Zatem nie jest elementem nierozkładalnym. Bierzemy
-     \\(  u,v \\in \\ZZ\[i\]  \\)  które nie są jednostkami oraz takie,
+    \\mathbb{Z}\[i\]  \\)  . Zatem nie jest elementem nierozkładalnym. Bierzemy
+     \\(  u,v \\in \\mathbb{Z}\[i\]  \\)  które nie są jednostkami oraz takie,
     że  \\(  p=u\\cdot v  \\)  . Wtedy  \\(  p^2 = \|u\|^2\|v\|^2
      \\)  . Pokazujemy, że  \\(  p=\|u\|^2  \\)  . Co kończy dowód.
 

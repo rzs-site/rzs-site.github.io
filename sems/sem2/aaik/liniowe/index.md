@@ -4,6 +4,8 @@ toc: aaik
 use_math: true
 ---
 
+### 18.05.2017: Kody liniowe
+
 1.  Pojęcie równoważności kodów
 2.  Kod liniowy nad ciałem  \\(  \|F\|=q  \\)  : podprzestrzeń liniowa
     przestrzeni liniowej nad ciałem  \\(  F  \\) 
@@ -27,7 +29,7 @@ use_math: true
     standardowej kodu.
 12. Kod dualny do kodu  \\(  \\mathcal{C}  \\)  :  \\[ 
     \\mathcal{C}^{\\perp} = \\{x \\in F^n: (\\forall
-    y\\in\\mathcal{C})(\\langle\\,x,y\\rangle = 0)\\}  \\] 
+    y\\in\\mathcal{C})(\\langle\,x,y\\rangle = 0)\\}  \\] 
 13. Twierdzenie.  \\(  \\mathcal{C}^{\\perp} = ker(F)  \\)  , gdzie
      \\(  F(x) = G\\cdot x^T  \\)  .
 
@@ -71,7 +73,7 @@ use_math: true
 2.  Kody Haddamara  \\(  Had\_n  \\)  : macierz generująca tworzymy ze
     wszystich wektorów  \\(  \\{0,1\\}^n  \\)  .
     1.  Tw. Jeśli  \\(  x\\neq 0  \\)  oraz  \\(  f\_x(y) = \\sum\_i
-        x\_i y\_i  \\)  (liczymy w  \\(  \\ZZ\_2  \\)  ) to  \\( 
+        x\_i y\_i  \\)  (liczymy w  \\(  \\mathbb{Z}\_2  \\)  ) to  \\( 
         \|ker(f\_x)\| = 2^{n-1}  \\) 
     2.  Kody Hamminga są  \\(  \[2^n, n,2^{n-1}\]  \\)  kodami
 3.  Kody Reeda - Solomona
