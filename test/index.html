@@ -1,34 +1,402 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-<style>
-img {
-    float: right;
-}
-</style>
-</head>
-<body>
 
-<div><img src="http://ki.pwr.edu.pl/gebala/pict/maciek.jpg" alt="gebala" style="margin-left:15px;">
+<html lang="pl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<title>Razem Zdajmy Studia</title>
+<link rel="icon" href="/favicon.gif" type="image/gif" sizes="16x16">
 
-<div><img src="http://ki.pwr.edu.pl/gebala/pict/maciek.jpg" alt="gebala" style="margin-left:15px;">
-DIV 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctugestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillagestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillagestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillas vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</div>
+<link rel="stylesheet" type="text/css" href="/assets/main.css">
+<link rel="stylesheet" type="text/css" href="/assets/content.css">
 
 
-DIV2 w środku DIV1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctugestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillagestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillagestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillas vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</div>
+<link rel="stylesheet" type="text/css" href="/assets/syntax_highlight.css">
 
 
 
 
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    extensions: ["tex2jax.js","toMathML.js"],
+    TeX: { extensions: ["color.js","AMSsymbols.js","AMSmath.js"] },
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+       inlineMath: [ ["\\(","\\)"] ],
+       displayMath: [ ["\\[","\\]"] ],
+       ignoreClass: "tex2jax_ignore|myignore"
+    },
+    "HTML-CSS" : {
+        availableFonts : ["Gyre-Pagella"],
+        preferredFont : "Gyre-Pagella",
+        webFont : "Gyre-Pagella",
+        imageFont : null
+    },
+    displayAlign: "center"
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"> </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114681827-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114681827-1');
+</script>
 
 
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "c69a1f06-698e-439d-84dc-1e627741078a",
+    });
+  });
+</script>
 
 
-<div><img src="http://ki.pwr.edu.pl/gebala/pict/maciek.jpg" alt="gebala" style="margin-left:15px;">
-DIV3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctugestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillagestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillagestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringillas vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</div>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+    <h1>Razem Zdajmy Studia</h1>
+</div>
+
+            <div class="navigation">
+    <button class="nav-elem nav-button">Menu główne</button>
+    <nav class="nav-panel panel">
+        
+        
+        <a class="nav-elem" href="/">Główna</a>
+        
+        
+        
+        <div class="sub-dropdown">
+            <button class="dropdown-button">Semestr 1</button>
+            <div class="dropdown-panel">
+                
+                <a href="/sems/sem1/am1/">Analiza Matematyczna 1</a>
+                
+                <a href="/sems/sem1/lisf/">Logika i Struktury Formalne</a>
+                
+                <a href="/sems/sem1/azga/">Algebra z Geometrią Analityczną</a>
+                
+                <a href="/sems/sem1/wdiip/">Wstęp do Informatyki i Programowania</a>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="sub-dropdown">
+            <button class="dropdown-button">Semestr 2</button>
+            <div class="dropdown-panel">
+                
+                <a href="/sems/sem2/am2/">Analiza Matematyczna 2</a>
+                
+                <a href="/sems/sem2/md/">Matematyka Dyskretna</a>
+                
+                <a href="/sems/sem2/prawne/">Problemy Prawne Informatyki</a>
+                
+                <a href="/sems/sem2/fizyka/">Fizyka</a>
+                
+                <a href="/error/not_ready/">Algebra Abstrakcyjna i Kodowanie</a>
+                
+                <a href="/error/not_ready/">Kurs Programowania</a>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="sub-dropdown">
+            <button class="dropdown-button">Semestr 3</button>
+            <div class="dropdown-panel">
+                
+                <a href="/sems/sem3/akiso/">Architektura Komputerów i Systemy Operacyjne</a>
+                
+                <a href="/sems/sem3/bd/">Bazy Danych i Systemy Informacyjne</a>
+                
+                <a href="/sems/sem3/mpis/">Metody Probabilistyczne i Statystyka</a>
+                
+                <a href="/sems/sem3/tp/">Technologia Programowania</a>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="sub-dropdown">
+            <button class="dropdown-button">Semestr 4</button>
+            <div class="dropdown-panel">
+                
+                <a href="/sems/sem4/aisd/">Algorytmy i Struktury Danych</a>
+                
+                <a href="/error/not_ready/">Technologie Sieciowe</a>
+                
+            </div>
+        </div>
+        
+        
+        
+        <a class="nav-elem" href="/error/nietensemestr">Semestr 5</a>
+        
+        
+        
+        <a class="nav-elem" href="/error/nietensemestr">Semestr 6</a>
+        
+        
+        
+        <div class="sub-dropdown">
+            <button class="dropdown-button">Wybieralne</button>
+            <div class="dropdown-panel">
+                
+                <a href="/wyb/prolog/">Programowanie w Logice</a>
+                
+                <a href="/error/not_ready/">Nowoczesne Technologie WWW</a>
+                
+                <a href="/error/not_ready/">Grafkika Komputerowa i Wizualizacja</a>
+                
+                <a href="/wyb/grafy/">Wprowadzenie Do Teorii Grafów</a>
+                
+                <a href="/error/not_ready/">Wprowadzenie Do Funkcji Zespolonych</a>
+                
+                <a href="/wyb/tpi/">Teoretyczne Podstawy Informatyki</a>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="sub-dropdown">
+            <button class="dropdown-button">Inne</button>
+            <div class="dropdown-panel">
+                
+                <a href="/inne/generator/">Generator AKZ (test)</a>
+                
+                <a href="/inne/poradnik/">Poradnik Przetrwania</a>
+                
+                <a href="/protected/">RZS Premium</a>
+                
+            </div>
+        </div>
+        
+        
+    </nav>
+</div>
+
+            <div class="menu">
+    <button class="nav-elem nav-button">Menu strony</button>
+    <nav class="nav-panel panel">
+        
+        
+        <a class="nav-elem" href="/">Wstęp</a>
+        
+        
+        
+        <button class="nav-elem acc-button">Przydatne linki</button>
+        <div class="acc-panel">
+            
+            <a href="/links/2k15-2k16/">2k15</a>
+            
+            <a href="/links/2k15-2k16/">2k16</a>
+            
+            <a href="/links/2k17/">2k17</a>
+            
+        </div>
+        
+        
+        
+        <button class="nav-elem acc-button">Ogłoszenia</button>
+        <div class="acc-panel">
+            
+            <a href="/msgs/fb/">Facebook</a>
+            
+            <a href="/error/not_ready/">2k15</a>
+            
+            <a href="/msgs/2k16/">2k16</a>
+            
+            <a href="/msgs/2k17/">2k17</a>
+            
+        </div>
+        
+        
+        
+        <a class="nav-elem" href="/info/">O nas</a>
+        
+        
+    </nav>
+</div>
 
 
-</body>
+            <div class="content">
+                <h2 id="o-projekcie">O projekcie</h2>
+
+<p>Witamy na stronie projektu Razem Zdajmy Studia! Jesteśmy grupą studentów <a href="http://ki.pwr.edu.pl/">Katedry Informatyki WPPT</a> na <a href="http://pwr.edu.pl/">Politechnice Wrocławskiej</a>. Niniejszy katalog to zbiór stworzonych przez nas materiałów, obejmujących zakres pierwszego stopnia studiów inżynierskich informatyki.</p>
+
+<h2 id="kategorie">Kategorie</h2>
+
+<p>Strona główna zawiera najważniejsze informacje, listę linków oraz aktualności od naszego zespołu. Kursy obowiązkowe są zgrupowane według semestrów planowej realizacji. Osobną kategorię stanowią kursy wybieralne, ponieważ każdy z nich jest realizowany przez poszczególne roczniki w różnych semestrach. Natomiast zakładka “Inne” agreguje kursy ogólnouczelniane oraz informacje praktyczne. Powodzenia!</p>
+
+<h2 id="aktualny-status">Aktualny status</h2>
+
+<p>Rozpoczęte zostały otwarte testy β. Oprócz opracowań obecnie realizowanych przedmiotów, na wersje internetowe są sukcesywnie przetwarzane materiały z poprzednich lat. Wszelkie propozycje dodatkowych funkcjonalności prosimy zgłaszać za pośrednictwem adresu <a href="http://rzs.edu.pl/info/#kontakt">kontaktowego</a>. Z uwagi na całkowitą niezależność od Samorządu oraz ograniczenia techniczne nie jesteśmy w stanie zrealizować wszystkich koncepcji, jednak każdy pomysł szczegółowo rozważymy, a w miarę możliwości spróbujemy zaimplementować.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+  <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Razem Zdajmy Studia!"</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+            </div>
+        </div>
+
+        <script>
+    window.onclick = function(event) {
+        var panels, j;
+        if (!event.target.matches('.nav-elem') && !event.target.matches('.dropdown-button')) {
+            panels = document.getElementsByClassName('panel');
+
+            for (j = 0; j < panels.length; j++) {
+                panels[j].style.maxHeight = null;
+            }
+        }
+
+        const mq = window.matchMedia("(min-width: 845px)");
+        if (mq.matches && !event.target.matches('.dropdown-button')) {
+            panels = document.getElementsByClassName('dropdown-panel');
+
+            for (j = 0; j < panels.length; j++) {
+                panels[j].style.maxHeight = null;
+            }
+        }
+    }
+
+    var nav_buttons = document.getElementsByClassName('nav-button');
+
+    var i;
+    for (i = 0; i < nav_buttons.length; i++) {
+        nav_buttons[i].addEventListener("click", function() {
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = "none"; //panel.scrollHeight + "px";
+            }
+
+            var panels = document.getElementsByClassName('panel');
+
+            var j;
+            for (j = 0; j < panels.length; j++) {
+                if (panels[j] != panel) {
+                    panels[j].style.maxHeight = null;
+                }
+            }
+        });
+    }
+
+    var acc_buttons = document.getElementsByClassName('acc-button');
+
+    var i;
+    for (i = 0; i < acc_buttons.length; i++) {
+        acc_buttons[i].addEventListener("click", function() {
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+
+    var dropdown_buttons = document.getElementsByClassName('dropdown-button');
+
+    var i;
+    for (i = 0; i < dropdown_buttons.length; i++) {
+        dropdown_buttons[i].addEventListener("click", function() {
+            var panel = this.nextElementSibling;
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+
+            const mq = window.matchMedia("(min-width: 845px)");
+            if (mq.matches) {
+                var panels = document.getElementsByClassName('dropdown-panel');
+
+                var j;
+                for (j = 0; j < panels.length; j++) {
+                    if (panels[j] != panel) {
+                        panels[j].style.maxHeight = null;
+                    }
+                }
+            }
+        });
+    }
+</script>
+
+		<script>
+
+	function setFrakturCookie(cvalue) {
+		var d = new Date();
+		d.setTime(d.getTime() + (5*60*1000));
+		var expires = "expires=" + d.toGMTString();
+		document.cookie = "fraktur=" + cvalue + ";" + expires + ";path=/";
+	};
+
+	function setFrakturCSS() {
+		var cssId = 'myCss';
+		if (!document.getElementById(cssId))
+		{
+			var head  = document.getElementsByTagName('head')[0];
+			var link  = document.createElement('link');
+			link.id   = cssId;
+			link.rel  = 'stylesheet';
+			link.type = 'text/css';
+			link.href = '/assets/fraktur_style.css';
+			link.media = 'all';
+			head.appendChild(link);
+		}
+	}
+	
+	
+	function getCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+
+	function checkFrakturCookie() {
+		var fraktur=getCookie("fraktur");
+		if (fraktur == "on") {
+			var cssId = 'myCss';
+			if (!document.getElementById(cssId))
+			{
+				setFrakturCSS();
+			}
+		}
+	}
+	
+</script>
+    </body>
 </html>
