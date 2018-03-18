@@ -20,7 +20,7 @@ use_math: true
 
 {::options parse_block_html="true" /}
 <div class="def-box"><p>
-\\[  \\sum\_{d\|n} \\phi(d) = n\~.  \\] 
+\\[ \sum_{d|n} \phi(d) = n \\] 
 </p></div>
 {::options parse_block_html="false" /}
 

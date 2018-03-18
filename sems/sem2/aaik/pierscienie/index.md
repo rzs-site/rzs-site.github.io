@@ -22,8 +22,11 @@ use_math: true
 
 6.  **Przykład**
 
- {.tablica}
- \\[  \\mathbb{R}\[x\]/(x^2+1) \\cong \\mathbb{C}  \\] 
+{::options parse_block_html="true" /}
+<div class="def-box"><p>
+\\[  \\mathbb{R}\[x\]/(x^2+1) \\cong \\mathbb{C}  \\] 
+</p></div>
+{::options parse_block_html="false" /}
 
 Przykład:  \\(  \\mathbb{Z}\_2\[x\]/(1+x+x^2)  \\)  jest cztero elementowym ciałem
 
