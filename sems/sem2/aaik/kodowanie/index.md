@@ -37,5 +37,5 @@ use_math: true
     \\{B(x,k):x\\in\\mathcal{C}\\}  \\)  są parami rozłączne.
 12. Konstrukcja płaszczyzny rzutowej  \\(  PG(2,2)  \\)  nad ciałem
     2-elementowym (płaszczyzna Fano):\
-    ![](Algebra/FanoPlane.png)
+    ![](https://cs.pwr.edu.pl/cichon/2016_17_b/Algebra/FanoPlane.png)
 

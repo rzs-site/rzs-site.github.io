@@ -26,13 +26,13 @@ use_math: true
 6.  Jeśli  \\(  \\mathrm{rank} (a)=\\infty  \\)  to  \\(  \\langle a \\rangle =
     \\{\\ldots,a^{-2},a^{-1},e,a,a^2,\\ldots\\} \\sim (\\mathbb{Z},+)  \\) . Izomorfizm:  \\(  \\phi:\\mathbb{Z}\\to G: k \\to a^k  \\) 
 7.  Graf Cayley\'a grupy  \\(  C\_5\\times C\_2  \\)  :\
-    ![](Algebra/C5C2.png)
+    ![](https://cs.pwr.edu.pl/cichon/2016_17_b/Algebra/C5C2.png)
 8.  Grupa symetrii  \\(  n  \\)  -kąta równobocznego  \\(  D\_{2n}  \\) 
     : obrót  \\(  \\alpha  \\)  , odbicie  \\(  \\beta  \\)  ; równania:
      \\(  \\alpha^n=e  \\)  ,  \\(  \\beta^2=e  \\)  ,  \\( 
     \\alpha\\beta\\alpha\\beta=e  \\)  ; graf Cayley\'a grupy  \\( 
     D\_{8}  \\)  :\
-    ![](Algebra/D8.png)
+    ![](https://cs.pwr.edu.pl/cichon/2016_17_b/Algebra/D8.png)
 9.  **Twierdzenie \[Lagrange\]** Jeśli  \\(  H  \\)  jest podgrupą
     skończonej grupy  \\(  G  \\)  , to  \\[  \\mathrm{card}(H) \\big\|
     \\mathrm{card}(G)\~.  \\]  Dowód (szkic). Określamy relację  \\( 
