@@ -15,14 +15,14 @@ use_math: true
 4.  Definicja. Rozstęp kodu: \\( \\Delta(\\mathcal{C}) =
     \\min\\{d\_H(x,y): x,y\\in \\mathcal{C} \\land x \\neq y\\} \\) 
 5.  Definicja. Kod \\( \\mathcal{C} \\) jest \\( (n,M,d)\_q \\) 
-    kodem, jeśli \\( \\mathcal{C} \\subseteq \\Sigma^n \\) , \\( 
-    \|\\Sigma\| = q \\) , \\( M=\|\\mathcal{C}\| \\) , oraz \\( 
+    kodem, jeśli \\( \\mathcal{C} \\subseteq \\Sigma^n \\), \\( 
+    \|\\Sigma\| = q \\), \\( M=\|\\mathcal{C}\| \\), oraz \\( 
     \\Delta(\\mathcal{C})= d \\) 
 6.  Definicja.  \\( B(x,r) = \\{y\\Sigma^n: d\_H(x,y)\\leq r\\} \\) 
-7.  Twierdzenie: Jeśli \\( \\Delta(\\mathcal{C}) \\geq d \\) , to
+7.  Twierdzenie: Jeśli \\( \\Delta(\\mathcal{C}) \\geq d \\), to
     kod \\( \\mathcal{C} \\) potrafi wykrywać do \\( d-1 \\) 
     błędów.
-8.  Twierdzenie: Jeśli \\( \\Delta(\\mathcal{C}) \\geq d \\) , to
+8.  Twierdzenie: Jeśli \\( \\Delta(\\mathcal{C}) \\geq d \\), to
     kod \\( \\mathcal{C} \\) potrafi korygować do \\( 
     \\left\\lfloor \\frac{d-1}{2}\\right\\lfloor \\) błędów.
 9.  Twierdzenie (Singleton Bound). Jeśli istnieje \\( (n,M,d)\_q
