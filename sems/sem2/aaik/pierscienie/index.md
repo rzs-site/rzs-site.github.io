@@ -6,47 +6,39 @@ use_math: true
 
 ### Pierścienie i ideały
 
-Pojęcie ideału w pierścieniu przemiennym z jednością
+1.  Pojęcie ideału w pierścieniu przemiennym z jednością
 
-Ideał generowany przez element  \\(  a\\in R  \\)  :  \\(  (a)=
-\\{ra:r\\in R\\}  \\) 
+2.  Ideał generowany przez element  \\(  a\\in R  \\)  :  \\(  (a)= \\{ra:r\\in R\\}  \\) 
 
-Ideał generowany przez elementy  \\(  a,b\\in R  \\)  :  \\(  (a,b) =
-\\{ra + sb:r,s \\in R\\}  \\) 
+3.  Ideał generowany przez elementy  \\(  a,b\\in R  \\)  :  \\(  (a,b) = \\{ra + sb:r,s \\in R\\}  \\) 
 
-Konstrukcja pierścienia ilorazowego: I - ideał w R:
+4.  Konstrukcja pierścienia ilorazowego: I - ideał w R:
+    - \\(  (a \\sim\_I b) \\equiv a-b \\in I  \\) 
+    - \\(  R/I = \\{\[a\]\_I : a \\in R\\}  \\) 
+    - \\(  \[a\]\_I + \[b\]\_I = \[a+b\]\_I  \\) 
+    - \\(  \[a\]\_I \* \[b\]\_I = \[a\*b\]\_I  \\) 
 
--    \\(  (a \\sim\_I b) \\equiv a-b \\in I  \\) 
--    \\(  R/I = \\{\[a\]\_I : a \\in R\\}  \\) 
--    \\(  \[a\]\_I + \[b\]\_I = \[a+b\]\_I  \\) 
--    \\(  \[a\]\_I \* \[b\]\_I = \[a\*b\]\_I  \\) 
+5.  Przykład:  \\(  \\mathbb{R}\[x\]/(x) \\cong \\mathbb{R}  \\) 
 
-Przykład:  \\(  \\mathbb{R}\[x\]/(x) \\cong \\mathbb{R}  \\) 
-
-**PRZYKŁAD**
+6.  **Przykład**
 
  {.tablica}
  \\[  \\mathbb{R}\[x\]/(x^2+1) \\cong \\mathbb{C}  \\] 
 
-Przykłąd:  \\(  \\mathbb{Z}\_2\[x\]/(1+x+x^2)  \\)  jest cztero elementowym
-ciałem
+Przykład:  \\(  \\mathbb{Z}\_2\[x\]/(1+x+x^2)  \\)  jest cztero elementowym ciałem
 
-Tw. Jeśli  \\(  f:R\_1 \\to R\_2  \\)  jest homomorfizmem pierścieni, to
- \\(  ker(f)  \\)  jest ideałem pierścienia  \\(  R\_1  \\) 
+7.  Tw. Jeśli  \\(  f:R\_1 \\to R\_2  \\)  jest homomorfizmem pierścieni, to \\(  ker(f)  \\)  jest ideałem pierścienia  \\(  R\_1  \\) 
 
-Tw. Jeśli  \\(  f:R\_1 \\to R\_2  \\)  jest epimorfizmem pierścieni, to
- \\(  R\_1/ker(f) \\cong R\_2  \\) 
+8.  Tw. Jeśli  \\(  f:R\_1 \\to R\_2  \\)  jest epimorfizmem pierścieni, to \\(  R\_1/ker(f) \\cong R\_2  \\) 
 
-Tw. Niech  \\(  I  \\)  będzie ideałem pierścienia  \\(  R  \\)  . Niech
- \\(  Q(a) = \[a\]\_I  \\)  .
-
-1.  Jeśli  \\(  I\\subseteq J \\subseteq R  \\)  jest ideałem, to  \\( 
-    Q\[J\]  \\)  jest ideałem w  \\(  R/I  \\)  oraz  \\( 
-    Q^{-1}\[Q\[J\]\]=J  \\) 
-2.  Jeśli  \\(  H\\subseteq R/I  \\)  jest ideałem, to  \\( 
-    Q^{-1}\[H\]  \\)  jest ideałem w  \\(  R  \\)  oraz  \\( 
-    Q\[Q^{-1}\[H\]\]=H  \\) 
-
+9.  Tw. Niech  \\(  I  \\)  będzie ideałem pierścienia  \\(  R  \\). Niech \\(  Q(a) = \[a\]\_I  \\).
+    1.  Jeśli  \\(  I\\subseteq J \\subseteq R  \\)  jest ideałem, to  \\( 
+        Q\[J\]  \\)  jest ideałem w  \\(  R/I  \\)  oraz  \\( 
+        Q^{-1}\[Q\[J\]\]=J  \\) 
+    2.  Jeśli  \\(  H\\subseteq R/I  \\)  jest ideałem, to  \\( 
+        Q^{-1}\[H\]  \\)  jest ideałem w  \\(  R  \\)  oraz  \\( 
+        Q\[Q^{-1}\[H\]\]=H  \\) 
+  
 ### Ideały
 
 1.  Def.Jednostki pierścienia R: U(R) = zbiór elementów odwracalnych
@@ -56,12 +48,11 @@ Tw. Niech  \\(  I  \\)  będzie ideałem pierścienia  \\(  R  \\)  . Niech
 2.  Podzielność w dowolnym pierścieniu:  \\(  a\|b \\leftrightarrow (\\exists
     q)(a\\cdot q = b)  \\) 
 3.  Elementy stowarzyszone:  \\(  (a\\sim b) \\leftrightarrow ((a\|b)\\land (b\|a))
-     \\) 
+    \\) 
 4.  Tw. W dziedzinie całkowitości mamy:  \\(  (a\\sim b) \\leftrightarrow (\\exists
     u\\in U(R)(a=u\\cdot b)  \\) 
 5.  Jeśli  \\(  R  \\)  jest pierścieniem z jednością, to ideał  \\(  I
-     \\)  jest właściwy wtedy i tylko wtedy, gdy  \\(  1 \\notin I  \\) 
-    .
+     \\)  jest właściwy wtedy i tylko wtedy, gdy  \\(  1 \\notin I  \\) .
 6.  Def. I jest ideałem maksymalnym jeśli  \\(  I\\neq R  \\)  oraz
     jeśli  \\(  J  \\)  jest takim ideałem, że  \\(  I\\subseteq J  \\) 
     oraz  \\(  J\\neq I  \\)  to  \\(  J=R  \\) 

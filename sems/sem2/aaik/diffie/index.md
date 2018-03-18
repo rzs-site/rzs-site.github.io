@@ -15,11 +15,11 @@ use_math: true
      \\(  (a)  \\)  ; następnie pokazujemy, że w podgrupie  \\(  (a)
      \\)  istnieje  \\(  \\phi(d)  \\)  elementów rzędu  \\(  d  \\)  ;
     na koniec korzystamy ze wzoru  \\(  p-1 = \\sum\_{d\|p-1} \\phi(d)
-     \\)  .
+     \\).
 2.  **Problem logarytmu dyskretnego.** Dana jest liczba pierwsza  \\(  p
      \\)  , generator  \\(  g  \\)  grupy  \\(  Z\_p^\*  \\)  oraz
      \\(  b \\in Z\_p^\*  \\)  : znajdź  \\(  x \\in Z\_p^\*  \\) 
-    takie, że  \\(  g^x = b  \\)  .
+    takie, że  \\(  g^x = b  \\).
 3.  **Protokół Diffiego-Hellmana.** Mamy ustaloną duża liczbę pierwszą
      \\(  p  \\)  oraz generator  \\(  g  \\)  grupy  \\(  Z\_p^\*
      \\)  ; Alicja losuje liczbę  \\(  x\\in Z\_p^\*  \\)  i wysyła do

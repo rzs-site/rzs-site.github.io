@@ -24,7 +24,7 @@ use_math: true
     \\sum\_{i=1}^{10} i\\cdot x\_i = 0 (\\mod 11)\\}  \\) 
 5.  Fakt: Funkcja  \\(  f:(\\mathbb{Z}\_{11})^{10} \\to \\mathbb{Z}\_{11}  \\) 
     określona wzorem  \\(  f(x) = \\sum\_{i=1}^{10}i x\_i  \\)  jest
-    odwzorowaniem liniowym oraz  \\(  \\mathcal{C} = ker(f)  \\)  .
+    odwzorowaniem liniowym oraz  \\(  \\mathcal{C} = ker(f)  \\).
 6.  Obserwacja:  \\(  \\mathcal{C}  \\)  jest podprzestrzenią liniową
     przestrzeni wektorowej  \\(  (\\mathbb{Z}\_{11})^{10}  \\)  wymiaru 9
 

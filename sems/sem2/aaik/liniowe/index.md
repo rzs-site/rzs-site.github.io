@@ -31,7 +31,7 @@ use_math: true
     \\mathcal{C}^{\\perp} = \\{x \\in F^n: (\\forall
     y\\in\\mathcal{C})(\\langle\,x,y\\rangle = 0)\\}  \\] 
 13. Twierdzenie.  \\(  \\mathcal{C}^{\\perp} = ker(F)  \\)  , gdzie
-     \\(  F(x) = G\\cdot x^T  \\)  .
+     \\(  F(x) = G\\cdot x^T  \\).
 
 ### Kody liniowe - II
 
@@ -39,9 +39,9 @@ use_math: true
     to  \\(  \\mathcal{C}^{\\perp}  \\)  jest  \\(  \[n,n-k\]  \\) 
     kodem liniowym.\
     Dowód (szkic): Przyglądamy się odwzorowaniu  \\(  h:K^n \\to K^k
-     \\)  określonym wzorem  \\(  h(x) = G\\cdot x^T  \\)  . Zaczymany
+     \\)  określonym wzorem  \\(  h(x) = G\\cdot x^T  \\). Zaczymany
     od zauważenie, że  \\(  h  \\)  jest odwzorowaniem liniowym oraz, że
-     \\(  ker(h) = \\mathcal{C}^{\\perp}  \\)  .
+     \\(  ker(h) = \\mathcal{C}^{\\perp}  \\).
 2.  Tw. Jeśli wymiary macierzy  \\(  A,B,C,D  \\)  się zgadzają, to
      \\[  \\begin{bmatrix}A&B\\end{bmatrix} \\cdot
     \\begin{bmatrix}C \\\\ D\\end{bmatrix} = A\\cdot C + B\\cdot D\~.
@@ -53,32 +53,32 @@ use_math: true
      \\(  \[n,k\]  \\)  kodu  \\(  \\mathcal{C}  \\)  to macierz
     generująca kodu  \\(  \\mathcal{C}^{\\perp}  \\)  ma postać  \\[ 
     H = \[-A^T \| I\_{n-k}\]  \\]  Nazywamy ją macierzą kontroli
-    parzystości kodu  \\(  \\mathcal{C}  \\)  .
+    parzystości kodu  \\(  \\mathcal{C}  \\).
 5.  Przykład: Jeśli  \\(  G =
     \\begin{bmatrix}1&0&1 \\\\ 0&1&1 \\end{bmatrix}  \\)  , to  \\(  H =
     \\begin{bmatrix}1&1&1\\end{bmatrix}  \\) 
 6.  Tabela syndromów macierzy standardowej kodu i wykorzystanie jej do
     odkodowywania sygnału.
 7.  Tw. Niech  \\(  H  \\)  będzie macierzą kontroli parzystości kodu
-     \\(  \\mathcal{C}  \\)  . Wtedy  \\[  \\Delta(\\mathcal{C}) =
+     \\(  \\mathcal{C}  \\). Wtedy  \\[  \\Delta(\\mathcal{C}) =
     \\min\\{d: H \\text{ ma } d \\text{ kolumn liniowo zależnych}\\}
      \\] 
 
 ### Przykłady kodów liniowych
 
 1.  Kody Hamminga  \\(  H\_n  \\)  : macierz kontroli parzystości
-    tworzymy z niezerowych wektorów  \\(  \\{0,1\\}^n  \\)  .
+    tworzymy z niezerowych wektorów  \\(  \\{0,1\\}^n  \\).
     1.  Kody Hamminga są  \\(  \[2^n, 2^n-n+1,3\]  \\)  kodami
     2.  Kody Hamminga są doskonałe.
 2.  Kody Haddamara  \\(  Had\_n  \\)  : macierz generująca tworzymy ze
-    wszystich wektorów  \\(  \\{0,1\\}^n  \\)  .
+    wszystich wektorów  \\(  \\{0,1\\}^n  \\).
     1.  Tw. Jeśli  \\(  x\\neq 0  \\)  oraz  \\(  f\_x(y) = \\sum\_i
         x\_i y\_i  \\)  (liczymy w  \\(  \\mathbb{Z}\_2  \\)  ) to  \\( 
         \|ker(f\_x)\| = 2^{n-1}  \\) 
     2.  Kody Hamminga są  \\(  \[2^n, n,2^{n-1}\]  \\)  kodami
 3.  Kody Reeda - Solomona
     1.  Ustalamy ciało skończone  \\(  K  \\)  , liczbę  \\(  k  \\) 
-        oraz parami różne  \\(  a\_1, \\ldots, a\_n \\in K  \\)  . Dla
+        oraz parami różne  \\(  a\_1, \\ldots, a\_n \\in K  \\). Dla
          \\(  x \\in K^k  \\)  definiujemy wielomian  \\(  f\_x(y) =
         \\sum\_{i=0}^{k-1} x\_i y^k  \\)  (uwaga  \\(  f\_x \\in
         K\[y\]  \\)  ) oraz definujemy funkcję kodującą  \\[ 
