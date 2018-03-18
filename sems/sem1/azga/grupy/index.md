@@ -5,7 +5,6 @@ use_math: true
 
 Algebra z Geometrią Analityczną
 ---
-
 \\( \\def\\RR{\\mathbb{R}} \\def\\QQ{\\mathbb{Q}} \\def\\ZZ{\\mathbb{Z}}
 \\def\\CC{\\mathbb{C}} \\def\\NN{\\mathbb{N}}
 \\def\\IFF{\\leftrightarrow}
@@ -15,8 +14,6 @@ Algebra z Geometrią Analityczną
 \\newcommand{\\sgn}\[1\]{\\mathrm{sgn}(\#1)}
 \\newcommand{\\rank}\[1\]{\\mathrm{rank}(\#1)}
 \\newcommand{\\nwd}\[2\]{\\mathrm{nwd}(\#1,\#2)} \\)
-
-
 ### 02.03.2017: Grupy i podgrupy
 
 1.  Def. Zbiór  \\(  H\\subseteq G  \\)  jest podgrupą grupy  \\( 
@@ -400,20 +397,20 @@ potem te które dzielą się przez  \\(  3  \\)  ).
      \\)  określonym wzorem  \\(  h(x) = G\\cdot x^T  \\)  . Zaczymany
     od zauważenie, że  \\(  h  \\)  jest odwzorowaniem liniowym oraz, że
      \\(  ker(h) = \\mathcal{C}^{\\perp}  \\)  .
-2.  Tw. Jeśli wymiary macierzy  \\(  A,B,C,D  \\)  się zgadzaję, to
+2.  Tw. Jeśli wymiary macierzy  \\(  A,B,C,D  \\)  się zgadzają, to
      \\[  \\begin{bmatrix}A&B\\end{bmatrix} \\cdot
-    \\begin{bmatrix}C\\D\\end{bmatrix} = A\\cdot C + B\\cdot D\~.
+    \\begin{bmatrix}C \\\\ D\\end{bmatrix} = A\\cdot C + B\\cdot D\~.
      \\] 
 3.  Wniosek: Jeśli  \\(  A \\in M\_{k,n-k}(K)  \\)  , to  \\[ 
-    \\begin{bmatrix}I\_k&A\\end{bmatrix} \\cdot
-    \\begin{bmatrix}-A\\I\_{n-k}\\end{bmatrix} = 0\~.  \\] 
+    \\begin{bmatrix}I\_k&A \\end{bmatrix} \\cdot
+    \\begin{bmatrix}-A \\\\ I\_{n-k} \\end{bmatrix} = 0\~.  \\] 
 4.  Wniosek. Jeśli  \\(  G = \[I\_k\|A\]  \\)  jest macierzą generującą
      \\(  \[n,k\]  \\)  kodu  \\(  \\mathcal{C}  \\)  to macierz
     generująca kodu  \\(  \\mathcal{C}^{\\perp}  \\)  ma postać  \\[ 
     H = \[-A^T \| I\_{n-k}\]  \\]  Nazywamy ją macierzą kontroli
     parzystości kodu  \\(  \\mathcal{C}  \\)  .
 5.  Przykład: Jeśli  \\(  G =
-    \\begin{bmatrix}1&0&1\\0&1&1\\end{bmatrix}  \\)  , to  \\(  H =
+    \\begin{bmatrix}1&0&1 \\\\ 0&1&1 \\end{bmatrix}  \\)  , to  \\(  H =
     \\begin{bmatrix}1&1&1\\end{bmatrix}  \\) 
 6.  Tabela syndromów macierzy standardowej kodu i wykorzystanie jej do
     odkodowywania sygnału.
