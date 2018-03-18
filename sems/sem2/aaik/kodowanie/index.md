@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 04.05.2017: Elementy Teorii Kodowania
+### Elementy Teorii Kodowania
 
 1.  Definicja. Kod nad alfabetem  \\(  \\Sigma  \\)  : podzbiór  \\( 
     \\Sigma^\*  \\) 

@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 20.04.2017: Dziedziny Ideałów Głównych
+### Dziedziny Ideałów Głównych
 
 1.  **Definicja** **Dziedzina euklidesowa** (ED): dziedzina całkowitości
     z funkcją  \\(  v:R\\to\\mathbb{N}  \\)  (normą) taką, że

@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 09.03.2017: Funkcja Eulera
+### Funkcja Eulera
 
 1.  Def.  \\(  \\phi(n) = \|\\{k: 1\\leq k\\leq n \\land
     \\mathrm{nwd}(k,n)=1\\}\|  \\)  .

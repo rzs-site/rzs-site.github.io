@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 18.05.2017: Kody korekcyjne
+### Kody korekcyjne
 
 1.  Konstrukcja  \\(  (7,16,3)\_2  \\)  kodu binarnego z płaszczyzny
     rzutowej  \\(  PG(2,2)  \\)  :

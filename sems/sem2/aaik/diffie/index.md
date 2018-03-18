@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 23.03.2017: Protokół Diffiego-Hellmana
+### Protokół Diffiego-Hellmana
 
 1.  **Twierdzenie.** Jeśli  \\(  p  \\)  jest liczbą pierwszą, to  \\( 
     Z\_p^\*  \\)  jest grupą cykliczną.\

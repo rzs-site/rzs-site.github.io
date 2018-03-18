@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 18.05.2017: Kody liniowe
+### Kody liniowe
 
 1.  Pojęcie równoważności kodów
 2.  Kod liniowy nad ciałem  \\(  \|F\|=q  \\)  : podprzestrzeń liniowa
@@ -33,7 +33,7 @@ use_math: true
 13. Twierdzenie.  \\(  \\mathcal{C}^{\\perp} = ker(F)  \\)  , gdzie
      \\(  F(x) = G\\cdot x^T  \\)  .
 
-### 01.06.2017: Kody liniowe - II
+### Kody liniowe - II
 
 1.  Tw. Jeśli  \\(  \\mathcal{C}  \\)  jest  \\(  \[n,k\]  \\)  kodem,
     to  \\(  \\mathcal{C}^{\\perp}  \\)  jest  \\(  \[n,n-k\]  \\) 
@@ -64,7 +64,7 @@ use_math: true
     \\min\\{d: H \\text{ ma } d \\text{ kolumn liniowo zależnych}\\}
      \\] 
 
-### 08.06.2017: Przykłady kodów liniowych
+### Przykłady kodów liniowych
 
 1.  Kody Hamminga  \\(  H\_n  \\)  : macierz kontroli parzystości
     tworzymy z niezerowych wektorów  \\(  \\{0,1\\}^n  \\)  .

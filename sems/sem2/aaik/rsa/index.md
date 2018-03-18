@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 16.03.2017: Dzielniki normalne. RSA
+### Dzielniki normalne. RSA
 
 1.  Tw. Jeśli  \\(  H  \\)  jest dzielnikiem normalnym grupy  \\(  G
      \\)  to na klasie warstw możemy okreslić działanie  \\( 

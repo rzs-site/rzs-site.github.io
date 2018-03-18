@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 30.03.2017: Pierścienie i ideały
+### Pierścienie i ideały
 
 Pojęcie ideału w pierścieniu przemiennym z jednością
 
@@ -47,7 +47,7 @@ Tw. Niech  \\(  I  \\)  będzie ideałem pierścienia  \\(  R  \\)  . Niech
     Q^{-1}\[H\]  \\)  jest ideałem w  \\(  R  \\)  oraz  \\( 
     Q\[Q^{-1}\[H\]\]=H  \\) 
 
-### 06.04.2017: Ideały
+### Ideały
 
 1.  Def.Jednostki pierścienia R: U(R) = zbiór elementów odwracalnych
     pierścienia R.\

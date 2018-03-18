@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 27.04.2017: UFD
+### UFD
 
 1.  **Definicja** Pieścień  \\(  R  \\)  ma własność jednoznaczności
     rozkładu jeśli każdy jego element można zapisać jednoznacznie, z

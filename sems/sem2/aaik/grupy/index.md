@@ -4,7 +4,7 @@ toc: aaik
 use_math: true
 ---
 
-### 02.03.2017: Grupy i podgrupy
+### Grupy i podgrupy
 
 1.  Def. Zbiór  \\(  H\\subseteq G  \\)  jest podgrupą grupy  \\( 
     (G,\\cdot)  \\)  jeśli  \\(  H\\neq \\emptyset  \\)  oraz
@@ -50,5 +50,5 @@ use_math: true
     liczbą pierwszą oraz  \\(  1\\leq a\\lt p  \\)  . Wtedy  \\[ 
     a^{p-1} = 1 \\mod p  \\]  Dowód (szkic): Stosujemy poprzedni
     wniosek do grupy  \\(  \\mathbb{Z}\_p^\*
-    =(\\{1,2,\\ldots,p-1\\},\\cdot\_p)  \\)  .
+    =(\\{1,2,\\ldots,p-1\\},\\cdot\_p)  \\).
 
