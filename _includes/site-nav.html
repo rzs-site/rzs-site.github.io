@@ -1,0 +1,17 @@
+<nav id="main-nav">
+    <ul>
+        {% for item in site.data.main_list.toc %}
+            {% if item.subfolderitems %}
+            <li><span>{{ item.title }}</span>
+                <ul class="dropdown">
+                    {% for entry in item.subfolderitems %}
+                    <li><a href="{{ site.baseurl }}/{{ entry.url }}">{{ entry.page }}</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {% else %}
+            <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>

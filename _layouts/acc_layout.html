@@ -3,20 +3,20 @@
 <html lang="pl">
     <head>
         {% include default_head.html %}
-    </head>
-
     <body>
-        <div class="container">
-            {% include header.html %}
-            {% include navigation.html %}
-            {% include menu.html %}
+        {% include header.html %}
 
-            <div class="content">
-                {{ content }}
-            </div>
+        <div>
+            {% include site-nav.html %}
+            {% include page-nav.html %}
         </div>
 
-        {% include scripts.html %}
+        <div id="content">
+            {{ content }}
+        </div>
+
+        <!--{% include scripts.html %}-->
 		{% include fraktur_scripts.html %}
+        <script src="{{ site.baseurl }}/assets/desktop.js"></script>
     </body>
 </html>
