@@ -22,10 +22,10 @@ Algebra z Geometrią Analityczną
 1.  Def. Zbiór  \\(  H\\subseteq G  \\)  jest podgrupą grupy  \\( 
     (G,\\cdot)  \\)  jeśli  \\(  H\\neq \\emptyset  \\)  oraz
     1.   \\(  (\\forall x,y\\in H)(x\\cdot y \\in H)  \\) 
-    2.   \\(  (\\forall x\\in H)(x\^{-1} \\in H)  \\) 
+    2.   \\(  (\\forall x\\in H)(x^{-1} \\in H)  \\) 
 2.  Tw. Niepusty podzbiór  \\(  H  \\)  grupy  \\(  (G,\\cdot)  \\) 
     jest podgrupą wtedy i tylko wtedy, gdy  \\[  (\\forall x,y\\in
-    H)(x\\cdot y\^{-1} \\in H)  \\] 
+    H)(x\\cdot y^{-1} \\in H)  \\] 
 3.  Tw. Jeśli  \\(  \\mathcal{H}  \\)  jest rodziną podgrup grupy  \\( 
     (G,\\cdot)  \\)  to  \\(  \\bigcap\\mathcal{H}  \\)  jest podgrupą
     grupy  \\(  (G,\\cdot)  \\)  .
@@ -35,22 +35,22 @@ Algebra z Geometrią Analityczną
     \\GG{X} = \\bigcap\\{H: \\text{ jest podgrupą } G \\land X\\subseteq
     H\\}  \\] 
 5.  Jeśli  \\(  \\rank{a}=k  \\)  to  \\(  \\GG{a} =
-    \\{e,a,a\^2,\\ldots,a\^{k-1}\\} \\sim C\_k  \\)  .
+    \\{e,a,a^2,\\ldots,a^{k-1}\\} \\sim C\_k  \\)  .
 6.  Jeśli  \\(  \\rank{a}=\\infty  \\)  to  \\(  \\GG{a} =
-    \\{\\ldots,a\^{-2},a\^{-1},e,a,a\^2,\\ldots\\} \\sim (\\ZZ,+)  \\) 
-    . Izomorfizm:  \\(  \\phi:\\ZZ\\to G: k \\to a\^k  \\) 
+    \\{\\ldots,a^{-2},a^{-1},e,a,a^2,\\ldots\\} \\sim (\\ZZ,+)  \\) 
+    . Izomorfizm:  \\(  \\phi:\\ZZ\\to G: k \\to a^k  \\) 
 7.  Graf Cayley\'a grupy  \\(  C\_5\\times C\_2  \\)  :\
     ![](Algebra/C5C2.png)
 8.  Grupa symetrii  \\(  n  \\)  -kąta równobocznego  \\(  D\_{2n}  \\) 
     : obrót  \\(  \\alpha  \\)  , odbicie  \\(  \\beta  \\)  ; równania:
-     \\(  \\alpha\^n=e  \\)  ,  \\(  \\beta\^2=e  \\)  ,  \\( 
+     \\(  \\alpha^n=e  \\)  ,  \\(  \\beta^2=e  \\)  ,  \\( 
     \\alpha\\beta\\alpha\\beta=e  \\)  ; graf Cayley\'a grupy  \\( 
     D\_{8}  \\)  :\
     ![](Algebra/D8.png)
 9.  **Twierdzenie \[Lagrange\]** Jeśli  \\(  H  \\)  jest podgrupą
     skończonej grupy  \\(  G  \\)  , to  \\[  \\mathrm{card}(H) \\big\|
     \\mathrm{card}(G)\~.  \\]  Dowód (szkic). Określamy relację  \\( 
-    x\\sim y \\IFF xy\^{-1}\\in H  \\)  . Pokazujemy, że jest to relacja
+    x\\sim y \\IFF xy^{-1}\\in H  \\)  . Pokazujemy, że jest to relacja
     równoważności na  \\(  G  \\)  . Pokazujemy, że  \\(  \[a\]\_\\sim =
     H \\cdot a  \\)  (=  \\(  \\{ha:h\\in H\\}  \\)  ). Następnie
     pokazujemy, że  \\(  \|Ha\| = \|H\|  \\)  .\
@@ -61,19 +61,19 @@ Algebra z Geometrią Analityczną
     stosujemy twierdzenie Lagrange\'a.
 11. **Wniosek** (Małe Twierdzenie Fermata) Niech  \\(  p  \\)  będzie
     liczbą pierwszą oraz  \\(  1\\leq a\\lt p  \\)  . Wtedy  \\[ 
-    a\^{p-1} = 1 \\mod p  \\]  Dowód (szkic): Stosujemy poprzedni
-    wniosek do grupy  \\(  \\ZZ\_p\^\*
+    a^{p-1} = 1 \\mod p  \\]  Dowód (szkic): Stosujemy poprzedni
+    wniosek do grupy  \\(  \\ZZ\_p^\*
     =(\\{1,2,\\ldots,p-1\\},\\cdot\_p)  \\)  .
 
 ### 09.03.2017: Funkcja Eulera
 
 1.  Def.  \\(  \\phi(n) = \|\\{k: 1\\leq k\\leq n \\land
     \\nwd{k}{n}=1\\}\|  \\)  .
-2.  Tw. Eulera: Jeśli  \\(  nwd(x,n)=1  \\)  to  \\(  x\^{\\phi(n)} = 1
+2.  Tw. Eulera: Jeśli  \\(  nwd(x,n)=1  \\)  to  \\(  x^{\\phi(n)} = 1
     \\mod n  \\) 
 3.  W1.  \\(  \\phi(n)=1  \\) 
 4.  W2. Jeśli  \\(  p  \\)  jest pierwsza i  \\(  k\\geq 1  \\)  , to
-     \\(  \\phi(p\^k)=p\^k - p\^{k-1}  \\)  .
+     \\(  \\phi(p^k)=p^k - p^{k-1}  \\)  .
 5.  **Chińskie Twierdzenie o Resztach** (klasyczna wersja). Jeśli  \\( 
     \\nwd{n\_1}{n\_2} = 1  \\)  oraz  \\(  0\\leq a\_1 \\lt n\_1  \\)  ,
      \\(  0\\leq a\_2 \\lt n\_2  \\)  to istnieje x takie, że  \\( 
@@ -95,7 +95,7 @@ Algebra z Geometrią Analityczną
 9.  Wniosek.  \\(  \\phi(n) = n \\prod\_{p\|n} (1-\\frac1p)  \\)  .
 10. Definicja. Podgrupa  \\(  H  \\)  grupy  \\(  G  \\)  jest
     **dzielnikiem normalnym** grupy  \\(  G  \\)  jeśli  \\[  (\\forall
-    x \\in G)(\\forall h\\in H)(xhx\^{-1} \\in H)  \\] 
+    x \\in G)(\\forall h\\in H)(xhx^{-1} \\in H)  \\] 
 11. Tw. Jeśli  \\(  H  \\)  jest dzielnikiem normalnym grupy  \\(  G
      \\)  , to dla każdego  \\(  x\\in H  \\)  mamy  \\(  xH=Hx  \\)  .
 
@@ -125,26 +125,26 @@ Algebra z Geometrią Analityczną
 ### 23.03.2017: Protokół Diffiego-Hellmana
 
 1.  **Twierdzenie.** Jeśli  \\(  p  \\)  jest liczbą pierwszą, to  \\( 
-    Z\_p\^\*  \\)  jest grupą cykliczną.\
-    **Szkic dowodu.** Zakładamy, że jest  \\(  a\\in Z\_p\^\*  \\) 
+    Z\_p^\*  \\)  jest grupą cykliczną.\
+    **Szkic dowodu.** Zakładamy, że jest  \\(  a\\in Z\_p^\*  \\) 
     takie, że  \\(  rank(a)= d\|(p-1)  \\)  pokazujemy, że  \\[  (a) =
-    \\{x: x\^d - 1=0\\},  \\]  z tego wnioskujemy, że wszystkie
+    \\{x: x^d - 1=0\\},  \\]  z tego wnioskujemy, że wszystkie
     elementy rzędu  \\(  d  \\)  (jeśli są takie) są w podgupie
      \\(  (a)  \\)  ; następnie pokazujemy, że w podgrupie  \\(  (a)
      \\)  istnieje  \\(  \\phi(d)  \\)  elementów rzędu  \\(  d  \\)  ;
     na koniec korzystamy ze wzoru  \\(  p-1 = \\sum\_{d\|p-1} \\phi(d)
      \\)  .
 2.  **Problem logarytmu dyskretnego.** Dana jest liczba pierwsza  \\(  p
-     \\)  , generator  \\(  g  \\)  grupy  \\(  Z\_p\^\*  \\)  oraz
-     \\(  b \\in Z\_p\^\*  \\)  : znajdź  \\(  x \\in Z\_p\^\*  \\) 
-    takie, że  \\(  g\^x = b  \\)  .
+     \\)  , generator  \\(  g  \\)  grupy  \\(  Z\_p^\*  \\)  oraz
+     \\(  b \\in Z\_p^\*  \\)  : znajdź  \\(  x \\in Z\_p^\*  \\) 
+    takie, że  \\(  g^x = b  \\)  .
 3.  **Protokół Diffiego-Hellmana.** Mamy ustaloną duża liczbę pierwszą
-     \\(  p  \\)  oraz generator  \\(  g  \\)  grupy  \\(  Z\_p\^\*
-     \\)  ; Alicja losuje liczbę  \\(  x\\in Z\_p\^\*  \\)  i wysyła do
-    Boba  \\(  g\^x  \\)  ; Bob losuje liczbę  \\(  y \\in Z\_p\^\*
-     \\)  i wysyła  \\(  g\^y  \\)  do Alicji; Alicja oblicza  \\( 
-    k=(g\^y)\^x = g\^{xy}  \\)  ; Bob oblicza  \\(  k=(g\^x)\^y =
-    g\^{xy}  \\)  ; to jest ich wspólny sekret.
+     \\(  p  \\)  oraz generator  \\(  g  \\)  grupy  \\(  Z\_p^\*
+     \\)  ; Alicja losuje liczbę  \\(  x\\in Z\_p^\*  \\)  i wysyła do
+    Boba  \\(  g^x  \\)  ; Bob losuje liczbę  \\(  y \\in Z\_p^\*
+     \\)  i wysyła  \\(  g^y  \\)  do Alicji; Alicja oblicza  \\( 
+    k=(g^y)^x = g^{xy}  \\)  ; Bob oblicza  \\(  k=(g^x)^y =
+    g^{xy}  \\)  ; to jest ich wspólny sekret.
 4.  UWAGA: Polecam przyjrzenie się notatkom David Perkinsona
     [Differential Calculus of Several
     Variables](http://people.reed.edu/~wieting/essays/DPMath211.pdf)
@@ -171,9 +171,9 @@ Przykład:  \\(  \\RR\[x\]/(x) \\cong \\RR  \\)
 **PRZYKŁAD**
 
  {.tablica}
- \\[  \\RR\[x\]/(x\^2+1) \\cong \\CC  \\] 
+ \\[  \\RR\[x\]/(x^2+1) \\cong \\CC  \\] 
 
-Przykłąd:  \\(  \\ZZ\_2\[x\]/(1+x+x\^2)  \\)  jest cztero elementowym
+Przykłąd:  \\(  \\ZZ\_2\[x\]/(1+x+x^2)  \\)  jest cztero elementowym
 ciałem
 
 Tw. Jeśli  \\(  f:R\_1 \\to R\_2  \\)  jest homomorfizmem pierścieni, to
@@ -187,10 +187,10 @@ Tw. Niech  \\(  I  \\)  będzie ideałem pierścienia  \\(  R  \\)  . Niech
 
 1.  Jeśli  \\(  I\\subseteq J \\subseteq R  \\)  jest ideałem, to  \\( 
     Q\[J\]  \\)  jest ideałem w  \\(  R/I  \\)  oraz  \\( 
-    Q\^{-1}\[Q\[J\]\]=J  \\) 
+    Q^{-1}\[Q\[J\]\]=J  \\) 
 2.  Jeśli  \\(  H\\subseteq R/I  \\)  jest ideałem, to  \\( 
-    Q\^{-1}\[H\]  \\)  jest ideałem w  \\(  R  \\)  oraz  \\( 
-    Q\[Q\^{-1}\[H\]\]=H  \\) 
+    Q^{-1}\[H\]  \\)  jest ideałem w  \\(  R  \\)  oraz  \\( 
+    Q\[Q^{-1}\[H\]\]=H  \\) 
 
 ### 06.04.2017: Ideały
 
@@ -264,18 +264,18 @@ potem te które dzielą się przez  \\(  3  \\)  ).
 10. PRZYKŁAD (Twierdzenie Fermata): Liczba pierwsza  \\(  p\\gt 2  \\) 
     jest postaci  \\(  4k+1  \\)  wtedy i tylko wtedy, gdy istnieją
     takie liczby całkowite  \\(  a  \\)  i  \\(  b  \\)  , że  \\(  p =
-    a\^2+b\^2  \\)  .\
-    Szkic dowodu: (1)→(2).Napierw pokazujemy, że w  \\(  Z\_p\^\*  \\) 
+    a^2+b^2  \\)  .\
+    Szkic dowodu: (1)→(2).Napierw pokazujemy, że w  \\(  Z\_p^\*  \\) 
     jest taki element  \\(  a  \\)  , że  \\(  rank(a)=4  \\)  ;
-    pokazujemy, że  \\(  a\^2=-1  \\)  ; z czego wnioskujemy, że  \\( 
-    p\|(a\^2+1)  \\)  . Przechodzimy teraz do pierścienia liczb Gaussa.
+    pokazujemy, że  \\(  a^2=-1  \\)  ; z czego wnioskujemy, że  \\( 
+    p\|(a^2+1)  \\)  . Przechodzimy teraz do pierścienia liczb Gaussa.
     Pokazujemy, że  \\(  p\|(a+i)(a-i)  \\)  oraz, że  \\( 
     \\neg(p\|(a+i))  \\)  oraz  \\(  \\neg(p\|(a-i))  \\)  . Z tego
     wnioskujemy, że  \\(  p  \\)  nie jest elementem pierwszym w  \\( 
     \\ZZ\[i\]  \\)  . Zatem nie jest elementem nierozkładalnym. Bierzemy
      \\(  u,v \\in \\ZZ\[i\]  \\)  które nie są jednostkami oraz takie,
-    że  \\(  p=u\\cdot v  \\)  . Wtedy  \\(  p\^2 = \|u\|\^2\|v\|\^2
-     \\)  . Pokazujemy, że  \\(  p=\|u\|\^2  \\)  . Co kończy dowód.
+    że  \\(  p=u\\cdot v  \\)  . Wtedy  \\(  p^2 = \|u\|^2\|v\|^2
+     \\)  . Pokazujemy, że  \\(  p=\|u\|^2  \\)  . Co kończy dowód.
 
 ### 27.04.2017: UFD
 
@@ -298,7 +298,7 @@ potem te które dzielą się przez  \\(  3  \\)  ).
 6.  **Twierdzenie**. Jeśli ciało  \\(  K  \\)  ma charakterystykę  \\( 
     0  \\)  , to w ciało  \\(  K  \\)  można zanurzyć liczby wymierne.
 7.  **Twierdzenie**. Jeśli ciało skończone  \\(  K  \\)  ma
-    charakterystykę  \\(  p\\geq 2  \\)  to  \\(  \|K\| = p\^n  \\)  dla
+    charakterystykę  \\(  p\\geq 2  \\)  to  \\(  \|K\| = p^n  \\)  dla
     pewnego  \\(  n  \\) 
 8.  **Twierdzenie** (bez dowodu). Jeśli ciała skończone  \\(  K\_1  \\) 
     i  \\(  K\_2  \\)  mają tyle samo elementów, to są izomorficzne.
@@ -306,18 +306,18 @@ potem te które dzielą się przez  \\(  3  \\)  ).
 ### 04.05.2017: Elementy Teorii Kodowania
 
 1.  Definicja. Kod nad alfabetem  \\(  \\Sigma  \\)  : podzbiór  \\( 
-    \\Sigma\^\*  \\) 
+    \\Sigma^\*  \\) 
 2.  Definicja. Kod blokowy nad  \\(  \\Sigma  \\)  długości  \\(  n
-     \\)  : podzbiór  \\(  \\Sigma\^n  \\) 
-3.  Odległość Hamminga na  \\(  \\Sigma\^n  \\)  :  \\(  d\_H(x,y) =
+     \\)  : podzbiór  \\(  \\Sigma^n  \\) 
+3.  Odległość Hamminga na  \\(  \\Sigma^n  \\)  :  \\(  d\_H(x,y) =
     \|\\{i: x\_i \\neq y\_i\\}\|  \\) 
 4.  Definicja. Rozstęp kodu:  \\(  \\Delta(\\mathcal{C}) =
     \\min\\{d\_H(x,y): x,y\\in \\mathcal{C} \\land x \\neq y\\}  \\) 
 5.  Definicja. Kod  \\(  \\mathcal{C}  \\)  jest  \\(  (n,M,d)\_q  \\) 
-    kodem, jeśli  \\(  \\mathcal{C} \\subseteq \\Sigma\^n  \\)  ,  \\( 
+    kodem, jeśli  \\(  \\mathcal{C} \\subseteq \\Sigma^n  \\)  ,  \\( 
     \|\\Sigma\| = q  \\)  ,  \\(  M=\|\\mathcal{C}\|  \\)  , oraz  \\( 
     \\Delta(\\mathcal{C})= d  \\) 
-6.  Definicja.  \\(  B(x,r) = \\{y\\Sigma\^n: d\_H(x,y)\\leq r\\}  \\) 
+6.  Definicja.  \\(  B(x,r) = \\{y\\Sigma^n: d\_H(x,y)\\leq r\\}  \\) 
 7.  Twierdzenie: Jeśli  \\(  \\Delta(\\mathcal{C}) \\geq d  \\)  , to
     kod  \\(  \\mathcal{C}  \\)  potrafi wykrywać do  \\(  d-1  \\) 
     błędów.
@@ -325,13 +325,13 @@ potem te które dzielą się przez  \\(  3  \\)  ).
     kod  \\(  \\mathcal{C}  \\)  potrafi korygować do  \\( 
     \\left\\lfloor \\frac{d-1}{2}\\right\\lfloor  \\)  błędów.
 9.  Twierdzenie (Singleton Bound). Jeśli istnieje  \\(  (n,M,d)\_q
-     \\)  - kod to  \\(  M\\leq q\^{n-d+1}  \\) 
-10. Lemat:  \\(  \|B(x,r)\| = \\sum\_{k=0}\^{r} \\binom{n}{k} (q-1)\^k
+     \\)  - kod to  \\(  M\\leq q^{n-d+1}  \\) 
+10. Lemat:  \\(  \|B(x,r)\| = \\sum\_{k=0}^{r} \\binom{n}{k} (q-1)^k
      \\) 
 11. Twierdzenie (Hamming Bound; sphere packing bound). Jeśli istnieje
      \\(  (n,M,d)\_q  \\)  - kod oraz  \\(  2k+1\\leq d  \\)  to  \\[ 
-    M \\cdot \\left(\\sum\_{i=0}\^{k}\\binom{n}{i}(q-1)\^i\\right) \\leq
-    q\^n  \\]  Szkic dowodu: Jeśli  \\(  \\mathcal{C}  \\)  jest  \\( 
+    M \\cdot \\left(\\sum\_{i=0}^{k}\\binom{n}{i}(q-1)^i\\right) \\leq
+    q^n  \\]  Szkic dowodu: Jeśli  \\(  \\mathcal{C}  \\)  jest  \\( 
     (n,M,2k+1)  \\)  kodem, to kulki  \\( 
     \\{B(x,k):x\\in\\mathcal{C}\\}  \\)  są parami rozłączne.
 12. Konstrukcja płaszczyzny rzutowej  \\(  PG(2,2)  \\)  nad ciałem
@@ -348,19 +348,19 @@ potem te które dzielą się przez  \\(  3  \\)  ).
         1111111  \\) 
 
     Fakt:  \\(  (7,16,3)\_2  \\)  kod jest kodem doskonałym.
-2.  Ograniczenie  \\[  B\_n(0,\\lambda n) \\leq 2\^{n H(\\lambda)}
+2.  Ograniczenie  \\[  B\_n(0,\\lambda n) \\leq 2^{n H(\\lambda)}
      \\]  dla  \\(  \\lambda \\in (0,\\frac12)  \\)  , gdzie  \\[ 
     H(x) = x \\log\_2(\\frac1x) + (1-x)\\log\_2(\\frac{1}{1-x})  \\] 
     (funkcja entropii binarnej).
 3.  Wzór Stirlinga:  \\(  n! = \\sqrt{2 \\pi n}
-    \\left(\\frac{n}{e}\\right)\^n(1+O(\\frac1n))  \\) 
-4.  Kod ISBN:  \\(  \\mathcal{C} = \\{x\\in (\\ZZ\_{11})\^{10}:
-    \\sum\_{i=1}\^{10} i\\cdot x\_i = 0 (\\mod 11)\\}  \\) 
-5.  Fakt: Funkcja  \\(  f:(\\ZZ\_{11})\^{10} \\to \\ZZ\_{11}  \\) 
-    określona wzorem  \\(  f(x) = \\sum\_{i=1}\^{10}i x\_i  \\)  jest
+    \\left(\\frac{n}{e}\\right)^n(1+O(\\frac1n))  \\) 
+4.  Kod ISBN:  \\(  \\mathcal{C} = \\{x\\in (\\ZZ\_{11})^{10}:
+    \\sum\_{i=1}^{10} i\\cdot x\_i = 0 (\\mod 11)\\}  \\) 
+5.  Fakt: Funkcja  \\(  f:(\\ZZ\_{11})^{10} \\to \\ZZ\_{11}  \\) 
+    określona wzorem  \\(  f(x) = \\sum\_{i=1}^{10}i x\_i  \\)  jest
     odwzorowaniem liniowym oraz  \\(  \\mathcal{C} = ker(f)  \\)  .
 6.  Obserwacja:  \\(  \\mathcal{C}  \\)  jest podprzestrzenią liniową
-    przestrzeni wektorowej  \\(  (\\ZZ\_{11})\^{10}  \\)  wymiaru 9
+    przestrzeni wektorowej  \\(  (\\ZZ\_{11})^{10}  \\)  wymiaru 9
 
 ### 18.05.2017: Kody liniowe
 
@@ -370,7 +370,7 @@ potem te które dzielą się przez  \\(  3  \\)  ).
 3.  Oznaczenie  \\(  \\mathcal{C}  \\)  jest  \\(  \[n,k\]\_q  \\) 
     kodem liniowym jeśli  \\(  \|F\|=q  \\)  oraz  \\(  \\mathcal{C}
      \\)  jest  \\(  k  \\)  wymiarową podprzestrzenią przestrzeni  \\( 
-    F\^n  \\) 
+    F^n  \\) 
 4.  Macierz kodu: macierz której wierszami jest baza kodu
 5.  Kodowanie:  \\(  E(x) = x \\cdot G  \\) 
 6.  Def. waga wektora:  \\(  w(x) = \|\\{i: x\_i\\neq 0\\}\|  \\) 
@@ -386,20 +386,20 @@ potem te które dzielą się przez  \\(  3  \\)  ).
 11. Metoda odczytywania zakodowanej informacji za pomocą macierzy
     standardowej kodu.
 12. Kod dualny do kodu  \\(  \\mathcal{C}  \\)  :  \\[ 
-    \\mathcal{C}\^{\\perp} = \\{x \\in F\^n: (\\forall
+    \\mathcal{C}^{\\perp} = \\{x \\in F^n: (\\forall
     y\\in\\mathcal{C})(\\IS{x}{y} = 0)\\}  \\] 
-13. Twierdzenie.  \\(  \\mathcal{C}\^{\\perp} = ker(F)  \\)  , gdzie
-     \\(  F(x) = G\\cdot x\^T  \\)  .
+13. Twierdzenie.  \\(  \\mathcal{C}^{\\perp} = ker(F)  \\)  , gdzie
+     \\(  F(x) = G\\cdot x^T  \\)  .
 
 ### 01.06.2017: Kody liniowe - II
 
 1.  Tw. Jeśli  \\(  \\mathcal{C}  \\)  jest  \\(  \[n,k\]  \\)  kodem,
-    to  \\(  \\mathcal{C}\^{\\perp}  \\)  jest  \\(  \[n,n-k\]  \\) 
+    to  \\(  \\mathcal{C}^{\\perp}  \\)  jest  \\(  \[n,n-k\]  \\) 
     kodem liniowym.\
-    Dowód (szkic): Przyglądamy się odwzorowaniu  \\(  h:K\^n \\to K\^k
-     \\)  określonym wzorem  \\(  h(x) = G\\cdot x\^T  \\)  . Zaczymany
+    Dowód (szkic): Przyglądamy się odwzorowaniu  \\(  h:K^n \\to K^k
+     \\)  określonym wzorem  \\(  h(x) = G\\cdot x^T  \\)  . Zaczymany
     od zauważenie, że  \\(  h  \\)  jest odwzorowaniem liniowym oraz, że
-     \\(  ker(h) = \\mathcal{C}\^{\\perp}  \\)  .
+     \\(  ker(h) = \\mathcal{C}^{\\perp}  \\)  .
 2.  Tw. Jeśli wymiary macierzy  \\(  A,B,C,D  \\)  się zgadzaję, to
      \\[  \\begin{bmatrix}A&B\\end{bmatrix} \\cdot
     \\begin{bmatrix}C\\D\\end{bmatrix} = A\\cdot C + B\\cdot D\~.
@@ -409,8 +409,8 @@ potem te które dzielą się przez  \\(  3  \\)  ).
     \\begin{bmatrix}-A\\I\_{n-k}\\end{bmatrix} = 0\~.  \\] 
 4.  Wniosek. Jeśli  \\(  G = \[I\_k\|A\]  \\)  jest macierzą generującą
      \\(  \[n,k\]  \\)  kodu  \\(  \\mathcal{C}  \\)  to macierz
-    generująca kodu  \\(  \\mathcal{C}\^{\\perp}  \\)  ma postać  \\[ 
-    H = \[-A\^T \| I\_{n-k}\]  \\]  Nazywamy ją macierzą kontroli
+    generująca kodu  \\(  \\mathcal{C}^{\\perp}  \\)  ma postać  \\[ 
+    H = \[-A^T \| I\_{n-k}\]  \\]  Nazywamy ją macierzą kontroli
     parzystości kodu  \\(  \\mathcal{C}  \\)  .
 5.  Przykład: Jeśli  \\(  G =
     \\begin{bmatrix}1&0&1\\0&1&1\\end{bmatrix}  \\)  , to  \\(  H =
@@ -425,26 +425,26 @@ potem te które dzielą się przez  \\(  3  \\)  ).
 ### 08.06.2017: Przykłady kodów liniowych
 
 1.  Kody Hamminga  \\(  H\_n  \\)  : macierz kontroli parzystości
-    tworzymy z niezerowych wektorów  \\(  \\{0,1\\}\^n  \\)  .
-    1.  Kody Hamminga są  \\(  \[2\^n, 2\^n-n+1,3\]  \\)  kodami
+    tworzymy z niezerowych wektorów  \\(  \\{0,1\\}^n  \\)  .
+    1.  Kody Hamminga są  \\(  \[2^n, 2^n-n+1,3\]  \\)  kodami
     2.  Kody Hamminga są doskonałe.
 2.  Kody Haddamara  \\(  Had\_n  \\)  : macierz generująca tworzymy ze
-    wszystich wektorów  \\(  \\{0,1\\}\^n  \\)  .
+    wszystich wektorów  \\(  \\{0,1\\}^n  \\)  .
     1.  Tw. Jeśli  \\(  x\\neq 0  \\)  oraz  \\(  f\_x(y) = \\sum\_i
         x\_i y\_i  \\)  (liczymy w  \\(  \\ZZ\_2  \\)  ) to  \\( 
-        \|ker(f\_x)\| = 2\^{n-1}  \\) 
-    2.  Kody Hamminga są  \\(  \[2\^n, n,2\^{n-1}\]  \\)  kodami
+        \|ker(f\_x)\| = 2^{n-1}  \\) 
+    2.  Kody Hamminga są  \\(  \[2^n, n,2^{n-1}\]  \\)  kodami
 3.  Kody Reeda - Solomona
     1.  Ustalamy ciało skończone  \\(  K  \\)  , liczbę  \\(  k  \\) 
         oraz parami różne  \\(  a\_1, \\ldots, a\_n \\in K  \\)  . Dla
-         \\(  x \\in K\^k  \\)  definiujemy wielomian  \\(  f\_x(y) =
-        \\sum\_{i=0}\^{k-1} x\_i y\^k  \\)  (uwaga  \\(  f\_x \\in
+         \\(  x \\in K^k  \\)  definiujemy wielomian  \\(  f\_x(y) =
+        \\sum\_{i=0}^{k-1} x\_i y^k  \\)  (uwaga  \\(  f\_x \\in
         K\[y\]  \\)  ) oraz definujemy funkcję kodującą  \\[ 
         C(x)=(f\_x(a\_1), f\_x(a\_2), \\ldots, f\_x(a\_n))\~.  \\] 
     2.  To jest kod linowy. Macierz generująca  \\( 
-        ((a\_i)\^j)\_{i=1\\ldots,n;j=0,\\ldots,k-1}  \\) 
+        ((a\_i)^j)\_{i=1\\ldots,n;j=0,\\ldots,k-1}  \\) 
     3.  Tw (o wyznaczniku Vandermonda):  \\[ 
-        \\det(((a\_i)\^j)\_{i=1,\\ldots,n;j=0,\\ldots,n-1} =
+        \\det(((a\_i)^j)\_{i=1,\\ldots,n;j=0,\\ldots,n-1} =
         \\prod\_{i\\gt j}(a\_i-a\_j)  \\] 
     4.  RS kody są  \\(  \[n,k,n-k+1\]  \\)  kodami
 
