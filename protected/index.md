@@ -3,26 +3,27 @@ layout: default
 pass_style: true
 ---
 
+{::options parse_block_html="true" /}
 <div class="staticrypt-page" id="str">
-    <div class="staticrypt-form">
-        <div class="staticrypt-instructions">
-            <p class="staticrypt-title">RZS Premium</br>Podaj kod dostępu</p>
-            <p></p>
-        </div>
+	<div class="staticrypt-form">
+		<div class="staticrypt-instructions">
+			<p class="staticrypt-title">RZS Premium</br>Podaj kod dostępu</p>
+			<p></p>
+		</div>
 
-        <hr class="staticrypt-hr">
+		<hr class="staticrypt-hr">
 
-        <form id="staticrypt-form" action="#" method="post">
-            <input id="staticrypt-password"
-                   type="password"
-                   name="password"
-                   placeholder="wymagany poziom dostępu: ADMIN"
-                   autofocus/>
-            <input type="submit" style="background-color: #6B009C;" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
-        </form>
-    </div>
+		<form id="staticrypt-form" action="#" method="post">
+			<input id="staticrypt-password"
+				   type="password"
+				   name="password"
+				   placeholder="wymagany poziom dostępu: ADMIN"
+				   autofocus/>
+			<input type="submit" style="background-color: #6B009C;" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
+		</form>
+	</div>
 </div>
-
+{::options parse_block_html="false" /}
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
