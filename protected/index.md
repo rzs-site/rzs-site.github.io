@@ -33,7 +33,7 @@ pass_style: true
     
     window.onload = function(){
         var client = new XMLHttpRequest();
-        client.open('GET', '/protected/encrypted.txt');
+        client.open('GET', 'encrypted.txt');
         client.onreadystatechange = function() {
             crypt = client.responseText;
         }
