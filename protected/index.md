@@ -6,7 +6,7 @@ pass_style: true
 <div class="staticrypt-page" id="str">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
-            <p class="staticrypt-title">Podaj kod dostępu</p>
+            <p class="staticrypt-title">RZS Premium</br>Podaj kod dostępu</p>
             <p></p>
         </div>
 
@@ -16,9 +16,9 @@ pass_style: true
             <input id="staticrypt-password"
                    type="password"
                    name="password"
-                   placeholder="hasło"
+                   placeholder="wymagany poziom dostępu: ADMIN"
                    autofocus/>
-            <input type="submit" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
+            <input type="submit" style="background-color: #6B009C;" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
         </form>
     </div>
 </div>
