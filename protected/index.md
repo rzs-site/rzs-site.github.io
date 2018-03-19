@@ -3,10 +3,11 @@ layout: default
 pass_style: true
 ---
 
-<div markdown="0" class="staticrypt-page" id="str">
+<div class="staticrypt-page" id="str">
 	<div class="staticrypt-form">
 		<div class="staticrypt-instructions">
-			<p class="staticrypt-title">RZS Premium</br>Podaj kod dostępu</p>
+			<p class="staticrypt-title">RZS Premium</p>
+			<p class="staticrypt-title">Podaj kod dostępu</p>
 			<p></p>
 		</div>
 
