@@ -7,7 +7,7 @@ pass_style: true
 	<div class="staticrypt-form">
 		<div class="staticrypt-instructions">
 			<p class="staticrypt-title">Technologie Sieciowe</p>
-			<p>Dostępne wyłącznie dla autorów notatek RZS</p>
+			<p>Dostępne wyłącznie dla autorów notatek do projektu RZS</p>
 			<p></p>
 		</div>
 
@@ -19,7 +19,7 @@ pass_style: true
 				   name="password"
 				   placeholder="wymagane uprawnienia: SUPPORT"
 				   autofocus/>
-			<input type="submit" style="background-color: #6B009C;" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
+			<input type="submit" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
 		</form>
 	</div>
 </div>
@@ -33,7 +33,7 @@ pass_style: true
     
     window.onload = function(){
         var client = new XMLHttpRequest();
-        client.open('GET', '/protected/encrypted.txt');
+        client.open('GET', 'encrypted.txt');
         client.onreadystatechange = function() {
             crypt = client.responseText;
         }
