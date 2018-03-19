@@ -7,7 +7,7 @@ pass_style: true
 	<div class="staticrypt-form">
 		<div class="staticrypt-instructions">
 			<p class="staticrypt-title">Technologie Sieciowe</p>
-			<p>Dostępne wyłącznie dla autorów notatek do projektu RZS</p>
+			<p>Dostępne wyłącznie dla autorów notatek RZS. Nie otrzymałeś kodu? Skontaktuj się z nami.</p>
 			<p></p>
 		</div>
 
