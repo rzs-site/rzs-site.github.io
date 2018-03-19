@@ -6,8 +6,8 @@ pass_style: true
 <div class="staticrypt-page" id="str">
 	<div class="staticrypt-form">
 		<div class="staticrypt-instructions">
-			<p class="staticrypt-title">RZS Premium</p>
-			<p>Podaj kod dostępu sRZS</p>
+			<p class="staticrypt-title">Technologie Sieciowe</p>
+			<p>Dostępne wyłącznie dla autorów notatek RZS</p>
 			<p></p>
 		</div>
 
@@ -17,7 +17,7 @@ pass_style: true
 			<input id="staticrypt-password"
 				   type="password"
 				   name="password"
-				   placeholder="wymagane uprawnienia: ADMIN"
+				   placeholder="wymagane uprawnienia: SUPPORT"
 				   autofocus/>
 			<input type="submit" style="background-color: #6B009C;" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
 		</form>
