@@ -3,8 +3,7 @@ layout: default
 pass_style: true
 ---
 
-{::options parse_block_html="true" /}
-<div class="staticrypt-page" id="str">
+<div markdown="0" class="staticrypt-page" id="str">
 	<div class="staticrypt-form">
 		<div class="staticrypt-instructions">
 			<p class="staticrypt-title">RZS Premium</br>Podaj kod dostępu</p>
@@ -23,7 +22,7 @@ pass_style: true
 		</form>
 	</div>
 </div>
-{::options parse_block_html="false" /}
+
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
