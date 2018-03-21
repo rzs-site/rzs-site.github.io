@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: acc_layout
 toc: sieciowe
 ---
 

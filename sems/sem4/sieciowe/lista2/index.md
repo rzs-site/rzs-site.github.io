@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: acc_layout
+toc: sieciowe
 pass_style: true
 ---
 
