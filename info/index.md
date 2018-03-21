@@ -18,7 +18,7 @@ W szczególności potrzebujemy:
 * modelowych rozwiązań list laboratoryjnych,
 * notatek z wykładu w formie plików LaTeX.
 
-Materiały prosimy przesyłać na adres podany w sekcji [kontakt](#kontakt).
+Materiały prosimy przesyłać na adres podany w sekcji [kontakt](https://rzs.edu.pl/kontakt/#kontakt).
 Preferowany format to LaTeX lub pdf z opcją "copy text".
 
 Sugestie dotyczące strony internetowej także są mile widziane.
