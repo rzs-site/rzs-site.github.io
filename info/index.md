@@ -18,7 +18,7 @@ W szczególności potrzebujemy:
 * modelowych rozwiązań list laboratoryjnych,
 * notatek z wykładu w formie plików LaTeX.
 
-Materiały prosimy przesyłać na adres podany w sekcji [kontakt](#kontakt).
+Materiały prosimy przesyłać na adres podany w sekcji [kontakt](https://rzs.edu.pl/kontakt/#kontakt).
 Preferowany format to LaTeX lub pdf z opcją "copy text".
 
 Sugestie dotyczące strony internetowej także są mile widziane.
@@ -42,11 +42,3 @@ Projekt Razem Zdajmy Studia (oryginalnie Razem Zdajmy Algebrę) został założo
 Jeśli nie zaznaczono inaczej, wszystkie teksty, rysunki, schematy oraz inne informacje opublikowane na niniejszej stronie są udostępniane zgodnie z warunkami licencji [Creative Commons BY-ND](https://www.creativecommons.org/licenses/by-sa/4.0) (uznanie autorstwa, bez utworów zależnych).
 
 ---
-
-## Kontakt:
-
-<script type="text/javascript"><!--
-var user = "admin";
-var domain = "rzs.edu.pl";
-document.write(user + "(at)" + domain);
-// --></script>

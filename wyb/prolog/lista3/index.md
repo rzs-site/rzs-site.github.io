@@ -30,14 +30,14 @@ Należy korzystać z niego w następujący sposób:
 
 ## Zadania
 
-### Zadanie 1*.
+### Zadanie 1.
 
 Należy zaimplementować standardowy wzór na wariancję, dla zapominalski ściągawka:
 \\(\frac{1}{n} \sum_{i=0}^{n}(r - x_i)^2 \\) gdzie \\(x_i \\) to element zbioru, \\(r \\) średnia, \\(n \\) ilość elementów
 
 ---
 
-### Zadanie 2*.
+### Zadanie 2.
 
 Problem opisany w tym zadaniu nazwany jest "Maximum subarray problem".
 Warto przejrzeć [wikipedię](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm_(Algorithm_3:_Dynamic_Programming)) gdzie ten problem rozwiązany jest w formie iteracyjnej w pseudokodzie.
@@ -49,7 +49,7 @@ Można jednak bardzo prosto przekształcić ten pseudokod do rekurencji ogonowej
 
 Proponowanym rozwiązaniem jest generowanie samodzielnie wszystkich permutacji i zliczanie ilości zamian dowolnego elementu \\(a_i \\) z \\(a_j \\). Jeżeli liczba zamian jest parzysta to nasza permutacja też jest parzystana. Bardzo prosto można ten kod przekształcić dla permutacji nieparzystych.
 
-Alternatywą (niesprawdzoną jako rozwiązanie) jest wyznacznie znaku dla wygenerowanej permutacji.
+
 
 ---
 
