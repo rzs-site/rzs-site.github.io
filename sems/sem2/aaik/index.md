@@ -8,7 +8,9 @@ Algebra z Geometrią Analityczną
 ---
 
 ### Wymagana wiedza
-* materiał Algebry Abstrakcyjnej i Kodowania
+
+* [AzGA - strona prof. dr-a hab. Jacka Cichonia](http://cs.pwr.edu.pl/cichon/2017_18_a/Algebra01.php)
 
 ### O projekcie
+
 Wszystkie notatki pochodzą ze strony prof. dr-a hab. Jacka Cichonia.
