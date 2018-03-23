@@ -1,9 +1,20 @@
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
-        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[","\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
-        TeX: {
-            noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
-        messageStyle: "none"
+MathJax.Hub.Config({
+    extensions: ["tex2jax.js","toMathML.js"],
+    TeX: { extensions: ["color.js","AMSsymbols.js","AMSmath.js"] },
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax: {
+       inlineMath: [ ["\\(","\\)"] ],
+       displayMath: [ ["\\[","\\]"] ],
+       ignoreClass: "tex2jax_ignore|myignore"
+    },
+    "HTML-CSS" : {
+        availableFonts : ["Gyre-Pagella"],
+        preferredFont : "Gyre-Pagella",
+        webFont : "Gyre-Pagella",
+        imageFont : null
+    },
+    displayAlign: "center"
     });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML-full"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"> </script>
