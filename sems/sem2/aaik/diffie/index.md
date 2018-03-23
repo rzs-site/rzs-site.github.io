@@ -17,7 +17,7 @@ use_math: true
     na koniec korzystamy ze wzoru \\( p-1 = \\sum\_{d\|p-1} \\phi(d)
     \\).
 2.  **Problem logarytmu dyskretnego.** Dana jest liczba pierwsza \\( p
-    \\), generator \\( g \\) grupy \\( Z\_p^\* \\) oraz
+    \\) , generator \\( g \\) grupy \\( Z\_p^\* \\) oraz
     \\( b \\in Z\_p^\* \\) : znajdź \\( x \\in Z\_p^\* \\) 
     takie, że \\( g^x = b \\).
 3.  **Protokół Diffiego-Hellmana.** Mamy ustaloną duża liczbę pierwszą

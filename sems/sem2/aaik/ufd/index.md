@@ -23,7 +23,7 @@ use_math: true
     p\\geq 2 \\) to \\( Z\_p \\) można zanurzyć izomorficznie w
     ciało \\( K \\).
 6.  **Twierdzenie**. Jeśli ciało \\( K \\) ma charakterystykę \\( 
-    0 \\), to w ciało \\( K \\) można zanurzyć liczby wymierne.
+    0 \\) , to w ciało \\( K \\) można zanurzyć liczby wymierne.
 7.  **Twierdzenie**. Jeśli ciało skończone \\( K \\) ma
     charakterystykę \\( p\\geq 2 \\) to \\( \|K\| = p^n \\) dla
     pewnego \\( n \\) 

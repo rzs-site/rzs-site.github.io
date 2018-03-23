@@ -46,7 +46,7 @@ use_math: true
 
 1.  Def.Jednostki pierścienia R: U(R) = zbiór elementów odwracalnych
     pierścienia R.\
-    Przykłady: \\( U(\\mathbb{Z}) = \\{-1,1\\} \\), \\( U(\\mathbb{Z}\[i\]) =
+    Przykłady: \\( U(\\mathbb{Z}) = \\{-1,1\\} \\) , \\( U(\\mathbb{Z}\[i\]) =
     \\{1,-1,i,-i\\} \\) 
 2.  Podzielność w dowolnym pierścieniu: \\( a\|b \\leftrightarrow (\\exists
     q)(a\\cdot q = b) \\) 
@@ -67,7 +67,7 @@ use_math: true
     ideałem } \\land 1\\notin I \\} \\] uporządkowanej przez
     inkluzję.
 8.  Tw. Jeśli \\( R \\) jest pierścieniem z jednością ( \\( 1\\neq
-    0 \\) ) oraz \\( I \\) jesi ideałem w \\( R \\), to \\( 
+    0 \\) ) oraz \\( I \\) jesi ideałem w \\( R \\) , to \\( 
     R/I \\) jest ciałem wtedy i tylko wtedy, gdy \\( I \\) jest
     ideałem maksymalnym.
 9.  Def. Element \\( p \\) jest pierwszy, jeśli \\( (\\forall
@@ -81,6 +81,6 @@ Wskazówka do zadania o funkcji \\( \\phi(n) \\) : zauważmy najpierw,
 że jeśli \\( n\\gt 2 \\) to \\( 2\|\\phi(n) \\) ; załóż
 następnie \\( \\phi(n)\|n \\) i rozważ najmniejszą liczbę pierwszą
 większą od 3, która dzieli \\( n \\) (wygodnie jest rozważyć napierw
-liczby \\( n \\), które nie są podzielne przez \\( 3 \\), a
+liczby \\( n \\) , które nie są podzielne przez \\( 3 \\) , a
 potem te które dzielą się przez \\( 3 \\) ).
 

@@ -30,7 +30,7 @@ use_math: true
 12. Kod dualny do kodu \\( \\mathcal{C} \\) : \\[ 
     \\mathcal{C}^{\\perp} = \\{x \\in F^n: (\\forall
     y\\in\\mathcal{C})(\\langle\,x,y\\rangle = 0)\\} \\] 
-13. Twierdzenie.  \\( \\mathcal{C}^{\\perp} = ker(F) \\), gdzie
+13. Twierdzenie.  \\( \\mathcal{C}^{\\perp} = ker(F) \\) , gdzie
     \\( F(x) = G\\cdot x^T \\).
 
 ### Kody liniowe - II
@@ -46,7 +46,7 @@ use_math: true
     \\[ \\begin{bmatrix}A&B\\end{bmatrix} \\cdot
     \\begin{bmatrix}C \\\\ D\\end{bmatrix} = A\\cdot C + B\\cdot D\~.
     \\] 
-3.  Wniosek: Jeśli \\( A \\in M\_{k,n-k}(K) \\), to \\[ 
+3.  Wniosek: Jeśli \\( A \\in M\_{k,n-k}(K) \\) , to \\[ 
     \\begin{bmatrix}I\_k&A \\end{bmatrix} \\cdot
     \\begin{bmatrix}-A \\\\ I\_{n-k} \\end{bmatrix} = 0\~.  \\] 
 4.  Wniosek. Jeśli \\( G = \[I\_k\|A\] \\) jest macierzą generującą
@@ -55,7 +55,7 @@ use_math: true
     H = \[-A^T \| I\_{n-k}\] \\] Nazywamy ją macierzą kontroli
     parzystości kodu \\( \\mathcal{C} \\).
 5.  Przykład: Jeśli \\( G =
-    \\begin{bmatrix}1&0&1 \\\\ 0&1&1 \\end{bmatrix} \\), to \\( H =
+    \\begin{bmatrix}1&0&1 \\\\ 0&1&1 \\end{bmatrix} \\) , to \\( H =
     \\begin{bmatrix}1&1&1\\end{bmatrix} \\) 
 6.  Tabela syndromów macierzy standardowej kodu i wykorzystanie jej do
     odkodowywania sygnału.
@@ -77,7 +77,7 @@ use_math: true
        \|ker(f\_x)\| = 2^{n-1} \\) 
     2.  Kody Hamminga są \\( \[2^n, n,2^{n-1}\] \\) kodami
 3.  Kody Reeda - Solomona
-    1.  Ustalamy ciało skończone \\( K \\), liczbę \\( k \\) 
+    1.  Ustalamy ciało skończone \\( K \\) , liczbę \\( k \\) 
        oraz parami różne \\( a\_1, \\ldots, a\_n \\in K \\). Dla
         \\( x \\in K^k \\) definiujemy wielomian \\( f\_x(y) =
        \\sum\_{i=0}^{k-1} x\_i y^k \\) (uwaga \\( f\_x \\in

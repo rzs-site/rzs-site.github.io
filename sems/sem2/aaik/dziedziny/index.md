@@ -22,7 +22,7 @@ use_math: true
     ideałami, to istnieje \\( n \\) takie, że \\( (\\forall k\\geq
     n)(I\_k = I\_n) \\).
 6.  **Definicja** Element \\( p \\) jest **nierozkładalny** jeśli
-    dla dowolnych \\( a \\), \\( b \\) takich, że \\( 
+    dla dowolnych \\( a \\) , \\( b \\) takich, że \\( 
     p=a\\cdot b \\) mamy \\( a\\in U(R) \\) lub \\( b \\in U(R)
     \\).
 7.  **Twierdzenie.** Elementy pierwsze są nierozkładalne
@@ -32,10 +32,10 @@ use_math: true
     2\|(1+i\\sqrt{3})(1-i\\sqrt{3}) \\).
 10. PRZYKŁAD (Twierdzenie Fermata): Liczba pierwsza \\( p\\gt 2 \\) 
     jest postaci \\( 4k+1 \\) wtedy i tylko wtedy, gdy istnieją
-    takie liczby całkowite \\( a \\) i \\( b \\), że \\( p =
+    takie liczby całkowite \\( a \\) i \\( b \\) , że \\( p =
     a^2+b^2 \\).\
     Szkic dowodu: (1)→(2).Napierw pokazujemy, że w \\( Z\_p^\* \\) 
-    jest taki element \\( a \\), że \\( rank(a)=4 \\) ;
+    jest taki element \\( a \\) , że \\( rank(a)=4 \\) ;
     pokazujemy, że \\( a^2=-1 \\) ; z czego wnioskujemy, że \\( 
     p\|(a^2+1) \\). Przechodzimy teraz do pierścienia liczb Gaussa.
     Pokazujemy, że \\( p\|(a+i)(a-i) \\) oraz, że \\( 

@@ -15,7 +15,7 @@ use_math: true
 
     Fakt: \\( (7,16,3)\_2 \\) kod jest kodem doskonałym.
 2.  Ograniczenie \\[ B\_n(0,\\lambda n) \\leq 2^{n H(\\lambda)}
-    \\] dla \\( \\lambda \\in (0,\\frac12) \\), gdzie \\[ 
+    \\] dla \\( \\lambda \\in (0,\\frac12) \\) , gdzie \\[ 
     H(x) = x \\log\_2(\\frac1x) + (1-x)\\log\_2(\\frac{1}{1-x}) \\] 
     (funkcja entropii binarnej).
 3.  Wzór Stirlinga: \\( n! = \\sqrt{2 \\pi n}

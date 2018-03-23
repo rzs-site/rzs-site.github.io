@@ -11,7 +11,7 @@ use_math: true
 2.  Tw. Eulera: Jeśli \\( nwd(x,n)=1 \\) to \\( x^{\\phi(n)} = 1
     \\mod n \\) 
 3.  W1.  \\( \\phi(n)=1 \\) 
-4.  W2. Jeśli \\( p \\) jest pierwsza i \\( k\\geq 1 \\), to
+4.  W2. Jeśli \\( p \\) jest pierwsza i \\( k\\geq 1 \\) , to
     \\( \\phi(p^k)=p^k - p^{k-1} \\).
 5.  **Chińskie Twierdzenie o Resztach** (klasyczna wersja). Jeśli \\( 
     \\mathrm{nwd}(n\_1,n\_2) = 1 \\) oraz \\( 0\\leq a\_1 \\lt n\_1 \\) ,
@@ -29,12 +29,12 @@ use_math: true
     w \\( Z\_n \\times Z\_m \\) wtedy i tylko wtedy, gdy \\( a
     \\) jest odwracalne w \\( Z\_n \\) i \\( b \\) jest
     odwracalny w \\( Z\_m \\).
-8.  Wniosek. Jeśli \\( \\mathrm{nwd}(n,m) = 1 \\), to \\( 
+8.  Wniosek. Jeśli \\( \\mathrm{nwd}(n,m) = 1 \\) , to \\( 
     \\phi(nm)=\\phi(n)\\phi(m) \\).
 9.  Wniosek.  \\( \\phi(n) = n \\prod\_{p\|n} (1-\\frac1p) \\).
 10. Definicja. Podgrupa \\( H \\) grupy \\( G \\) jest
     **dzielnikiem normalnym** grupy \\( G \\) jeśli \\[ (\\forall
     x \\in G)(\\forall h\\in H)(xhx^{-1} \\in H) \\] 
 11. Tw. Jeśli \\( H \\) jest dzielnikiem normalnym grupy \\( G
-    \\), to dla każdego \\( x\\in H \\) mamy \\( xH=Hx \\).
+    \\) , to dla każdego \\( x\\in H \\) mamy \\( xH=Hx \\).
 
