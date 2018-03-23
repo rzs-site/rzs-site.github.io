@@ -60,9 +60,7 @@ Opis pojawi się wkrótce...
 ## TODO (Damian):
 * grafy z MD (podkradnę parę z Wprowadzenia do grafów!)
 * rozbudować wyprowadzenie funkcji tworzącej F_n
-* Zapisy sprawdzic
-* Odabortować LISF i AM1
-* KP
+* Zapisy
 
 
 ## License

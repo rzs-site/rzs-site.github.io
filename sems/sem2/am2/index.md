@@ -1,7 +1,7 @@
 ---
 layout: acc_layout
 toc: am2
-use_math: true
+use_math: true 
 ---
 
 Analiza Matematyczna 2
@@ -9,7 +9,7 @@ Analiza Matematyczna 2
 
 ### Wymagania wstępne
 
-Po prostu cały materiał [AM1](https://rzs.edu.pl/sems/sem1/am1/).
+Po prostu cały materiał AM1.
 
 ### Przydatne linki
 * [suma szeregu](http://www.wolframalpha.com/widget/widgetPopup.jsp?p=v&id=26c236095f0e9fc4a4e0af7edf6fa9f0)
