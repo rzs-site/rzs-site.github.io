@@ -51,6 +51,7 @@ pass_style: true
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();     
 		
         if (decryptedHMAC !== encryptedHMAC) {
+			window.location = "https://www.youtube.com/watch?v=_MHusGl9BeM";
             alert('O przepraszam, to nie to hasło!');
             return;
         }
