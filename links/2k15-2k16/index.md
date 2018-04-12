@@ -10,11 +10,14 @@ toc: main_page
 * [Lista 1](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex1.pdf)
 * [Lista 2](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex2.pdf)
 * [Lista 3](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex3.pdf)
+* [Lista 4](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex4.pdf)
+* [Lista 5](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/ex5.pdf)
 
 #### Laboratorium
 * [Lista 1](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab1.pdf) \[Termin: 2 zajęcia\]
 * [Lista 2](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab2.pdf) \[Termin: 25.03.18, 14:32\]
 * [Lista 3](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab3.pdf) \[Termin: 15.04.18, 10:34\]
+* [Lista 4](https://cs.pwr.edu.pl/golebiewski/teaching/1718/aisd/lab3.pdf) \[Termin: 12.05.18, 10:34\]
 
 ***
 
@@ -29,9 +32,11 @@ toc: main_page
 #### Ćwiczenia
 * [Lista 1](https://drive.google.com/file/d/16vLOGLkXtqCTyW311LnYq0RJzmFavtmh/view)
 * [Lista 2](https://drive.google.com/file/d/1iA3HVKiP19emB-gkeC0m_NzkPYngBj7s/view)
+* [Lista 3](https://drive.google.com/drive/folders/1Wc0-m9d2Ik_zCqztRVa7HHcwklkSTev4)
 
 #### Laboratorium
 * [Lista 1](https://docs.google.com/document/d/1vT03ouBOyD5CyrSE5IRz8WoAaMzSfLAiYhgecUNSlMc/view) \[Termin: 06.04.18\]
+* [Lista 1](https://docs.google.com/document/d/1FhCHRPmYKFrtJfGTJ8LoXrCIUMbN9xODWI6J4JQya6A/edit) \[Termin: 07.05.18\]
 
 ***
 
@@ -40,6 +45,7 @@ toc: main_page
 
 ### Laboratorium
 * Projekt 1 \[Termin: 16.03.18 - szkic, 30.03.18 - całość\]
+* Projekt 2 \[Termin: 27.04.18 - szkic, 11.05.18 - całość\]
 
 ***
 
@@ -51,6 +57,7 @@ toc: main_page
 #### Ćwiczenia
 * [Lista 1](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/lista_1.pdf)
 * [Lista 2](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/AZ-lista_2.pdf)
+* [Lista 3](http://cs.pwr.edu.pl/ralowski/dydaktyka/funkcje_zespolone/wiosna_2018/AZ-lista_3.pdf)
 
 ***
 
@@ -61,6 +68,9 @@ toc: main_page
 
 #### Ćwiczenia
 * [Lista 1](http://cs.pwr.edu.pl/kuchta/grafy1_2018.pdf)
+* [Lista 2](http://cs.pwr.edu.pl/kuchta/grafy2_2018.pdf)
+* [Lista 3](http://cs.pwr.edu.pl/kuchta/grafy3_2018.pdf)
+* [Lista 4](http://cs.pwr.edu.pl/kuchta/grafy4_2018.pdf)
 
 ***
 
