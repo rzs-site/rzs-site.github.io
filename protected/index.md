@@ -55,7 +55,7 @@ pass_style: true
             alert('O przepraszam, to nie to hasło!');
             return;
         }
-
+	document.getElementsByClassName('header')[0].style.background = "linear-gradient(#39009c,#6B009C)";
         var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
 
         document.getElementById('str').innerHTML = plainHTML;
