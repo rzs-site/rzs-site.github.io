@@ -39,9 +39,6 @@ Opis pojawi się wkrótce...
 
 ## TODO:
 
-* Opis powyżej
-* (w bliżej nieokreślonej przyszłości) generator planu
-
 ## TODO (aktualne przedmioty):
 * Algorytmy i Sturtukry Danych (skrypt!!!)
 * Wprowadzenie Do Teorii Grafów (skrypt!)
@@ -63,7 +60,7 @@ Opis pojawi się wkrótce...
 ## TODO (Damian):
 * grafy z MD (podkradnę parę z Wprowadzenia do grafów!)
 * rozbudować wyprowadzenie funkcji tworzącej F_n
-
+* Zapisy
 
 
 ## License

@@ -1,13 +1,14 @@
 ---
-layout: default
+layout: acc_layout
+toc: sieciowe
 pass_style: true
 ---
 
 <div class="staticrypt-page" id="str">
 	<div class="staticrypt-form">
 		<div class="staticrypt-instructions">
-			<p class="staticrypt-title">RZS Premium</p>
-			<p>Podaj kod dostępu sRZS</p>
+			<p class="staticrypt-title">Technologie Sieciowe</p>
+			<p>Dostępne wyłącznie dla autorów notatek RZS. Nie otrzymałeś kodu? Skontaktuj się z nami.</p>
 			<p></p>
 		</div>
 
@@ -17,9 +18,9 @@ pass_style: true
 			<input id="staticrypt-password"
 				   type="password"
 				   name="password"
-				   placeholder="wymagane uprawnienia: ADMIN"
+				   placeholder="wymagane uprawnienia: SUPPORT"
 				   autofocus/>
-			<input type="submit" style="background-color: #6B009C;" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
+			<input type="submit" class="staticrypt-decrypt-button" value="WYŚLIJ"/>
 		</form>
 	</div>
 </div>
@@ -51,7 +52,6 @@ pass_style: true
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();     
 		
         if (decryptedHMAC !== encryptedHMAC) {
-			window.location = "https://www.youtube.com/watch?v=_MHusGl9BeM";
             alert('O przepraszam, to nie to hasło!');
             return;
         }

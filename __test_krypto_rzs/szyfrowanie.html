@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>StatiCrypt: Password protect static HTML</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+<input type="password" class="form-control" id="passphrase"></input>
+<textarea class="form-control" id="unencrypted_html" rows="5"></textarea>
+<button class="btn btn-primary pull-right" id="btn" type="submit">Generate passphrase protected HTML</button>
+<pre id="encrypted_html_display">Your encrypted string</pre>
+
+<script src="kryptojs-3.1.9-1-lib.js"></script>
+<script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.1/dist/showdown.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.7.0/standard/ckeditor.js"></script>
+
+
+<script>
+    // enable CKEDIRTOR
+
+    var htmlToDownload;
+	var converter = new showdown.Converter();
+
+    document.getElementById('btn').addEventListener('click', function (e) {
+        e.preventDefault();
+
+        var unencrypted = converter.makeHtml(document.getElementById('unencrypted_html').value)
+							+ "\n<div><button class=\"cryptobutton\" id=\"btn\" type=\"submit\">Sparsuj i zaszyfruj</button><div>"
+							+ "\n<input type=\"password\" class=\"form-control\" id=\"passphrase\"></input>"
+							+ "\n\n<textarea id=\"unencrypted_html\" cols=\"100%\" rows=\"100%\">\n"
+							+ document.getElementById('unencrypted_html').value
+							+ "\n</textarea>\n" ;
+		console.log(unencrypted);
+        var passphrase = document.getElementById('passphrase').value;
+
+        var encrypted = CryptoJS.AES.encrypt(unencrypted, passphrase);
+        var hmac = CryptoJS.HmacSHA256(encrypted.toString(), CryptoJS.SHA256(passphrase).toString()).toString();
+        var encryptedMsg = hmac + encrypted;
+
+        document.getElementById('unencrypted_html').value = encryptedMsg;
+
+    });
+</script>
+
+
+</body>
+</html>

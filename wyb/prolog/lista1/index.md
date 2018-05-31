@@ -12,10 +12,10 @@ use_highlight: true
 Przykład teoretyczny: \\( p(t_1, t_2, ... t_n) \\)
 
 Przykład praktyczny:
-'''prolog
+```prolog
 lubi(student, rzs). %czytany jako student lubi rzs
-'''
-<p&gt;p&gt;
+```
+<p></p>
 ---
 
 ## Reguły
@@ -25,10 +25,10 @@ warunkiem z którego wynika \\(head \\) to zapisujemy \\(head :- body\\).
 
 Przykład praktyczny:
 
-'''prolog
+```prolog
 lubi(autor, X) :- lubi(X, rzs) %czytany jako student autor lubi X jeśli X lubi rzs
-'''
-<p&gt;p&gt;
+```
+<p></p>
 ---
 
 ## Operatory logiczne
@@ -72,10 +72,10 @@ Przyjmujemy, że prawdziwe w programie jest jedynie to, co było podane.
 
 * Warto uzupełniać zadania własnymi testowymi danymi i sprawdzić działanie programu. Wszakże wszyscy wiemy, iż początki bywają... różne.
 * Gdy zmienna pojawia się tylko raz w regule należy użyć zmiennej anonimowej, w innym przypadku otrzymamy ostrzeżenie. Taką zmienną zapisujemy za pomocą _ (podkreślenie). Przykładem jest:
-'''prolog
+```prolog
 ojciec(X) :- syn(Y , X) % X jest ojcem, gdy Y jest synem X. Powoduje ostrzeżenie, że Y jest użyty tylko raz.
 ojciec(X) :- syn(_ , X) % X jest ojcem kogoś. Nie interesuje nas kogo.
-'''
+```
 
 * Należy uważać z operatorem negacji. Utrudnia on prologowi wnioskowanie, szczególnie przy dużych regułach.
 
@@ -88,9 +88,9 @@ ojciec(X) :- syn(_ , X) % X jest ojcem kogoś. Nie interesuje nas kogo.
 ### Zadanie 1.
 
 Należy opisać relacje rodzinne przy pomocy innych podanych. Przykładowo:
-'''prolog
+```prolog
 dziadek(X, Y) :- ... % musimy napisać, że istnieje takie Z, iż X jest ojcem Z a Z jest ojcem Y
-'''
+```
 Analogicznie inne przykłady.
 
 ---
