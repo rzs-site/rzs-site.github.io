@@ -7,3 +7,9 @@ toc:
     url: wyb/zespolone/diff_real_param
   - title: Całka zespolona względem parametru rzeczywistego
     url: wyb/zespolone/int_real_param
+  - title: Przestrzenie metryczne
+    url: wyb/zespolone/metric_spaces
+  - title: Ciągłość i różniczkowalność całki
+    url: wyb/zespolone/cont_diff_integral
+  - title: Różniczka zupełna i pochodna w dziedzine zespolonej
+    url: wyb/zespolone/exact_diff_complex

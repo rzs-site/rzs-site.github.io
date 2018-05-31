@@ -20,7 +20,7 @@ Różniczkowanie funkcji względem parametru rzeczywistego
 ---
 {{define}}
 Niech \\( \varphi : [a,b] \to {{C}}\\). Mówimy, że \\(\varphi\\) jest **różniczkowalna** w punkcie \\(t \in [a,b] \\) i ma wtedy pochodną \\( \varphi'(t) \\) jeśli istnieje granica:
-\\[ \varphi'(t) {{defeq}} lim_{h \to 0} \frac{\varphi(t+h) - \varphi(t)}{h}\\]
+\\[ \varphi'(t) {{defeq}} \lim_{h \to 0} \frac{\varphi(t+h) - \varphi(t)}{h}\\]
 
 #### Twierdzenie 6
 Jeśli dla \\( \varphi : [a,b] \to {{C}} \\), \\( \varphi \\) jest różniczkowalna w \\(t\\) to różniczkowalne w \\(t\\) są także funkcje \\( \varphi_1, \varphi_2 \\).
