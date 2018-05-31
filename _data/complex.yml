@@ -3,3 +3,7 @@ toc:
     url: wyb/zespolone/
   - title: Pojęcia wstępne
     url: wyb/zespolone/wstepne
+  - title: Różniczkowanie względem parametru rzeczywistego
+    url: wyb/zespolone/diff_real_param
+  - title: Całka zespolona względem parametru rzeczywistego
+    url: wyb/zespolone/int_real_param
