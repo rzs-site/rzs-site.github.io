@@ -1,6 +1,14 @@
 ---
-layout: default
+layout: acc_layout
+toc: complex
 ---
-Wprowadzenie Do Funkcji Zespolonych
+
+Wprowadzenie do funkcji zespolonych
 ---
-Tutaj treść w WTF-8
+
+### Wstęp
+
+#### Wymagana wiedza
+* Analiza Matematyczna 1 i 2
+* Liczby zespolone (Algebra 1)
+* Wprowadzenie do topologii i teorii miary (pomocne, ale nie wymagane)
