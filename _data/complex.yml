@@ -13,3 +13,7 @@ toc:
     url: wyb/zespolone/cont_diff_integral
   - title: Różniczka zupełna i pochodna w dziedzine zespolonej
     url: wyb/zespolone/exact_diff_complex
+  - title: Różniczkowanie względem parametru zespolonego pod całką
+    url: wyb/zespolone/diff_complex_integral
+  - title: ...
+    url: 404.html
