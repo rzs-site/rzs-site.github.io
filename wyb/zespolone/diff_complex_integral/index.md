@@ -74,3 +74,47 @@ Jeśli \\( g: [a,b] \to {{C}} \\) jest ciągła, a \\( h: [a,b] \to {{C}}\\) jes
 \\( C^1\\), to istnieje \\( \int_a^b g(t) {{d}} h(t) \\) i zachodzi
 
 \\[ \int_a^b g(t) {{d}} h(t) = \int_a^b g(t) h'(t) {{d}} t \\]
+
+```
+Prawie jesteśmy w domu, to jest to, o co nam chodzi ~ M. Morayne
+```
+
+Załóżmy, że dana jest krzywa  \\( \Gamma \\) na płaszczyźnie \\({{C}}\\) poprzez parametryzację \\( z = z(t), t \in [a,b] \\), a funkcja \\(z: [a,b] \to {{C}} \\)  jako funkcja parametru rzeczywistego \\(t\\) jest różniczkowalna  w sposób ciągły (tzn. jeśli 
+\\( z(t) = x(t) + i y(t), x(t), y(t) \in C^1[a,b]) \\).
+
+{{define}}
+Niech \\( f: \Gamma \to {{C}} \\) będzie pewną funkcją na \\( \Gamma \\)
+**Całką krzywoliniową** z funkcji \\(f\\) wzdłuż krzywej \\(\Gamma\\) nazywamy
+
+\\[ \int_{\Gamma} f {{d}} z {{defeq}} \int_a^b f(z(t)) {{d}} z(t) \\]
+
+Według notacji dla całki Stieltjesa:
+\\[ \int_a^b (f \circ z) {{d}} z \\]
+
+Z twierdzenia 13 dostajemy:
+\\[ \tag{*}\label{*}
+    \int_{\Gamma} f {{d}} z = \int_a^b f(z(t))z'(t){{d}}t 
+\\]
+
+#### Przykład
+Niech \\( \Gamma \\) dana będzie parametryzacją \\( z(t) = t + i t^2, t \in [1,2] \\).
+
+Niech \\( f(z) = z + 3 \\). Mamy: 
+\\[ 
+\int_{\Gamma} f(z) {{d}} z = 
+\int_1^2 (z(t) + 3)(z'(t)) {{d}} t =
+\int_1^2 (t + i t^2 + 3) (1 + 2 i t) {{d}} t = 
+\\]
+\\[
+\int_1^2 (t + 3 - 2t^3){{d}}t + i \int_1^2 (3t^2 + 6t) {{d}}t =
+\left[ \frac{1}{2} t^2 + 3t - \frac{2}{4} t ^ 4 \right]_1^2 + 
+i \left[ t^3 + 3t^2 \right]_1^2 =
+\\]
+\\[
+\left(\frac{3}{2} + 3 - \frac{15}{2}\right) + i (7 + 9) = -3 + 16i
+\\]
+
+Nietrudnym uogólnieniem powyższej sytuacji jest równoważenie całki krzywoliniowej \\(\int_{\Gamma} f {{d}} z \\), jeśli parametryzacja \\(z\\) jest ciągła oraz 
+\\( a = a_0 \le a_1 \le \cdots \le a_k = b \\) i \\(z\\) jest klasy \\(C^1\\) na wszstkich odcinkach \\( [a_i,a_i+1], 0 \leq i \le k \\). Zachodzi \\( \eqref{*} \\) dla \\(f\\) - ciągłej.
+
+Widać zatem ze wzoru \\( \eqref{*} \\), że przy założeniu odpowiedniej regularności funkcji \\(f, z\\) (\\(f\\) -ciągła, \\(z\\) - ciągła, odcinkami \\(C^1\\)), obliczanie całki krzywoliniowej zespolonej sprowadza się do liczenia całki zespolonej wzlgędem parametru rzeczywistego.
