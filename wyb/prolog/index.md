@@ -20,3 +20,7 @@ poprzez przeszukanie grafu możliwych rozwiązań.
 Należy pamiętać, że przeszukiwanie odbywa się na zasadzie przeszukania w głąb. Powoduje to, iż nieskończone rozwiązania są największą pułapką.
 Można temu przeciwdziałać starając się umieścić najbardziej ograniczające reguły jak najbliżej lewej strony, gdyż wtedy zostaną szybciej
 wykonane i ograniczą liczbę rozwiązań. Alternatywnym rozwiązaniem jest używanie odcięć.
+
+#### O projekcie
+
+* [Programowanie w Logice - powtórzenie (v1.0)](/pdfs/wyb/prolog-powtorzenie.pdf)
