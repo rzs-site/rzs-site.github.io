@@ -33,6 +33,9 @@ Jeśli nie ma na liście potrzebnego semstru dodajemy go dodajęc w odpowiednim 
     url: ścieżka_do_pliku/index.md
 ```
 
+## Szybka konwersja
+pandoc
+
 ## Dodawanie przedmiotu (wielostronowy)
 
 Opis pojawi się wkrótce...
@@ -61,6 +64,7 @@ Opis pojawi się wkrótce...
 * grafy z MD (podkradnę parę z Wprowadzenia do grafów!)
 * rozbudować wyprowadzenie funkcji tworzącej F_n
 * Zapisy
+
 
 
 ## License
