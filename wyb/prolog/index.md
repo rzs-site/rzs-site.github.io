@@ -23,4 +23,4 @@ wykonane i ograniczą liczbę rozwiązań. Alternatywnym rozwiązaniem jest uży
 
 #### O projekcie
 
-* [Programowanie w Logice - powtórzenie (v1.7)](/pdfs/wyb/prolog-powtorzenie.pdf)
+* [Programowanie w Logice - powtórzenie (v1.8)](/pdfs/wyb/prolog-powtorzenie.pdf)
