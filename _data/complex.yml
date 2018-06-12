@@ -15,5 +15,9 @@ toc:
     url: wyb/zespolone/exact_diff_complex
   - title: Różniczkowanie względem parametru zespolonego pod całką
     url: wyb/zespolone/diff_complex_integral
+  - title: Szeregi w dziedzinie zespolonej
+    url: wyb/zespolone/complex_series
+  - title: Ciągi i szeregi funkcyjne
+    url: wyb/zespolone/functional_series
   - title: ...
     url: 404.html
