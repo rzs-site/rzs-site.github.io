@@ -18,7 +18,6 @@ use_math: true
 {% assign proof = '**Dowód** (na wykładzie) \\( \blacksquare \\)' %}
 {% assign d = '\text{d}' %}
 
-
 {% assign uniform ='\genfrac{}{}{0pt}{}{\to}{\to}' %}
 
 Ciągi i szeregi funkcyjne w dziedzinie zespolonej

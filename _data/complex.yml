@@ -19,5 +19,7 @@ toc:
     url: wyb/zespolone/complex_series
   - title: Ciągi i szeregi funkcyjne
     url: wyb/zespolone/functional_series
+  - title: Funkcje elementarne w dziedzinie zespolonej
+    url: wyb/zespolone/elementary_functions
   - title: ...
     url: 404.html
