@@ -2,26 +2,28 @@ toc:
   - title: Wstęp
     url: wyb/zespolone/
   - title: Pojęcia wstępne
-    url: wyb/zespolone/wstepne
+    url: wyb/zespolone/01_wstepne
   - title: Różniczkowanie względem parametru rzeczywistego
-    url: wyb/zespolone/diff_real_param
+    url: wyb/zespolone/02_diff_real_param
   - title: Całka zespolona względem parametru rzeczywistego
-    url: wyb/zespolone/int_real_param
+    url: wyb/zespolone/03_int_real_param
   - title: Przestrzenie metryczne
-    url: wyb/zespolone/metric_spaces
+    url: wyb/zespolone/04_metric_spaces
   - title: Ciągłość i różniczkowalność całki
-    url: wyb/zespolone/cont_diff_integral
+    url: wyb/zespolone/05_cont_diff_integral
   - title: Różniczka zupełna i pochodna w dziedzine zespolonej
-    url: wyb/zespolone/exact_diff_complex
+    url: wyb/zespolone/06_exact_diff_complex
   - title: Różniczkowanie względem parametru zespolonego pod całką
-    url: wyb/zespolone/diff_complex_integral
+    url: wyb/zespolone/07_diff_complex_integral
   - title: Szeregi w dziedzinie zespolonej
-    url: wyb/zespolone/complex_series
+    url: wyb/zespolone/08_complex_series
   - title: Ciągi i szeregi funkcyjne
-    url: wyb/zespolone/functional_series
+    url: wyb/zespolone/09_functional_series
   - title: Funkcje elementarne w dziedzinie zespolonej
-    url: wyb/zespolone/elementary_functions
+    url: wyb/zespolone/10_elementary_functions
   - title: Funkcja pierwotna a całka krzywoliniowa
-    url: wyb/zespolone/antiderivative
+    url: wyb/zespolone/11_antiderivative
+  - title: Twierdzenie Cauchy'ego o całce zespolonej
+    url: wyb/zespolone/12_cauchy_theorem
   - title: ...
     url: 404.html
