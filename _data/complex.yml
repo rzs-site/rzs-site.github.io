@@ -23,7 +23,7 @@ toc:
     url: wyb/zespolone/10_elementary_functions
   - title: Funkcja pierwotna a całka krzywoliniowa
     url: wyb/zespolone/11_antiderivative
-  - title: Twierdzenie Cauchy'ego o całce zespolonej
+  - title: Twierdzenie Cauchy'ego o całce zespolonej, wzór Cauchy'ego
     url: wyb/zespolone/12_cauchy_theorem
-  - title: ...
-    url: 404.html
+  - title: Rozwijalność funkcji analitycznych w szereg potęgowy
+    url: wyb/zespolone/13_laurent_series

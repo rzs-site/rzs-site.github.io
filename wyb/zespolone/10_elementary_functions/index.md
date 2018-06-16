@@ -76,7 +76,7 @@ Poprzez szeregi można też na dziedzinę zespoloną rozszerzyć definicje funkc
 {{theorem}} 20
 Zachodzą następujące wzory:
 \\[ \cos(z) = { e^{iz} + e^{-iz} \over 2 } \\]
-\\[ \sin(z) = { e^{iz} - e^{-iz} \over 2 } \\]
+\\[ \sin(z) = { e^{iz} - e^{-iz} \over 2i } \\]
 
 {{theorem}} 21
 \\[ e^{iz} = \cos(z) + i \sin(z) \\] 
