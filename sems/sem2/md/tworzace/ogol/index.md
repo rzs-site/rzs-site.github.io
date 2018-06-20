@@ -21,7 +21,7 @@ Wzór na n-ty element ciągu Fibbonacciego
 
 \\( F_n = \frac{1}{\sqrt{5}} \left( \left( \frac{1 + \sqrt{5}}{2} \right)^n - \left( \frac{1 - \sqrt{5}}{2} \right)^n \right) \\)
 
-Uwaga: drugi element bardzo szybko zmieża do \\(0\\).
+Uwaga: drugi element bardzo szybko zmierza do \\(0\\).
 
 Uwaga 2: to bardzo szybka metoda szacowania n-tej liczby ciągu Fibbonacciego.
 
