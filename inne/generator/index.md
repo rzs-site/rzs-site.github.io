@@ -34,7 +34,7 @@ Skrypt wybierze kursy pasujące do "zielonych" komórek.
 W razie błędnego wyboru trzeba odświeżyć stronę, nie ma jeszcze możliwości poprawy pojedynczych godzin.
 
 ### Dane
-Aktualne źródło: serwer RZS. Ostatni import: 2018.03.04, 01:20
+Aktualne źródło: serwer RZS. Ostatni import: 2018.09.04, 15:00
 
 {::options parse_block_html="true" /}
 <div class="table-box">
@@ -122,1552 +122,1922 @@ Aktualne źródło: serwer RZS. Ostatni import: 2018.03.04, 01:20
 <div class="table-box">
 <table id="tabelaHTML">
   <tr>
-    <th class="tg-yw4l">Kod grupy</th>
-    <th class="tg-yw4l">Nazwa</th>
-    <th class="tg-yw4l">Termin</th>
-    <th class="tg-yw4l">Prowadzący</th>
+    <th>Kod</th>
+    <th>Nazwa</th>
+    <th>Termin</th>
+    <th>Prowadzący</th>
+    <th>Uwagi</th>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-20b</td>
-    <td class="tg-yw4l">niemiecki / B1.1</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Okulewicz Krzysztof</td>
+    <td>L00-30a</td>
+    <td>niemiecki B1.1</td>
+    <td>(pt) 11:15-12:45, (sr) 11:15-12:45</td>
+    <td>Mgr Bloch Anna</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-20a</td>
-    <td class="tg-yw4l">niemiecki / B1.1</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Rzeminski Krzysztof</td>
+    <td>L00-30b</td>
+    <td>niemiecki B1.1</td>
+    <td>(cz) 13:15-14:45, (pn) 09:15-10:45</td>
+    <td>Mgr Grusiecka Joanna</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-21c</td>
-    <td class="tg-yw4l">niemiecki / B2.1</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Zgondek Piotr</td>
+    <td>L00-31b</td>
+    <td>niemiecki B2.1</td>
+    <td>(pt) 11:15-12:45, (sr) 15:15-16:45</td>
+    <td>Mgr Stanislawczyk Halina</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-21b</td>
-    <td class="tg-yw4l">niemiecki / B2.1</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Kania Anna</td>
+    <td>L00-31c</td>
+    <td>niemiecki B2.1</td>
+    <td>(pt) 09:15-10:45, (wt) 11:15-12:45</td>
+    <td>Mgr Kania Anna</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-21a</td>
-    <td class="tg-yw4l">niemiecki / B2.1</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pn) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Radomska Elzbieta</td>
+    <td>L00-31a</td>
+    <td>niemiecki B2.1</td>
+    <td>(cz) 11:15-12:45, (pn) 13:15-14:45</td>
+    <td>Mgr Soltys Dorota</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-22e</td>
-    <td class="tg-yw4l">niemiecki / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Bloch Anna</td>
+    <td>L00-31e</td>
+    <td>niemiecki B2.1</td>
+    <td>(pn) 15:15-16:45, (sr) 17:05-18:35</td>
+    <td>Mgr Garga Maria</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-22d</td>
-    <td class="tg-yw4l">niemiecki / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Frymar Ewa</td>
+    <td>L00-31d</td>
+    <td>niemiecki B2.1</td>
+    <td>(pt) 07:30-09:00, (sr) 09:15-10:45</td>
+    <td>Mgr Frymar Ewa</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-22c</td>
-    <td class="tg-yw4l">niemiecki / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Garga Maria</td>
+    <td>L00-32b</td>
+    <td>niemiecki B2.2</td>
+    <td>(pn) 17:05-18:35, (sr) 15:15-16:45</td>
+    <td>Mgr Zgondek Piotr</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-22b</td>
-    <td class="tg-yw4l">niemiecki / B2.2</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Soltys Dorota</td>
+    <td>L00-32d</td>
+    <td>niemiecki B2.2</td>
+    <td>(cz) 13:15-14:45, (pn) 11:15-12:45</td>
+    <td>Mgr Soltys Dorota</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-22a</td>
-    <td class="tg-yw4l">niemiecki / B2.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pn) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Izykowska-Staruch Marta</td>
+    <td>L00-32c</td>
+    <td>niemiecki B2.2</td>
+    <td>(cz) 09:15-10:45, (wt) 09:15-10:45</td>
+    <td>Mgr Izykowska-Staruch Marta</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-23a</td>
-    <td class="tg-yw4l">niemiecki / C1.1</td>
-    <td class="tg-yw4l">(cz) 18:45-20:15, (wt) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Lazowska KrystynaMgr Strach Jan</td>
+    <td>L00-32a</td>
+    <td>niemiecki B2.2</td>
+    <td>(pt) 13:15-14:45, (wt) 15:15-16:45</td>
+    <td>Mgr Bloch Anna</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-24a</td>
-    <td class="tg-yw4l">niemiecki / C1.2</td>
-    <td class="tg-yw4l">(pn) 18:45-20:15, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Lazowska KrystynaMgr Strach Jan</td>
+    <td>L00-33a</td>
+    <td>niemiecki C1.1</td>
+    <td>(pn) 18:45-20:15, (sr) 18:45-20:15</td>
+    <td>Mgr Okulewicz Krzysztof</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62z</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Wardynska Agata</td>
+    <td>L00-34a</td>
+    <td>niemiecki C1.2</td>
+    <td>(cz) 18:45-20:15, (wt) 17:05-18:35</td>
+    <td>Mgr Okulewicz Krzysztof, Mgr Strach Jan</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62y</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Wardynska Agata</td>
+    <td>L00-23a</td>
+    <td>rosyjski B2.2</td>
+    <td>(pn) 07:30-09:00, (sr) 13:15-14:45</td>
+    <td>Mgr Lesiak Natalia</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62x</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Wardynska Agata</td>
+    <td>L00-50ae</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 09:15-10:45, (sr) 09:15-10:45</td>
+    <td>Mgr Hamryszak-Sierpowska Marta</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62w</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Trzyna Lukasz</td>
+    <td>L00-50ap</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 13:15-14:45, (sr) 11:15-12:45</td>
+    <td>Mgr Kuzniak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62v</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Trzyna Lukasz</td>
+    <td>L00-50at</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 13:15-14:45, (sr) 13:15-14:45</td>
+    <td>Mgr Licznerska Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62t</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (pt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Tomala Malgorzata</td>
+    <td>L00-50au</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 17:05-18:35, (pn) 07:30-09:00</td>
+    <td>Mgr Martynowicz Katarzyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62s</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Sliwerska Magdalena</td>
+    <td>L00-50be</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 17:05-18:35, (wt) 13:15-14:45</td>
+    <td>Mgr Penderecka-Mosiek Izabela</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62r</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Sliwerska Magdalena</td>
+    <td>L00-50cf</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 13:15-14:45, (wt) 15:15-16:45</td>
+    <td>Mgr Wieruszewska Joanna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62q</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (pt) 11:15-12:45</td>
-    <td class="tg-yw4l">Dr Szela Monika</td>
+    <td>L00-50k</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 15:15-16:45, (pn) 17:05-18:35</td>
+    <td>Mgr Dudzinska Jolanta</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62p</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Dr Szela Monika</td>
+    <td>L00-50t</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 15:15-16:45, (wt) 17:05-18:35</td>
+    <td>Mgr Wasilewska Joanna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62o</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Romanczuk Urszula</td>
+    <td>L00-50w</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 11:15-12:45, (pn) 13:15-14:45</td>
+    <td>Mgr Golka Barbara</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62n</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Romanczuk Urszula</td>
+    <td>L00-50aa</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 13:15-14:45, (sr) 13:15-14:45</td>
+    <td>Mgr Grygorowicz Anna</td>
+    <td>Open Mind</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62m</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pn) 18:45-20:15, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Rogulska Paulina</td>
+    <td>L00-50ab</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 11:15-12:45, (sr) 11:15-12:45</td>
+    <td>Mgr Gwizdala Grazyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62l</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pn) 17:05-18:35, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Rogulska Paulina</td>
+    <td>L00-50af</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 07:30-09:00, (wt) 07:30-09:00</td>
+    <td>Mgr Henkie Justyna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62k</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Mazurkiewicz Alicja</td>
+    <td>L00-50av</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 18:45-20:15, (pn) 09:15-10:45</td>
+    <td>Mgr Martynowicz Katarzyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62j</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(sr) 11:15-12:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Hamryszak-Sierpowska Marta</td>
+    <td>L00-50ay</td>
+    <td>angielski B2.1</td>
+    <td>(sr) 15:15-16:45, (wt) 15:15-16:45</td>
+    <td>Mgr Mazurkiewicz Alicja</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62h</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Gierczak-Bujak Aleksandra</td>
+    <td>L00-50b</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 11:15-12:45, (pn) 09:15-10:45</td>
+    <td>Mgr Baka Barbara</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62f</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 18:45-20:15, (pt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Czachorowska Beata</td>
+    <td>L00-50ba</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 09:15-10:45, (sr) 13:15-14:45</td>
+    <td>Mgr Medrecka-Kondak Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62e</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Baranska-Szczepaniak Agata</td>
+    <td>L00-50bi</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 09:15-10:45, (wt) 09:15-10:45</td>
+    <td>Mgr Rogulska Paulina</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62d</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Bogusz-Broy Ewa</td>
+    <td>L00-50bl</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 17:05-18:35, (sr) 13:15-14:45</td>
+    <td>Mgr Romanczuk Urszula</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62c</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pn) 18:45-20:15, (sr) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Bednarski Mariusz</td>
+    <td>L00-50bm</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 18:45-20:15, (wt) 09:15-10:45</td>
+    <td>Mgr Kasprzak Renata</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62b</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pn) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Baka Barbara</td>
+    <td>L00-50c</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 18:45-20:15, (pt) 13:15-14:45</td>
+    <td>Mgr Bednarski Mariusz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62am</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Staszewska Teresa</td>
+    <td>L00-50cg</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 09:15-10:45, (sr) 13:15-14:45</td>
+    <td>Mgr Wiszniowska Zuzanna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62ag</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (pt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Staroniewicz Magdalena</td>
+    <td>L00-50cn</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 11:15-12:45, (pt) 15:15-16:45</td>
+    <td>Mgr Jaskowska-Derechowska Beata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62af</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pt) 15:15-16:45</td>
-    <td class="tg-yw4l">Dr Zwiefka Maria</td>
+    <td>L00-50f</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 15:15-16:45, (wt) 11:15-12:45</td>
+    <td>Mgr Bogusz-Broy Ewa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62ae</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Dr Zwiefka Maria</td>
+    <td>L00-50l</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 17:05-18:35, (sr) 17:05-18:35</td>
+    <td>Mgr Dudzinska Jolanta</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62ad</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(sr) 15:15-16:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Wojcieszyn Adriana</td>
+    <td>L00-50u</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 07:30-09:00, (wt) 09:15-10:45</td>
+    <td>Mgr Gierczak-Bujak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62ac</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (sr) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Wiszniowska Zuzanna</td>
+    <td>L00-50v</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 09:15-10:45, (wt) 11:15-12:45</td>
+    <td>Mgr Gierczak-Bujak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62ab</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Wieruszewska Joanna</td>
+    <td>L00-50ac</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 07:30-09:00, (wt) 07:30-09:00</td>
+    <td>Mgr Hamryszak-Sierpowska Marta</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62aa</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Wieruszewska Joanna</td>
+    <td>L00-50aq</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 15:15-16:45, (sr) 13:15-14:45</td>
+    <td>Mgr Kuzniak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-62a</td>
-    <td class="tg-yw4l">angielski / B2.1</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (pn) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Baka Barbara</td>
+    <td>L00-50az</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 11:15-12:45, (pn) 11:15-12:45</td>
+    <td>Mgr Mroczka Ewa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50z</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Henkie Justyna</td>
+    <td>L00-50bd</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 15:15-16:45, (wt) 11:15-12:45</td>
+    <td>Mgr Penderecka-Mosiek Izabela</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50y</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Hamryszak-Sierpowska Marta</td>
+    <td>L00-50br</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 17:05-18:35, (sr) 17:05-18:35</td>
+    <td>Mgr Staszewska Teresa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50x</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Hamryszak-Sierpowska Marta</td>
+    <td>L00-50bs</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 15:15-16:45, (pt) 13:15-14:45</td>
+    <td>Mgr Staszewska Teresa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50w</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Hamryszak-Sierpowska Marta</td>
+    <td>L00-50ci</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 11:15-12:45, (sr) 17:05-18:35</td>
+    <td>Mgr Wiszniowska Zuzanna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50v</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Gwizdala Grazyna</td>
+    <td>L00-50cm</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 17:05-18:35, (sr) 11:15-12:45</td>
+    <td>Mgr Jaskowska-Derechowska Beata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50u</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Gwizdala Grazyna</td>
+    <td>L00-50h</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 17:05-18:35, (wt) 18:45-20:15</td>
+    <td>Mgr Baranska-Szczepaniak Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50t</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Gwizdala Grazyna</td>
+    <td>L00-50j</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 15:15-16:45, (sr) 13:15-14:45</td>
+    <td>Mgr Czachorowska Beata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50s</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Grygorowicz Anna</td>
+    <td>L00-50x</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 13:15-14:45, (wt) 13:15-14:45</td>
+    <td>Mgr Golka Barbara</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50r</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Grygorowicz Anna</td>
+    <td>L00-50aj</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 17:05-18:35, (sr) 07:30-09:00</td>
+    <td>Mgr Zajaczkowska Malgorzata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50q</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (pn) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Grygorowicz Anna</td>
+    <td>L00-50bn</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 13:15-14:45, (wt) 11:15-12:45</td>
+    <td>Mgr Kasprzak Renata</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50p</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(sr) 15:15-16:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Golka Barbara</td>
+    <td>L00-50ca</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 07:30-09:00, (wt) 13:15-14:45</td>
+    <td>Mgr Wardynska Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50o</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Golka Barbara</td>
+    <td>L00-50g</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 15:15-16:45, (wt) 17:05-18:35</td>
+    <td>Mgr Baranska-Szczepaniak Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50n</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Golka Barbara</td>
+    <td>L00-50o</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 09:15-10:45, (pt) 11:15-12:45</td>
+    <td>Dr Szela Monika</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50m</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Mirowska Agnieszka</td>
+    <td>L00-50y</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 15:15-16:45, (wt) 15:15-16:45</td>
+    <td>Mgr Golka Barbara</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50l</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Mirowska Agnieszka</td>
+    <td>L00-50z</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 11:15-12:45, (pn) 13:15-14:45</td>
+    <td>Mgr Grygorowicz Anna</td>
+    <td>Open Mind</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50k</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Mirowska Agnieszka</td>
+    <td>L00-50ad</td>
+    <td>angielski B2.1</td>
+    <td>(sr) 07:30-09:00, (wt) 09:15-10:45</td>
+    <td>Mgr Hamryszak-Sierpowska Marta</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50j</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Mirowska Agnieszka</td>
+    <td>L00-50ai</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 13:15-14:45, (wt) 07:30-09:00</td>
+    <td>Mgr Holowko Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50i</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Gierczak-Bujak Aleksandra</td>
+    <td>L00-50al</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 15:15-16:45, (pt) 07:30-09:00</td>
+    <td>Mgr Krawczenko Walentyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50h</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Gierczak-Bujak Aleksandra</td>
+    <td>L00-50ax</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 13:15-14:45, (wt) 13:15-14:45</td>
+    <td>Mgr Mazurkiewicz Alicja</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50g</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Gierczak-Bujak Aleksandra</td>
+    <td>L00-50bg</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 13:15-14:45, (wt) 13:15-14:45</td>
+    <td>Mgr Piotrowska Kinga</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50f</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Florczyk Agnieszka</td>
+    <td>L00-50bj</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 11:15-12:45, (wt) 13:15-14:45</td>
+    <td>Mgr Rogulska Paulina</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50e</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Florczyk Agnieszka</td>
+    <td>L00-50bq</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 17:05-18:35, (wt) 07:30-09:00</td>
+    <td>Mgr Staroniewicz Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ds</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Dr Wieckowska Aleksandra</td>
+    <td>L00-50cd</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Mgr Wieruszewska Joanna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dr</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Dr Zwiefka MariaMgr Bogusz-Broy Ewa</td>
+    <td>L00-50ck</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 15:15-16:45, (wt) 11:15-12:45</td>
+    <td>Dr Zwiefka Maria</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dq</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (pt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Wiszniowska Zuzanna</td>
+    <td>L00-50cl</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 17:05-18:35, (sr) 09:15-10:45</td>
+    <td>Dr Zwiefka Maria</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dp</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Wiszniowska Zuzanna</td>
+    <td>L00-50e</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 07:30-09:00, (sr) 15:15-16:45</td>
+    <td>Mgr Bogusz-Broy Ewa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50do</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Wiszniowska Zuzanna</td>
+    <td>L00-50m</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 07:30-09:00, (wt) 11:15-12:45</td>
+    <td>Dr Szela Monika</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dn</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Wieruszewska Joanna</td>
+    <td>L00-50r</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 09:15-10:45, (sr) 15:15-16:45</td>
+    <td>Mgr Tomala Malgorzata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dm</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Wieruszewska Joanna</td>
+    <td>L00-50aw</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 13:15-14:45, (wt) 09:15-10:45</td>
+    <td>Mgr Martynowicz Katarzyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dl</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Wardynska Agata</td>
+    <td>L00-50bc</td>
+    <td>angielski B2.1</td>
+    <td>(sr) 17:05-18:35, (wt) 17:05-18:35</td>
+    <td>Mgr Medrecka-Kondak Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dk</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Trzyna Lukasz</td>
+    <td>L00-50bk</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 13:15-14:45, (pt) 15:15-16:45</td>
+    <td>Mgr Romanczuk Urszula</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dj</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Trzyna Lukasz</td>
+    <td>L00-50bu</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 09:15-10:45, (sr) 09:15-10:45</td>
+    <td>Mgr Szczawinska Elzbieta</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50di</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Tomala Malgorzata</td>
+    <td>L00-50bx</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 15:15-16:45, (sr) 13:15-14:45</td>
+    <td>Mgr Trzyna Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dh</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Tomala Malgorzata</td>
+    <td>L00-50bz</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 11:15-12:45, (sr) 17:05-18:35</td>
+    <td>Mgr Trzyna Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dg</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Sliwerska Magdalena</td>
+    <td>L00-50cj</td>
+    <td>angielski B2.1</td>
+    <td>(sr) 07:30-09:00, (wt) 09:15-10:45</td>
+    <td>Dr Zwiefka Maria</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50df</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Sliwerska Magdalena</td>
+    <td>L00-50n</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 07:30-09:00, (wt) 13:15-14:45</td>
+    <td>Dr Szela Monika</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50de</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Dr Szela Monika</td>
+    <td>L00-50p</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 11:15-12:45, (pt) 09:15-10:45</td>
+    <td>Mgr Sliwerska Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dd</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Szczepanowska Anna</td>
+    <td>L00-50q</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 13:15-14:45, (pt) 11:15-12:45</td>
+    <td>Mgr Sliwerska Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50dc</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Szczawinska Elzbieta</td>
+    <td>L00-50a</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 07:30-09:00, (pn) 07:30-09:00</td>
+    <td>Mgr Baka Barbara</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50db</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Szczawinska Elzbieta</td>
+    <td>L00-50am</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 17:05-18:35, (pt) 09:15-10:45</td>
+    <td>Mgr Krawczenko Walentyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50da</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Szczawinska Elzbieta</td>
+    <td>L00-50an</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 18:45-20:15, (pt) 11:15-12:45</td>
+    <td>Mgr Krawczenko Walentyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50d</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Florczyk Agnieszka</td>
+    <td>L00-50as</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 11:15-12:45, (sr) 11:15-12:45</td>
+    <td>Mgr Licznerska Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cz</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Szczawinska Elzbieta</td>
+    <td>L00-50bh</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 15:15-16:45, (wt) 17:05-18:35</td>
+    <td>Mgr Piotrowska Kinga</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cy</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 17:05-18:35, (pt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Staszewska Teresa</td>
+    <td>L00-50bt</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Mgr Szczawinska Elzbieta</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cx</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Staszewska Teresa</td>
+    <td>L00-50bv</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 09:15-10:45, (wt) 09:15-10:45</td>
+    <td>Mgr Szczawinska Elzbieta</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cw</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pn) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Staroniewicz Magdalena</td>
+    <td>L00-50bw</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Mgr Szczepanowska Anna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cv</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (pn) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Staroniewicz Magdalena</td>
+    <td>L00-50by</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 17:05-18:35, (sr) 15:15-16:45</td>
+    <td>Mgr Trzyna Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cu</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (pt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Rozwadowski Dominik</td>
+    <td>L00-50cb</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 09:15-10:45, (wt) 17:05-18:35</td>
+    <td>Mgr Wardynska Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ct</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 18:45-20:15, (pt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Rozwadowski Dominik</td>
+    <td>L00-50cc</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 11:15-12:45, (wt) 18:45-20:15</td>
+    <td>Mgr Wardynska Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cs</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pn) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Rozwadowski Dominik</td>
+    <td>L00-50d</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 13:15-14:45, (wt) 07:30-09:00</td>
+    <td>Mgr Bogusz-Broy Ewa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cr</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 17:05-18:35, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Romanczuk Urszula</td>
+    <td>L00-50s</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 11:15-12:45, (sr) 17:05-18:35</td>
+    <td>Mgr Tomala Malgorzata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cp</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Rogulska Paulina</td>
+    <td>L00-50ag</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 09:15-10:45, (wt) 09:15-10:45</td>
+    <td>Mgr Henkie Justyna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50co</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Rogulska Paulina</td>
+    <td>L00-50ah</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 13:15-14:45, (sr) 07:30-09:00</td>
+    <td>Mgr Holowko Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cn</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(sr) 07:30-09:00, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Pytel Dorota</td>
+    <td>L00-50ak</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 18:45-20:15, (sr) 09:15-10:45</td>
+    <td>Mgr Zajaczkowska Malgorzata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cl</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Piotrowska Kinga</td>
+    <td>L00-50ao</td>
+    <td>angielski B2.1</td>
+    <td>(sr) 18:45-20:15, (wt) 13:15-14:45</td>
+    <td>Mgr Krzos Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ck</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Piotrowska Kinga</td>
+    <td>L00-50ar</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 17:05-18:35, (sr) 15:15-16:45</td>
+    <td>Mgr Kuzniak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cj</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Piotrowska Kinga</td>
+    <td>L00-50bb</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 11:15-12:45, (sr) 15:15-16:45</td>
+    <td>Mgr Medrecka-Kondak Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ch</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Penderecka-Mosiek Izabela</td>
+    <td>L00-50bf</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 13:15-14:45, (wt) 15:15-16:45</td>
+    <td>Mgr Penderecka-Mosiek Izabela</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cg</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Penderecka-Mosiek Izabela</td>
+    <td>L00-50bo</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 15:15-16:45, (sr) 07:30-09:00</td>
+    <td>Mgr Kasprzak Renata</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cf</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Mroczka Ewa</td>
+    <td>L00-50bp</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 17:05-18:35, (sr) 09:15-10:45</td>
+    <td>Mgr Kasprzak Renata</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ce</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Mroczka Ewa</td>
+    <td>L00-50ce</td>
+    <td>angielski B2.1</td>
+    <td>(pn) 11:15-12:45, (sr) 09:15-10:45</td>
+    <td>Mgr Wieruszewska Joanna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cd</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(sr) 17:05-18:35, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Medrecka-Kondak Agnieszka</td>
+    <td>L00-50ch</td>
+    <td>angielski B2.1</td>
+    <td>(pt) 09:15-10:45, (sr) 15:15-16:45</td>
+    <td>Mgr Wiszniowska Zuzanna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cc</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Medrecka-Kondak Agnieszka</td>
+    <td>L00-50i</td>
+    <td>angielski B2.1</td>
+    <td>(cz) 13:15-14:45, (wt) 15:15-16:45</td>
+    <td>Mgr Czachorowska Beata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50cb</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Medrecka-Kondak Agnieszka</td>
+    <td>L00-63ae</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 17:05-18:35, (wt) 09:15-10:45</td>
+    <td>Mgr Holowko Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ca</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Medrecka-Kondak Agnieszka</td>
+    <td>L00-63am</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 11:15-12:45, (sr) 17:05-18:35</td>
+    <td>Mgr Krzos Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50c</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Florczyk Agnieszka</td>
+    <td>L00-63as</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 11:15-12:45, (wt) 11:15-12:45</td>
+    <td>Mgr Licznerska Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bz</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Mazurkiewicz Alicja</td>
+    <td>L00-63bb</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 13:15-14:45, (pn) 11:15-12:45</td>
+    <td>Mgr Penderecka-Mosiek Izabela</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50by</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(sr) 11:15-12:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Mazurkiewicz Alicja</td>
+    <td>L00-63be</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 07:30-09:00, (wt) 15:15-16:45</td>
+    <td>Mgr Pytel Dorota</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bx</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Mazurkiewicz Alicja</td>
+    <td>L00-63bg</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Mgr Pytel Dorota</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bw</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Martynowicz Katarzyna</td>
+    <td>L00-63bk</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Mgr Staroniewicz Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bv</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (pn) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Martynowicz Katarzyna</td>
+    <td>L00-63n</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 15:15-16:45, (sr) 15:15-16:45</td>
+    <td>Mgr Dudzinska Jolanta</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bu</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (pt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Martynowicz Katarzyna</td>
+    <td>L00-63o</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 15:15-16:45, (wt) 09:15-10:45</td>
+    <td>Mgr Florczyk Agnieszka</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bt</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Martynowicz Katarzyna</td>
+    <td>L00-63v</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 11:15-12:45, (sr) 11:15-12:45</td>
+    <td>Mgr Grygorowicz Anna</td>
+    <td>Open Mind</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bs</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (pn) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Licznerska Agnieszka</td>
+    <td>L00-63af</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Mgr Jaskowska-Derechowska Beata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50br</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (pn) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Licznerska Agnieszka</td>
+    <td>L00-63al</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 09:15-10:45, (wt) 15:15-16:45</td>
+    <td>Mgr Krawczenko Walentyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bq</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Licznerska Agnieszka</td>
+    <td>L00-63bd</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 15:15-16:45, (sr) 15:15-16:45</td>
+    <td>Mgr Piotrowska Kinga</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bp</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Kuzniak Aleksandra</td>
+    <td>L00-63bf</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 13:15-14:45, (wt) 17:05-18:35</td>
+    <td>Mgr Pytel Dorota</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bo</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Kuzniak Aleksandra</td>
+    <td>L00-63bh</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 17:05-18:35, (sr) 13:15-14:45</td>
+    <td>Mgr Rogulska Paulina</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bn</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Kuzniak Aleksandra</td>
+    <td>L00-63bi</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 07:30-09:00, (wt) 07:30-09:00</td>
+    <td>Mgr Rogulska Paulina</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bm</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Kuzniak Aleksandra</td>
+    <td>L00-63bm</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 15:15-16:45, (wt) 11:15-12:45</td>
+    <td>Mgr Staroniewicz Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bl</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(sr) 18:45-20:15, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Krzos Agnieszka</td>
+    <td>L00-63bv</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 09:15-10:45, (wt) 09:15-10:45</td>
+    <td>Mgr Trzyna Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bk</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Krzos Agnieszka</td>
+    <td>L00-63cd</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 17:05-18:35, (pt) 11:15-12:45</td>
+    <td>Dr Wieckowska Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bj</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Krzos Agnieszka</td>
+    <td>L00-63k</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 17:05-18:35, (sr) 15:15-16:45</td>
+    <td>Mgr Czachorowska Beata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bi</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (pt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Krawczenko Walentyna</td>
+    <td>L00-63p</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 17:05-18:35, (wt) 11:15-12:45</td>
+    <td>Mgr Florczyk Agnieszka</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bh</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (pt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Krawczenko Walentyna</td>
+    <td>L00-63q</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 09:15-10:45, (sr) 15:15-16:45</td>
+    <td>Mgr Florczyk Agnieszka</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bg</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Krawczenko Walentyna</td>
+    <td>L00-63aa</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 13:15-14:45, (pt) 13:15-14:45</td>
+    <td>Mgr Henkie Justyna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bf</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Krawczenko Walentyna</td>
+    <td>L00-63aq</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 13:15-14:45, (pn) 13:15-14:45</td>
+    <td>Mgr Leszkiewicz Joanna</td>
+    <td>Open Mind</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50be</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 17:05-18:35, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Koszutska Izabela</td>
+    <td>L00-63at</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 09:15-10:45, (wt) 09:15-10:45</td>
+    <td>Mgr Mally Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bd</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (pn) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Koszutska Izabela</td>
+    <td>L00-63ay</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 15:15-16:45, (sr) 09:15-10:45</td>
+    <td>Mgr Mirowska Agnieszka</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bc</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pn) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Koszutska Izabela</td>
+    <td>L00-63az</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 17:05-18:35, (sr) 11:15-12:45</td>
+    <td>Mgr Mirowska Agnieszka</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50bb</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Kasprzak Renata</td>
+    <td>L00-63bj</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 17:05-18:35, (wt) 07:30-09:00</td>
+    <td>Mgr Kasprzak Renata</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ba</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 17:05-18:35, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Jaskowska-Derechowska Beata</td>
+    <td>L00-63bn</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 15:15-16:45, (wt) 07:30-09:00</td>
+    <td>Mgr Szczepanowska Anna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50b</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (pt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Dudzinska Jolanta</td>
+    <td>L00-63bp</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 11:15-12:45, (pt) 13:15-14:45</td>
+    <td>Dr Szela Monika</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50az</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Jaskowska-Derechowska Beata</td>
+    <td>L00-63ca</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 09:15-10:45, (pn) 09:15-10:45</td>
+    <td>Mgr Wasilewska Joanna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ay</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Jaskowska-Derechowska Beata</td>
+    <td>L00-63m</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 17:05-18:35, (pt) 11:15-12:45</td>
+    <td>Mgr Drozd-Piotrowska Katarzyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ax</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (pt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Jaskowska-Derechowska Beata</td>
+    <td>L00-63s</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 07:30-09:00, (sr) 11:15-12:45</td>
+    <td>Mgr Gierczak-Bujak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50aw</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Holowko Magdalena</td>
+    <td>L00-63t</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 09:15-10:45, (sr) 13:15-14:45</td>
+    <td>Mgr Gierczak-Bujak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50av</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Holowko Magdalena</td>
+    <td>L00-63aj</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 07:30-09:00, (wt) 17:05-18:35</td>
+    <td>Mgr Kondro Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50au</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (pn) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Holowko Magdalena</td>
+    <td>L00-63ao</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 11:15-12:45, (pn) 11:15-12:45</td>
+    <td>Mgr Kuzniak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50at</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Henkie Justyna</td>
+    <td>L00-63au</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 17:05-18:35, (wt) 07:30-09:00</td>
+    <td>Mgr Martynowicz Katarzyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ar</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Henkie Justyna</td>
+    <td>L00-63aw</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 07:30-09:00, (wt) 15:15-16:45</td>
+    <td>Mgr Medrecka-Kondak Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50aq</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Dudzinska Jolanta</td>
+    <td>L00-63ba</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 09:15-10:45, (sr) 09:15-10:45</td>
+    <td>Mgr Mroczka Ewa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ap</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Dudzinska Jolanta</td>
+    <td>L00-63d</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 09:15-10:45, (wt) 15:15-16:45</td>
+    <td>Mgr Bednarski Mariusz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50an</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Derechowski Janusz</td>
+    <td>L00-63g</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 09:15-10:45, (wt) 13:15-14:45</td>
+    <td>Mgr Bogusz-Broy Ewa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50am</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Czachorowska Beata</td>
+    <td>L00-63w</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Mgr Gwizdala Grazyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50al</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Czachorowska Beata</td>
+    <td>L00-63x</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 13:15-14:45, (pt) 09:15-10:45</td>
+    <td>Mgr Gwizdala Grazyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ak</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Czachorowska Beata</td>
+    <td>L00-63z</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 11:15-12:45, (sr) 11:15-12:45</td>
+    <td>Mgr Hamryszak-Sierpowska Marta</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50aj</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 17:05-18:35, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Baranska-Szczepaniak Agata</td>
+    <td>L00-63ab</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 15:15-16:45, (pt) 15:15-16:45</td>
+    <td>Mgr Henkie Justyna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ai</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pn) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Baranska-Szczepaniak Agata</td>
+    <td>L00-63ad</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 17:05-18:35, (sr) 09:15-10:45</td>
+    <td>Mgr Holowko Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ah</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (pn) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Baranska-Szczepaniak Agata</td>
+    <td>L00-63ar</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 15:15-16:45, (wt) 13:15-14:45</td>
+    <td>Mgr Leszkiewicz Joanna</td>
+    <td>Open Mind</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50af</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Bogusz-Broy Ewa</td>
+    <td>L00-63bu</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 07:30-09:00, (wt) 07:30-09:00</td>
+    <td>Mgr Trzyna Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ae</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Bogusz-Broy Ewa</td>
+    <td>L00-63bz</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 07:30-09:00, (pn) 07:30-09:00</td>
+    <td>Mgr Wasilewska Joanna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ad</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Bednarski Mariusz</td>
+    <td>L00-63h</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 11:15-12:45, (sr) 17:05-18:35</td>
+    <td>Mgr Bogusz-Broy Ewa</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ac</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pn) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Bednarski Mariusz</td>
+    <td>L00-63ag</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 09:15-10:45, (sr) 09:15-10:45</td>
+    <td>Mgr Jaskowska-Derechowska Beata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50ab</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (pn) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Bednarski Mariusz</td>
+    <td>L00-63ak</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 07:30-09:00, (wt) 13:15-14:45</td>
+    <td>Mgr Krawczenko Walentyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50aa</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Baka Barbara</td>
+    <td>L00-63av</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 11:15-12:45, (sr) 13:15-14:45</td>
+    <td>Mgr Mazurkiewicz Alicja</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-50a</td>
-    <td class="tg-yw4l">angielski / B2.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Baka Barbara</td>
+    <td>L00-63bc</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 13:15-14:45, (sr) 13:15-14:45</td>
+    <td>Mgr Piotrowska Kinga</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63z</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Wojcieszyn Adriana</td>
+    <td>L00-63bq</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 11:15-12:45, (wt) 13:15-14:45</td>
+    <td>Mgr Sliwerska Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63y</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (sr) 18:45-20:15</td>
-    <td class="tg-yw4l">Dr Wieckowska Aleksandra</td>
+    <td>L00-63bt</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 09:15-10:45, (sr) 13:15-14:45</td>
+    <td>Mgr Tomala Malgorzata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63x</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Dr Wieckowska Aleksandra</td>
+    <td>L00-63by</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 17:05-18:35, (wt) 18:45-20:15</td>
+    <td>Mgr Wasilewska Joanna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63w</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Dr Wieckowska Aleksandra</td>
+    <td>L00-63cb</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 15:15-16:45, (wt) 17:05-18:35</td>
+    <td>Mgr Wieruszewska Joanna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63v</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Zajaczkowska Malgorzata</td>
+    <td>L00-63cc</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 15:15-16:45, (pt) 09:15-10:45</td>
+    <td>Dr Wieckowska Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63u</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (sr) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Neary Alan</td>
+    <td>L00-63ce</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 13:15-14:45, (wt) 11:15-12:45</td>
+    <td>Mgr Mazurkiewicz Alicja</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63t</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 17:05-18:35, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Neary Alan</td>
+    <td>L00-63f</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 17:05-18:35, (pt) 09:15-10:45</td>
+    <td>Mgr Bednarski Mariusz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63s</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Zajaczkowska Malgorzata</td>
+    <td>L00-63u</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 07:30-09:00, (pt) 07:30-09:00</td>
+    <td>Mgr Wiszniowska Zuzanna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63r</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (pn) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Tyszkiewicz Anna</td>
+    <td>L00-63y</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 15:15-16:45, (sr) 09:15-10:45</td>
+    <td>Mgr Gwizdala Grazyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63q</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (wt) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Tyszkiewicz Anna</td>
+    <td>L00-63a</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 07:30-09:00, (wt) 17:05-18:35</td>
+    <td>Mgr Baka Barbara</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63p</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 17:05-18:35, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Tyszkiewicz Anna</td>
+    <td>L00-63ac</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 17:05-18:35, (pt) 17:05-18:35</td>
+    <td>Mgr Henkie Justyna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63o</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 17:05-18:35, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Tyszkiewicz Anna</td>
+    <td>L00-63an</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 13:15-14:45, (wt) 11:15-12:45</td>
+    <td>Mgr Krzos Agnieszka</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63n</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(sr) 11:15-12:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Morawska Joanna</td>
+    <td>L00-63ax</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 15:15-16:45, (sr) 07:30-09:00</td>
+    <td>Mgr Mirowska Agnieszka</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63m</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 17:05-18:35, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Morawska Joanna</td>
+    <td>L00-63bl</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 09:15-10:45, (sr) 09:15-10:45</td>
+    <td>Mgr Staroniewicz Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63l</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Morawska Joanna</td>
+    <td>L00-63bo</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 17:05-18:35, (wt) 11:15-12:45</td>
+    <td>Mgr Szczepanowska Anna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63k</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 13:15-14:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Morawska Joanna</td>
+    <td>L00-63br</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 13:15-14:45, (wt) 15:15-16:45</td>
+    <td>Mgr Sliwerska Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63j</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Mally Lukasz</td>
+    <td>L00-63bx</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 09:15-10:45, (sr) 17:05-18:35</td>
+    <td>Mgr Wardynska Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63i</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Mally Lukasz</td>
+    <td>L00-63j</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 09:15-10:45, (pn) 17:05-18:35</td>
+    <td>Mgr Baranska-Szczepaniak Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63h</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Mally Lukasz</td>
+    <td>L00-63ah</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 07:30-09:00, (wt) 07:30-09:00</td>
+    <td>Mgr Zajaczkowska Malgorzata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63g</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Mally Lukasz</td>
+    <td>L00-63ai</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 09:15-10:45, (wt) 09:15-10:45</td>
+    <td>Mgr Zajaczkowska Malgorzata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63f</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Mally Lukasz</td>
+    <td>L00-63ap</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 13:15-14:45, (pn) 13:15-14:45</td>
+    <td>Mgr Kuzniak Aleksandra</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63e</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pn) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Kondro Magdalena</td>
+    <td>L00-63b</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 09:15-10:45, (wt) 18:45-20:15</td>
+    <td>Mgr Baka Barbara</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63d</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (wt) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Kondro Magdalena</td>
+    <td>L00-63bs</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 07:30-09:00, (pt) 07:30-09:00</td>
+    <td>Mgr Tomala Malgorzata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63c</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 17:05-18:35, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Koszutska IzabelaMgr Thomas Peter</td>
+    <td>L00-63bw</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 07:30-09:00, (sr) 15:15-16:45</td>
+    <td>Mgr Wardynska Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63b</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Koszutska IzabelaMgr Thomas Peter</td>
+    <td>L00-63c</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 07:30-09:00, (wt) 13:15-14:45</td>
+    <td>Mgr Bednarski Mariusz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63ac</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Penderecka-Mosiek Izabela</td>
+    <td>L00-63e</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 15:15-16:45, (pt) 07:30-09:00</td>
+    <td>Mgr Bednarski Mariusz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63ab</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 17:05-18:35, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Wojcieszyn Adriana</td>
+    <td>L00-63i</td>
+    <td>angielski B2.2</td>
+    <td>(cz) 07:30-09:00, (pn) 15:15-16:45</td>
+    <td>Mgr Baranska-Szczepaniak Agata</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63aa</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Wojcieszyn Adriana</td>
+    <td>L00-63l</td>
+    <td>angielski B2.2</td>
+    <td>(pn) 07:30-09:00, (pt) 09:15-10:45</td>
+    <td>Mgr Drozd-Piotrowska Katarzyna</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-63a</td>
-    <td class="tg-yw4l">angielski / C1.1</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Koszutska IzabelaMgr Thomas Peter</td>
+    <td>L00-63r</td>
+    <td>angielski B2.2</td>
+    <td>(pt) 11:15-12:45, (sr) 17:05-18:35</td>
+    <td>Mgr Florczyk Agnieszka</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64s</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Fyall MichaelMgr Romanczuk Urszula</td>
+    <td>L00-51b</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 09:15-10:45, (pn) 18:45-20:15</td>
+    <td>Mgr Derechowski Janusz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64r</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Kondro MagdalenaMgr Wolf John</td>
+    <td>L00-51k</td>
+    <td>angielski C1.1</td>
+    <td>(pn) 11:15-12:45, (sr) 11:15-12:45</td>
+    <td>Mgr Mally Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64q</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (pt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Kondro MagdalenaMgr Wolf John</td>
+    <td>L00-51o</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 11:15-12:45, (sr) 07:30-09:00</td>
+    <td>Mgr Morawska Joanna</td>
+    <td>New Language Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64p</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Kasprzak RenataMgr Wolf John</td>
+    <td>L00-51v</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 13:15-14:45, (sr) 17:05-18:35</td>
+    <td>Mgr Tyszkiewicz Anna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64o</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Kasprzak RenataMgr Wolf John</td>
+    <td>L00-51g</td>
+    <td>angielski C1.1</td>
+    <td>(pn) 15:15-16:45, (pt) 15:15-16:45</td>
+    <td>Mgr Koszutska Izabela</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64n</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pn) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Kasprzak RenataMgr Wolf John</td>
+    <td>L00-51h</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 17:05-18:35, (wt) 17:05-18:35</td>
+    <td>Mgr Koszutska Izabela</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64m</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (pn) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Kasprzak RenataMgr Wolf John</td>
+    <td>L00-51i</td>
+    <td>angielski C1.1</td>
+    <td>(pn) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Mgr Mally Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64l</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Fyall MichaelMgr Morawska Joanna</td>
+    <td>L00-51c</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 11:15-12:45, (sr) 11:15-12:45</td>
+    <td>Mgr Derechowski Janusz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64k</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Derechowski JanuszMgr Fyall Michael</td>
+    <td>L00-51d</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 07:30-09:00, (wt) 18:45-20:15</td>
+    <td>Mgr Kondro Magdalena</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64j</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Derechowski JanuszMgr Fyall Michael</td>
+    <td>L00-51n</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 09:15-10:45, (wt) 09:15-10:45</td>
+    <td>Mgr Morawska Joanna</td>
+    <td>New Language Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64i</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Derechowski JanuszMgr Fyall Michael</td>
+    <td>L00-51q</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 13:15-14:45, (wt) 15:15-16:45</td>
+    <td>Mgr Rozwadowski Dominik</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64h</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (pn) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Derechowski JanuszMgr Fyall Michael</td>
+    <td>L00-51r</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 15:15-16:45, (wt) 17:05-18:35</td>
+    <td>Mgr Rozwadowski Dominik</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64g</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pn) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Derechowski JanuszMgr Fyall Michael</td>
+    <td>L00-51t</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 15:15-16:45, (pn) 15:15-16:45</td>
+    <td>Mgr Tyszkiewicz Anna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64f</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (pn) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Derechowski JanuszMgr Fyall Michael</td>
+    <td>L00-51l</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 07:30-09:00, (wt) 07:30-09:00</td>
+    <td>Mgr Mally Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64e</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Brzózka AleksanderMgr Thomas Peter</td>
+    <td>L00-51s</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 17:05-18:35, (wt) 18:45-20:15</td>
+    <td>Mgr Rozwadowski Dominik</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64d</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (pn) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Brzózka AleksanderMgr Thomas Peter</td>
+    <td>L00-51f</td>
+    <td>angielski C1.1</td>
+    <td>(pn) 13:15-14:45, (pt) 13:15-14:45</td>
+    <td>Mgr Koszutska Izabela</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64c</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Brzózka AleksanderMgr Thomas Peter</td>
+    <td>L00-51j</td>
+    <td>angielski C1.1</td>
+    <td>(pn) 09:15-10:45, (sr) 09:15-10:45</td>
+    <td>Mgr Mally Lukasz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64b</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Brzózka AleksanderMgr Thomas Peter</td>
+    <td>L00-51m</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 07:30-09:00, (sr) 09:15-10:45</td>
+    <td>Mgr Morawska Joanna</td>
+    <td>New Language Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-64a</td>
-    <td class="tg-yw4l">angielski / C1.2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Brzózka AleksanderMgr Thomas Peter</td>
+    <td>L00-51u</td>
+    <td>angielski C1.1</td>
+    <td>(pn) 13:15-14:45, (pt) 15:15-16:45</td>
+    <td>Mgr Tyszkiewicz Anna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10u</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Frankiewicz IwonaMgr Grusiecka Joanna</td>
+    <td>L00-51x</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 13:15-14:45, (pn) 13:15-14:45</td>
+    <td>Mgr Wojcieszyn Adriana</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10t</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Garga MariaMgr Okulewicz Krzysztof</td>
+    <td>L00-51a</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 07:30-09:00, (pn) 17:05-18:35</td>
+    <td>Mgr Derechowski Janusz</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10s</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pn) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Brocka BeataMgr Dlugosz Zygmunt</td>
+    <td>L00-51e</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 15:15-16:45, (wt) 15:15-16:45</td>
+    <td>Mgr Koszutska Izabela</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10r</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Radomska Elzbieta</td>
+    <td>L00-51p</td>
+    <td>angielski C1.1</td>
+    <td>(sr) 11:15-12:45, (wt) 11:15-12:45</td>
+    <td>Mgr Morawska Joanna</td>
+    <td>New Language Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10q</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Kania Anna</td>
+    <td>L00-51y</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 11:15-12:45, (sr) 13:15-14:45</td>
+    <td>Mgr Wojcieszyn Adriana</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10p</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Kania Anna</td>
+    <td>L00-51w</td>
+    <td>angielski C1.1</td>
+    <td>(cz) 17:05-18:35, (pt) 17:05-18:35</td>
+    <td>Mgr Tyszkiewicz Anna</td>
+    <td>Keynote</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10o</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Frymar Ewa</td>
+    <td>L00-51z</td>
+    <td>angielski C1.1</td>
+    <td>(pt) 13:15-14:45, (sr) 15:15-16:45</td>
+    <td>Mgr Wojcieszyn Adriana</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10n</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Bloch Anna</td>
+    <td>L00-52a</td>
+    <td>angielski C1.2</td>
+    <td>(cz) 07:30-09:00, (pn) 13:15-14:45</td>
+    <td>Mgr Derechowski Janusz, Mgr Fyall Michael</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10m</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Dlugosz Zygmunt</td>
+    <td>L00-52f</td>
+    <td>angielski C1.2</td>
+    <td>(pt) 09:15-10:45, (sr) 13:15-14:45</td>
+    <td>Mgr Brzózka Aleksander, Mgr Fyall Michael</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10l</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pn) 17:05-18:35, (sr) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Rzeminski Krzysztof</td>
+    <td>L00-52b</td>
+    <td>angielski C1.2</td>
+    <td>(cz) 09:15-10:45, (pn) 15:15-16:45</td>
+    <td>Mgr Derechowski Janusz, Mgr Fyall Michael</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10k</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Rzeminski Krzysztof</td>
+    <td>L00-52d</td>
+    <td>angielski C1.2</td>
+    <td>(pt) 09:15-10:45, (sr) 09:15-10:45</td>
+    <td>Mgr Derechowski Janusz, Mgr Fyall Michael</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10j</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Mgr Grusiecka Joanna</td>
+    <td>L00-52e</td>
+    <td>angielski C1.2</td>
+    <td>(pn) 09:15-10:45, (pt) 07:30-09:00</td>
+    <td>Mgr Brzózka Aleksander, Mgr Fyall Michael</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10i</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Grusiecka Joanna</td>
+    <td>L00-52h</td>
+    <td>angielski C1.2</td>
+    <td>(cz) 11:15-12:45, (pn) 13:15-14:45</td>
+    <td>Mgr Brzózka Aleksander, Mgr Fyall Michael</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10h</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Zgondek Piotr</td>
+    <td>L00-52i</td>
+    <td>angielski C1.2</td>
+    <td>(pt) 13:15-14:45, (sr) 13:15-14:45</td>
+    <td>Mgr Brzózka Aleksander, Mgr Wolf John</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10g</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Frankiewicz Iwona</td>
+    <td>L00-52j</td>
+    <td>angielski C1.2</td>
+    <td>(sr) 18:45-20:15, (wt) 17:05-18:35</td>
+    <td>Mgr Brzózka Aleksander, Mgr Wolf John</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10f</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Frymar Ewa</td>
+    <td>L00-52l</td>
+    <td>angielski C1.2</td>
+    <td>(cz) 13:15-14:45, (pn) 09:15-10:45</td>
+    <td>Mgr Mirowska Agnieszka, Mgr Wolf John</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10e</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (pn) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Brocka Beata</td>
+    <td>L00-52k</td>
+    <td>angielski C1.2</td>
+    <td>(cz) 07:30-09:00, (pn) 07:30-09:00</td>
+    <td>Mgr Mirowska Agnieszka, Mgr Wolf John</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10d</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Bloch Anna</td>
+    <td>L00-52c</td>
+    <td>angielski C1.2</td>
+    <td>(pn) 11:15-12:45, (sr) 07:30-09:00</td>
+    <td>Mgr Derechowski Janusz, Mgr Fyall Michael</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10c</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pn) 07:30-09:00, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Okulewicz Krzysztof</td>
+    <td>L00-52g</td>
+    <td>angielski C1.2</td>
+    <td>(pt) 11:15-12:45, (sr) 11:15-12:45</td>
+    <td>Mgr Brzózka Aleksander, Mgr Fyall Michael</td>
+    <td>New Language Leader</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10b</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (pn) 11:15-12:45</td>
-    <td class="tg-yw4l">Doc. dr Modrzycka Irina</td>
+    <td>L00-06a</td>
+    <td>francuski B2.2</td>
+    <td>(cz) 17:05-18:35, (wt) 07:30-09:00</td>
+    <td>Mgr Paron Zofia</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-10a</td>
-    <td class="tg-yw4l">niemiecki / A1</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (sr) 18:45-20:15</td>
-    <td class="tg-yw4l">Mgr Strach Jan</td>
+    <td>L00-25j</td>
+    <td>niemiecki A1</td>
+    <td>(cz) 09:15-10:45, (wt) 11:15-12:45</td>
+    <td>Doc. dr Modrzycka Irina</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-18g</td>
-    <td class="tg-yw4l">francuski / A1</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Stanisz Mariusz</td>
+    <td>L00-25d</td>
+    <td>niemiecki A1</td>
+    <td>(pt) 07:30-09:00, (wt) 13:15-14:45</td>
+    <td>Mgr Kania Anna</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-18f</td>
-    <td class="tg-yw4l">francuski / A1</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Stanisz Mariusz</td>
+    <td>L00-25g</td>
+    <td>niemiecki A1</td>
+    <td>(cz) 17:05-18:35, (pn) 13:15-14:45</td>
+    <td>Mgr Kania Anna</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-18e</td>
-    <td class="tg-yw4l">francuski / A1</td>
-    <td class="tg-yw4l">(pn) 11:15-12:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Stanisz Mariusz</td>
+    <td>L00-25i</td>
+    <td>niemiecki A1</td>
+    <td>(pt) 13:15-14:45, (sr) 11:15-12:45</td>
+    <td>Mgr Soltys Dorota</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-18d</td>
-    <td class="tg-yw4l">francuski / A1</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Paron Zofia</td>
+    <td>L00-25l</td>
+    <td>niemiecki A1</td>
+    <td>(cz) 07:30-09:00, (pn) 11:15-12:45</td>
+    <td>Mgr Izykowska-Staruch Marta</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-18c</td>
-    <td class="tg-yw4l">francuski / A1</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Paron Zofia</td>
+    <td>L00-25b</td>
+    <td>niemiecki A1</td>
+    <td>(cz) 17:05-18:35, (wt) 17:05-18:35</td>
+    <td>Mgr Strach Jan</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-18b</td>
-    <td class="tg-yw4l">francuski / A1</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Paron Zofia</td>
+    <td>L00-25a</td>
+    <td>niemiecki A1</td>
+    <td>(cz) 15:15-16:45, (wt) 13:15-14:45</td>
+    <td>Mgr Grusiecka Joanna</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-18a</td>
-    <td class="tg-yw4l">francuski / A1</td>
-    <td class="tg-yw4l">(pt) 11:15-12:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Dmowska Ewa</td>
+    <td>L00-25c</td>
+    <td>niemiecki A1</td>
+    <td>(pn) 15:15-16:45, (sr) 17:05-18:35</td>
+    <td>Mgr Strach Jan</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29i</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(pt) 09:15-10:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Praclawska Magdalena</td>
+    <td>L00-25e</td>
+    <td>niemiecki A1</td>
+    <td>(pn) 09:15-10:45, (sr) 07:30-09:00</td>
+    <td>Mgr Frankiewicz Iwona</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29h</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Zalewska Magdalena</td>
+    <td>L00-25f</td>
+    <td>niemiecki A1</td>
+    <td>(pn) 07:30-09:00, (sr) 09:15-10:45</td>
+    <td>Mgr Frankiewicz Iwona</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29g</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(cz) 07:30-09:00, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Zalewska Magdalena</td>
+    <td>L00-25h</td>
+    <td>niemiecki A1</td>
+    <td>(pn) 13:15-14:45, (pt) 11:15-12:45</td>
+    <td>Mgr Izykowska-Staruch Marta</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29f</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (sr) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Zalewska Magdalena</td>
+    <td>L00-25k</td>
+    <td>niemiecki A1</td>
+    <td>(cz) 11:15-12:45, (wt) 09:15-10:45</td>
+    <td>Doc. dr Modrzycka Irina</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29e</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(pn) 13:15-14:45, (sr) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Zalewska Magdalena</td>
+    <td>L00-05e</td>
+    <td>francuski A1</td>
+    <td>(pt) 07:30-09:00, (sr) 11:15-12:45</td>
+    <td>Mgr Paron Zofia</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29d</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Setkowicz Katarzyna</td>
+    <td>L00-05b</td>
+    <td>francuski A1</td>
+    <td>(pt) 11:15-12:45, (wt) 09:15-10:45</td>
+    <td>Mgr Dmowska Ewa</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29c</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(cz) 17:05-18:35, (pn) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Skowronek Aleksandra</td>
+    <td>L00-05f</td>
+    <td>francuski A1</td>
+    <td>(pn) 11:15-12:45, (sr) 15:15-16:45</td>
+    <td>Mgr Stanisz Mariusz</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29b</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pn) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Skowronek Aleksandra</td>
+    <td>L00-05c</td>
+    <td>francuski A1</td>
+    <td>(pt) 09:15-10:45, (sr) 07:30-09:00</td>
+    <td>Mgr Paron Zofia</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-29a</td>
-    <td class="tg-yw4l">hiszpanski / A1</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Bednarczuk Jacek</td>
+    <td>L00-05a</td>
+    <td>francuski A1</td>
+    <td>(cz) 09:15-10:45, (pn) 09:15-10:45</td>
+    <td>Mgr Dmowska Ewa</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-52b</td>
-    <td class="tg-yw4l">japonski / A1</td>
-    <td class="tg-yw4l">(cz) 18:45-20:15, (wt) 15:15-16:45</td>
-    <td class="tg-yw4l">Dr Ota Toyotaka</td>
+    <td>L00-05d</td>
+    <td>francuski A1</td>
+    <td>(pt) 11:15-12:45, (sr) 09:15-10:45</td>
+    <td>Mgr Paron Zofia</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-52a</td>
-    <td class="tg-yw4l">japonski / A1</td>
-    <td class="tg-yw4l">(pn) 15:15-16:45, (sr) 17:05-18:35</td>
-    <td class="tg-yw4l">Dr Ota Toyotaka</td>
+    <td>L00-05g</td>
+    <td>francuski A1</td>
+    <td>(cz) 13:15-14:45, (wt) 11:15-12:45</td>
+    <td>Mgr Stanisz Mariusz</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-55e</td>
-    <td class="tg-yw4l">rosyjski / A1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (wt) 11:15-12:45</td>
-    <td class="tg-yw4l">Mgr Klyus Julia</td>
+    <td>L00-10g</td>
+    <td>hiszpanski A1</td>
+    <td>(pn) 13:15-14:45, (sr) 09:15-10:45</td>
+    <td>Mgr Zalewska Magdalena</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-55d</td>
-    <td class="tg-yw4l">rosyjski / A1</td>
-    <td class="tg-yw4l">(cz) 13:15-14:45, (wt) 09:15-10:45</td>
-    <td class="tg-yw4l">Mgr Klyus Julia</td>
+    <td>L00-10h</td>
+    <td>hiszpanski A1</td>
+    <td>(cz) 09:15-10:45, (wt) 13:15-14:45</td>
+    <td>Mgr Zalewska Magdalena</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-55c</td>
-    <td class="tg-yw4l">rosyjski / A1</td>
-    <td class="tg-yw4l">(cz) 11:15-12:45, (pn) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Klyus Julia</td>
+    <td>L00-10c</td>
+    <td>hiszpanski A1</td>
+    <td>(pt) 09:15-10:45, (sr) 11:15-12:45</td>
+    <td>Mgr Praclawska Magdalena</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-55b</td>
-    <td class="tg-yw4l">rosyjski / A1</td>
-    <td class="tg-yw4l">(pn) 09:15-10:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Lesiak Natalia</td>
+    <td>L00-10f</td>
+    <td>hiszpanski A1</td>
+    <td>(pn) 11:15-12:45, (sr) 07:30-09:00</td>
+    <td>Mgr Zalewska Magdalena</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-51a</td>
-    <td class="tg-yw4l">hiszpanski / A2</td>
-    <td class="tg-yw4l">(pn) 17:05-18:35, (sr) 07:30-09:00</td>
-    <td class="tg-yw4l">Mgr Zalewska Magdalena</td>
+    <td>L00-10b</td>
+    <td>hiszpanski A1</td>
+    <td>(cz) 11:15-12:45, (wt) 09:15-10:45</td>
+    <td>Mgr Bednarczuk Jacek</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-17b</td>
-    <td class="tg-yw4l">niemiecki / A2</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pn) 17:05-18:35</td>
-    <td class="tg-yw4l">Mgr Dlugosz Zygmunt</td>
+    <td>L00-10a</td>
+    <td>hiszpanski A1</td>
+    <td>(cz) 09:15-10:45, (wt) 07:30-09:00</td>
+    <td>Mgr Bednarczuk Jacek</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-17a</td>
-    <td class="tg-yw4l">niemiecki / A2</td>
-    <td class="tg-yw4l">(pt) 07:30-09:00, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Radomska Elzbieta</td>
+    <td>L00-16a</td>
+    <td>japonski A1</td>
+    <td>(pn) 15:15-16:45, (sr) 17:05-18:35</td>
+    <td>Dr Ota Toyotaka</td>
+    <td>w jezyku angielskim</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-65a</td>
-    <td class="tg-yw4l">rosyjski / A2</td>
-    <td class="tg-yw4l">(cz) 09:15-10:45, (wt) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Lesiak Natalia</td>
+    <td>L00-16b</td>
+    <td>japonski A1</td>
+    <td>(cz) 15:15-16:45, (wt) 15:15-16:45</td>
+    <td>Dr Ota Toyotaka</td>
+    <td>w jezyku angielskim</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-61a</td>
-    <td class="tg-yw4l">angielski / B1.1</td>
-    <td class="tg-yw4l">(pt) 15:15-16:45, (sr) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Czachorowska Beata</td>
+    <td>L00-19b</td>
+    <td>rosyjski A1</td>
+    <td>(cz) 11:15-12:45, (pn) 13:15-14:45</td>
+    <td>Mgr Klyus Julia</td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-yw4l">L00-70a</td>
-    <td class="tg-yw4l">angielski /C1.1 Human.</td>
-    <td class="tg-yw4l">(cz) 15:15-16:45, (pn) 13:15-14:45</td>
-    <td class="tg-yw4l">Mgr Brzózka Aleksander</td>
+    <td>L00-19e</td>
+    <td>rosyjski A1</td>
+    <td>(cz) 11:15-12:45, (pn) 11:15-12:45</td>
+    <td>Mgr Kotlarczyk Elena</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-19a</td>
+    <td>rosyjski A1</td>
+    <td>(cz) 13:15-14:45, (pn) 11:15-12:45</td>
+    <td>Mgr Klyus Julia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-19d</td>
+    <td>rosyjski A1</td>
+    <td>(pt) 15:15-16:45, (wt) 11:15-12:45</td>
+    <td>Mgr Klyus Julia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-19c</td>
+    <td>rosyjski A1</td>
+    <td>(pt) 13:15-14:45, (wt) 09:15-10:45</td>
+    <td>Mgr Klyus Julia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-09a</td>
+    <td>francuski A2</td>
+    <td>(cz) 15:15-16:45, (wt) 13:15-14:45</td>
+    <td>Mgr Stanisz Mariusz</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-13a</td>
+    <td>hiszpanski A2</td>
+    <td>(cz) 07:30-09:00, (wt) 11:15-12:45</td>
+    <td>Mgr Zalewska Magdalena</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-29a</td>
+    <td>niemiecki A2</td>
+    <td>(cz) 07:30-09:00, (wt) 15:15-16:45</td>
+    <td>Mgr Dlugosz Zygmunt</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-29c</td>
+    <td>niemiecki A2</td>
+    <td>(cz) 17:05-18:35, (wt) 07:30-09:00</td>
+    <td>Mgr Frymar Ewa, Mgr Garga Maria</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-29b</td>
+    <td>niemiecki A2</td>
+    <td>(pn) 13:15-14:45, (sr) 15:15-16:45</td>
+    <td>Mgr Strach Jan</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-20a</td>
+    <td>rosyjski A2</td>
+    <td>(pt) 17:05-18:35, (wt) 07:30-09:00</td>
+    <td>Mgr Klyus Julia</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-47a</td>
+    <td>angielski B1.1</td>
+    <td>(cz) 11:15-12:45, (wt) 13:15-14:45</td>
+    <td>Mgr Czachorowska Beata</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-58a</td>
+    <td>angielski C1.1 Human</td>
+    <td>(pn) 15:15-16:45, (sr) 15:15-16:45</td>
+    <td>Mgr Brzózka Aleksander</td>
+    <td>Human Face of Technology</td>
+  </tr>
+  <tr>
+    <td>L00-15a</td>
+    <td>hiszpanski B2.2</td>
+    <td>(pn) 15:15-16:45, (sr) 11:15-12:45</td>
+    <td>Mgr Zalewska Magdalena</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>L00-59a</td>
+    <td>angielski C1.1 Współczesny</td>
+    <td>(cz) 17:05-18:35, (pn) 17:05-18:35</td>
+    <td>Mgr Koszutska Izabela</td>
+    <td>Contemporary World from the Engineer's Perspective</td>
+  </tr>
+  <tr>
+    <td>L00-60a</td>
+    <td>angielski C1.1 Skuteczna</td>
+    <td>(pt) 13:15-14:45, (wt) 13:15-14:45</td>
+    <td>Mgr Romanczuk Urszula</td>
+    <td>Effective Communication</td>
+  </tr>
+  <tr>
+    <td>L00-61a</td>
+    <td>angielski C1.1 Trening</td>
+    <td>(pt) 07:30-09:00, (sr) 07:30-09:00</td>
+    <td>Dr Wieckowska Aleksandra</td>
+    <td>Training in Oral Communication for Engineers</td>
+  </tr>
+  <tr>
+    <td>L00-62a</td>
+    <td>angielski C2.1 Zaawansowana</td>
+    <td>(cz) 18:45-20:15, (wt) 18:45-20:15</td>
+    <td>Mgr Mirowska Agnieszka, Mgr Wolf John</td>
+    <td>Advanced English in Communication</td>
   </tr>
 </table>
 
