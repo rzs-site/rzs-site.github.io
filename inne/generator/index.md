@@ -1731,7 +1731,7 @@ Aktualne źródło: serwer RZS. Ostatni import: 2018.09.04, 15:00
   </tr>
   <tr>
     <td><p title="Human Face of Technology">L00-58a</p></td>
-    <td>angielski C1.1 Human</td>
+    <td>angielski C1.1 HFoT</td>
     <td>(pn) 15:15-16:45, (sr) 15:15-16:45</td>
     <td>Mgr Brzózka Aleksander</td>
   </tr>
@@ -1743,25 +1743,25 @@ Aktualne źródło: serwer RZS. Ostatni import: 2018.09.04, 15:00
   </tr>
   <tr>
     <td><p title="Contemporary World from the Engineer's Perspective">L00-59a</p></td>
-    <td>angielski C1.1 Współczesny</td>
+    <td>angielski C1.1 CWftEP</td>
     <td>(cz) 17:05-18:35, (pn) 17:05-18:35</td>
     <td>Mgr Koszutska Izabela</td>
   </tr>
   <tr>
     <td><p title="Effective Communication ">L00-60a</p></td>
-    <td>angielski C1.1 Skuteczna</td>
+    <td>angielski C1.1 EC</td>
     <td>(pt) 13:15-14:45, (wt) 13:15-14:45</td>
     <td>Mgr Romanczuk Urszula</td>
   </tr>
   <tr>
     <td><p title="Training in Oral Communication for Engineers">L00-61a</p></td>
-    <td>angielski C1.1 Trening</td>
+    <td>angielski C1.1 TiOCfE</td>
     <td>(pt) 07:30-09:00, (sr) 07:30-09:00</td>
     <td>Dr Wieckowska Aleksandra</td>
   </tr>
   <tr>
     <td><p title="Advanced English in Communication">L00-62a</p></td>
-    <td>angielski C2.1 Zaawansowana</td>
+    <td>angielski C2.1 AEiC</td>
     <td>(cz) 18:45-20:15, (wt) 18:45-20:15</td>
     <td>Mgr Mirowska Agnieszka, Mgr Wolf John</td>
   </tr>
